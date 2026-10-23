@@ -1,0 +1,19 @@
+framework,final_output_hook,hook_sees_tool_results,hook_can_rewrite,shipped_runtime_claim_check,closest_shipped_artifact,semantic_check_on_by_default,tool_exception_default
+LangChain (Python),yes,yes,yes,no,PII middleware (output off by default); legacy offline trajectory judge,no,re-raised (except argument errors)
+LangChain.js,yes,yes,yes,no,PII middleware (output off by default),no,error text + "Please fix your mistakes."
+LangGraph,own node (prebuilt post_model_hook deprecated),yes,yes,no,none,no,re-raised (except argument errors)
+LlamaIndex,subclass only,yes,yes,no,offline FaithfulnessEvaluator (vs retrieved context),no,error text
+Haystack,yes,yes,yes,no,offline FaithfulnessEvaluator (vs context),no,error text + error flag
+CrewAI,yes,yes (callable) / no (string),yes,no,HallucinationGuardrail: no-op in open source,no,error text (failures recorded; WARN)
+AutoGen,no (runtime intervention only),no,drop only,no,none,no,error text
+Semantic Kernel,per tool call only,yes,yes,no,grounding samples (not in package),no,error text
+Google ADK,yes,via session,yes,no,offline HallucinationsV1 (LLM judge with tool outputs),no,re-raised
+smolagents,yes,yes (memory),no (retry),no,none,no,error text
+Agno,yes,yes,no (flags status; text kept),no,offline evals,no,error text
+OpenAI Agents (Python),yes,no,no (tripwire),no,none,no,fixed generic string
+OpenAI Agents (JS),yes,yes,no (tripwire),no,none,no,fixed generic string
+Pydantic AI,yes,yes,yes,no,offline trajectory evaluators,no,re-raised
+Mastra,yes,yes,yes,no,faithfulness scorer with tool results (background; cannot block),no,error text
+Vercel AI SDK,per model call only,via prompt,yes,no,none,no,error as JSON part
+Claude Agent SDK (Python),yes (Stop hook),via transcript,no (continue/block),no,none,no,error text + isError
+Dify,yes (moderation),no (text only),yes,no,none (moderation off by default),no,error text
