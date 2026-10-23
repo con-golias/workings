@@ -10,7 +10,6 @@ question, the method, and what I checked and didn't.
 |---|---|---|
 | 24 Oct 2026 | None of 18 of the most-installed AI agent frameworks checks that a task really succeeded before the agent tells the customer it is done (X Article) | [`2026-10-24-agent-frameworks-done-check`](2026-10-24-agent-frameworks-done-check/) |
 
-If you think I got something wrong, open an issue with the file and line. Corrections are made in
-the open and dated.
+If you find a mistake, open an issue. Fixes are committed here with the date.
 
 Konstantinos Gkolias · [@con_golias](https://x.com/con_golias)
