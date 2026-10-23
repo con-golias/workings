@@ -8,7 +8,7 @@ question, the method, and what I checked and didn't.
 
 | Date | Piece | Folder |
 |---|---|---|
-| 24 Oct 2026 | I read the code of 18 AI agent frameworks. None of them checks whether "done" is true. (X Article) | [`2026-10-24-agent-frameworks-done-check`](2026-10-24-agent-frameworks-done-check/) |
+| 24 Oct 2026 | None of 18 of the most-installed AI agent frameworks checks that a task really succeeded before the agent tells the customer it is done (X Article) | [`2026-10-24-agent-frameworks-done-check`](2026-10-24-agent-frameworks-done-check/) |
 
 If you think I got something wrong, open an issue with the file and line. Corrections are made in
 the open and dated.
