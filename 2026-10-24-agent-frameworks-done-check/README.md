@@ -1,6 +1,6 @@
 # Research: does the framework check the "done"?
 
-> The evidence behind the X Article *"None of 18 of the most-installed AI agent frameworks checks that a task really succeeded before the agent tells the customer it is done"* by Konstantinos Gkolias (@con_golias), 24 Oct 2026.
+> The evidence behind the X Article *"None of 18 widely used AI agent frameworks checks that a task succeeded before the agent says "done""* by Konstantinos Gkolias (@con_golias), 24 Oct 2026.
 > Research on public code, done 23 Oct 2026. Everything here can be rerun: repos, commits, commands
 > and evidence are listed. Reproductions: `repro/`. Claim gate + tests: `claim-gate/`.
 
