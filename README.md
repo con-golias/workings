@@ -8,7 +8,7 @@ question, the method, and what I checked and didn't.
 
 | Date | Piece | Folder |
 |---|---|---|
-| 24 Oct 2026 | None of 18 widely used AI agent frameworks checks that a task succeeded before the agent says "done" (X Article) | [`2026-10-24-agent-frameworks-done-check`](2026-10-24-agent-frameworks-done-check/) |
+| 24 Oct 2026 | None of 18 widely used AI agent frameworks checks that a task succeeded before the agent says "done" ([X Article](https://x.com/con_golias/status/2113958660284006570)) | [`2026-10-24-agent-frameworks-done-check`](2026-10-24-agent-frameworks-done-check/) |
 
 If you find a mistake, open an issue. Fixes are committed here with the date.
 
