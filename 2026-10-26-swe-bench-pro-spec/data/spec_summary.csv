@@ -1,0 +1,4 @@
+version,tasks,tasks_with_new_names,new_names,names_in_issue_pct,names_in_prompt_pct,tasks_all_names_in_prompt_pct,tasks_with_messages,messages_in_issue_pct,messages_in_prompt_pct
+verified,500,19,28,67.9,67.9,57.9,7,45.5,45.5
+pro_v1,731,353,818,10.0,81.3,75.6,115,15.4,55.8
+pro_v2,642,326,703,9.1,87.8,85.3,107,9.1,70.1
