@@ -1,6 +1,6 @@
 # Research: what SWE-Bench Pro tells the agent before it starts
 
-> The evidence behind the X Article *"SWE-Bench Pro names 81% of the new functions its hidden tests
+> The evidence behind the [X Article](https://x.com/con_golias/status/2114495930074325295) *"SWE-Bench Pro names 81% of the new functions its hidden tests
 > call. The top score is now 99.4%"* by Konstantinos Gkolias (@con_golias), 26 Oct 2026.
 > Data downloaded and counted on 25 Oct 2026. Everything here can be rerun in under a minute.
 
