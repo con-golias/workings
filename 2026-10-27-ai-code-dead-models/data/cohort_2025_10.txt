@@ -1,0 +1,4 @@
+s_2025_10.jsonl repos calling a model: 1408
+  openai    n= 623 median age at creation 14.8 mo  dead on creation day  0.5%  top [('gpt-4o-mini', 225), ('gpt-3.5-turbo', 119), ('gpt-4o', 75)]
+  anthropic n= 165 median age at creation 15.4 mo  dead on creation day  9.7%  top [('claude-3-5-sonnet-20241022', 39), ('claude-sonnet-4-20250514', 33), ('claude-sonnet-4-5-20250929', 24)]
+  google    n= 620 median age at creation  3.9 mo  dead on creation day 10.0%  top [('gemini-2.5-flash', 270), ('gemini-2.0-flash-001', 101), ('gemini-2.0-flash', 90)]

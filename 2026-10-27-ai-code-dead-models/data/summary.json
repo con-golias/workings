@@ -1,0 +1,260 @@
+{
+ "all": {
+  "n": 2667,
+  "retired_at_creation": 405,
+  "retired_now": 509,
+  "dying_now": 1237,
+  "default_retired_now": 263,
+  "default_dying_now": 891,
+  "default_unknown": 34,
+  "default_age_median_months": 5.4
+ },
+ "fresh": {
+  "n": 2377,
+  "retired_at_creation": 324,
+  "retired_now": 411,
+  "dying_now": 1042,
+  "default_retired_now": 237,
+  "default_dying_now": 760,
+  "default_unknown": 28,
+  "default_age_median_months": 5.1
+ },
+ "not_fresh": {
+  "n": 290,
+  "retired_at_creation": 81,
+  "retired_now": 98,
+  "dying_now": 195,
+  "default_retired_now": 26,
+  "default_dying_now": 131,
+  "default_unknown": 6,
+  "default_age_median_months": 12.5
+ },
+ "fresh_openai": {
+  "n": 721,
+  "retired_at_creation": 74,
+  "retired_now": 151,
+  "dying_now": 528,
+  "default_retired_now": 75,
+  "default_dying_now": 472,
+  "default_unknown": 16,
+  "default_age_median_months": 18.2
+ },
+ "fresh_anthropic": {
+  "n": 718,
+  "retired_at_creation": 120,
+  "retired_now": 125,
+  "dying_now": 244,
+  "default_retired_now": 75,
+  "default_dying_now": 137,
+  "default_unknown": 0,
+  "default_age_median_months": 1.5
+ },
+ "fresh_google": {
+  "n": 938,
+  "retired_at_creation": 130,
+  "retired_now": 135,
+  "dying_now": 270,
+  "default_retired_now": 87,
+  "default_dying_now": 151,
+  "default_unknown": 12,
+  "default_age_median_months": 4.2
+ },
+ "fresh_agent_signed": {
+  "n": 564,
+  "retired_at_creation": 48,
+  "retired_now": 65,
+  "dying_now": 208,
+  "default_retired_now": 23,
+  "default_dying_now": 133,
+  "default_unknown": 7,
+  "default_age_median_months": 2.8
+ },
+ "fresh_not_signed": {
+  "n": 1813,
+  "retired_at_creation": 276,
+  "retired_now": 346,
+  "dying_now": 834,
+  "default_retired_now": 214,
+  "default_dying_now": 627,
+  "default_unknown": 21,
+  "default_age_median_months": 5.9
+ },
+ "fresh_cfg": {
+  "n": 339,
+  "retired_at_creation": 54,
+  "retired_now": 72,
+  "dying_now": 151,
+  "default_retired_now": 24,
+  "default_dying_now": 91,
+  "default_unknown": 4,
+  "default_age_median_months": 3.9
+ },
+ "chart": {
+  "n_fresh": 2377,
+  "before_oct": 7.1,
+  "clock": [
+   {
+    "date": "2026-10-23",
+    "share": 10.0
+   },
+   {
+    "date": "2026-11-17",
+    "share": 10.3
+   },
+   {
+    "date": "2026-11-30",
+    "share": 12.9
+   },
+   {
+    "date": "2026-12-11",
+    "share": 15.6
+   },
+   {
+    "date": "2027-01-06",
+    "share": 15.8
+   },
+   {
+    "date": "2027-01-14",
+    "share": 29.3
+   },
+   {
+    "date": "2027-02-26",
+    "share": 29.4
+   },
+   {
+    "date": "2027-03-15",
+    "share": 29.8
+   },
+   {
+    "date": "2027-04-01",
+    "share": 30.0
+   },
+   {
+    "date": "2027-05-07",
+    "share": 32.0
+   }
+  ],
+  "top": [
+   {
+    "id": "gemini-3.8-flash",
+    "n": 255,
+    "share": 10.7,
+    "vendor": "google",
+    "family": "gemini-3.8",
+    "released": "2026-09-02",
+    "shutdown": null,
+    "status": "active"
+   },
+   {
+    "id": "gemini-2.5-flash",
+    "n": 187,
+    "share": 7.9,
+    "vendor": "google",
+    "family": "gemini-2.5",
+    "released": "2025-06-17",
+    "shutdown": null,
+    "status": "active"
+   },
+   {
+    "id": "gpt-4o-mini",
+    "n": 170,
+    "share": 7.2,
+    "vendor": "openai",
+    "family": "gpt-4o-mini",
+    "released": "2024-07-18",
+    "shutdown": "2027-01-14",
+    "status": "scheduled"
+   },
+   {
+    "id": "claude-opus-5-5",
+    "n": 162,
+    "share": 6.8,
+    "vendor": "anthropic",
+    "family": "claude-5.5",
+    "released": "2026-09-22",
+    "shutdown": null,
+    "status": "active"
+   },
+   {
+    "id": "gemini-3.5-flash-lite",
+    "n": 126,
+    "share": 5.3,
+    "vendor": "google",
+    "family": "gemini-3.5",
+    "released": "2026-07-21",
+    "shutdown": null,
+    "status": "active"
+   },
+   {
+    "id": "claude-sonnet-5-5",
+    "n": 105,
+    "share": 4.4,
+    "vendor": "anthropic",
+    "family": "claude-5.5",
+    "released": "2026-09-28",
+    "shutdown": null,
+    "status": "active"
+   },
+   {
+    "id": "gpt-4o",
+    "n": 86,
+    "share": 3.6,
+    "vendor": "openai",
+    "family": "gpt-4o",
+    "released": "2024-05-13",
+    "shutdown": "2027-01-14",
+    "status": "scheduled"
+   },
+   {
+    "id": "claude-haiku-5-5",
+    "n": 85,
+    "share": 3.6,
+    "vendor": "anthropic",
+    "family": "claude-5.5",
+    "released": "2026-10-07",
+    "shutdown": null,
+    "status": "active"
+   },
+   {
+    "id": "gemini-3.5-flash",
+    "n": 63,
+    "share": 2.7,
+    "vendor": "google",
+    "family": "gemini-3.5",
+    "released": "2026-05-19",
+    "shutdown": null,
+    "status": "active"
+   },
+   {
+    "id": "gpt-6-luna",
+    "n": 55,
+    "share": 2.3,
+    "vendor": "openai",
+    "family": "gpt-6",
+    "released": "2026-09-22",
+    "shutdown": null,
+    "status": "active"
+   },
+   {
+    "id": "claude-sonnet-4-5",
+    "n": 55,
+    "share": 2.3,
+    "vendor": "anthropic",
+    "family": "claude-4.5",
+    "released": "2025-09-29",
+    "shutdown": "2026-11-30",
+    "status": "scheduled"
+   },
+   {
+    "id": "claude-haiku-4-5",
+    "n": 50,
+    "share": 2.1,
+    "vendor": "anthropic",
+    "family": "claude-4.5",
+    "released": "2025-10-15",
+    "shutdown": null,
+    "status": "active"
+   }
+  ]
+ }
+}

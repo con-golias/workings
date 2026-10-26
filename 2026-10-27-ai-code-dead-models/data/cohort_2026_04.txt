@@ -1,0 +1,4 @@
+s_2026_04.jsonl repos calling a model: 1296
+  openai    n= 469 median age at creation 20.7 mo  dead on creation day  0.9%  top [('gpt-4o-mini', 137), ('gpt-4o', 95), ('gpt-3.5-turbo', 46)]
+  anthropic n= 391 median age at creation  6.0 mo  dead on creation day 10.5%  top [('claude-sonnet-4-20250514', 109), ('claude-sonnet-4-6', 85), ('claude-haiku-4-5-20251001', 52)]
+  google    n= 436 median age at creation  9.6 mo  dead on creation day 11.5%  top [('gemini-2.5-flash', 184), ('gemini-3-flash-preview', 62), ('gemini-2.5-flash-lite', 38)]
