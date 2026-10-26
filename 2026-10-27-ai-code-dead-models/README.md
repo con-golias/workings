@@ -1,7 +1,7 @@
 # Research: which models does new AI code call?
 
-> The evidence behind the X Article *"Two in three new AI apps built on OpenAI default to a model OpenAI is
-> switching off"* by Konstantinos Gkolias (@con_golias), 27 Oct 2026. Data collected and counted on 26 Oct 2026.
+> The evidence behind the [X Article](https://x.com/con_golias/status/2114750216809140276) *"Two in three new AI apps built on OpenAI default to a model OpenAI is
+> switching off"* by Konstantinos Gkolias (@con_golias), 26 Oct 2026. Data collected and counted on 26 Oct 2026.
 
 ## The question
 
