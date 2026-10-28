@@ -1,6 +1,6 @@
 # Research: how long do new apps last, with and without AI app builders?
 
-> The evidence behind the X Article *"Four in five new apps go quiet within a month. AI didn't change that"* by
+> The evidence behind the [X Article](https://x.com/con_golias/status/2115509157382193237) *"Four in five new apps go quiet within a month. AI didn't change that"* by
 > Konstantinos Gkolias (@con_golias), 29 Oct 2026. Data read on 28 Oct 2026.
 
 ## The question
