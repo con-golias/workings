@@ -1,6 +1,6 @@
 # Research: which libraries do new projects with an AI agent's trace start with?
 
-> The evidence behind the X Article *"In new React apps built with an AI agent, axios is down to 13%. Two years ago
+> The evidence behind the [X Article](https://x.com/con_golias/status/2115247029710397744) *"In new React apps built with an AI agent, axios is down to 13%. Two years ago
 > it was in 80%"* by Konstantinos Gkolias (@con_golias), 28 Oct 2026. Data collected 27–28 Oct 2026.
 
 ## The question
