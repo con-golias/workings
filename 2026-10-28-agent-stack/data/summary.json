@@ -1,0 +1,3937 @@
+{
+ "sample_2024": {
+  "searched": 14396,
+  "resolved": 14188,
+  "usable": 8923,
+  "owners": 7525,
+  "asof_after_nov30": 0,
+  "asof_in_oct_nov": 14070,
+  "agent_marker_files": 25,
+  "file_traces": 94,
+  "file_traces_pct": 1.1
+ },
+ "sample_2026": {
+  "searched": 14368,
+  "usable": 7046,
+  "owners": 6482,
+  "traced": 3543,
+  "untraced": 3503,
+  "traced_owners": 3348,
+  "untraced_owners": 3227,
+  "traced_pct": 50.3
+ },
+ "sample_2026_updated": {
+  "searched": 14371,
+  "usable": 7792,
+  "owners": 7477,
+  "traced": 4679,
+  "untraced": 3113,
+  "traced_owners": 4477,
+  "untraced_owners": 3023,
+  "traced_pct": 60.0
+ },
+ "rows": {
+  "axios": {
+   "label": "React apps: axios",
+   "y2024": {
+    "pct": 80.3,
+    "n": 1314,
+    "lo": 78.2,
+    "hi": 82.4
+   },
+   "untraced": {
+    "pct": 35.2,
+    "n": 122,
+    "lo": 26.2,
+    "hi": 43.4
+   },
+   "traced": {
+    "pct": 12.7,
+    "n": 157,
+    "lo": 7.6,
+    "hi": 17.8
+   }
+  },
+  "tanstack": {
+   "label": "React apps: TanStack Query",
+   "y2024": {
+    "pct": 27.7,
+    "n": 1314,
+    "lo": 25.2,
+    "hi": 30.1
+   },
+   "untraced": {
+    "pct": 63.9,
+    "n": 122,
+    "lo": 55.7,
+    "hi": 72.1
+   },
+   "traced": {
+    "pct": 87.9,
+    "n": 157,
+    "lo": 82.8,
+    "hi": 93.0
+   }
+  },
+  "mongoose": {
+   "label": "Database layer: mongoose (MongoDB)",
+   "y2024": {
+    "pct": 42.8,
+    "n": 1185,
+    "lo": 40.0,
+    "hi": 45.7
+   },
+   "untraced": {
+    "pct": 22.0,
+    "n": 150,
+    "lo": 15.3,
+    "hi": 28.7
+   },
+   "traced": {
+    "pct": 6.3,
+    "n": 175,
+    "lo": 2.9,
+    "hi": 10.3
+   }
+  },
+  "drizzle": {
+   "label": "Database layer: drizzle",
+   "y2024": {
+    "pct": 12.2,
+    "n": 1185,
+    "lo": 10.3,
+    "hi": 14.0
+   },
+   "untraced": {
+    "pct": 34.0,
+    "n": 150,
+    "lo": 26.7,
+    "hi": 41.3
+   },
+   "traced": {
+    "pct": 58.3,
+    "n": 175,
+    "lo": 50.9,
+    "hi": 65.7
+   }
+  },
+  "prisma": {
+   "label": "Database layer: prisma",
+   "y2024": {
+    "pct": 34.4,
+    "n": 1185,
+    "lo": 31.7,
+    "hi": 37.0
+   },
+   "untraced": {
+    "pct": 32.0,
+    "n": 150,
+    "lo": 24.7,
+    "hi": 39.3
+   },
+   "traced": {
+    "pct": 30.3,
+    "n": 175,
+    "lo": 23.4,
+    "hi": 37.1
+   }
+  },
+  "firebase": {
+   "label": "Hosted backend: firebase",
+   "y2024": {
+    "pct": 44.0,
+    "n": 643,
+    "lo": 40.1,
+    "hi": 47.7
+   },
+   "untraced": {
+    "pct": 24.4,
+    "n": 123,
+    "lo": 17.1,
+    "hi": 31.7
+   },
+   "traced": {
+    "pct": 14.6,
+    "n": 151,
+    "lo": 9.3,
+    "hi": 20.5
+   }
+  },
+  "supabase": {
+   "label": "Hosted backend: supabase",
+   "y2024": {
+    "pct": 24.9,
+    "n": 643,
+    "lo": 21.6,
+    "hi": 28.3
+   },
+   "untraced": {
+    "pct": 73.2,
+    "n": 123,
+    "lo": 65.0,
+    "hi": 80.5
+   },
+   "traced": {
+    "pct": 73.5,
+    "n": 151,
+    "lo": 66.9,
+    "hi": 80.8
+   }
+  },
+  "redux": {
+   "label": "React apps: Redux Toolkit",
+   "y2024": {
+    "pct": 38.9,
+    "n": 718,
+    "lo": 35.5,
+    "hi": 42.5
+   },
+   "untraced": {
+    "pct": 5.0,
+    "n": 221,
+    "lo": 2.3,
+    "hi": 7.7
+   },
+   "traced": {
+    "pct": 0.0,
+    "n": 245,
+    "lo": 0.0,
+    "hi": 0.0
+   }
+  },
+  "zustand": {
+   "label": "React apps: zustand",
+   "y2024": {
+    "pct": 46.2,
+    "n": 718,
+    "lo": 42.5,
+    "hi": 49.9
+   },
+   "untraced": {
+    "pct": 91.9,
+    "n": 221,
+    "lo": 88.2,
+    "hi": 95.5
+   },
+   "traced": {
+    "pct": 97.1,
+    "n": 245,
+    "lo": 95.1,
+    "hi": 99.2
+   }
+  },
+  "jest": {
+   "label": "Unit tests: jest",
+   "y2024": {
+    "pct": 64.2,
+    "n": 1278,
+    "lo": 61.3,
+    "hi": 66.7
+   },
+   "untraced": {
+    "pct": 6.3,
+    "n": 973,
+    "lo": 4.8,
+    "hi": 7.8
+   },
+   "traced": {
+    "pct": 2.7,
+    "n": 1320,
+    "lo": 1.8,
+    "hi": 3.6
+   }
+  },
+  "vitest": {
+   "label": "Unit tests: vitest",
+   "y2024": {
+    "pct": 29.8,
+    "n": 1278,
+    "lo": 27.4,
+    "hi": 32.4
+   },
+   "untraced": {
+    "pct": 92.8,
+    "n": 973,
+    "lo": 91.2,
+    "hi": 94.3
+   },
+   "traced": {
+    "pct": 96.5,
+    "n": 1320,
+    "lo": 95.5,
+    "hi": 97.5
+   }
+  },
+  "zod": {
+   "label": "Validation: zod",
+   "y2024": {
+    "pct": 78.8,
+    "n": 1042,
+    "lo": 76.2,
+    "hi": 81.3
+   },
+   "untraced": {
+    "pct": 91.9,
+    "n": 604,
+    "lo": 89.7,
+    "hi": 94.0
+   },
+   "traced": {
+    "pct": 90.3,
+    "n": 889,
+    "lo": 88.4,
+    "hi": 92.2
+   }
+  },
+  "tailwind": {
+   "label": "Styling: tailwindcss",
+   "y2024": {
+    "pct": 85.2,
+    "n": 3521,
+    "lo": 84.0,
+    "hi": 86.3
+   },
+   "untraced": {
+    "pct": 94.7,
+    "n": 704,
+    "lo": 93.2,
+    "hi": 96.3
+   },
+   "traced": {
+    "pct": 97.3,
+    "n": 820,
+    "lo": 96.2,
+    "hi": 98.3
+   }
+  },
+  "lucide": {
+   "label": "Icons: lucide-react",
+   "y2024": {
+    "pct": 61.4,
+    "n": 2315,
+    "lo": 59.6,
+    "hi": 63.4
+   },
+   "untraced": {
+    "pct": 94.4,
+    "n": 727,
+    "lo": 92.7,
+    "hi": 95.9
+   },
+   "traced": {
+    "pct": 89.9,
+    "n": 703,
+    "lo": 87.5,
+    "hi": 92.0
+   }
+  },
+  "react_icons": {
+   "label": "Icons: react-icons",
+   "y2024": {
+    "pct": 44.0,
+    "n": 2315,
+    "lo": 41.9,
+    "hi": 45.9
+   },
+   "untraced": {
+    "pct": 4.1,
+    "n": 727,
+    "lo": 2.8,
+    "hi": 5.6
+   },
+   "traced": {
+    "pct": 4.3,
+    "n": 703,
+    "lo": 2.8,
+    "hi": 5.8
+   }
+  },
+  "styled": {
+   "label": "Styling: styled-components",
+   "y2024": {
+    "pct": 5.6,
+    "n": 3521,
+    "lo": 4.8,
+    "hi": 6.3
+   },
+   "untraced": {
+    "pct": 0.9,
+    "n": 704,
+    "lo": 0.3,
+    "hi": 1.6
+   },
+   "traced": {
+    "pct": 0.9,
+    "n": 820,
+    "lo": 0.2,
+    "hi": 1.6
+   }
+  },
+  "emotion": {
+   "label": "Styling: @emotion/react",
+   "y2024": {
+    "pct": 11.0,
+    "n": 3521,
+    "lo": 9.9,
+    "hi": 12.1
+   },
+   "untraced": {
+    "pct": 2.4,
+    "n": 704,
+    "lo": 1.4,
+    "hi": 3.6
+   },
+   "traced": {
+    "pct": 0.4,
+    "n": 820,
+    "lo": 0.0,
+    "hi": 0.9
+   }
+  },
+  "webpack": {
+   "label": "Bundler: webpack",
+   "y2024": {
+    "pct": 9.2,
+    "n": 2421,
+    "lo": 8.1,
+    "hi": 10.4
+   },
+   "untraced": {
+    "pct": 0.7,
+    "n": 1733,
+    "lo": 0.3,
+    "hi": 1.1
+   },
+   "traced": {
+    "pct": 0.7,
+    "n": 1629,
+    "lo": 0.3,
+    "hi": 1.1
+   }
+  },
+  "vite": {
+   "label": "Bundler: vite",
+   "y2024": {
+    "pct": 73.7,
+    "n": 2421,
+    "lo": 71.9,
+    "hi": 75.5
+   },
+   "untraced": {
+    "pct": 75.0,
+    "n": 1733,
+    "lo": 72.9,
+    "hi": 76.9
+   },
+   "traced": {
+    "pct": 72.4,
+    "n": 1629,
+    "lo": 70.2,
+    "hi": 74.6
+   }
+  },
+  "next": {
+   "label": "React framework: next",
+   "y2024": {
+    "pct": 82.7,
+    "n": 2283,
+    "lo": 81.1,
+    "hi": 84.2
+   },
+   "untraced": {
+    "pct": 69.5,
+    "n": 338,
+    "lo": 64.5,
+    "hi": 74.6
+   },
+   "traced": {
+    "pct": 71.0,
+    "n": 635,
+    "lo": 67.4,
+    "hi": 74.5
+   }
+  },
+  "eslint": {
+   "label": "Linter: eslint",
+   "y2024": {
+    "pct": 96.1,
+    "n": 4164,
+    "lo": 95.5,
+    "hi": 96.6
+   },
+   "untraced": {
+    "pct": 73.3,
+    "n": 915,
+    "lo": 70.3,
+    "hi": 76.1
+   },
+   "traced": {
+    "pct": 67.2,
+    "n": 1477,
+    "lo": 64.8,
+    "hi": 69.5
+   }
+  },
+  "prettier": {
+   "label": "Formatter: prettier",
+   "y2024": {
+    "pct": 91.5,
+    "n": 1915,
+    "lo": 90.3,
+    "hi": 92.7
+   },
+   "untraced": {
+    "pct": 77.5,
+    "n": 596,
+    "lo": 74.2,
+    "hi": 80.7
+   },
+   "traced": {
+    "pct": 64.0,
+    "n": 1009,
+    "lo": 61.1,
+    "hi": 66.9
+   }
+  }
+ },
+ "rows_updated": {
+  "axios": {
+   "label": "React apps: axios",
+   "y2024": {
+    "pct": 80.3,
+    "n": 1314,
+    "lo": 78.2,
+    "hi": 82.4
+   },
+   "untraced": {
+    "pct": 52.0,
+    "n": 248,
+    "lo": 46.0,
+    "hi": 58.5
+   },
+   "traced": {
+    "pct": 13.6,
+    "n": 398,
+    "lo": 10.1,
+    "hi": 17.1
+   }
+  },
+  "tanstack": {
+   "label": "React apps: TanStack Query",
+   "y2024": {
+    "pct": 27.7,
+    "n": 1314,
+    "lo": 25.2,
+    "hi": 30.1
+   },
+   "untraced": {
+    "pct": 58.5,
+    "n": 248,
+    "lo": 52.4,
+    "hi": 64.5
+   },
+   "traced": {
+    "pct": 88.4,
+    "n": 398,
+    "lo": 85.4,
+    "hi": 91.7
+   }
+  },
+  "mongoose": {
+   "label": "Database layer: mongoose (MongoDB)",
+   "y2024": {
+    "pct": 42.8,
+    "n": 1185,
+    "lo": 40.0,
+    "hi": 45.7
+   },
+   "untraced": {
+    "pct": 29.2,
+    "n": 359,
+    "lo": 24.8,
+    "hi": 34.0
+   },
+   "traced": {
+    "pct": 6.5,
+    "n": 570,
+    "lo": 4.6,
+    "hi": 8.4
+   }
+  },
+  "drizzle": {
+   "label": "Database layer: drizzle",
+   "y2024": {
+    "pct": 12.2,
+    "n": 1185,
+    "lo": 10.3,
+    "hi": 14.0
+   },
+   "untraced": {
+    "pct": 24.0,
+    "n": 359,
+    "lo": 19.8,
+    "hi": 28.1
+   },
+   "traced": {
+    "pct": 50.9,
+    "n": 570,
+    "lo": 46.8,
+    "hi": 54.7
+   }
+  },
+  "prisma": {
+   "label": "Database layer: prisma",
+   "y2024": {
+    "pct": 34.4,
+    "n": 1185,
+    "lo": 31.7,
+    "hi": 37.0
+   },
+   "untraced": {
+    "pct": 40.1,
+    "n": 359,
+    "lo": 34.8,
+    "hi": 45.1
+   },
+   "traced": {
+    "pct": 38.1,
+    "n": 570,
+    "lo": 34.0,
+    "hi": 41.9
+   }
+  },
+  "firebase": {
+   "label": "Hosted backend: firebase",
+   "y2024": {
+    "pct": 44.0,
+    "n": 643,
+    "lo": 40.1,
+    "hi": 47.7
+   },
+   "untraced": {
+    "pct": 33.7,
+    "n": 609,
+    "lo": 29.9,
+    "hi": 37.4
+   },
+   "traced": {
+    "pct": 13.7,
+    "n": 963,
+    "lo": 11.6,
+    "hi": 15.9
+   }
+  },
+  "supabase": {
+   "label": "Hosted backend: supabase",
+   "y2024": {
+    "pct": 24.9,
+    "n": 643,
+    "lo": 21.6,
+    "hi": 28.3
+   },
+   "untraced": {
+    "pct": 66.7,
+    "n": 609,
+    "lo": 63.1,
+    "hi": 70.4
+   },
+   "traced": {
+    "pct": 83.9,
+    "n": 963,
+    "lo": 81.5,
+    "hi": 86.2
+   }
+  },
+  "redux": {
+   "label": "React apps: Redux Toolkit",
+   "y2024": {
+    "pct": 38.9,
+    "n": 718,
+    "lo": 35.5,
+    "hi": 42.5
+   },
+   "untraced": {
+    "pct": 13.9,
+    "n": 165,
+    "lo": 9.1,
+    "hi": 19.4
+   },
+   "traced": {
+    "pct": 5.7,
+    "n": 280,
+    "lo": 3.2,
+    "hi": 8.6
+   }
+  },
+  "zustand": {
+   "label": "React apps: zustand",
+   "y2024": {
+    "pct": 46.2,
+    "n": 718,
+    "lo": 42.5,
+    "hi": 49.9
+   },
+   "untraced": {
+    "pct": 83.0,
+    "n": 165,
+    "lo": 77.6,
+    "hi": 88.5
+   },
+   "traced": {
+    "pct": 92.5,
+    "n": 280,
+    "lo": 89.3,
+    "hi": 95.4
+   }
+  },
+  "jest": {
+   "label": "Unit tests: jest",
+   "y2024": {
+    "pct": 64.2,
+    "n": 1278,
+    "lo": 61.3,
+    "hi": 66.7
+   },
+   "untraced": {
+    "pct": 9.4,
+    "n": 617,
+    "lo": 7.1,
+    "hi": 11.7
+   },
+   "traced": {
+    "pct": 4.3,
+    "n": 1721,
+    "lo": 3.4,
+    "hi": 5.3
+   }
+  },
+  "vitest": {
+   "label": "Unit tests: vitest",
+   "y2024": {
+    "pct": 29.8,
+    "n": 1278,
+    "lo": 27.4,
+    "hi": 32.4
+   },
+   "untraced": {
+    "pct": 90.0,
+    "n": 617,
+    "lo": 87.7,
+    "hi": 92.4
+   },
+   "traced": {
+    "pct": 95.6,
+    "n": 1721,
+    "lo": 94.6,
+    "hi": 96.5
+   }
+  },
+  "zod": {
+   "label": "Validation: zod",
+   "y2024": {
+    "pct": 78.8,
+    "n": 1042,
+    "lo": 76.2,
+    "hi": 81.3
+   },
+   "untraced": {
+    "pct": 93.8,
+    "n": 515,
+    "lo": 91.7,
+    "hi": 95.9
+   },
+   "traced": {
+    "pct": 93.1,
+    "n": 1248,
+    "lo": 91.7,
+    "hi": 94.6
+   }
+  },
+  "tailwind": {
+   "label": "Styling: tailwindcss",
+   "y2024": {
+    "pct": 85.2,
+    "n": 3521,
+    "lo": 84.0,
+    "hi": 86.3
+   },
+   "untraced": {
+    "pct": 96.8,
+    "n": 1222,
+    "lo": 95.8,
+    "hi": 97.8
+   },
+   "traced": {
+    "pct": 98.4,
+    "n": 1927,
+    "lo": 97.8,
+    "hi": 99.0
+   }
+  },
+  "lucide": {
+   "label": "Icons: lucide-react",
+   "y2024": {
+    "pct": 61.4,
+    "n": 2315,
+    "lo": 59.6,
+    "hi": 63.4
+   },
+   "untraced": {
+    "pct": 95.3,
+    "n": 1224,
+    "lo": 94.1,
+    "hi": 96.4
+   },
+   "traced": {
+    "pct": 94.4,
+    "n": 1417,
+    "lo": 93.2,
+    "hi": 95.6
+   }
+  },
+  "react_icons": {
+   "label": "Icons: react-icons",
+   "y2024": {
+    "pct": 44.0,
+    "n": 2315,
+    "lo": 41.9,
+    "hi": 45.9
+   },
+   "untraced": {
+    "pct": 6.5,
+    "n": 1224,
+    "lo": 5.2,
+    "hi": 7.9
+   },
+   "traced": {
+    "pct": 3.5,
+    "n": 1417,
+    "lo": 2.6,
+    "hi": 4.4
+   }
+  },
+  "styled": {
+   "label": "Styling: styled-components",
+   "y2024": {
+    "pct": 5.6,
+    "n": 3521,
+    "lo": 4.8,
+    "hi": 6.3
+   },
+   "untraced": {
+    "pct": 1.0,
+    "n": 1222,
+    "lo": 0.5,
+    "hi": 1.6
+   },
+   "traced": {
+    "pct": 0.9,
+    "n": 1927,
+    "lo": 0.5,
+    "hi": 1.3
+   }
+  },
+  "emotion": {
+   "label": "Styling: @emotion/react",
+   "y2024": {
+    "pct": 11.0,
+    "n": 3521,
+    "lo": 9.9,
+    "hi": 12.1
+   },
+   "untraced": {
+    "pct": 2.1,
+    "n": 1222,
+    "lo": 1.4,
+    "hi": 2.9
+   },
+   "traced": {
+    "pct": 0.7,
+    "n": 1927,
+    "lo": 0.4,
+    "hi": 1.1
+   }
+  },
+  "webpack": {
+   "label": "Bundler: webpack",
+   "y2024": {
+    "pct": 9.2,
+    "n": 2421,
+    "lo": 8.1,
+    "hi": 10.4
+   },
+   "untraced": {
+    "pct": 0.4,
+    "n": 1577,
+    "lo": 0.1,
+    "hi": 0.8
+   },
+   "traced": {
+    "pct": 0.6,
+    "n": 1847,
+    "lo": 0.3,
+    "hi": 0.9
+   }
+  },
+  "vite": {
+   "label": "Bundler: vite",
+   "y2024": {
+    "pct": 73.7,
+    "n": 2421,
+    "lo": 71.9,
+    "hi": 75.5
+   },
+   "untraced": {
+    "pct": 91.6,
+    "n": 1577,
+    "lo": 90.2,
+    "hi": 92.8
+   },
+   "traced": {
+    "pct": 85.1,
+    "n": 1847,
+    "lo": 83.5,
+    "hi": 86.7
+   }
+  },
+  "next": {
+   "label": "React framework: next",
+   "y2024": {
+    "pct": 82.7,
+    "n": 2283,
+    "lo": 81.1,
+    "hi": 84.2
+   },
+   "untraced": {
+    "pct": 76.1,
+    "n": 662,
+    "lo": 72.8,
+    "hi": 79.3
+   },
+   "traced": {
+    "pct": 75.2,
+    "n": 1845,
+    "lo": 73.2,
+    "hi": 77.1
+   }
+  },
+  "eslint": {
+   "label": "Linter: eslint",
+   "y2024": {
+    "pct": 96.1,
+    "n": 4164,
+    "lo": 95.5,
+    "hi": 96.6
+   },
+   "untraced": {
+    "pct": 73.5,
+    "n": 1119,
+    "lo": 71.0,
+    "hi": 76.0
+   },
+   "traced": {
+    "pct": 82.2,
+    "n": 2476,
+    "lo": 80.8,
+    "hi": 83.6
+   }
+  },
+  "prettier": {
+   "label": "Formatter: prettier",
+   "y2024": {
+    "pct": 91.5,
+    "n": 1915,
+    "lo": 90.3,
+    "hi": 92.7
+   },
+   "untraced": {
+    "pct": 84.2,
+    "n": 431,
+    "lo": 80.5,
+    "hi": 87.7
+   },
+   "traced": {
+    "pct": 76.6,
+    "n": 1233,
+    "lo": 74.2,
+    "hi": 79.0
+   }
+  }
+ },
+ "clones": {
+  "y2024": {
+   "repos": 8923,
+   "unique_dep_sets": 7994
+  },
+  "untraced": {
+   "repos": 3503,
+   "unique_dep_sets": 3275
+  },
+  "traced": {
+   "repos": 3543,
+   "unique_dep_sets": 3392
+  }
+ },
+ "rows_dedup": {
+  "axios": {
+   "label": "React apps: axios",
+   "y2024": {
+    "pct": 80.4,
+    "n": 1281,
+    "lo": 78.1,
+    "hi": 82.6
+   },
+   "untraced": {
+    "pct": 35.9,
+    "n": 117,
+    "lo": 27.4,
+    "hi": 44.4
+   },
+   "traced": {
+    "pct": 13.2,
+    "n": 152,
+    "lo": 7.9,
+    "hi": 19.1
+   }
+  },
+  "tanstack": {
+   "label": "React apps: TanStack Query",
+   "y2024": {
+    "pct": 27.8,
+    "n": 1281,
+    "lo": 25.4,
+    "hi": 30.2
+   },
+   "untraced": {
+    "pct": 63.2,
+    "n": 117,
+    "lo": 54.7,
+    "hi": 71.8
+   },
+   "traced": {
+    "pct": 87.5,
+    "n": 152,
+    "lo": 82.2,
+    "hi": 92.8
+   }
+  },
+  "mongoose": {
+   "label": "Database layer: mongoose (MongoDB)",
+   "y2024": {
+    "pct": 41.9,
+    "n": 1149,
+    "lo": 39.0,
+    "hi": 44.7
+   },
+   "untraced": {
+    "pct": 22.2,
+    "n": 144,
+    "lo": 16.0,
+    "hi": 29.2
+   },
+   "traced": {
+    "pct": 5.8,
+    "n": 173,
+    "lo": 2.9,
+    "hi": 9.2
+   }
+  },
+  "drizzle": {
+   "label": "Database layer: drizzle",
+   "y2024": {
+    "pct": 12.4,
+    "n": 1149,
+    "lo": 10.7,
+    "hi": 14.4
+   },
+   "untraced": {
+    "pct": 34.0,
+    "n": 144,
+    "lo": 26.4,
+    "hi": 42.4
+   },
+   "traced": {
+    "pct": 59.0,
+    "n": 173,
+    "lo": 52.0,
+    "hi": 65.9
+   }
+  },
+  "prisma": {
+   "label": "Database layer: prisma",
+   "y2024": {
+    "pct": 34.9,
+    "n": 1149,
+    "lo": 32.2,
+    "hi": 37.8
+   },
+   "untraced": {
+    "pct": 31.9,
+    "n": 144,
+    "lo": 24.3,
+    "hi": 39.6
+   },
+   "traced": {
+    "pct": 30.6,
+    "n": 173,
+    "lo": 24.3,
+    "hi": 37.6
+   }
+  },
+  "firebase": {
+   "label": "Hosted backend: firebase",
+   "y2024": {
+    "pct": 44.3,
+    "n": 634,
+    "lo": 40.5,
+    "hi": 48.3
+   },
+   "untraced": {
+    "pct": 24.4,
+    "n": 123,
+    "lo": 17.1,
+    "hi": 31.7
+   },
+   "traced": {
+    "pct": 14.6,
+    "n": 151,
+    "lo": 9.3,
+    "hi": 20.5
+   }
+  },
+  "supabase": {
+   "label": "Hosted backend: supabase",
+   "y2024": {
+    "pct": 25.2,
+    "n": 634,
+    "lo": 21.9,
+    "hi": 28.7
+   },
+   "untraced": {
+    "pct": 73.2,
+    "n": 123,
+    "lo": 65.0,
+    "hi": 80.5
+   },
+   "traced": {
+    "pct": 73.5,
+    "n": 151,
+    "lo": 66.9,
+    "hi": 80.8
+   }
+  },
+  "redux": {
+   "label": "React apps: Redux Toolkit",
+   "y2024": {
+    "pct": 38.9,
+    "n": 710,
+    "lo": 35.1,
+    "hi": 42.4
+   },
+   "untraced": {
+    "pct": 4.7,
+    "n": 215,
+    "lo": 1.9,
+    "hi": 7.9
+   },
+   "traced": {
+    "pct": 0.0,
+    "n": 243,
+    "lo": 0.0,
+    "hi": 0.0
+   }
+  },
+  "zustand": {
+   "label": "React apps: zustand",
+   "y2024": {
+    "pct": 46.3,
+    "n": 710,
+    "lo": 42.7,
+    "hi": 50.1
+   },
+   "untraced": {
+    "pct": 92.1,
+    "n": 215,
+    "lo": 88.4,
+    "hi": 95.3
+   },
+   "traced": {
+    "pct": 97.1,
+    "n": 243,
+    "lo": 95.1,
+    "hi": 99.2
+   }
+  },
+  "jest": {
+   "label": "Unit tests: jest",
+   "y2024": {
+    "pct": 63.7,
+    "n": 1246,
+    "lo": 61.0,
+    "hi": 66.4
+   },
+   "untraced": {
+    "pct": 5.8,
+    "n": 943,
+    "lo": 4.5,
+    "hi": 7.4
+   },
+   "traced": {
+    "pct": 2.7,
+    "n": 1277,
+    "lo": 1.9,
+    "hi": 3.7
+   }
+  },
+  "vitest": {
+   "label": "Unit tests: vitest",
+   "y2024": {
+    "pct": 30.3,
+    "n": 1246,
+    "lo": 27.8,
+    "hi": 32.9
+   },
+   "untraced": {
+    "pct": 93.2,
+    "n": 943,
+    "lo": 91.6,
+    "hi": 94.7
+   },
+   "traced": {
+    "pct": 96.4,
+    "n": 1277,
+    "lo": 95.4,
+    "hi": 97.3
+   }
+  },
+  "zod": {
+   "label": "Validation: zod",
+   "y2024": {
+    "pct": 78.6,
+    "n": 1018,
+    "lo": 76.0,
+    "hi": 81.1
+   },
+   "untraced": {
+    "pct": 91.5,
+    "n": 577,
+    "lo": 89.3,
+    "hi": 93.8
+   },
+   "traced": {
+    "pct": 90.1,
+    "n": 867,
+    "lo": 88.1,
+    "hi": 92.2
+   }
+  },
+  "tailwind": {
+   "label": "Styling: tailwindcss",
+   "y2024": {
+    "pct": 84.6,
+    "n": 3318,
+    "lo": 83.4,
+    "hi": 85.8
+   },
+   "untraced": {
+    "pct": 94.6,
+    "n": 683,
+    "lo": 92.8,
+    "hi": 96.2
+   },
+   "traced": {
+    "pct": 97.3,
+    "n": 806,
+    "lo": 96.2,
+    "hi": 98.3
+   }
+  },
+  "lucide": {
+   "label": "Icons: lucide-react",
+   "y2024": {
+    "pct": 61.6,
+    "n": 2233,
+    "lo": 59.5,
+    "hi": 63.5
+   },
+   "untraced": {
+    "pct": 94.2,
+    "n": 706,
+    "lo": 92.5,
+    "hi": 95.9
+   },
+   "traced": {
+    "pct": 89.8,
+    "n": 697,
+    "lo": 87.5,
+    "hi": 92.0
+   }
+  },
+  "react_icons": {
+   "label": "Icons: react-icons",
+   "y2024": {
+    "pct": 43.7,
+    "n": 2233,
+    "lo": 41.6,
+    "hi": 45.7
+   },
+   "untraced": {
+    "pct": 4.2,
+    "n": 706,
+    "lo": 2.8,
+    "hi": 5.7
+   },
+   "traced": {
+    "pct": 4.3,
+    "n": 697,
+    "lo": 2.9,
+    "hi": 5.9
+   }
+  },
+  "styled": {
+   "label": "Styling: styled-components",
+   "y2024": {
+    "pct": 5.9,
+    "n": 3318,
+    "lo": 5.2,
+    "hi": 6.7
+   },
+   "untraced": {
+    "pct": 0.9,
+    "n": 683,
+    "lo": 0.3,
+    "hi": 1.6
+   },
+   "traced": {
+    "pct": 0.9,
+    "n": 806,
+    "lo": 0.2,
+    "hi": 1.6
+   }
+  },
+  "emotion": {
+   "label": "Styling: @emotion/react",
+   "y2024": {
+    "pct": 11.5,
+    "n": 3318,
+    "lo": 10.4,
+    "hi": 12.6
+   },
+   "untraced": {
+    "pct": 2.5,
+    "n": 683,
+    "lo": 1.5,
+    "hi": 3.8
+   },
+   "traced": {
+    "pct": 0.4,
+    "n": 806,
+    "lo": 0.0,
+    "hi": 0.9
+   }
+  },
+  "webpack": {
+   "label": "Bundler: webpack",
+   "y2024": {
+    "pct": 9.8,
+    "n": 2252,
+    "lo": 8.6,
+    "hi": 11.0
+   },
+   "untraced": {
+    "pct": 0.7,
+    "n": 1680,
+    "lo": 0.4,
+    "hi": 1.1
+   },
+   "traced": {
+    "pct": 0.7,
+    "n": 1602,
+    "lo": 0.3,
+    "hi": 1.1
+   }
+  },
+  "vite": {
+   "label": "Bundler: vite",
+   "y2024": {
+    "pct": 72.8,
+    "n": 2252,
+    "lo": 71.0,
+    "hi": 74.6
+   },
+   "untraced": {
+    "pct": 74.8,
+    "n": 1680,
+    "lo": 72.6,
+    "hi": 77.0
+   },
+   "traced": {
+    "pct": 72.5,
+    "n": 1602,
+    "lo": 70.3,
+    "hi": 74.8
+   }
+  },
+  "next": {
+   "label": "React framework: next",
+   "y2024": {
+    "pct": 82.3,
+    "n": 2136,
+    "lo": 80.6,
+    "hi": 83.9
+   },
+   "untraced": {
+    "pct": 68.6,
+    "n": 322,
+    "lo": 63.7,
+    "hi": 73.6
+   },
+   "traced": {
+    "pct": 71.2,
+    "n": 622,
+    "lo": 67.5,
+    "hi": 74.6
+   }
+  },
+  "eslint": {
+   "label": "Linter: eslint",
+   "y2024": {
+    "pct": 95.9,
+    "n": 3884,
+    "lo": 95.2,
+    "hi": 96.5
+   },
+   "untraced": {
+    "pct": 73.3,
+    "n": 894,
+    "lo": 70.4,
+    "hi": 76.3
+   },
+   "traced": {
+    "pct": 68.2,
+    "n": 1429,
+    "lo": 65.7,
+    "hi": 70.6
+   }
+  },
+  "prettier": {
+   "label": "Formatter: prettier",
+   "y2024": {
+    "pct": 91.4,
+    "n": 1843,
+    "lo": 90.1,
+    "hi": 92.7
+   },
+   "untraced": {
+    "pct": 77.4,
+    "n": 589,
+    "lo": 74.0,
+    "hi": 80.8
+   },
+   "traced": {
+    "pct": 65.0,
+    "n": 973,
+    "lo": 62.0,
+    "hi": 68.0
+   }
+  }
+ },
+ "rows_untraced_no_genai": {
+  "axios": {
+   "label": "React apps: axios",
+   "untraced": {
+    "pct": 34.2,
+    "n": 120,
+    "lo": 25.8,
+    "hi": 42.5
+   },
+   "genai_only": {
+    "pct": 100.0,
+    "n": 2,
+    "lo": 100.0,
+    "hi": 100.0
+   }
+  },
+  "tanstack": {
+   "label": "React apps: TanStack Query",
+   "untraced": {
+    "pct": 65.0,
+    "n": 120,
+    "lo": 56.7,
+    "hi": 74.2
+   },
+   "genai_only": {
+    "pct": 0.0,
+    "n": 2,
+    "lo": 0.0,
+    "hi": 0.0
+   }
+  },
+  "mongoose": {
+   "label": "Database layer: mongoose (MongoDB)",
+   "untraced": {
+    "pct": 21.5,
+    "n": 144,
+    "lo": 15.3,
+    "hi": 28.5
+   },
+   "genai_only": {
+    "pct": 33.3,
+    "n": 6,
+    "lo": 0.0,
+    "hi": 66.7
+   }
+  },
+  "drizzle": {
+   "label": "Database layer: drizzle",
+   "untraced": {
+    "pct": 34.0,
+    "n": 144,
+    "lo": 26.4,
+    "hi": 41.7
+   },
+   "genai_only": {
+    "pct": 33.3,
+    "n": 6,
+    "lo": 0.0,
+    "hi": 66.7
+   }
+  },
+  "prisma": {
+   "label": "Database layer: prisma",
+   "untraced": {
+    "pct": 31.9,
+    "n": 144,
+    "lo": 24.3,
+    "hi": 39.6
+   },
+   "genai_only": {
+    "pct": 33.3,
+    "n": 6,
+    "lo": 0.0,
+    "hi": 66.7
+   }
+  },
+  "firebase": {
+   "label": "Hosted backend: firebase",
+   "untraced": {
+    "pct": 12.0,
+    "n": 100,
+    "lo": 6.0,
+    "hi": 19.0
+   },
+   "genai_only": {
+    "pct": 78.3,
+    "n": 23,
+    "lo": 60.9,
+    "hi": 95.7
+   }
+  },
+  "supabase": {
+   "label": "Hosted backend: supabase",
+   "untraced": {
+    "pct": 85.0,
+    "n": 100,
+    "lo": 78.0,
+    "hi": 92.0
+   },
+   "genai_only": {
+    "pct": 21.7,
+    "n": 23,
+    "lo": 4.3,
+    "hi": 39.1
+   }
+  },
+  "redux": {
+   "label": "React apps: Redux Toolkit",
+   "untraced": {
+    "pct": 5.1,
+    "n": 216,
+    "lo": 2.3,
+    "hi": 7.9
+   },
+   "genai_only": {
+    "pct": 0.0,
+    "n": 5,
+    "lo": 0.0,
+    "hi": 0.0
+   }
+  },
+  "zustand": {
+   "label": "React apps: zustand",
+   "untraced": {
+    "pct": 91.7,
+    "n": 216,
+    "lo": 88.0,
+    "hi": 94.9
+   },
+   "genai_only": {
+    "pct": 100.0,
+    "n": 5,
+    "lo": 100.0,
+    "hi": 100.0
+   }
+  },
+  "jest": {
+   "label": "Unit tests: jest",
+   "untraced": {
+    "pct": 6.3,
+    "n": 963,
+    "lo": 4.9,
+    "hi": 8.0
+   },
+   "genai_only": {
+    "pct": 0.0,
+    "n": 11,
+    "lo": 0.0,
+    "hi": 0.0
+   }
+  },
+  "vitest": {
+   "label": "Unit tests: vitest",
+   "untraced": {
+    "pct": 92.7,
+    "n": 963,
+    "lo": 91.0,
+    "hi": 94.4
+   },
+   "genai_only": {
+    "pct": 100.0,
+    "n": 11,
+    "lo": 100.0,
+    "hi": 100.0
+   }
+  },
+  "zod": {
+   "label": "Validation: zod",
+   "untraced": {
+    "pct": 91.8,
+    "n": 594,
+    "lo": 89.6,
+    "hi": 93.9
+   },
+   "genai_only": {
+    "pct": 100.0,
+    "n": 10,
+    "lo": 100.0,
+    "hi": 100.0
+   }
+  },
+  "tailwind": {
+   "label": "Styling: tailwindcss",
+   "untraced": {
+    "pct": 94.2,
+    "n": 635,
+    "lo": 92.3,
+    "hi": 95.9
+   },
+   "genai_only": {
+    "pct": 100.0,
+    "n": 70,
+    "lo": 100.0,
+    "hi": 100.0
+   }
+  },
+  "lucide": {
+   "label": "Icons: lucide-react",
+   "untraced": {
+    "pct": 93.8,
+    "n": 656,
+    "lo": 91.8,
+    "hi": 95.4
+   },
+   "genai_only": {
+    "pct": 100.0,
+    "n": 73,
+    "lo": 100.0,
+    "hi": 100.0
+   }
+  },
+  "react_icons": {
+   "label": "Icons: react-icons",
+   "untraced": {
+    "pct": 4.7,
+    "n": 656,
+    "lo": 3.2,
+    "hi": 6.4
+   },
+   "genai_only": {
+    "pct": 0.0,
+    "n": 73,
+    "lo": 0.0,
+    "hi": 0.0
+   }
+  },
+  "styled": {
+   "label": "Styling: styled-components",
+   "untraced": {
+    "pct": 0.8,
+    "n": 635,
+    "lo": 0.2,
+    "hi": 1.6
+   },
+   "genai_only": {
+    "pct": 1.4,
+    "n": 70,
+    "lo": 0.0,
+    "hi": 4.3
+   }
+  },
+  "emotion": {
+   "label": "Styling: @emotion/react",
+   "untraced": {
+    "pct": 2.7,
+    "n": 635,
+    "lo": 1.4,
+    "hi": 3.9
+   },
+   "genai_only": {
+    "pct": 0.0,
+    "n": 70,
+    "lo": 0.0,
+    "hi": 0.0
+   }
+  },
+  "webpack": {
+   "label": "Bundler: webpack",
+   "untraced": {
+    "pct": 0.7,
+    "n": 1663,
+    "lo": 0.4,
+    "hi": 1.1
+   },
+   "genai_only": {
+    "pct": 0.0,
+    "n": 72,
+    "lo": 0.0,
+    "hi": 0.0
+   }
+  },
+  "vite": {
+   "label": "Bundler: vite",
+   "untraced": {
+    "pct": 73.9,
+    "n": 1663,
+    "lo": 71.7,
+    "hi": 76.0
+   },
+   "genai_only": {
+    "pct": 100.0,
+    "n": 72,
+    "lo": 100.0,
+    "hi": 100.0
+   }
+  },
+  "next": {
+   "label": "React framework: next",
+   "untraced": {
+    "pct": 68.7,
+    "n": 329,
+    "lo": 63.5,
+    "hi": 73.6
+   },
+   "genai_only": {
+    "pct": 100.0,
+    "n": 9,
+    "lo": 100.0,
+    "hi": 100.0
+   }
+  },
+  "eslint": {
+   "label": "Linter: eslint",
+   "untraced": {
+    "pct": 73.4,
+    "n": 901,
+    "lo": 70.5,
+    "hi": 76.1
+   },
+   "genai_only": {
+    "pct": 71.4,
+    "n": 14,
+    "lo": 42.9,
+    "hi": 92.9
+   }
+  },
+  "prettier": {
+   "label": "Formatter: prettier",
+   "untraced": {
+    "pct": 77.4,
+    "n": 593,
+    "lo": 74.0,
+    "hi": 80.6
+   },
+   "genai_only": {
+    "pct": 100.0,
+    "n": 3,
+    "lo": 100.0,
+    "hi": 100.0
+   }
+  }
+ },
+ "depth_cuts": [
+  8,
+  18
+ ],
+ "median_deps": {
+  "untraced": 11,
+  "traced": 13,
+  "y2024": 18
+ },
+ "t3": {
+  "traced": 6,
+  "untraced": 5,
+  "y2024": 89
+ },
+ "depth": {
+  "low": {
+   "axios": {
+    "label": "React apps: axios",
+    "untraced": null,
+    "traced": {
+     "pct": 0.0,
+     "n": 1,
+     "lo": 0.0,
+     "hi": 0.0
+    }
+   },
+   "tanstack": {
+    "label": "React apps: TanStack Query",
+    "untraced": null,
+    "traced": {
+     "pct": 100.0,
+     "n": 1,
+     "lo": 100.0,
+     "hi": 100.0
+    }
+   },
+   "mongoose": {
+    "label": "Database layer: mongoose (MongoDB)",
+    "untraced": {
+     "pct": 70.0,
+     "n": 10,
+     "lo": 40.0,
+     "hi": 90.0
+    },
+    "traced": {
+     "pct": 0.0,
+     "n": 1,
+     "lo": 0.0,
+     "hi": 0.0
+    }
+   },
+   "drizzle": {
+    "label": "Database layer: drizzle",
+    "untraced": {
+     "pct": 30.0,
+     "n": 10,
+     "lo": 10.0,
+     "hi": 60.0
+    },
+    "traced": {
+     "pct": 0.0,
+     "n": 1,
+     "lo": 0.0,
+     "hi": 0.0
+    }
+   },
+   "prisma": {
+    "label": "Database layer: prisma",
+    "untraced": {
+     "pct": 0.0,
+     "n": 10,
+     "lo": 0.0,
+     "hi": 0.0
+    },
+    "traced": {
+     "pct": 100.0,
+     "n": 1,
+     "lo": 100.0,
+     "hi": 100.0
+    }
+   },
+   "firebase": {
+    "label": "Hosted backend: firebase",
+    "untraced": {
+     "pct": 0.0,
+     "n": 12,
+     "lo": 0.0,
+     "hi": 0.0
+    },
+    "traced": {
+     "pct": 0.0,
+     "n": 2,
+     "lo": 0.0,
+     "hi": 0.0
+    }
+   },
+   "supabase": {
+    "label": "Hosted backend: supabase",
+    "untraced": {
+     "pct": 100.0,
+     "n": 12,
+     "lo": 100.0,
+     "hi": 100.0
+    },
+    "traced": {
+     "pct": 100.0,
+     "n": 2,
+     "lo": 100.0,
+     "hi": 100.0
+    }
+   },
+   "redux": {
+    "label": "React apps: Redux Toolkit",
+    "untraced": {
+     "pct": 66.7,
+     "n": 3,
+     "lo": 0.0,
+     "hi": 100.0
+    },
+    "traced": null
+   },
+   "zustand": {
+    "label": "React apps: zustand",
+    "untraced": {
+     "pct": 33.3,
+     "n": 3,
+     "lo": 0.0,
+     "hi": 100.0
+    },
+    "traced": null
+   },
+   "jest": {
+    "label": "Unit tests: jest",
+    "untraced": {
+     "pct": 7.8,
+     "n": 179,
+     "lo": 3.9,
+     "hi": 11.7
+    },
+    "traced": {
+     "pct": 0.5,
+     "n": 183,
+     "lo": 0.0,
+     "hi": 1.6
+    }
+   },
+   "vitest": {
+    "label": "Unit tests: vitest",
+    "untraced": {
+     "pct": 91.6,
+     "n": 179,
+     "lo": 87.7,
+     "hi": 95.5
+    },
+    "traced": {
+     "pct": 98.4,
+     "n": 183,
+     "lo": 96.2,
+     "hi": 100.0
+    }
+   },
+   "zod": {
+    "label": "Validation: zod",
+    "untraced": {
+     "pct": 86.4,
+     "n": 132,
+     "lo": 80.3,
+     "hi": 91.7
+    },
+    "traced": {
+     "pct": 85.7,
+     "n": 112,
+     "lo": 78.6,
+     "hi": 92.0
+    }
+   },
+   "tailwind": {
+    "label": "Styling: tailwindcss",
+    "untraced": {
+     "pct": 75.0,
+     "n": 8,
+     "lo": 37.5,
+     "hi": 100.0
+    },
+    "traced": {
+     "pct": 92.3,
+     "n": 13,
+     "lo": 76.9,
+     "hi": 100.0
+    }
+   },
+   "lucide": {
+    "label": "Icons: lucide-react",
+    "untraced": {
+     "pct": 88.9,
+     "n": 18,
+     "lo": 72.2,
+     "hi": 100.0
+    },
+    "traced": {
+     "pct": 50.0,
+     "n": 2,
+     "lo": 0.0,
+     "hi": 100.0
+    }
+   },
+   "react_icons": {
+    "label": "Icons: react-icons",
+    "untraced": {
+     "pct": 11.1,
+     "n": 18,
+     "lo": 0.0,
+     "hi": 27.8
+    },
+    "traced": {
+     "pct": 50.0,
+     "n": 2,
+     "lo": 0.0,
+     "hi": 100.0
+    }
+   },
+   "styled": {
+    "label": "Styling: styled-components",
+    "untraced": {
+     "pct": 0.0,
+     "n": 8,
+     "lo": 0.0,
+     "hi": 0.0
+    },
+    "traced": {
+     "pct": 0.0,
+     "n": 13,
+     "lo": 0.0,
+     "hi": 0.0
+    }
+   },
+   "emotion": {
+    "label": "Styling: @emotion/react",
+    "untraced": {
+     "pct": 0.0,
+     "n": 8,
+     "lo": 0.0,
+     "hi": 0.0
+    },
+    "traced": {
+     "pct": 0.0,
+     "n": 13,
+     "lo": 0.0,
+     "hi": 0.0
+    }
+   },
+   "webpack": {
+    "label": "Bundler: webpack",
+    "untraced": {
+     "pct": 0.3,
+     "n": 366,
+     "lo": 0.0,
+     "hi": 0.8
+    },
+    "traced": {
+     "pct": 0.0,
+     "n": 259,
+     "lo": 0.0,
+     "hi": 0.0
+    }
+   },
+   "vite": {
+    "label": "Bundler: vite",
+    "untraced": {
+     "pct": 48.4,
+     "n": 366,
+     "lo": 43.2,
+     "hi": 53.6
+    },
+    "traced": {
+     "pct": 41.3,
+     "n": 259,
+     "lo": 35.5,
+     "hi": 47.5
+    }
+   },
+   "next": {
+    "label": "React framework: next",
+    "untraced": {
+     "pct": 58.3,
+     "n": 12,
+     "lo": 33.3,
+     "hi": 83.3
+    },
+    "traced": {
+     "pct": 18.2,
+     "n": 11,
+     "lo": 0.0,
+     "hi": 45.5
+    }
+   },
+   "eslint": {
+    "label": "Linter: eslint",
+    "untraced": {
+     "pct": 51.4,
+     "n": 109,
+     "lo": 42.2,
+     "hi": 60.6
+    },
+    "traced": {
+     "pct": 36.5,
+     "n": 192,
+     "lo": 29.7,
+     "hi": 43.2
+    }
+   },
+   "prettier": {
+    "label": "Formatter: prettier",
+    "untraced": {
+     "pct": 57.4,
+     "n": 108,
+     "lo": 48.1,
+     "hi": 66.7
+    },
+    "traced": {
+     "pct": 45.4,
+     "n": 205,
+     "lo": 38.5,
+     "hi": 52.2
+    }
+   }
+  },
+  "mid": {
+   "axios": {
+    "label": "React apps: axios",
+    "untraced": {
+     "pct": 61.9,
+     "n": 21,
+     "lo": 42.9,
+     "hi": 81.0
+    },
+    "traced": {
+     "pct": 0.0,
+     "n": 10,
+     "lo": 0.0,
+     "hi": 0.0
+    }
+   },
+   "tanstack": {
+    "label": "React apps: TanStack Query",
+    "untraced": {
+     "pct": 33.3,
+     "n": 21,
+     "lo": 14.3,
+     "hi": 52.4
+    },
+    "traced": {
+     "pct": 90.0,
+     "n": 10,
+     "lo": 70.0,
+     "hi": 100.0
+    }
+   },
+   "mongoose": {
+    "label": "Database layer: mongoose (MongoDB)",
+    "untraced": {
+     "pct": 38.9,
+     "n": 36,
+     "lo": 22.2,
+     "hi": 55.6
+    },
+    "traced": {
+     "pct": 0.0,
+     "n": 11,
+     "lo": 0.0,
+     "hi": 0.0
+    }
+   },
+   "drizzle": {
+    "label": "Database layer: drizzle",
+    "untraced": {
+     "pct": 22.2,
+     "n": 36,
+     "lo": 11.1,
+     "hi": 36.1
+    },
+    "traced": {
+     "pct": 72.7,
+     "n": 11,
+     "lo": 45.5,
+     "hi": 90.9
+    }
+   },
+   "prisma": {
+    "label": "Database layer: prisma",
+    "untraced": {
+     "pct": 22.2,
+     "n": 36,
+     "lo": 8.3,
+     "hi": 36.1
+    },
+    "traced": {
+     "pct": 18.2,
+     "n": 11,
+     "lo": 0.0,
+     "hi": 45.5
+    }
+   },
+   "firebase": {
+    "label": "Hosted backend: firebase",
+    "untraced": {
+     "pct": 15.4,
+     "n": 26,
+     "lo": 3.8,
+     "hi": 30.8
+    },
+    "traced": {
+     "pct": 11.4,
+     "n": 35,
+     "lo": 2.9,
+     "hi": 22.9
+    }
+   },
+   "supabase": {
+    "label": "Hosted backend: supabase",
+    "untraced": {
+     "pct": 80.8,
+     "n": 26,
+     "lo": 65.4,
+     "hi": 96.2
+    },
+    "traced": {
+     "pct": 71.4,
+     "n": 35,
+     "lo": 54.3,
+     "hi": 85.7
+    }
+   },
+   "redux": {
+    "label": "React apps: Redux Toolkit",
+    "untraced": {
+     "pct": 2.6,
+     "n": 38,
+     "lo": 0.0,
+     "hi": 7.9
+    },
+    "traced": {
+     "pct": 0.0,
+     "n": 23,
+     "lo": 0.0,
+     "hi": 0.0
+    }
+   },
+   "zustand": {
+    "label": "React apps: zustand",
+    "untraced": {
+     "pct": 94.7,
+     "n": 38,
+     "lo": 86.8,
+     "hi": 100.0
+    },
+    "traced": {
+     "pct": 100.0,
+     "n": 23,
+     "lo": 100.0,
+     "hi": 100.0
+    }
+   },
+   "jest": {
+    "label": "Unit tests: jest",
+    "untraced": {
+     "pct": 2.4,
+     "n": 335,
+     "lo": 0.9,
+     "hi": 4.2
+    },
+    "traced": {
+     "pct": 0.9,
+     "n": 447,
+     "lo": 0.2,
+     "hi": 1.8
+    }
+   },
+   "vitest": {
+    "label": "Unit tests: vitest",
+    "untraced": {
+     "pct": 95.8,
+     "n": 335,
+     "lo": 93.4,
+     "hi": 97.9
+    },
+    "traced": {
+     "pct": 98.4,
+     "n": 447,
+     "lo": 97.1,
+     "hi": 99.6
+    }
+   },
+   "zod": {
+    "label": "Validation: zod",
+    "untraced": {
+     "pct": 91.5,
+     "n": 164,
+     "lo": 87.2,
+     "hi": 95.7
+    },
+    "traced": {
+     "pct": 87.2,
+     "n": 250,
+     "lo": 83.2,
+     "hi": 91.2
+    }
+   },
+   "tailwind": {
+    "label": "Styling: tailwindcss",
+    "untraced": {
+     "pct": 94.6,
+     "n": 203,
+     "lo": 91.1,
+     "hi": 97.5
+    },
+    "traced": {
+     "pct": 99.4,
+     "n": 170,
+     "lo": 98.2,
+     "hi": 100.0
+    }
+   },
+   "lucide": {
+    "label": "Icons: lucide-react",
+    "untraced": {
+     "pct": 92.5,
+     "n": 213,
+     "lo": 88.7,
+     "hi": 95.8
+    },
+    "traced": {
+     "pct": 86.8,
+     "n": 121,
+     "lo": 80.2,
+     "hi": 92.6
+    }
+   },
+   "react_icons": {
+    "label": "Icons: react-icons",
+    "untraced": {
+     "pct": 5.6,
+     "n": 213,
+     "lo": 2.8,
+     "hi": 8.9
+    },
+    "traced": {
+     "pct": 2.5,
+     "n": 121,
+     "lo": 0.0,
+     "hi": 5.8
+    }
+   },
+   "styled": {
+    "label": "Styling: styled-components",
+    "untraced": {
+     "pct": 0.0,
+     "n": 203,
+     "lo": 0.0,
+     "hi": 0.0
+    },
+    "traced": {
+     "pct": 0.0,
+     "n": 170,
+     "lo": 0.0,
+     "hi": 0.0
+    }
+   },
+   "emotion": {
+    "label": "Styling: @emotion/react",
+    "untraced": {
+     "pct": 2.5,
+     "n": 203,
+     "lo": 0.5,
+     "hi": 4.9
+    },
+    "traced": {
+     "pct": 0.0,
+     "n": 170,
+     "lo": 0.0,
+     "hi": 0.0
+    }
+   },
+   "webpack": {
+    "label": "Bundler: webpack",
+    "untraced": {
+     "pct": 0.1,
+     "n": 693,
+     "lo": 0.0,
+     "hi": 0.4
+    },
+    "traced": {
+     "pct": 0.3,
+     "n": 577,
+     "lo": 0.0,
+     "hi": 0.9
+    }
+   },
+   "vite": {
+    "label": "Bundler: vite",
+    "untraced": {
+     "pct": 75.3,
+     "n": 693,
+     "lo": 72.3,
+     "hi": 78.8
+    },
+    "traced": {
+     "pct": 64.8,
+     "n": 577,
+     "lo": 61.0,
+     "hi": 69.0
+    }
+   },
+   "next": {
+    "label": "React framework: next",
+    "untraced": {
+     "pct": 74.5,
+     "n": 102,
+     "lo": 65.7,
+     "hi": 83.3
+    },
+    "traced": {
+     "pct": 85.7,
+     "n": 175,
+     "lo": 80.6,
+     "hi": 90.9
+    }
+   },
+   "eslint": {
+    "label": "Linter: eslint",
+    "untraced": {
+     "pct": 68.0,
+     "n": 341,
+     "lo": 63.0,
+     "hi": 73.0
+    },
+    "traced": {
+     "pct": 63.5,
+     "n": 507,
+     "lo": 59.4,
+     "hi": 67.7
+    }
+   },
+   "prettier": {
+    "label": "Formatter: prettier",
+    "untraced": {
+     "pct": 74.9,
+     "n": 223,
+     "lo": 69.1,
+     "hi": 80.3
+    },
+    "traced": {
+     "pct": 60.8,
+     "n": 342,
+     "lo": 55.8,
+     "hi": 66.1
+    }
+   }
+  },
+  "high": {
+   "axios": {
+    "label": "React apps: axios",
+    "untraced": {
+     "pct": 29.7,
+     "n": 101,
+     "lo": 20.8,
+     "hi": 39.6
+    },
+    "traced": {
+     "pct": 13.7,
+     "n": 146,
+     "lo": 8.2,
+     "hi": 19.2
+    }
+   },
+   "tanstack": {
+    "label": "React apps: TanStack Query",
+    "untraced": {
+     "pct": 70.3,
+     "n": 101,
+     "lo": 60.4,
+     "hi": 79.2
+    },
+    "traced": {
+     "pct": 87.7,
+     "n": 146,
+     "lo": 82.2,
+     "hi": 92.5
+    }
+   },
+   "mongoose": {
+    "label": "Database layer: mongoose (MongoDB)",
+    "untraced": {
+     "pct": 11.4,
+     "n": 105,
+     "lo": 5.7,
+     "hi": 18.1
+    },
+    "traced": {
+     "pct": 6.7,
+     "n": 163,
+     "lo": 3.1,
+     "hi": 11.0
+    }
+   },
+   "drizzle": {
+    "label": "Database layer: drizzle",
+    "untraced": {
+     "pct": 38.1,
+     "n": 105,
+     "lo": 29.5,
+     "hi": 47.6
+    },
+    "traced": {
+     "pct": 57.7,
+     "n": 163,
+     "lo": 49.7,
+     "hi": 65.0
+    }
+   },
+   "prisma": {
+    "label": "Database layer: prisma",
+    "untraced": {
+     "pct": 39.0,
+     "n": 105,
+     "lo": 29.5,
+     "hi": 48.6
+    },
+    "traced": {
+     "pct": 30.7,
+     "n": 163,
+     "lo": 23.9,
+     "hi": 38.0
+    }
+   },
+   "firebase": {
+    "label": "Hosted backend: firebase",
+    "untraced": {
+     "pct": 29.9,
+     "n": 87,
+     "lo": 20.7,
+     "hi": 39.1
+    },
+    "traced": {
+     "pct": 15.7,
+     "n": 115,
+     "lo": 9.6,
+     "hi": 22.6
+    }
+   },
+   "supabase": {
+    "label": "Hosted backend: supabase",
+    "untraced": {
+     "pct": 67.8,
+     "n": 87,
+     "lo": 58.6,
+     "hi": 78.2
+    },
+    "traced": {
+     "pct": 73.9,
+     "n": 115,
+     "lo": 65.2,
+     "hi": 81.7
+    }
+   },
+   "redux": {
+    "label": "React apps: Redux Toolkit",
+    "untraced": {
+     "pct": 4.4,
+     "n": 181,
+     "lo": 1.7,
+     "hi": 7.7
+    },
+    "traced": {
+     "pct": 0.0,
+     "n": 222,
+     "lo": 0.0,
+     "hi": 0.0
+    }
+   },
+   "zustand": {
+    "label": "React apps: zustand",
+    "untraced": {
+     "pct": 92.3,
+     "n": 181,
+     "lo": 88.4,
+     "hi": 96.1
+    },
+    "traced": {
+     "pct": 96.8,
+     "n": 222,
+     "lo": 94.1,
+     "hi": 99.1
+    }
+   },
+   "jest": {
+    "label": "Unit tests: jest",
+    "untraced": {
+     "pct": 8.4,
+     "n": 467,
+     "lo": 6.0,
+     "hi": 10.9
+    },
+    "traced": {
+     "pct": 4.3,
+     "n": 703,
+     "lo": 2.8,
+     "hi": 5.8
+    }
+   },
+   "vitest": {
+    "label": "Unit tests: vitest",
+    "untraced": {
+     "pct": 91.2,
+     "n": 467,
+     "lo": 88.7,
+     "hi": 93.6
+    },
+    "traced": {
+     "pct": 94.9,
+     "n": 703,
+     "lo": 93.2,
+     "hi": 96.4
+    }
+   },
+   "zod": {
+    "label": "Validation: zod",
+    "untraced": {
+     "pct": 94.6,
+     "n": 317,
+     "lo": 92.1,
+     "hi": 96.8
+    },
+    "traced": {
+     "pct": 92.9,
+     "n": 534,
+     "lo": 90.4,
+     "hi": 94.9
+    }
+   },
+   "tailwind": {
+    "label": "Styling: tailwindcss",
+    "untraced": {
+     "pct": 95.0,
+     "n": 505,
+     "lo": 93.1,
+     "hi": 96.8
+    },
+    "traced": {
+     "pct": 96.9,
+     "n": 640,
+     "lo": 95.5,
+     "hi": 98.1
+    }
+   },
+   "lucide": {
+    "label": "Icons: lucide-react",
+    "untraced": {
+     "pct": 95.3,
+     "n": 509,
+     "lo": 93.3,
+     "hi": 97.1
+    },
+    "traced": {
+     "pct": 90.7,
+     "n": 580,
+     "lo": 88.3,
+     "hi": 93.1
+    }
+   },
+   "react_icons": {
+    "label": "Icons: react-icons",
+    "untraced": {
+     "pct": 3.7,
+     "n": 509,
+     "lo": 2.2,
+     "hi": 5.5
+    },
+    "traced": {
+     "pct": 4.5,
+     "n": 580,
+     "lo": 2.9,
+     "hi": 6.2
+    }
+   },
+   "styled": {
+    "label": "Styling: styled-components",
+    "untraced": {
+     "pct": 1.2,
+     "n": 505,
+     "lo": 0.4,
+     "hi": 2.2
+    },
+    "traced": {
+     "pct": 1.1,
+     "n": 640,
+     "lo": 0.3,
+     "hi": 1.9
+    }
+   },
+   "emotion": {
+    "label": "Styling: @emotion/react",
+    "untraced": {
+     "pct": 2.4,
+     "n": 505,
+     "lo": 1.2,
+     "hi": 4.0
+    },
+    "traced": {
+     "pct": 0.5,
+     "n": 640,
+     "lo": 0.0,
+     "hi": 1.1
+    }
+   },
+   "webpack": {
+    "label": "Bundler: webpack",
+    "untraced": {
+     "pct": 1.5,
+     "n": 719,
+     "lo": 0.7,
+     "hi": 2.4
+    },
+    "traced": {
+     "pct": 1.1,
+     "n": 809,
+     "lo": 0.5,
+     "hi": 1.9
+    }
+   },
+   "vite": {
+    "label": "Bundler: vite",
+    "untraced": {
+     "pct": 88.3,
+     "n": 719,
+     "lo": 86.0,
+     "hi": 90.7
+    },
+    "traced": {
+     "pct": 87.3,
+     "n": 809,
+     "lo": 85.0,
+     "hi": 89.5
+    }
+   },
+   "next": {
+    "label": "React framework: next",
+    "untraced": {
+     "pct": 68.3,
+     "n": 227,
+     "lo": 62.1,
+     "hi": 74.0
+    },
+    "traced": {
+     "pct": 66.7,
+     "n": 453,
+     "lo": 62.3,
+     "hi": 71.1
+    }
+   },
+   "eslint": {
+    "label": "Linter: eslint",
+    "untraced": {
+     "pct": 81.2,
+     "n": 480,
+     "lo": 77.7,
+     "hi": 84.8
+    },
+    "traced": {
+     "pct": 76.2,
+     "n": 797,
+     "lo": 73.1,
+     "hi": 79.0
+    }
+   },
+   "prettier": {
+    "label": "Formatter: prettier",
+    "untraced": {
+     "pct": 87.2,
+     "n": 273,
+     "lo": 83.2,
+     "hi": 91.2
+    },
+    "traced": {
+     "pct": 73.6,
+     "n": 474,
+     "lo": 69.8,
+     "hi": 77.6
+    }
+   }
+  }
+ },
+ "dist": {
+  "ORM / query builder": {
+   "y2024": {
+    "n": 1185,
+    "shares": {
+     "drizzle-orm": 12.2,
+     "prisma": 32.5,
+     "@prisma/client": 34.4,
+     "kysely": 0.8,
+     "typeorm": 7.8,
+     "sequelize": 5.3,
+     "mongoose": 42.8
+    }
+   },
+   "untraced": {
+    "n": 150,
+    "shares": {
+     "drizzle-orm": 34.0,
+     "prisma": 32.0,
+     "@prisma/client": 32.0,
+     "kysely": 6.0,
+     "typeorm": 5.3,
+     "sequelize": 6.0,
+     "mongoose": 22.0
+    }
+   },
+   "traced": {
+    "n": 175,
+    "shares": {
+     "drizzle-orm": 58.3,
+     "prisma": 29.7,
+     "@prisma/client": 30.3,
+     "kysely": 4.0,
+     "typeorm": 1.7,
+     "sequelize": 2.3,
+     "mongoose": 6.3
+    }
+   }
+  },
+  "data fetching": {
+   "y2024": {
+    "n": 1314,
+    "shares": {
+     "@tanstack/react-query": 27.7,
+     "swr": 4.4,
+     "@apollo/client": 1.8,
+     "axios": 80.3
+    }
+   },
+   "untraced": {
+    "n": 122,
+    "shares": {
+     "@tanstack/react-query": 63.9,
+     "swr": 7.4,
+     "@apollo/client": 0.0,
+     "axios": 35.2
+    }
+   },
+   "traced": {
+    "n": 157,
+    "shares": {
+     "@tanstack/react-query": 87.9,
+     "swr": 3.2,
+     "@apollo/client": 1.9,
+     "axios": 12.7
+    }
+   }
+  },
+  "backend-as-a-service": {
+   "y2024": {
+    "n": 643,
+    "shares": {
+     "@supabase/supabase-js": 24.9,
+     "firebase": 44.0,
+     "convex": 4.2,
+     "@clerk/nextjs": 27.2,
+     "appwrite": 4.7,
+     "pocketbase": 0.8
+    }
+   },
+   "untraced": {
+    "n": 123,
+    "shares": {
+     "@supabase/supabase-js": 73.2,
+     "firebase": 24.4,
+     "convex": 3.3,
+     "@clerk/nextjs": 1.6,
+     "appwrite": 0.0,
+     "pocketbase": 0.0
+    }
+   },
+   "traced": {
+    "n": 151,
+    "shares": {
+     "@supabase/supabase-js": 73.5,
+     "firebase": 14.6,
+     "convex": 8.6,
+     "@clerk/nextjs": 4.6,
+     "appwrite": 0.0,
+     "pocketbase": 1.3
+    }
+   }
+  },
+  "state management": {
+   "y2024": {
+    "n": 718,
+    "shares": {
+     "zustand": 46.2,
+     "@reduxjs/toolkit": 38.9,
+     "redux": 9.7,
+     "jotai": 7.2,
+     "mobx": 2.5,
+     "valtio": 0.3,
+     "recoil": 2.6,
+     "pinia": 0.1
+    }
+   },
+   "untraced": {
+    "n": 221,
+    "shares": {
+     "zustand": 91.9,
+     "@reduxjs/toolkit": 5.0,
+     "redux": 1.4,
+     "jotai": 1.8,
+     "mobx": 0.0,
+     "valtio": 0.9,
+     "recoil": 0.5,
+     "pinia": 0.0
+    }
+   },
+   "traced": {
+    "n": 245,
+    "shares": {
+     "zustand": 97.1,
+     "@reduxjs/toolkit": 0.0,
+     "redux": 0.4,
+     "jotai": 1.6,
+     "mobx": 1.2,
+     "valtio": 0.0,
+     "recoil": 0.0,
+     "pinia": 0.0
+    }
+   }
+  },
+  "unit test runner": {
+   "y2024": {
+    "n": 1278,
+    "shares": {
+     "vitest": 29.8,
+     "jest": 64.2,
+     "mocha": 7.0,
+     "ava": 0.9
+    }
+   },
+   "untraced": {
+    "n": 973,
+    "shares": {
+     "vitest": 92.8,
+     "jest": 6.3,
+     "mocha": 1.2,
+     "ava": 0.1
+    }
+   },
+   "traced": {
+    "n": 1320,
+    "shares": {
+     "vitest": 96.5,
+     "jest": 2.7,
+     "mocha": 0.9,
+     "ava": 0.3
+    }
+   }
+  },
+  "schema validation": {
+   "y2024": {
+    "n": 1042,
+    "shares": {
+     "zod": 78.8,
+     "yup": 10.2,
+     "joi": 6.0,
+     "valibot": 1.3,
+     "@sinclair/typebox": 0.8,
+     "ajv": 5.1,
+     "arktype": 0.0
+    }
+   },
+   "untraced": {
+    "n": 604,
+    "shares": {
+     "zod": 91.9,
+     "yup": 0.7,
+     "joi": 0.0,
+     "valibot": 0.5,
+     "@sinclair/typebox": 0.7,
+     "ajv": 9.6,
+     "arktype": 0.2
+    }
+   },
+   "traced": {
+    "n": 889,
+    "shares": {
+     "zod": 90.3,
+     "yup": 0.0,
+     "joi": 0.2,
+     "valibot": 1.5,
+     "@sinclair/typebox": 0.6,
+     "ajv": 12.5,
+     "arktype": 0.1
+    }
+   }
+  },
+  "CSS": {
+   "y2024": {
+    "n": 3521,
+    "shares": {
+     "tailwindcss": 85.2,
+     "styled-components": 5.6,
+     "@emotion/react": 11.0,
+     "sass": 8.0,
+     "@mui/material": 8.5,
+     "@chakra-ui/react": 1.7,
+     "@mantine/core": 1.2
+    }
+   },
+   "untraced": {
+    "n": 704,
+    "shares": {
+     "tailwindcss": 94.7,
+     "styled-components": 0.9,
+     "@emotion/react": 2.4,
+     "sass": 3.1,
+     "@mui/material": 1.8,
+     "@chakra-ui/react": 0.3,
+     "@mantine/core": 0.6
+    }
+   },
+   "traced": {
+    "n": 820,
+    "shares": {
+     "tailwindcss": 97.3,
+     "styled-components": 0.9,
+     "@emotion/react": 0.4,
+     "sass": 2.6,
+     "@mui/material": 0.4,
+     "@chakra-ui/react": 0.0,
+     "@mantine/core": 0.7
+    }
+   }
+  },
+  "icons": {
+   "y2024": {
+    "n": 2315,
+    "shares": {
+     "lucide-react": 61.4,
+     "react-icons": 44.0,
+     "@heroicons/react": 8.1,
+     "@phosphor-icons/react": 0.9,
+     "@tabler/icons-react": 4.7,
+     "@fortawesome/fontawesome-svg-core": 5.2
+    }
+   },
+   "untraced": {
+    "n": 727,
+    "shares": {
+     "lucide-react": 94.4,
+     "react-icons": 4.1,
+     "@heroicons/react": 1.0,
+     "@phosphor-icons/react": 3.6,
+     "@tabler/icons-react": 0.7,
+     "@fortawesome/fontawesome-svg-core": 0.1
+    }
+   },
+   "traced": {
+    "n": 703,
+    "shares": {
+     "lucide-react": 89.9,
+     "react-icons": 4.3,
+     "@heroicons/react": 1.0,
+     "@phosphor-icons/react": 6.5,
+     "@tabler/icons-react": 2.7,
+     "@fortawesome/fontawesome-svg-core": 0.3
+    }
+   }
+  },
+  "bundler/dev server": {
+   "y2024": {
+    "n": 2421,
+    "shares": {
+     "vite": 73.7,
+     "webpack": 9.2,
+     "parcel": 0.6,
+     "esbuild": 8.7,
+     "rollup": 5.9,
+     "@rspack/core": 0.2,
+     "tsup": 6.2
+    }
+   },
+   "untraced": {
+    "n": 1733,
+    "shares": {
+     "vite": 75.0,
+     "webpack": 0.7,
+     "parcel": 0.1,
+     "esbuild": 29.0,
+     "rollup": 1.2,
+     "@rspack/core": 0.1,
+     "tsup": 4.0
+    }
+   },
+   "traced": {
+    "n": 1629,
+    "shares": {
+     "vite": 72.4,
+     "webpack": 0.7,
+     "parcel": 0.0,
+     "esbuild": 32.7,
+     "rollup": 0.9,
+     "@rspack/core": 0.2,
+     "tsup": 3.3
+    }
+   }
+  },
+  "React meta-framework": {
+   "y2024": {
+    "n": 2283,
+    "shares": {
+     "next": 82.7,
+     "@remix-run/react": 1.8,
+     "react-router": 2.5,
+     "astro": 2.0,
+     "@tanstack/react-start": 0.0,
+     "gatsby": 0.4,
+     "expo": 10.9
+    }
+   },
+   "untraced": {
+    "n": 338,
+    "shares": {
+     "next": 69.5,
+     "@remix-run/react": 0.0,
+     "react-router": 7.7,
+     "astro": 9.8,
+     "@tanstack/react-start": 4.1,
+     "gatsby": 0.0,
+     "expo": 9.5
+    }
+   },
+   "traced": {
+    "n": 635,
+    "shares": {
+     "next": 71.0,
+     "@remix-run/react": 0.0,
+     "react-router": 6.5,
+     "astro": 7.1,
+     "@tanstack/react-start": 7.1,
+     "gatsby": 0.0,
+     "expo": 9.4
+    }
+   }
+  },
+  "linter": {
+   "y2024": {
+    "n": 4164,
+    "shares": {
+     "eslint": 96.1,
+     "@biomejs/biome": 4.0,
+     "oxlint": 0.1
+    }
+   },
+   "untraced": {
+    "n": 915,
+    "shares": {
+     "eslint": 73.3,
+     "@biomejs/biome": 9.3,
+     "oxlint": 18.4
+    }
+   },
+   "traced": {
+    "n": 1477,
+    "shares": {
+     "eslint": 67.2,
+     "@biomejs/biome": 15.0,
+     "oxlint": 18.8
+    }
+   }
+  },
+  "formatter": {
+   "y2024": {
+    "n": 1915,
+    "shares": {
+     "prettier": 91.5,
+     "@biomejs/biome": 9.0,
+     "oxfmt": 0.0,
+     "dprint": 0.2
+    }
+   },
+   "untraced": {
+    "n": 596,
+    "shares": {
+     "prettier": 77.5,
+     "@biomejs/biome": 14.4,
+     "oxfmt": 8.1,
+     "dprint": 0.0
+    }
+   },
+   "traced": {
+    "n": 1009,
+    "shares": {
+     "prettier": 64.0,
+     "@biomejs/biome": 22.2,
+     "oxfmt": 14.5,
+     "dprint": 0.3
+    }
+   }
+  }
+ },
+ "strict_claude": {
+  "searched": 7286,
+  "strict": 642,
+  "owners": 620,
+  "rows": {
+   "axios": {
+    "label": "React apps: axios",
+    "strict": {
+     "pct": 8.1,
+     "n": 37,
+     "lo": 0.0,
+     "hi": 18.9
+    }
+   },
+   "tanstack": {
+    "label": "React apps: TanStack Query",
+    "strict": {
+     "pct": 94.6,
+     "n": 37,
+     "lo": 86.5,
+     "hi": 100.0
+    }
+   },
+   "mongoose": {
+    "label": "Database layer: mongoose (MongoDB)",
+    "strict": {
+     "pct": 5.7,
+     "n": 53,
+     "lo": 0.0,
+     "hi": 11.3
+    }
+   },
+   "drizzle": {
+    "label": "Database layer: drizzle",
+    "strict": {
+     "pct": 64.2,
+     "n": 53,
+     "lo": 50.9,
+     "hi": 75.5
+    }
+   },
+   "prisma": {
+    "label": "Database layer: prisma",
+    "strict": {
+     "pct": 28.3,
+     "n": 53,
+     "lo": 17.0,
+     "hi": 41.5
+    }
+   },
+   "firebase": {
+    "label": "Hosted backend: firebase",
+    "strict": {
+     "pct": 8.9,
+     "n": 79,
+     "lo": 3.8,
+     "hi": 15.2
+    }
+   },
+   "supabase": {
+    "label": "Hosted backend: supabase",
+    "strict": {
+     "pct": 77.2,
+     "n": 79,
+     "lo": 67.1,
+     "hi": 86.1
+    }
+   },
+   "redux": {
+    "label": "React apps: Redux Toolkit",
+    "strict": {
+     "pct": 8.1,
+     "n": 37,
+     "lo": 0.0,
+     "hi": 16.2
+    }
+   },
+   "zustand": {
+    "label": "React apps: zustand",
+    "strict": {
+     "pct": 91.9,
+     "n": 37,
+     "lo": 83.8,
+     "hi": 100.0
+    }
+   },
+   "jest": {
+    "label": "Unit tests: jest",
+    "strict": {
+     "pct": 3.9,
+     "n": 387,
+     "lo": 2.1,
+     "hi": 5.9
+    }
+   },
+   "vitest": {
+    "label": "Unit tests: vitest",
+    "strict": {
+     "pct": 96.1,
+     "n": 387,
+     "lo": 94.1,
+     "hi": 97.9
+    }
+   },
+   "zod": {
+    "label": "Validation: zod",
+    "strict": {
+     "pct": 86.0,
+     "n": 171,
+     "lo": 80.7,
+     "hi": 90.6
+    }
+   },
+   "tailwind": {
+    "label": "Styling: tailwindcss",
+    "strict": {
+     "pct": 96.7,
+     "n": 184,
+     "lo": 94.0,
+     "hi": 98.9
+    }
+   },
+   "lucide": {
+    "label": "Icons: lucide-react",
+    "strict": {
+     "pct": 94.6,
+     "n": 93,
+     "lo": 89.2,
+     "hi": 98.9
+    }
+   },
+   "react_icons": {
+    "label": "Icons: react-icons",
+    "strict": {
+     "pct": 1.1,
+     "n": 93,
+     "lo": 0.0,
+     "hi": 3.2
+    }
+   },
+   "styled": {
+    "label": "Styling: styled-components",
+    "strict": {
+     "pct": 1.1,
+     "n": 184,
+     "lo": 0.0,
+     "hi": 2.7
+    }
+   },
+   "emotion": {
+    "label": "Styling: @emotion/react",
+    "strict": {
+     "pct": 1.6,
+     "n": 184,
+     "lo": 0.0,
+     "hi": 3.8
+    }
+   },
+   "webpack": {
+    "label": "Bundler: webpack",
+    "strict": {
+     "pct": 0.8,
+     "n": 265,
+     "lo": 0.0,
+     "hi": 1.9
+    }
+   },
+   "vite": {
+    "label": "Bundler: vite",
+    "strict": {
+     "pct": 81.9,
+     "n": 265,
+     "lo": 77.0,
+     "hi": 86.4
+    }
+   },
+   "next": {
+    "label": "React framework: next",
+    "strict": {
+     "pct": 70.2,
+     "n": 161,
+     "lo": 62.7,
+     "hi": 77.0
+    }
+   },
+   "eslint": {
+    "label": "Linter: eslint",
+    "strict": {
+     "pct": 74.6,
+     "n": 397,
+     "lo": 70.3,
+     "hi": 78.8
+    }
+   },
+   "prettier": {
+    "label": "Formatter: prettier",
+    "strict": {
+     "pct": 71.1,
+     "n": 301,
+     "lo": 65.8,
+     "hi": 76.4
+    }
+   }
+  }
+ },
+ "strict_cursor": {
+  "searched": 6114,
+  "strict": 452,
+  "owners": 435,
+  "rows": {
+   "axios": {
+    "label": "React apps: axios",
+    "strict": {
+     "pct": 30.0,
+     "n": 20,
+     "lo": 10.0,
+     "hi": 50.0
+    }
+   },
+   "tanstack": {
+    "label": "React apps: TanStack Query",
+    "strict": {
+     "pct": 70.0,
+     "n": 20,
+     "lo": 50.0,
+     "hi": 90.0
+    }
+   },
+   "mongoose": {
+    "label": "Database layer: mongoose (MongoDB)",
+    "strict": {
+     "pct": 15.2,
+     "n": 33,
+     "lo": 3.0,
+     "hi": 27.3
+    }
+   },
+   "drizzle": {
+    "label": "Database layer: drizzle",
+    "strict": {
+     "pct": 24.2,
+     "n": 33,
+     "lo": 9.1,
+     "hi": 39.4
+    }
+   },
+   "prisma": {
+    "label": "Database layer: prisma",
+    "strict": {
+     "pct": 57.6,
+     "n": 33,
+     "lo": 39.4,
+     "hi": 75.8
+    }
+   },
+   "firebase": {
+    "label": "Hosted backend: firebase",
+    "strict": {
+     "pct": 16.4,
+     "n": 67,
+     "lo": 7.5,
+     "hi": 25.4
+    }
+   },
+   "supabase": {
+    "label": "Hosted backend: supabase",
+    "strict": {
+     "pct": 76.1,
+     "n": 67,
+     "lo": 65.7,
+     "hi": 86.6
+    }
+   },
+   "redux": {
+    "label": "React apps: Redux Toolkit",
+    "strict": {
+     "pct": 4.3,
+     "n": 23,
+     "lo": 0.0,
+     "hi": 13.0
+    }
+   },
+   "zustand": {
+    "label": "React apps: zustand",
+    "strict": {
+     "pct": 95.7,
+     "n": 23,
+     "lo": 87.0,
+     "hi": 100.0
+    }
+   },
+   "jest": {
+    "label": "Unit tests: jest",
+    "strict": {
+     "pct": 9.7,
+     "n": 103,
+     "lo": 3.9,
+     "hi": 15.5
+    }
+   },
+   "vitest": {
+    "label": "Unit tests: vitest",
+    "strict": {
+     "pct": 89.3,
+     "n": 103,
+     "lo": 83.5,
+     "hi": 95.1
+    }
+   },
+   "zod": {
+    "label": "Validation: zod",
+    "strict": {
+     "pct": 97.3,
+     "n": 73,
+     "lo": 93.2,
+     "hi": 100.0
+    }
+   },
+   "tailwind": {
+    "label": "Styling: tailwindcss",
+    "strict": {
+     "pct": 98.0,
+     "n": 202,
+     "lo": 96.0,
+     "hi": 99.5
+    }
+   },
+   "lucide": {
+    "label": "Icons: lucide-react",
+    "strict": {
+     "pct": 94.5,
+     "n": 109,
+     "lo": 89.9,
+     "hi": 98.2
+    }
+   },
+   "react_icons": {
+    "label": "Icons: react-icons",
+    "strict": {
+     "pct": 2.8,
+     "n": 109,
+     "lo": 0.0,
+     "hi": 6.4
+    }
+   },
+   "styled": {
+    "label": "Styling: styled-components",
+    "strict": {
+     "pct": 1.0,
+     "n": 202,
+     "lo": 0.0,
+     "hi": 2.5
+    }
+   },
+   "emotion": {
+    "label": "Styling: @emotion/react",
+    "strict": {
+     "pct": 2.0,
+     "n": 202,
+     "lo": 0.5,
+     "hi": 4.0
+    }
+   },
+   "webpack": {
+    "label": "Bundler: webpack",
+    "strict": {
+     "pct": 0.5,
+     "n": 186,
+     "lo": 0.0,
+     "hi": 1.6
+    }
+   },
+   "vite": {
+    "label": "Bundler: vite",
+    "strict": {
+     "pct": 95.2,
+     "n": 186,
+     "lo": 91.9,
+     "hi": 97.8
+    }
+   },
+   "next": {
+    "label": "React framework: next",
+    "strict": {
+     "pct": 83.9,
+     "n": 193,
+     "lo": 78.2,
+     "hi": 88.6
+    }
+   },
+   "eslint": {
+    "label": "Linter: eslint",
+    "strict": {
+     "pct": 75.6,
+     "n": 225,
+     "lo": 69.8,
+     "hi": 81.3
+    }
+   },
+   "prettier": {
+    "label": "Formatter: prettier",
+    "strict": {
+     "pct": 81.0,
+     "n": 58,
+     "lo": 70.7,
+     "hi": 91.4
+    }
+   }
+  }
+ },
+ "strict_codex": {
+  "searched": 1837,
+  "strict": 31,
+  "owners": 28,
+  "rows": null
+ },
+ "scaffold": {
+  "traced": {
+   "none": 2697,
+   "shadcn": 313,
+   "turbo": 150,
+   "create-next-app": 329,
+   "expo": 66,
+   "astro": 48,
+   "create-vite": 103
+  },
+  "untraced": {
+   "none": 3040,
+   "create-next-app": 146,
+   "shadcn": 166,
+   "create-vite": 131,
+   "astro": 34,
+   "expo": 32,
+   "turbo": 41
+  }
+ },
+ "trace_kinds": {
+  "file:claude": 1318,
+  "file:agents": 1874,
+  "trailer:claude": 2038,
+  "trailer:cursor": 164,
+  "file:cursor": 96,
+  "trailer:codex": 32,
+  "file:codex": 51,
+  "builder:ai-studio": 6,
+  "builder:trae": 3,
+  "file:gemini": 31,
+  "file:windsurf": 4,
+  "builder:windsurf": 5,
+  "builder:lovable": 7,
+  "builder:kiro": 5,
+  "builder:replit": 9,
+  "builder:bolt": 2
+ },
+ "instructions": {
+  "traced_with_file": 2257,
+  "data fetching": {
+   "users": 175,
+   "users_with_file": 125,
+   "users_pinned": 39
+  },
+  "unpinned_rows": {
+   "axios": {
+    "pct": 13.0,
+    "n": 123,
+    "lo": 7.3,
+    "hi": 18.7
+   },
+   "tanstack": {
+    "pct": 86.2,
+    "n": 123,
+    "lo": 79.7,
+    "hi": 91.9
+   },
+   "mongoose": {
+    "pct": 7.2,
+    "n": 111,
+    "lo": 2.7,
+    "hi": 12.6
+   },
+   "drizzle": {
+    "pct": 56.8,
+    "n": 111,
+    "lo": 47.7,
+    "hi": 65.8
+   },
+   "prisma": {
+    "pct": 30.6,
+    "n": 111,
+    "lo": 22.5,
+    "hi": 38.7
+   },
+   "firebase": {
+    "pct": 15.5,
+    "n": 97,
+    "lo": 8.2,
+    "hi": 22.7
+   },
+   "supabase": {
+    "pct": 73.2,
+    "n": 97,
+    "lo": 63.9,
+    "hi": 82.5
+   }
+  },
+  "ORM / query builder": {
+   "users": 177,
+   "users_with_file": 147,
+   "users_pinned": 66
+  },
+  "backend-as-a-service": {
+   "users": 155,
+   "users_with_file": 122,
+   "users_pinned": 58
+  }
+ },
+ "derived": {
+  "axios": {
+   "change_2024_to_traced": -67.6,
+   "gap_untraced_traced": -22.5,
+   "ratio_2024_over_traced": 6.3,
+   "ratio_traced_over_2024": 0.2,
+   "ratio_untraced_over_traced": 2.8
+  },
+  "tanstack": {
+   "change_2024_to_traced": 60.2,
+   "gap_untraced_traced": 24.0,
+   "ratio_2024_over_traced": 0.3,
+   "ratio_traced_over_2024": 3.2,
+   "ratio_untraced_over_traced": 0.7
+  },
+  "mongoose": {
+   "change_2024_to_traced": -36.5,
+   "gap_untraced_traced": -15.7,
+   "ratio_2024_over_traced": 6.8,
+   "ratio_traced_over_2024": 0.1,
+   "ratio_untraced_over_traced": 3.5
+  },
+  "drizzle": {
+   "change_2024_to_traced": 46.1,
+   "gap_untraced_traced": 24.3,
+   "ratio_2024_over_traced": 0.2,
+   "ratio_traced_over_2024": 4.8,
+   "ratio_untraced_over_traced": 0.6
+  },
+  "prisma": {
+   "change_2024_to_traced": -4.1,
+   "gap_untraced_traced": -1.7,
+   "ratio_2024_over_traced": 1.1,
+   "ratio_traced_over_2024": 0.9,
+   "ratio_untraced_over_traced": 1.1
+  },
+  "firebase": {
+   "change_2024_to_traced": -29.4,
+   "gap_untraced_traced": -9.8,
+   "ratio_2024_over_traced": 3.0,
+   "ratio_traced_over_2024": 0.3,
+   "ratio_untraced_over_traced": 1.7
+  },
+  "supabase": {
+   "change_2024_to_traced": 48.6,
+   "gap_untraced_traced": 0.3,
+   "ratio_2024_over_traced": 0.3,
+   "ratio_traced_over_2024": 3.0,
+   "ratio_untraced_over_traced": 1.0
+  },
+  "redux": {
+   "change_2024_to_traced": -38.9,
+   "gap_untraced_traced": -5.0,
+   "ratio_2024_over_traced": null,
+   "ratio_traced_over_2024": 0.0,
+   "ratio_untraced_over_traced": null
+  },
+  "zustand": {
+   "change_2024_to_traced": 50.9,
+   "gap_untraced_traced": 5.2,
+   "ratio_2024_over_traced": 0.5,
+   "ratio_traced_over_2024": 2.1,
+   "ratio_untraced_over_traced": 0.9
+  },
+  "jest": {
+   "change_2024_to_traced": -61.5,
+   "gap_untraced_traced": -3.6,
+   "ratio_2024_over_traced": 23.8,
+   "ratio_traced_over_2024": 0.0,
+   "ratio_untraced_over_traced": 2.3
+  },
+  "vitest": {
+   "change_2024_to_traced": 66.7,
+   "gap_untraced_traced": 3.7,
+   "ratio_2024_over_traced": 0.3,
+   "ratio_traced_over_2024": 3.2,
+   "ratio_untraced_over_traced": 1.0
+  },
+  "zod": {
+   "change_2024_to_traced": 11.5,
+   "gap_untraced_traced": -1.6,
+   "ratio_2024_over_traced": 0.9,
+   "ratio_traced_over_2024": 1.1,
+   "ratio_untraced_over_traced": 1.0
+  },
+  "tailwind": {
+   "change_2024_to_traced": 12.1,
+   "gap_untraced_traced": 2.6,
+   "ratio_2024_over_traced": 0.9,
+   "ratio_traced_over_2024": 1.1,
+   "ratio_untraced_over_traced": 1.0
+  },
+  "lucide": {
+   "change_2024_to_traced": 28.5,
+   "gap_untraced_traced": -4.5,
+   "ratio_2024_over_traced": 0.7,
+   "ratio_traced_over_2024": 1.5,
+   "ratio_untraced_over_traced": 1.1
+  },
+  "react_icons": {
+   "change_2024_to_traced": -39.7,
+   "gap_untraced_traced": 0.2,
+   "ratio_2024_over_traced": 10.2,
+   "ratio_traced_over_2024": 0.1,
+   "ratio_untraced_over_traced": 1.0
+  },
+  "styled": {
+   "change_2024_to_traced": -4.7,
+   "gap_untraced_traced": 0.0,
+   "ratio_2024_over_traced": 6.2,
+   "ratio_traced_over_2024": 0.2,
+   "ratio_untraced_over_traced": 1.0
+  },
+  "emotion": {
+   "change_2024_to_traced": -10.6,
+   "gap_untraced_traced": -2.0,
+   "ratio_2024_over_traced": 27.5,
+   "ratio_traced_over_2024": 0.0,
+   "ratio_untraced_over_traced": 6.0
+  },
+  "webpack": {
+   "change_2024_to_traced": -8.5,
+   "gap_untraced_traced": 0.0,
+   "ratio_2024_over_traced": 13.1,
+   "ratio_traced_over_2024": 0.1,
+   "ratio_untraced_over_traced": 1.0
+  },
+  "vite": {
+   "change_2024_to_traced": -1.3,
+   "gap_untraced_traced": -2.6,
+   "ratio_2024_over_traced": 1.0,
+   "ratio_traced_over_2024": 1.0,
+   "ratio_untraced_over_traced": 1.0
+  },
+  "next": {
+   "change_2024_to_traced": -11.7,
+   "gap_untraced_traced": 1.5,
+   "ratio_2024_over_traced": 1.2,
+   "ratio_traced_over_2024": 0.9,
+   "ratio_untraced_over_traced": 1.0
+  },
+  "eslint": {
+   "change_2024_to_traced": -28.9,
+   "gap_untraced_traced": -6.1,
+   "ratio_2024_over_traced": 1.4,
+   "ratio_traced_over_2024": 0.7,
+   "ratio_untraced_over_traced": 1.1
+  },
+  "prettier": {
+   "change_2024_to_traced": -27.5,
+   "gap_untraced_traced": -13.5,
+   "ratio_2024_over_traced": 1.4,
+   "ratio_traced_over_2024": 0.7,
+   "ratio_untraced_over_traced": 1.2
+  }
+ },
+ "default_stack": {
+  "ORM / query builder": {
+   "pkg": "drizzle-orm",
+   "pct": 58.3,
+   "n": 175,
+   "pct_2024": 12.2,
+   "pct_untraced": 34.0
+  },
+  "data fetching": {
+   "pkg": "@tanstack/react-query",
+   "pct": 87.9,
+   "n": 157,
+   "pct_2024": 27.7,
+   "pct_untraced": 63.9
+  },
+  "backend-as-a-service": {
+   "pkg": "@supabase/supabase-js",
+   "pct": 73.5,
+   "n": 151,
+   "pct_2024": 24.9,
+   "pct_untraced": 73.2
+  },
+  "state management": {
+   "pkg": "zustand",
+   "pct": 97.1,
+   "n": 245,
+   "pct_2024": 46.2,
+   "pct_untraced": 91.9
+  },
+  "unit test runner": {
+   "pkg": "vitest",
+   "pct": 96.5,
+   "n": 1320,
+   "pct_2024": 29.8,
+   "pct_untraced": 92.8
+  },
+  "schema validation": {
+   "pkg": "zod",
+   "pct": 90.3,
+   "n": 889,
+   "pct_2024": 78.8,
+   "pct_untraced": 91.9
+  },
+  "CSS": {
+   "pkg": "tailwindcss",
+   "pct": 97.3,
+   "n": 820,
+   "pct_2024": 85.2,
+   "pct_untraced": 94.7
+  },
+  "icons": {
+   "pkg": "lucide-react",
+   "pct": 89.9,
+   "n": 703,
+   "pct_2024": 61.4,
+   "pct_untraced": 94.4
+  },
+  "bundler/dev server": {
+   "pkg": "vite",
+   "pct": 72.4,
+   "n": 1629,
+   "pct_2024": 73.7,
+   "pct_untraced": 75.0
+  },
+  "React meta-framework": {
+   "pkg": "next",
+   "pct": 71.0,
+   "n": 635,
+   "pct_2024": 82.7,
+   "pct_untraced": 69.5
+  },
+  "linter": {
+   "pkg": "eslint",
+   "pct": 67.2,
+   "n": 1477,
+   "pct_2024": 96.1,
+   "pct_untraced": 73.3
+  },
+  "formatter": {
+   "pkg": "prettier",
+   "pct": 64.0,
+   "n": 1009,
+   "pct_2024": 91.5,
+   "pct_untraced": 77.5
+  }
+ }
+}
