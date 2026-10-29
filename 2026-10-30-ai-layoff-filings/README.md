@@ -1,6 +1,6 @@
 # Research: what companies tell the SEC when they cut jobs, and how often AI is the reason
 
-> The evidence behind the X Article *"AI went from zero to one in ten companies' SEC layoff filings in three years"* by Konstantinos Gkolias (@con_golias). Data as of 28 Oct 2026.
+> The evidence behind the [X Article](https://x.com/con_golias/status/2115889545593905175) *"AI went from zero to one in ten companies' SEC layoff filings in three years"* by Konstantinos Gkolias (@con_golias), published 29 Oct 2026. Data as of 28 Oct 2026.
 
 ## The question
 

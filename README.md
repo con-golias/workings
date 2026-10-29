@@ -8,7 +8,7 @@ question, the method, and what I checked and didn't.
 
 | Date | Piece | Folder |
 |---|---|---|
-| 29 Oct 2026 | AI went from zero to one in ten companies' SEC layoff filings in three years | [`2026-10-30-ai-layoff-filings`](2026-10-30-ai-layoff-filings/) |
+| 29 Oct 2026 | AI went from zero to one in ten companies' SEC layoff filings in three years ([X Article](https://x.com/con_golias/status/2115889545593905175)) | [`2026-10-30-ai-layoff-filings`](2026-10-30-ai-layoff-filings/) |
 | 28 Oct 2026 | Four in five new apps go quiet within a month. AI didn't change that ([X Article](https://x.com/con_golias/status/2115509157382193237)) | [`2026-10-29-vibe-app-half-life`](2026-10-29-vibe-app-half-life/) |
 | 28 Oct 2026 | In new React apps built with an AI agent, axios is down to 13%. Two years ago it was in 80% ([X Article](https://x.com/con_golias/status/2115247029710397744)) | [`2026-10-28-agent-stack`](2026-10-28-agent-stack/) |
 | 26 Oct 2026 | Two in three new AI apps built on OpenAI default to a model OpenAI is switching off ([X Article](https://x.com/con_golias/status/2114750216809140276)) | [`2026-10-27-ai-code-dead-models`](2026-10-27-ai-code-dead-models/) |
