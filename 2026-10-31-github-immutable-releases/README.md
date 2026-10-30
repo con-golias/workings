@@ -1,6 +1,6 @@
 # Research: how many popular GitHub projects lock their releases, a year after GitHub made it possible
 
-> The evidence behind the X Article *"The OVHcloud attack still works on 9 in 10 popular GitHub projects"* by Konstantinos Gkolias (@con_golias), published 30 Oct 2026. Data pulled 30 Oct 2026.
+> The evidence behind the [X Article](https://x.com/con_golias/status/2116214265132564766) *"The OVHcloud attack still works on 9 in 10 popular GitHub projects"* by Konstantinos Gkolias (@con_golias), published 30 Oct 2026. Data pulled 30 Oct 2026.
 
 ## The question
 
