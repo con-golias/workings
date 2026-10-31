@@ -1,6 +1,6 @@
 # Research: AI agents in developers' public dotfiles, 2015–2026
 
-> The evidence behind the [X Article](https://x.com/con_golias/status/2116558183669878800) *"AI agents moved into 3 in 10 developers' public dotfiles in under two years"* by
+> The evidence behind the X Article *"AI agents moved into 3 in 10 developers' public dotfiles in under two years"* by
 > Konstantinos Gkolias (@con_golias), published 31 Oct 2026. Data pulled 31 Oct 2026.
 
 ## The question
@@ -78,5 +78,9 @@ not used; agents under other names (`.pi/`, `.cursor/rules`) are not in the agen
 - **31 Oct 2026, hooks undercounted** (reported by [@0xeddiekim](https://x.com/0xeddiekim)): `ai_inside.py` counted a
   `hooks/` folder or a `hooks.json` file, but Claude Code usually defines hooks inside `settings.json` under a `"hooks"`
   key. `code/hooks_settings.py` also reads that key in the agent folders' settings files (and `[hooks` in TOML).
-  Result: **228 of the 800 agent setups (28.5%) define hooks**, more than 1 in 4, not "1 in 6" (16.5%) as the article
-  and its post say. 100 of them define hooks only in a settings file. Six random hits read by hand: all real hooks.
+  Result: **231 of the 800 agent setups (28.9%) define hooks**, more than 1 in 4, not "1 in 6" (16.5%) as the article
+  and its post say. Six random hits read by hand: all real hooks. `ai_inside.py` now reads the key too, so
+  `data/ai_inside.json` and `data/summary.json` carry the corrected `hooks` (231) and the old path-only count as
+  `hooks_path` (132). `code/hooks_settings.py`, which looks only in claude/codex/opencode/gemini folders (not `agents/`),
+  gives 228 (28.5%), the figure first given in the reply on X.
+- **31 Oct 2026, summary.json still showed 16.5%** (reported by [@0xeddiekim](https://x.com/0xeddiekim)): fixed as above.

@@ -15,7 +15,14 @@ def one(r):
     rev = subprocess.run(["git", "-C", d, "rev-list", "-1", "--before=2026-10-31T00:00:00", "HEAD"], capture_output=True, text=True).stdout.strip()
     fs = subprocess.run(["git", "-C", d, "ls-tree", "-r", "--name-only", rev], capture_output=True, text=True, encoding="utf-8", errors="replace").stdout.splitlines()
     fs = [f for f in fs if not re.search(VENDOR, f, re.I) and (DIR.search(f) or re.search(r"(CLAUDE|AGENTS|GEMINI)\.md$", f))]
-    return {"repo": r["repo"], "n": len(fs), "kinds": [k for k, p in KIND.items() if any(re.search(p, f, re.I) and (DIR.search(f) or k == "instructions") for f in fs)]}
+    kinds = [k for k, p in KIND.items() if any(re.search(p, f, re.I) and (DIR.search(f) or k == "instructions") for f in fs)]
+    # Correction, 31 Oct (reported by @0xeddiekim): hooks are often defined inside a settings file, not in a hooks/ folder.
+    sett = [f for f in fs if DIR.search(f) and re.search(r"settings[^/]*\.jsonc?$|opencode\.jsonc?$|config\.toml$", f, re.I)]
+    key = bool(sett) and bool(subprocess.run(["git", "-C", d, "grep", "-l", "-E", r'"hooks"\s*:|^\s*\[hooks', rev, "--"] + sett,
+                                             capture_output=True, text=True, env=env).stdout.strip())
+    if "hooks" in kinds: kinds.append("hooks_path")
+    if key and "hooks" not in kinds: kinds.append("hooks")
+    return {"repo": r["repo"], "n": len(fs), "kinds": kinds}
 with ThreadPoolExecutor(8) as ex: res = list(ex.map(one, rows))
 c = Counter(k for x in res for k in x["kinds"]); N = len(res)
 out = {"agent_repos": N, "kinds": {k: [v, round(100 * v / N, 1)] for k, v in c.most_common()},

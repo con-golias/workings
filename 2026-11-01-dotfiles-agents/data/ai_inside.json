@@ -13,6 +13,10 @@
    307,
    38.4
   ],
+  "hooks": [
+   231,
+   28.9
+  ],
   "statusline": [
    166,
    20.8
@@ -21,7 +25,7 @@
    142,
    17.8
   ],
-  "hooks": [
+  "hooks_path": [
    132,
    16.5
   ],
@@ -51,7 +55,8 @@
     "mcp",
     "settings",
     "rules_folder",
-    "instructions"
+    "instructions",
+    "hooks_path"
    ]
   },
   {
@@ -65,7 +70,8 @@
     "settings",
     "statusline",
     "rules_folder",
-    "instructions"
+    "instructions",
+    "hooks"
    ]
   },
   {
@@ -114,7 +120,8 @@
     "mcp",
     "settings",
     "rules_folder",
-    "instructions"
+    "instructions",
+    "hooks_path"
    ]
   },
   {
@@ -127,7 +134,8 @@
     "commands",
     "mcp",
     "settings",
-    "instructions"
+    "instructions",
+    "hooks_path"
    ]
   },
   {
@@ -148,7 +156,8 @@
     "mcp",
     "settings",
     "statusline",
-    "instructions"
+    "instructions",
+    "hooks_path"
    ]
   },
   {
@@ -160,7 +169,8 @@
     "mcp",
     "settings",
     "statusline",
-    "instructions"
+    "instructions",
+    "hooks"
    ]
   }
  ]
