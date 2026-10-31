@@ -72,3 +72,11 @@ a threshold (≥20% in 2026 with the lower bound ≥15%; ≤2% in 2024) and the 
 
 Only repositories named "dotfiles"; deleted repositories are invisible; 2026 is ten months; a config file means set up,
 not used; agents under other names (`.pi/`, `.cursor/rules`) are not in the agent count, so it is a floor.
+
+## Corrections
+
+- **31 Oct 2026, hooks undercounted** (reported by [@0xeddiekim](https://x.com/0xeddiekim)): `ai_inside.py` counted a
+  `hooks/` folder or a `hooks.json` file, but Claude Code usually defines hooks inside `settings.json` under a `"hooks"`
+  key. `code/hooks_settings.py` also reads that key in the agent folders' settings files (and `[hooks` in TOML).
+  Result: **228 of the 800 agent setups (28.5%) define hooks**, more than 1 in 4, not "1 in 6" (16.5%) as the article
+  and its post say. 100 of them define hooks only in a settings file. Six random hits read by hand: all real hooks.
