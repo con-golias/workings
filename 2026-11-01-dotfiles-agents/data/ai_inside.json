@@ -1,0 +1,167 @@
+{
+ "agent_repos": 800,
+ "kinds": {
+  "instructions": [
+   629,
+   78.6
+  ],
+  "settings": [
+   485,
+   60.6
+  ],
+  "skills": [
+   307,
+   38.4
+  ],
+  "statusline": [
+   166,
+   20.8
+  ],
+  "commands": [
+   142,
+   17.8
+  ],
+  "hooks": [
+   132,
+   16.5
+  ],
+  "subagents": [
+   113,
+   14.1
+  ],
+  "mcp": [
+   78,
+   9.8
+  ],
+  "rules_folder": [
+   74,
+   9.2
+  ]
+ },
+ "files_median": 5,
+ "files_p90": 66,
+ "top": [
+  {
+   "repo": "ray-manaloto__dotfiles-legacy",
+   "n": 1547,
+   "kinds": [
+    "skills",
+    "hooks",
+    "subagents",
+    "mcp",
+    "settings",
+    "rules_folder",
+    "instructions"
+   ]
+  },
+  {
+   "repo": "praveenperera__dotfiles",
+   "n": 1470,
+   "kinds": [
+    "skills",
+    "subagents",
+    "commands",
+    "mcp",
+    "settings",
+    "statusline",
+    "rules_folder",
+    "instructions"
+   ]
+  },
+  {
+   "repo": "AhmedOsman101__dotfiles",
+   "n": 1239,
+   "kinds": [
+    "skills",
+    "subagents",
+    "commands",
+    "mcp",
+    "settings",
+    "rules_folder",
+    "instructions"
+   ]
+  },
+  {
+   "repo": "Ehres__dotfiles",
+   "n": 1001,
+   "kinds": [
+    "skills",
+    "mcp",
+    "settings",
+    "rules_folder",
+    "instructions"
+   ]
+  },
+  {
+   "repo": "mintuz__.dotfiles",
+   "n": 722,
+   "kinds": [
+    "skills",
+    "subagents",
+    "commands",
+    "mcp",
+    "settings",
+    "rules_folder",
+    "instructions"
+   ]
+  },
+  {
+   "repo": "jkomyno__.dotfiles",
+   "n": 710,
+   "kinds": [
+    "skills",
+    "hooks",
+    "mcp",
+    "settings",
+    "rules_folder",
+    "instructions"
+   ]
+  },
+  {
+   "repo": "sstelfox__dotfiles",
+   "n": 677,
+   "kinds": [
+    "skills",
+    "hooks",
+    "subagents",
+    "commands",
+    "mcp",
+    "settings",
+    "instructions"
+   ]
+  },
+  {
+   "repo": "2nod__dotfiles",
+   "n": 676,
+   "kinds": [
+    "skills",
+    "instructions"
+   ]
+  },
+  {
+   "repo": "SuperInstance__dotfiles",
+   "n": 581,
+   "kinds": [
+    "skills",
+    "hooks",
+    "subagents",
+    "mcp",
+    "settings",
+    "statusline",
+    "instructions"
+   ]
+  },
+  {
+   "repo": "kesoji__dotfiles",
+   "n": 573,
+   "kinds": [
+    "skills",
+    "subagents",
+    "mcp",
+    "settings",
+    "statusline",
+    "instructions"
+   ]
+  }
+ ]
+}
