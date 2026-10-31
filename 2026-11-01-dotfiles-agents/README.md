@@ -1,6 +1,6 @@
 # Research: AI agents in developers' public dotfiles, 2015–2026
 
-> The evidence behind the X Article *"AI agents moved into 3 in 10 developers' public dotfiles in under two years"* by
+> The evidence behind the [X Article](https://x.com/con_golias/status/2116558183669878800) *"AI agents moved into 3 in 10 developers' public dotfiles in under two years"* by
 > Konstantinos Gkolias (@con_golias), published 31 Oct 2026. Data pulled 31 Oct 2026.
 
 ## The question

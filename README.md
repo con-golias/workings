@@ -8,7 +8,7 @@ question, the method, and what I checked and didn't.
 
 | Date | Piece | Folder |
 |---|---|---|
-| 31 Oct 2026 | AI agents moved into 3 in 10 developers' public dotfiles in under two years | [`2026-11-01-dotfiles-agents`](2026-11-01-dotfiles-agents/) |
+| 31 Oct 2026 | AI agents moved into 3 in 10 developers' public dotfiles in under two years ([X Article](https://x.com/con_golias/status/2116558183669878800)) | [`2026-11-01-dotfiles-agents`](2026-11-01-dotfiles-agents/) |
 | 30 Oct 2026 | The OVHcloud attack still works on 9 in 10 popular GitHub projects ([X Article](https://x.com/con_golias/status/2116214265132564766)) | [`2026-10-31-github-immutable-releases`](2026-10-31-github-immutable-releases/) |
 | 29 Oct 2026 | AI went from zero to one in ten companies' SEC layoff filings in three years ([X Article](https://x.com/con_golias/status/2115889545593905175)) | [`2026-10-30-ai-layoff-filings`](2026-10-30-ai-layoff-filings/) |
 | 28 Oct 2026 | Four in five new apps go quiet within a month. AI didn't change that ([X Article](https://x.com/con_golias/status/2115509157382193237)) | [`2026-10-29-vibe-app-half-life`](2026-10-29-vibe-app-half-life/) |
