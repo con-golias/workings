@@ -1,7 +1,7 @@
 # Research: AI-assisted patches in the Linux kernel, 2026
 
 > The evidence behind the X Article *"AI now helps write 1 in 4 Linux kernel bug fixes. Its own patches need fixing no
-> more often"* by Konstantinos Gkolias (@con_golias), published 1 Nov 2026. Data read on 31 Oct 2026.
+> more often"* by Konstantinos Gkolias (@con_golias), published 1 Nov 2026 ([the article](https://x.com/con_golias/status/2116932599180374190)). Data read on 31 Oct 2026.
 
 ## The question
 
