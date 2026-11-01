@@ -1,0 +1,546 @@
+{
+ "as_of": "2026-10-31 17:23 UTC",
+ "commits_parsed": 126263,
+ "first_commit": "2025-06-01",
+ "releases": [
+  {
+   "release": "7.0",
+   "commits": 14251,
+   "tagged": 31,
+   "pct": 0.22
+  },
+  {
+   "release": "7.1",
+   "commits": 15849,
+   "tagged": 294,
+   "pct": 1.86
+  },
+  {
+   "release": "7.2",
+   "commits": 16418,
+   "tagged": 1110,
+   "pct": 6.76
+  },
+  {
+   "release": "7.3",
+   "commits": 18765,
+   "tagged": 1933,
+   "pct": 10.3
+  },
+  {
+   "release": "7.4 merge window",
+   "commits": 18487,
+   "tagged": 3001,
+   "pct": 16.23
+  }
+ ],
+ "release_dates": {
+  "v7.0": "2026-04-12",
+  "v7.1": "2026-06-14",
+  "v7.2": "2026-08-16",
+  "v7.3": "2026-10-18"
+ },
+ "months": {
+  "2026-01": {
+   "commits": 8157,
+   "tagged": 1,
+   "fixes": 1621,
+   "fixes_tagged": 1,
+   "fixes_sashiko": 0,
+   "fixes_either": 1,
+   "authors_tagged": 1,
+   "pct_tagged": 0.01,
+   "pct_fixes_tagged": 0.06,
+   "pct_fixes_either": 0.06
+  },
+  "2026-02": {
+   "commits": 4539,
+   "tagged": 7,
+   "fixes": 1137,
+   "fixes_tagged": 1,
+   "fixes_sashiko": 0,
+   "fixes_either": 1,
+   "authors_tagged": 4,
+   "pct_tagged": 0.15,
+   "pct_fixes_tagged": 0.09,
+   "pct_fixes_either": 0.09
+  },
+  "2026-03": {
+   "commits": 8951,
+   "tagged": 78,
+   "fixes": 2106,
+   "fixes_tagged": 18,
+   "fixes_sashiko": 0,
+   "fixes_either": 18,
+   "authors_tagged": 19,
+   "pct_tagged": 0.87,
+   "pct_fixes_tagged": 0.85,
+   "pct_fixes_either": 0.85
+  },
+  "2026-04": {
+   "commits": 6516,
+   "tagged": 139,
+   "fixes": 1791,
+   "fixes_tagged": 66,
+   "fixes_sashiko": 5,
+   "fixes_either": 71,
+   "authors_tagged": 27,
+   "pct_tagged": 2.13,
+   "pct_fixes_tagged": 3.69,
+   "pct_fixes_either": 3.96
+  },
+  "2026-05": {
+   "commits": 8230,
+   "tagged": 334,
+   "fixes": 2248,
+   "fixes_tagged": 145,
+   "fixes_sashiko": 44,
+   "fixes_either": 175,
+   "authors_tagged": 91,
+   "pct_tagged": 4.06,
+   "pct_fixes_tagged": 6.45,
+   "pct_fixes_either": 7.78
+  },
+  "2026-06": {
+   "commits": 7723,
+   "tagged": 597,
+   "fixes": 2254,
+   "fixes_tagged": 282,
+   "fixes_sashiko": 161,
+   "fixes_either": 348,
+   "authors_tagged": 115,
+   "pct_tagged": 7.73,
+   "pct_fixes_tagged": 12.51,
+   "pct_fixes_either": 15.44
+  },
+  "2026-07": {
+   "commits": 10257,
+   "tagged": 887,
+   "fixes": 3050,
+   "fixes_tagged": 422,
+   "fixes_sashiko": 138,
+   "fixes_either": 543,
+   "authors_tagged": 189,
+   "pct_tagged": 8.65,
+   "pct_fixes_tagged": 13.84,
+   "pct_fixes_either": 17.8
+  },
+  "2026-08": {
+   "commits": 7952,
+   "tagged": 866,
+   "fixes": 2672,
+   "fixes_tagged": 475,
+   "fixes_sashiko": 126,
+   "fixes_either": 557,
+   "authors_tagged": 214,
+   "pct_tagged": 10.89,
+   "pct_fixes_tagged": 17.78,
+   "pct_fixes_either": 20.85
+  },
+  "2026-09": {
+   "commits": 10793,
+   "tagged": 1721,
+   "fixes": 3573,
+   "fixes_tagged": 832,
+   "fixes_sashiko": 144,
+   "fixes_either": 956,
+   "authors_tagged": 343,
+   "pct_tagged": 15.95,
+   "pct_fixes_tagged": 23.29,
+   "pct_fixes_either": 26.76
+  },
+  "2026-10": {
+   "commits": 9419,
+   "tagged": 1740,
+   "fixes": 3600,
+   "fixes_tagged": 912,
+   "fixes_sashiko": 164,
+   "fixes_either": 1023,
+   "authors_tagged": 374,
+   "pct_tagged": 18.47,
+   "pct_fixes_tagged": 25.33,
+   "pct_fixes_either": 28.42
+  }
+ },
+ "tagged_2026": 6370,
+ "tagged_authors": 883,
+ "top1_share": 4.4,
+ "top10_share": 29.7,
+ "authors_with_1_tagged": 374,
+ "tools": [
+  [
+   "Unnamed (\"LLM\")",
+   1931
+  ],
+  [
+   "Claude Code",
+   1787
+  ],
+  [
+   "GitHub Copilot",
+   700
+  ],
+  [
+   "Codex / OpenAI",
+   627
+  ],
+  [
+   "Antigravity",
+   343
+  ],
+  [
+   "Other",
+   292
+  ],
+  [
+   "Gemini CLI",
+   233
+  ],
+  [
+   "OpenCode",
+   190
+  ],
+  [
+   "Cursor",
+   177
+  ],
+  [
+   "Greg Kroah-Hartman's own tool",
+   90
+  ]
+ ],
+ "resolve": {
+  "resolved": 10619,
+  "ambiguous": 0,
+  "not_in_history": 23854
+ },
+ "windows": {
+  "30": {
+   "cutoff": "2026-10-01",
+   "tagged": {
+    "n": 4736,
+    "k": 63,
+    "pct": 1.33
+   },
+   "untagged": {
+    "n": 69018,
+    "k": 1091,
+    "pct": 1.581
+   },
+   "tagged_rev": {
+    "n": 4736,
+    "k": 7,
+    "pct": 0.148
+   },
+   "untagged_rev": {
+    "n": 69018,
+    "k": 99,
+    "pct": 0.143
+   },
+   "tagged_fix": {
+    "n": 2299,
+    "k": 24,
+    "pct": 1.044
+   },
+   "untagged_fix": {
+    "n": 18339,
+    "k": 227,
+    "pct": 1.238
+   },
+   "tagged_nonfix": {
+    "n": 2437,
+    "k": 39,
+    "pct": 1.6
+   },
+   "untagged_nonfix": {
+    "n": 50679,
+    "k": 864,
+    "pct": 1.705
+   }
+  },
+  "60": {
+   "cutoff": "2026-09-01",
+   "tagged": {
+    "n": 2949,
+    "k": 52,
+    "pct": 1.763
+   },
+   "untagged": {
+    "n": 59711,
+    "k": 1569,
+    "pct": 2.628
+   },
+   "tagged_rev": {
+    "n": 2949,
+    "k": 5,
+    "pct": 0.17
+   },
+   "untagged_rev": {
+    "n": 59711,
+    "k": 112,
+    "pct": 0.188
+   },
+   "tagged_fix": {
+    "n": 1440,
+    "k": 26,
+    "pct": 1.806
+   },
+   "untagged_fix": {
+    "n": 15584,
+    "k": 301,
+    "pct": 1.931
+   },
+   "tagged_nonfix": {
+    "n": 1509,
+    "k": 26,
+    "pct": 1.723
+   },
+   "untagged_nonfix": {
+    "n": 44127,
+    "k": 1268,
+    "pct": 2.874
+   }
+  },
+  "90": {
+   "cutoff": "2026-08-02",
+   "tagged": {
+    "n": 2069,
+    "k": 57,
+    "pct": 2.755
+   },
+   "untagged": {
+    "n": 52495,
+    "k": 1839,
+    "pct": 3.503
+   },
+   "tagged_rev": {
+    "n": 2069,
+    "k": 4,
+    "pct": 0.193
+   },
+   "untagged_rev": {
+    "n": 52495,
+    "k": 126,
+    "pct": 0.24
+   },
+   "tagged_fix": {
+    "n": 948,
+    "k": 29,
+    "pct": 3.059
+   },
+   "untagged_fix": {
+    "n": 13322,
+    "k": 332,
+    "pct": 2.492
+   },
+   "tagged_nonfix": {
+    "n": 1121,
+    "k": 28,
+    "pct": 2.498
+   },
+   "untagged_nonfix": {
+    "n": 39173,
+    "k": 1507,
+    "pct": 3.847
+   }
+  }
+ },
+ "same_authors": {
+  "authors": 241,
+  "tagged": {
+   "n": 1891,
+   "k": 54,
+   "pct": 2.856
+  },
+  "untagged": {
+   "n": 6606,
+   "k": 247,
+   "pct": 3.739
+  },
+  "ratio": 0.764,
+  "ci95": [
+   0.52,
+   1.042
+  ]
+ },
+ "subsystem_matched": {
+  "tagged_matched": 1448,
+  "observed": 47,
+  "expected": 56.8
+ },
+ "month_standardised": {
+  "observed": 57,
+  "expected": 61.4
+ },
+ "by_month_90": {
+  "2026-08": {
+   "t": [
+    26,
+    0
+   ],
+   "u": [
+    165,
+    4
+   ]
+  },
+  "2026-07": {
+   "t": [
+    887,
+    26
+   ],
+   "u": [
+    9370,
+    283
+   ]
+  },
+  "2026-06": {
+   "t": [
+    597,
+    16
+   ],
+   "u": [
+    7126,
+    208
+   ]
+  },
+  "2026-05": {
+   "t": [
+    334,
+    9
+   ],
+   "u": [
+    7896,
+    190
+   ]
+  },
+  "2026-04": {
+   "t": [
+    139,
+    3
+   ],
+   "u": [
+    6377,
+    236
+   ]
+  },
+  "2026-03": {
+   "t": [
+    78,
+    2
+   ],
+   "u": [
+    8873,
+    343
+   ]
+  },
+  "2026-02": {
+   "t": [
+    7,
+    0
+   ],
+   "u": [
+    4532,
+    236
+   ]
+  },
+  "2026-01": {
+   "t": [
+    1,
+    1
+   ],
+   "u": [
+    8156,
+    339
+   ]
+  }
+ },
+ "type_standardised": {
+  "observed": 57,
+  "expected": 66.8
+ },
+ "verdict": "no more often",
+ "verdict_checks": {
+  "a_b_c_d_le": [
+   true,
+   true,
+   true,
+   true
+  ],
+  "ci_upper": 1.042
+ },
+ "fixes_of_tagged": {
+  "fixing_commits": 156,
+  "fixer_tagged": 65,
+  "fixer_sashiko": 3,
+  "same_author": 56
+ },
+ "bug_age": {
+  "tagged": {
+   "fixes": 3068,
+   "targets": 3242,
+   "median_years": 4.22,
+   "share_over_5y": 45.8,
+   "share_over_10y": 24.2,
+   "mean_years": 6.13,
+   "share_under_1y": 16.6,
+   "stable_pct": 46.9
+  },
+  "sashiko": {
+   "fixes": 534,
+   "targets": 539,
+   "median_years": 2.65,
+   "share_over_5y": 31.7,
+   "share_over_10y": 15.8,
+   "mean_years": 4.69,
+   "share_under_1y": 23.2,
+   "stable_pct": 38.6
+  },
+  "other": {
+   "fixes": 13795,
+   "targets": 14352,
+   "median_years": 2.52,
+   "share_over_5y": 33.3,
+   "share_over_10y": 13.5,
+   "mean_years": 4.37,
+   "share_under_1y": 30.1,
+   "stable_pct": 39.1
+  }
+ },
+ "bug_age_buckets": {
+  "tagged": [
+   16.6,
+   13.2,
+   24.4,
+   21.6,
+   24.2
+  ],
+  "sashiko": [
+   23.2,
+   16.5,
+   28.6,
+   16.0,
+   15.8
+  ],
+  "other": [
+   30.1,
+   15.0,
+   21.6,
+   19.8,
+   13.5
+  ]
+ },
+ "bug_age_labels": [
+  "< 1 year",
+  "1\u20132",
+  "2\u20135",
+  "5\u201310",
+  "10+"
+ ],
+ "oldest_tagged_fix": {
+  "years": 21.5,
+  "fix": "732e3e10234c",
+  "subject": "klist: avoid accesses after waking klist_remove()",
+  "bug": "8b0c250be489",
+  "bug_date": "2005-03-24"
+ }
+}

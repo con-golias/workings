@@ -1,0 +1,201 @@
+{
+ "subsystems_with_80_fixes": 41,
+ "top": [
+  {
+   "subsystem": "xfs",
+   "fixes": 243,
+   "tagged": 160,
+   "pct": 65.8,
+   "tagging_authors": 6,
+   "top_author": "Darrick J. Wong",
+   "top_author_tagged": 155
+  },
+  {
+   "subsystem": "input",
+   "fixes": 85,
+   "tagged": 52,
+   "pct": 61.2,
+   "tagging_authors": 8,
+   "top_author": "Dmitry Torokhov",
+   "top_author_tagged": 45
+  },
+  {
+   "subsystem": "nfsd",
+   "fixes": 130,
+   "tagged": 65,
+   "pct": 50.0,
+   "tagging_authors": 9,
+   "top_author": "Jeff Layton",
+   "top_author_tagged": 47
+  },
+  {
+   "subsystem": "power",
+   "fixes": 98,
+   "tagged": 38,
+   "pct": 38.8,
+   "tagging_authors": 14,
+   "top_author": "Linus Walleij",
+   "top_author_tagged": 13
+  },
+  {
+   "subsystem": "drm/xe",
+   "fixes": 86,
+   "tagged": 32,
+   "pct": 37.2,
+   "tagging_authors": 9,
+   "top_author": "Thomas Hellstr\u00f6m",
+   "top_author_tagged": 8
+  },
+  {
+   "subsystem": "dmaengine",
+   "fixes": 101,
+   "tagged": 34,
+   "pct": 33.7,
+   "tagging_authors": 5,
+   "top_author": "Linus Walleij",
+   "top_author_tagged": 25
+  },
+  {
+   "subsystem": "smb",
+   "fixes": 131,
+   "tagged": 44,
+   "pct": 33.6,
+   "tagging_authors": 21,
+   "top_author": "Diego Oliva",
+   "top_author_tagged": 8
+  },
+  {
+   "subsystem": "arm",
+   "fixes": 80,
+   "tagged": 24,
+   "pct": 30.0,
+   "tagging_authors": 6,
+   "top_author": "Rosen Penev",
+   "top_author_tagged": 9
+  },
+  {
+   "subsystem": "serial",
+   "fixes": 91,
+   "tagged": 27,
+   "pct": 29.7,
+   "tagging_authors": 11,
+   "top_author": "Karl Mehltretter",
+   "top_author_tagged": 6
+  },
+  {
+   "subsystem": "bluetooth",
+   "fixes": 298,
+   "tagged": 86,
+   "pct": 28.9,
+   "tagging_authors": 36,
+   "top_author": "Cen Zhang",
+   "top_author_tagged": 13
+  },
+  {
+   "subsystem": "alsa",
+   "fixes": 271,
+   "tagged": 77,
+   "pct": 28.4,
+   "tagging_authors": 30,
+   "top_author": "Cen Zhang",
+   "top_author_tagged": 17
+  },
+  {
+   "subsystem": "drm/amd/display",
+   "fixes": 181,
+   "tagged": 50,
+   "pct": 27.6,
+   "tagging_authors": 14,
+   "top_author": "Harry Wentland",
+   "top_author_tagged": 16
+  }
+ ],
+ "bottom": [
+  {
+   "subsystem": "kvm",
+   "fixes": 474,
+   "tagged": 33,
+   "pct": 7.0,
+   "tagging_authors": 14,
+   "top_author": "Fuad Tabba",
+   "top_author_tagged": 9
+  },
+  {
+   "subsystem": "net/sched",
+   "fixes": 123,
+   "tagged": 7,
+   "pct": 5.7,
+   "tagging_authors": 5,
+   "top_author": "Samuel Moelius",
+   "top_author_tagged": 3
+  },
+  {
+   "subsystem": "net",
+   "fixes": 692,
+   "tagged": 27,
+   "pct": 3.9,
+   "tagging_authors": 20,
+   "top_author": "Linus Walleij",
+   "top_author_tagged": 5
+  },
+  {
+   "subsystem": "bpf",
+   "fixes": 340,
+   "tagged": 7,
+   "pct": 2.1,
+   "tagging_authors": 5,
+   "top_author": "Jose Fernandez (Anthropic)",
+   "top_author_tagged": 2
+  },
+  {
+   "subsystem": "acpi",
+   "fixes": 88,
+   "tagged": 1,
+   "pct": 1.1,
+   "tagging_authors": 1,
+   "top_author": "Slavin Liu",
+   "top_author_tagged": 1
+  },
+  {
+   "subsystem": "batman-adv",
+   "fixes": 86,
+   "tagged": 0,
+   "pct": 0.0,
+   "tagging_authors": 0,
+   "top_author": null,
+   "top_author_tagged": 0
+  }
+ ],
+ "kinds": {
+  "Use-after-free": {
+   "tagged": 3.1,
+   "sashiko": 4.3,
+   "other": 2.7
+  },
+  "NULL dereference": {
+   "tagged": 1.9,
+   "sashiko": 1.5,
+   "other": 2.7
+  },
+  "Memory leak": {
+   "tagged": 3.2,
+   "sashiko": 6.9,
+   "other": 4.9
+  },
+  "Race or locking": {
+   "tagged": 3.5,
+   "sashiko": 8.1,
+   "other": 4.5
+  },
+  "Out of bounds or overflow": {
+   "tagged": 6.4,
+   "sashiko": 2.6,
+   "other": 3.5
+  }
+ },
+ "kinds_n": {
+  "tagged": 3068,
+  "sashiko": 534,
+  "other": 13795
+ }
+}

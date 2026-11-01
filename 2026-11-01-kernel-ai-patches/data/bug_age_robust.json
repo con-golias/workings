@@ -1,0 +1,11 @@
+{
+ "tagged_all": 4.22,
+ "tagged_without_top10": 3.85,
+ "other_all": 2.52,
+ "same_authors_n": 329,
+ "same_authors_tagged": 4.75,
+ "same_authors_untagged": 3.66,
+ "per_author_median_tagged": 3.39,
+ "per_author_median_other": 2.51,
+ "share_over_10y_without_top10": 21.5
+}
