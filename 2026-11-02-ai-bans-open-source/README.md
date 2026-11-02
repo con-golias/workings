@@ -1,7 +1,7 @@
 # Research: open-source projects that banned AI code, 2018–2026
 
 > The evidence behind the X Article *"Banning AI code didn't cost open-source projects their contributors. It didn't
-> keep AI out either"* by Konstantinos Gkolias (@con_golias). Data read on 2 November 2026.
+> keep AI out either"* by Konstantinos Gkolias (@con_golias), published 2 Nov 2026 ([the article](https://x.com/con_golias/status/2117281178868666575)). Data read on 2 November 2026.
 
 ## The question
 
