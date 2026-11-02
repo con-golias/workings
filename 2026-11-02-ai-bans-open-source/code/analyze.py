@@ -1,7 +1,7 @@
 # New and active contributors per half-year, before and after each AI ban, against projects without a ban.
 #   python analyze.py <dir with <repo>.log files> <out summary.json>
 # Each .log line: author_email|author_name|author_date|commit_date (git log --format='%ae|%an|%ad|%cd' --date=short)
-# Rules are pre-registered in ../NOTES.md: history from 2018-01-01, 2018-2019 burn-in, bots excluded,
+# Rules are pre-registered in ../README.md (Design): history from 2018-01-01, 2018-2019 burn-in, bots excluded,
 # effect = (banned project's after/before ratio) / (mean ratio of the comparison projects, same calendar halves).
 import sys, os, re, json, collections
 

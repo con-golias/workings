@@ -1,4 +1,4 @@
-# Placebo check (post-hoc amendment, disclosed in ../NOTES.md): the same effect as analyze.py, with a fake ban date
+# Placebo check (post-hoc amendment, disclosed in ../README.md): the same effect as analyze.py, with a fake ban date
 # two years before the real one, four full halves before it and four full halves after it (all before the real ban).
 #   python placebo.py <dir with <repo>.log files> <out placebo.json>
 import collections, json, os, re, sys
