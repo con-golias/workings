@@ -1,5 +1,5 @@
 # Merges summary.json (analyze.py), placebo.json (placebo.py) and trailers.json (trailers.py) into numbers.json, with
-# the derived values the text uses, so render.py resolves every {{token}} and check_numbers.py checks one file.
+# the derived values the article cites, so every number in it comes from one file.
 #   python numbers.py
 import json, os
 
