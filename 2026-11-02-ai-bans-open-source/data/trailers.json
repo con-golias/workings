@@ -1,0 +1,1929 @@
+{
+ "banned": {
+  "qemu_qemu": {
+   "ban": "2025-06-24",
+   "commits_after": 13050,
+   "ai_commits": 30,
+   "authors": [
+    [
+     "Warner Losh",
+     30
+    ]
+   ],
+   "commits": [
+    {
+     "sha": "579261b36094",
+     "author": "Warner Losh",
+     "date": "2026-09-17",
+     "subject": "bsd-user: Add scheduler, cpuset, kmod, and misc syscall dispatch",
+     "trailers": [
+      "Assisted-by: Claude Opus 4.6 (1M context)"
+     ]
+    },
+    {
+     "sha": "45434469d1ef",
+     "author": "Warner Losh",
+     "date": "2026-09-17",
+     "subject": "bsd-user: Add scheduler and cpuset functions to os-misc.h",
+     "trailers": [
+      "Assisted-by: Claude Opus 4.6 (1M context)"
+     ]
+    },
+    {
+     "sha": "ebe00ad8fbaa",
+     "author": "Warner Losh",
+     "date": "2026-09-17",
+     "subject": "bsd-user: Add extended attribute and ACL system call dispatch",
+     "trailers": [
+      "Assisted-by: Claude Opus 4.6 (1M context)"
+     ]
+    },
+    {
+     "sha": "78c0953502d8",
+     "author": "Warner Losh",
+     "date": "2026-09-17",
+     "subject": "bsd-user: Add os-extattr.c with ACL conversion functions",
+     "trailers": [
+      "Assisted-by: Claude Opus 4.6 (1M context)"
+     ]
+    },
+    {
+     "sha": "08aa32d881ae",
+     "author": "Warner Losh",
+     "date": "2026-09-17",
+     "subject": "bsd-user: Add ACL system call shims to os-extattr.h",
+     "trailers": [
+      "Assisted-by: Claude Opus 4.6 (1M context)"
+     ]
+    },
+    {
+     "sha": "061947025786",
+     "author": "Warner Losh",
+     "date": "2026-09-17",
+     "subject": "bsd-user: Add link and list extattr functions to os-extattr.h",
+     "trailers": [
+      "Assisted-by: Claude Opus 4.6 (1M context)"
+     ]
+    },
+    {
+     "sha": "9932e87be3de",
+     "author": "Warner Losh",
+     "date": "2026-09-17",
+     "subject": "bsd-user: Add os-extattr.h with file and fd extattr functions",
+     "trailers": [
+      "Assisted-by: Claude Opus 4.6 (1M context)"
+     ]
+    },
+    {
+     "sha": "439de40a1c05",
+     "author": "Warner Losh",
+     "date": "2026-09-17",
+     "subject": "bsd-user: Add thread system call dispatch",
+     "trailers": [
+      "Assisted-by: Claude Opus 4.6 (1M context)"
+     ]
+    },
+    {
+     "sha": "c035f0f1b3e1",
+     "author": "Warner Losh",
+     "date": "2026-09-17",
+     "subject": "bsd-user: Add do_freebsd__umtx_op to os-thread.h",
+     "trailers": [
+      "Assisted-by: Claude Opus 4.6 (1M context)"
+     ]
+    },
+    {
+     "sha": "c7a9d2fd95ef",
+     "author": "Warner Losh",
+     "date": "2026-09-17",
+     "subject": "bsd-user: Add os-thread.h with thr and context functions",
+     "trailers": [
+      "Assisted-by: Claude Opus 4.6 (1M context)"
+     ]
+    },
+    {
+     "sha": "c598b446c1ff",
+     "author": "Warner Losh",
+     "date": "2026-09-17",
+     "subject": "bsd-user: Add cpu_copy and make init_task_state non-static",
+     "trailers": [
+      "Assisted-by: Claude Opus 4.6 (1M context)"
+     ]
+    },
+    {
+     "sha": "e3c8f6fad39f",
+     "author": "Warner Losh",
+     "date": "2026-09-17",
+     "subject": "bsd-user: Add time system call dispatch",
+     "trailers": [
+      "Assisted-by: Claude Opus 4.6 (1M context)"
+     ]
+    },
+    {
+     "sha": "8f622c03432f",
+     "author": "Warner Losh",
+     "date": "2026-09-17",
+     "subject": "bsd-user: Add os-time.c and time-related type definitions",
+     "trailers": [
+      "Assisted-by: Claude Opus 4.6 (1M context)"
+     ]
+    },
+    {
+     "sha": "613018679dfb",
+     "author": "Warner Losh",
+     "date": "2026-09-17",
+     "subject": "bsd-user: Add sigtimedwait, itimer, and futimens to os-time.h",
+     "trailers": [
+      "Assisted-by: Claude Opus 4.6 (1M context)"
+     ]
+    },
+    {
+     "sha": "e63dc39dd9fd",
+     "author": "Warner Losh",
+     "date": "2026-09-17",
+     "subject": "bsd-user: Add kqueue and kevent functions to os-time.h",
+     "trailers": [
+      "Assisted-by: Claude Opus 4.6 (1M context)"
+     ]
+    },
+    {
+     "sha": "e0d96adb77f2",
+     "author": "Warner Losh",
+     "date": "2026-09-17",
+     "subject": "bsd-user: Add select, pselect, and ppoll to os-time.h",
+     "trailers": [
+      "Assisted-by: Claude Opus 4.6 (1M context)"
+     ]
+    },
+    {
+     "sha": "58ebc013e609",
+     "author": "Warner Losh",
+     "date": "2026-09-17",
+     "subject": "bsd-user: Add utimes, futimes, and ktimer functions to os-time.h",
+     "trailers": [
+      "Assisted-by: Claude Opus 4.6 (1M context)"
+     ]
+    },
+    {
+     "sha": "15461df2a82c",
+     "author": "Warner Losh",
+     "date": "2026-09-17",
+     "subject": "bsd-user: Add os-time.h with clock and time-of-day functions",
+     "trailers": [
+      "Assisted-by: Claude Opus 4.6 (1M context)"
+     ]
+    },
+    {
+     "sha": "d0d525895ce1",
+     "author": "Warner Losh",
+     "date": "2026-09-17",
+     "subject": "bsd-user: Add socket system call dispatch",
+     "trailers": [
+      "Assisted-by: Claude Opus 4.6 (1M context)"
+     ]
+    },
+    {
+     "sha": "b5f5b89fd5f4",
+     "author": "Warner Losh",
+     "date": "2026-09-17",
+     "subject": "bsd-user: Add os-socket.[ch] sendmsg, recvmsg and cmsg",
+     "trailers": [
+      "Assisted-by: Claude Opus 4.6 (1M context)"
+     ]
+    },
+    {
+     "sha": "f9636bbce8de",
+     "author": "Warner Losh",
+     "date": "2026-09-17",
+     "subject": "bsd-user: Add FreeBSD socket system calls",
+     "trailers": [
+      "Assisted-by: Claude Opus 4.6 (1M context)"
+     ]
+    },
+    {
+     "sha": "7fa2e0319b46",
+     "author": "Warner Losh",
+     "date": "2026-09-17",
+     "subject": "bsd-user: Add socket shims socketpair through shutdown",
+     "trailers": [
+      "Assisted-by: Claude Opus 4.6 (1M context)"
+     ]
+    },
+    {
+     "sha": "34c959d2a21d",
+     "author": "Warner Losh",
+     "date": "2026-09-17",
+     "subject": "bsd-user: Add bsd-socket.h with bind through getsockname",
+     "trailers": [
+      "Assisted-by: Claude Opus 4.6 (1M context)"
+     ]
+    },
+    {
+     "sha": "1f4afa2fac11",
+     "author": "Warner Losh",
+     "date": "2026-09-17",
+     "subject": "bsd-user: Add FreeBSD socket helpers and sockaddr conversion",
+     "trailers": [
+      "Assisted-by: Claude Opus 4.6 (1M context)"
+     ]
+    },
+    {
+     "sha": "612f7fff07de",
+     "author": "Warner Losh",
+     "date": "2026-09-17",
+     "subject": "bsd-user: Add poll, poll2, lseek, pipe, and swap system call shims",
+     "trailers": [
+      "Assisted-by: Claude Opus 4.6 (1M context)"
+     ]
+    },
+    {
+     "sha": "9404399dcbfe",
+     "author": "Warner Losh",
+     "date": "2026-09-17",
+     "subject": "bsd-user: Add os-file.h with chflagsat, close_range, and more",
+     "trailers": [
+      "Assisted-by: Claude Opus 4.6 (1M context)"
+     ]
+    },
+    {
+     "sha": "bee70cc4485d",
+     "author": "Warner Losh",
+     "date": "2026-09-17",
+     "subject": "bsd-user: Add signal system call dispatch",
+     "trailers": [
+      "Assisted-by: Claude Opus 4.6 (1M context)"
+     ]
+    },
+    {
+     "sha": "67568c862e2d",
+     "author": "Warner Losh",
+     "date": "2026-09-17",
+     "subject": "bsd-user: Add signal shims sigwait through kill and os-signal.h",
+     "trailers": [
+      "Assisted-by: Claude Opus 4.6 (1M context)"
+     ]
+    },
+    {
+     "sha": "1ed3a969e539",
+     "author": "Warner Losh",
+     "date": "2026-09-17",
+     "subject": "bsd-user: Add bsd-signal.h with sigaction through sigreturn",
+     "trailers": [
+      "Assisted-by: Claude Opus 4.6 (1M context)"
+     ]
+    },
+    {
+     "sha": "aae3d5018713",
+     "author": "Warner Losh",
+     "date": "2026-09-17",
+     "subject": "bsd-user: Rename cpu_env to env throughout bsd-user",
+     "trailers": [
+      "Assisted-by: Claude Opus 4.6 (1M context)"
+     ]
+    }
+   ]
+  },
+  "NetBSD_src": {
+   "ban": "2024-05-01",
+   "commits_after": 11373,
+   "ai_commits": 1,
+   "authors": [
+    [
+     "christos",
+     1
+    ]
+   ],
+   "commits": [
+    {
+     "sha": "f3b327fa6f8b",
+     "author": "christos",
+     "date": "2026-06-19",
+     "subject": "Import bind 9.20.24 (previous was 9.20.23)",
+     "trailers": [
+      "Assisted-by: Claude:claude-opus-4-7 [GL #6013] [GL !12074]"
+     ]
+    }
+   ]
+  },
+  "gcc-mirror_gcc": {
+   "ban": "2026-07-29",
+   "commits_after": 3028,
+   "ai_commits": 164,
+   "authors": [
+    [
+     "Jerry DeLisle",
+     38
+    ],
+    [
+     "Dominic P",
+     27
+    ],
+    [
+     "Yongqiang Tian",
+     14
+    ],
+    [
+     "Igor Shevlyakov",
+     14
+    ],
+    [
+     "Andrew MacLeod",
+     9
+    ],
+    [
+     "Jeff Law",
+     8
+    ],
+    [
+     "Pan Li",
+     8
+    ],
+    [
+     "Richard Biener",
+     6
+    ],
+    [
+     "Utkarsh Bahuguna",
+     6
+    ],
+    [
+     "Andrew Stubbs",
+     5
+    ],
+    [
+     "Uros Bizjak",
+     4
+    ],
+    [
+     "Jonathan Wakely",
+     3
+    ],
+    [
+     "Aldy Hernandez",
+     3
+    ],
+    [
+     "Christopher Albert",
+     3
+    ],
+    [
+     "Hugo Beauz\u00e9e-Luyssen",
+     2
+    ],
+    [
+     "wangjue",
+     2
+    ],
+    [
+     "Steven Sudit",
+     2
+    ],
+    [
+     "Paul-Antoine Arras",
+     1
+    ],
+    [
+     "Michael Morrell",
+     1
+    ],
+    [
+     "Thomas Schwinge",
+     1
+    ],
+    [
+     "Kewen Lin",
+     1
+    ],
+    [
+     "Jason Merrill",
+     1
+    ],
+    [
+     "Bohan Lei",
+     1
+    ],
+    [
+     "Kyrylo Tkachov",
+     1
+    ],
+    [
+     "liuhongt",
+     1
+    ],
+    [
+     "Alexey Klimkin",
+     1
+    ],
+    [
+     "Luke Zhuang",
+     1
+    ]
+   ],
+   "commits": [
+    {
+     "sha": "9ca1edea42f6",
+     "author": "Andrew Stubbs",
+     "date": "2026-11-02",
+     "subject": "combine, amdgcn: Fix ICE truncating wide vectors; allow packed accesses [PR122583]",
+     "trailers": [
+      "Assisted-By: Claude Opus 5.5"
+     ]
+    },
+    {
+     "sha": "da8eaee29507",
+     "author": "Jerry DeLisle",
+     "date": "2026-11-01",
+     "subject": "libgfortran: [PR127751] caf_shmem: report a full table of coarray ids",
+     "trailers": [
+      "Assisted-by: Claude Opus 5.5"
+     ]
+    },
+    {
+     "sha": "0235a09b8220",
+     "author": "Jerry DeLisle",
+     "date": "2026-11-01",
+     "subject": "libgfortran: [PR127751] caf_shmem: catch overflowing coarray sizes",
+     "trailers": [
+      "Assisted-by: Claude Opus 5.5"
+     ]
+    },
+    {
+     "sha": "b27f5e3c5d98",
+     "author": "Yongqiang Tian",
+     "date": "2026-11-01",
+     "subject": "[PATCH] tree-cfg: Ignore debug stmts when checking coverage nops [PR128346]",
+     "trailers": [
+      "Assisted-by: OpenAI Codex 5.6 Sol."
+     ]
+    },
+    {
+     "sha": "44c0f794dd41",
+     "author": "Richard Biener",
+     "date": "2026-10-30",
+     "subject": "tree-optimization/128267 - fix IV update of vect_step_op_sh{lr}",
+     "trailers": [
+      "Assisted-By: Claude Opus 5.5"
+     ]
+    },
+    {
+     "sha": "ef10d5597438",
+     "author": "Andrew Stubbs",
+     "date": "2026-10-30",
+     "subject": "amdgcn: Align \"omp simd array\" variables, and cap vector alignment",
+     "trailers": [
+      "Assisted-By: Claude Opus 5.5"
+     ]
+    },
+    {
+     "sha": "08f4049fce93",
+     "author": "Andrew Stubbs",
+     "date": "2026-10-30",
+     "subject": "amdgcn, libgomp: Avoid power-of-two stack stride in GCN plugin",
+     "trailers": [
+      "Assisted-By: Claude Opus 5.5"
+     ]
+    },
+    {
+     "sha": "cdc06c5d808d",
+     "author": "Uros Bizjak",
+     "date": "2026-10-30",
+     "subject": "i386: Use separate unspecs for CRC32 widths [PR128310]",
+     "trailers": [
+      "Assisted-by: Claude Sonnet 5.5"
+     ]
+    },
+    {
+     "sha": "b7e3114e8174",
+     "author": "Uros Bizjak",
+     "date": "2026-10-30",
+     "subject": "i386: Emit REG_CFA_RESTORE in DRAP frames even in the red zone [PR128270]",
+     "trailers": [
+      "Assisted-by: Claude Sonnet 5.5"
+     ]
+    },
+    {
+     "sha": "e33129b871c3",
+     "author": "Jerry DeLisle",
+     "date": "2026-10-29",
+     "subject": "fortran: [PR126968] Make inferred ASSOCIATE type guess target-independent",
+     "trailers": [
+      "Assisted-by: Claude Opus 5.5"
+     ]
+    },
+    {
+     "sha": "17337464cf33",
+     "author": "Paul-Antoine Arras",
+     "date": "2026-10-29",
+     "subject": "ivopts: Count register pressure in hard registers, not values",
+     "trailers": [
+      "Assisted-by: Claude Opus 5.5 (testcases)"
+     ]
+    },
+    {
+     "sha": "c52ff9699b42",
+     "author": "Andrew Stubbs",
+     "date": "2026-10-29",
+     "subject": "amdgcn, libgomp: Fix async placeholder race in GCN plugin",
+     "trailers": [
+      "Assisted-By: Claude Opus 5.5"
+     ]
+    },
+    {
+     "sha": "373c7598a996",
+     "author": "Uros Bizjak",
+     "date": "2026-10-29",
+     "subject": "i386: Vectorize _Float16 <-> float conversions with F16C and AVX512F [PR122382]",
+     "trailers": [
+      "Assisted-by: Claude Sonnet 5.5"
+     ]
+    },
+    {
+     "sha": "56a683e3987c",
+     "author": "Michael Morrell",
+     "date": "2026-10-28",
+     "subject": "testsuite: Wait for forked children in time-profiler-2.c and gcov-pr86536.c [PR111298]",
+     "trailers": [
+      "Assisted-by: Claude Opus 5.5"
+     ]
+    },
+    {
+     "sha": "4095f6869384",
+     "author": "Utkarsh Bahuguna",
+     "date": "2026-10-28",
+     "subject": "gccrs: Report non-exhaustive matches as E0004",
+     "trailers": [
+      "Assisted-by: Claude Opus 5.5 (Anthropic)"
+     ]
+    },
+    {
+     "sha": "e84bd344499c",
+     "author": "Utkarsh Bahuguna",
+     "date": "2026-10-28",
+     "subject": "gccrs: Only add the requested auto trait when probing for a trait",
+     "trailers": [
+      "Assisted-by: Claude Opus 5.5 (Anthropic)"
+     ]
+    },
+    {
+     "sha": "b6a0e55603f4",
+     "author": "Utkarsh Bahuguna",
+     "date": "2026-10-28",
+     "subject": "gccrs: Resolve 2015 use paths from the crate root",
+     "trailers": [
+      "Assisted-by: Claude Opus 5.5 (Anthropic)"
+     ]
+    },
+    {
+     "sha": "edbdafd86889",
+     "author": "Utkarsh Bahuguna",
+     "date": "2026-10-28",
+     "subject": "gccrs: Fix ICE on rest patterns in enum tuple variants",
+     "trailers": [
+      "Assisted-by: Claude (Opus 5.5) for tests."
+     ]
+    },
+    {
+     "sha": "c84eccd00a5f",
+     "author": "Utkarsh Bahuguna",
+     "date": "2026-10-28",
+     "subject": "gccrs: Parse const blocks at the start of a statement",
+     "trailers": [
+      "Assisted-by: Claude (Opus 5.5) for tests."
+     ]
+    },
+    {
+     "sha": "c3883aa2e8c0",
+     "author": "Andrew MacLeod",
+     "date": "2026-10-28",
+     "subject": "Unify alignment info and range bitmask",
+     "trailers": [
+      "Assisted-by: GPT-6.1-Sol"
+     ]
+    },
+    {
+     "sha": "9a56435e6d00",
+     "author": "Andrew MacLeod",
+     "date": "2026-10-28",
+     "subject": "Eliminate ptr_info_def structure",
+     "trailers": [
+      "Assisted-by: Claude Opus 5",
+      "Assisted-by: GPT-6.1-Sol"
+     ]
+    },
+    {
+     "sha": "5100739419bf",
+     "author": "Andrew MacLeod",
+     "date": "2026-10-28",
+     "subject": "constify and abstract pt_solution API.",
+     "trailers": [
+      "Assisted-by: Claude Opus 5"
+     ]
+    },
+    {
+     "sha": "c7fbae947580",
+     "author": "Andrew MacLeod",
+     "date": "2026-10-28",
+     "subject": "Adjust ptr_info_align API to take an ssa name",
+     "trailers": [
+      "Assisted-by: Claude Opus 5"
+     ]
+    },
+    {
+     "sha": "640cc22a4422",
+     "author": "Jerry DeLisle",
+     "date": "2026-10-28",
+     "subject": "fortran: Fix alloc_pool_exhausted_1 on 32-bit targets",
+     "trailers": [
+      "Assisted-by: Claude Opus 5.5"
+     ]
+    },
+    {
+     "sha": "2563111c38bc",
+     "author": "Igor Shevlyakov",
+     "date": "2026-10-27",
+     "subject": "testsuite: Skip pr128080.c at -O0",
+     "trailers": [
+      "Assisted-by: Claude Opus 5.5"
+     ]
+    },
+    {
+     "sha": "400a1d553697",
+     "author": "Igor Shevlyakov",
+     "date": "2026-10-27",
+     "subject": "gimple-fold: Let callers say whether comparisons short-circuit [PR127786]",
+     "trailers": [
+      "Assisted-by: Claude Opus 5.5"
+     ]
+    },
+    {
+     "sha": "e53139a0ee00",
+     "author": "Igor Shevlyakov",
+     "date": "2026-10-26",
+     "subject": "match.pd: Merge VEC_PERMs whose combined inputs are only a and b",
+     "trailers": [
+      "Assisted-by: Claude Opus 5.5"
+     ]
+    },
+    {
+     "sha": "f630eb20113f",
+     "author": "Igor Shevlyakov",
+     "date": "2026-10-26",
+     "subject": "match.pd: Don't fold wrapping signed (x + y) >> 1 to AVG_FLOOR [PR128142]",
+     "trailers": [
+      "Assisted-by: Claude Opus 5.5"
+     ]
+    },
+    {
+     "sha": "7df74ad63dc0",
+     "author": "Jeff Law",
+     "date": "2026-10-26",
+     "subject": "[RISC-V] Fix/simplify patterns for masked comparisons against zero",
+     "trailers": [
+      "Assisted-By: Claude for bug discovery and attempts to produce test"
+     ]
+    },
+    {
+     "sha": "e90131c387a6",
+     "author": "Jeff Law",
+     "date": "2026-10-26",
+     "subject": "[RISC-V] Fix various length problems in RISC-V port",
+     "trailers": [
+      "Assisted-By: Claude, bug discovery"
+     ]
+    },
+    {
+     "sha": "d6d1dedff578",
+     "author": "Jerry DeLisle",
+     "date": "2026-10-26",
+     "subject": "fortran: [PR126968] ICE for wrongly guessed inferred ASSOCIATE type",
+     "trailers": [
+      "Assisted-by: Claude Opus 5.5"
+     ]
+    },
+    {
+     "sha": "40df8ff06970",
+     "author": "Yongqiang Tian",
+     "date": "2026-10-26",
+     "subject": "tree-optimization: Preserve debug correctness in CRC loop replacement [PR127716]",
+     "trailers": [
+      "Assisted-by: OpenAI Codex 5.6 Sol, co-reviewed by Claude and Yongqiang Tian."
+     ]
+    },
+    {
+     "sha": "1205507f6f35",
+     "author": "Jeff Law",
+     "date": "2026-10-25",
+     "subject": "[RISC-V] Fix long branch sequences for Andes extensions",
+     "trailers": [
+      "Assisted-By: Claude for bug discovery."
+     ]
+    },
+    {
+     "sha": "0ac3a264c967",
+     "author": "Jeff Law",
+     "date": "2026-10-25",
+     "subject": "[RISC-V] Remove unused and buggy pattern for testing >= 1",
+     "trailers": [
+      "Assisted-By: Claude for review of the .md file and generation of the RTL test"
+     ]
+    },
+    {
+     "sha": "858c0a7b7742",
+     "author": "Igor Shevlyakov",
+     "date": "2026-10-24",
+     "subject": "match.pd: Remove the ORDERED & NE to LTGT fold [PR127785]",
+     "trailers": [
+      "Assisted-by: Claude Opus 5.5"
+     ]
+    },
+    {
+     "sha": "a428c9c7cdea",
+     "author": "Igor Shevlyakov",
+     "date": "2026-10-24",
+     "subject": "match.pd: Keep the ORDERED & NE to LTGT fold quiet [PR127785]",
+     "trailers": [
+      "Assisted-by: Claude Opus 5.5"
+     ]
+    },
+    {
+     "sha": "f4c8d2716469",
+     "author": "Igor Shevlyakov",
+     "date": "2026-10-24",
+     "subject": "match.pd: Use ssizetype masks when merging VEC_PERMs [PR128080]",
+     "trailers": [
+      "Assisted-by: Claude Opus 5.5"
+     ]
+    },
+    {
+     "sha": "0e45dd7038c2",
+     "author": "Igor Shevlyakov",
+     "date": "2026-10-23",
+     "subject": "testsuite: Check the FLOAT_EXPR sink only where float selects expand",
+     "trailers": [
+      "Assisted-by: Claude Opus 5.5"
+     ]
+    },
+    {
+     "sha": "eb6649a97d7a",
+     "author": "Jerry DeLisle",
+     "date": "2026-10-23",
+     "subject": "fortran: [PR127731] Index pointer function results by their span",
+     "trailers": [
+      "Assisted-by: Claude Opus 5.5"
+     ]
+    },
+    {
+     "sha": "892195ef99cb",
+     "author": "Jeff Law",
+     "date": "2026-10-23",
+     "subject": "[RISC-V][PR target/121268] Fix splitter for pr121268",
+     "trailers": [
+      "Assisted-By: LLM for pattern review and testcase generation"
+     ]
+    },
+    {
+     "sha": "9d1f31a22fa5",
+     "author": "Thomas Schwinge",
+     "date": "2026-10-23",
+     "subject": "openmp c++: Temporary fix for some lambda mapping problems: More testing, XFAILed regressions [PR127",
+     "trailers": [
+      "Assisted-by: Anthropic Claude Opus 5.5"
+     ]
+    },
+    {
+     "sha": "0ab0aff01313",
+     "author": "Yongqiang Tian",
+     "date": "2026-10-22",
+     "subject": "[PATCH v2] combine: Ignore trailing debug insns when checking return values",
+     "trailers": [
+      "Assisted-by: OpenAI Codex 5.6 Sol, co-reviewed by Claude and Yongqiang Tian."
+     ]
+    },
+    {
+     "sha": "b922224de8e0",
+     "author": "Jerry DeLisle",
+     "date": "2026-10-22",
+     "subject": "libgfortran: [PR127973] caf_shmem: collectives report an exhausted pool",
+     "trailers": [
+      "Assisted-by: Claude Opus 5.5"
+     ]
+    },
+    {
+     "sha": "66e5e7655307",
+     "author": "Utkarsh Bahuguna",
+     "date": "2026-10-21",
+     "subject": "gccrs: Fix ICE with nested patterns in multi-field constructors",
+     "trailers": [
+      "Assisted-by: Claude (Opus 5.5)"
+     ]
+    },
+    {
+     "sha": "7f3d7bbf2c6a",
+     "author": "Igor Shevlyakov",
+     "date": "2026-10-20",
+     "subject": "match.pd: Recognise the signbit-based copysign idiom",
+     "trailers": [
+      "Assisted-by: Claude Opus 5.5"
+     ]
+    },
+    {
+     "sha": "48ae7b09bc6b",
+     "author": "Jeff Law",
+     "date": "2026-10-19",
+     "subject": "[PR target/127865][RISC-V] Refine selection of AOP for RISC-V",
+     "trailers": [
+      "Assisted-By: LLM for patch review"
+     ]
+    },
+    {
+     "sha": "bb6efe4d6905",
+     "author": "Igor Shevlyakov",
+     "date": "2026-10-19",
+     "subject": "middle-end: Fix VEC_PERM_EXPR merges of different-length vectors [PR127862]",
+     "trailers": [
+      "Assisted-by: Claude Opus 5.5"
+     ]
+    },
+    {
+     "sha": "5601e5ce49fa",
+     "author": "Jeff Law",
+     "date": "2026-10-19",
+     "subject": "[RISC-V] Fix two RISC-V bitmanip bugs spotted by LLM review",
+     "trailers": [
+      "Assisted-By: LLM for bug hunting in bitmanip.md and review of my patch."
+     ]
+    },
+    {
+     "sha": "4fb8fb67284a",
+     "author": "Igor Shevlyakov",
+     "date": "2026-10-19",
+     "subject": "match.pd: Sink FLOAT_EXPR/FIX_TRUNC_EXPR into VEC_COND_EXPR constant arms",
+     "trailers": [
+      "Assisted-by: Claude Opus 5.5"
+     ]
+    },
+    {
+     "sha": "89058eb24376",
+     "author": "Jerry DeLisle",
+     "date": "2026-10-18",
+     "subject": "libgfortran: [PR127738] caf_shmem: give every team its own id",
+     "trailers": [
+      "Assisted-by: Claude Opus 5.5"
+     ]
+    },
+    {
+     "sha": "936b982b9edf",
+     "author": "Jerry DeLisle",
+     "date": "2026-10-17",
+     "subject": "libgfortran: [PR127753] caf_shmem: do not leak the shared memory object",
+     "trailers": [
+      "Assisted-by: Claude Opus 5.5"
+     ]
+    },
+    {
+     "sha": "9f9ef0ebf257",
+     "author": "Jerry DeLisle",
+     "date": "2026-10-17",
+     "subject": "fortran: Pass ERRMSG= of collective subroutines by reference",
+     "trailers": [
+      "Assisted-by: Claude Opus 5.5"
+     ]
+    },
+    {
+     "sha": "f27da7423064",
+     "author": "Jerry DeLisle",
+     "date": "2026-10-17",
+     "subject": "libgfortran: caf_shmem: remove dead robust mutex setup",
+     "trailers": [
+      "Assisted-by: Claude Opus 5.5"
+     ]
+    },
+    {
+     "sha": "383e60c260ce",
+     "author": "Jerry DeLisle",
+     "date": "2026-10-17",
+     "subject": "libgfortran: [PR127751] caf_shmem: report exhausted shared memory pool",
+     "trailers": [
+      "Assisted-by: Claude Opus 5.5"
+     ]
+    },
+    {
+     "sha": "4af99f0796e6",
+     "author": "Jeff Law",
+     "date": "2026-10-17",
+     "subject": "[RISC-V] Fix LLM identified bugs in RISC-V bitmanip.md file",
+     "trailers": [
+      "Assisted-by: LLM (reviewing bitmanip.md for bugs, attempts to generate testcase"
+     ]
+    },
+    {
+     "sha": "ac3b21e53c4b",
+     "author": "Igor Shevlyakov",
+     "date": "2026-10-17",
+     "subject": "simplify-rtx: Do a subreg'd vector comparison in its operands' mode [PR127903]",
+     "trailers": [
+      "Assisted-by: Claude Opus 5.5"
+     ]
+    },
+    {
+     "sha": "1fe80b2edf85",
+     "author": "Jerry DeLisle",
+     "date": "2026-10-17",
+     "subject": "fortran: [PR127941] Fix invalid free in CLASS finalization wrapper",
+     "trailers": [
+      "Assisted-by: Claude Opus 5.5"
+     ]
+    },
+    {
+     "sha": "9d448830cc85",
+     "author": "Jerry DeLisle",
+     "date": "2026-10-16",
+     "subject": "fortran: [PR125747] Fix shadow-variable bugs for DO CONCURRENT/FORALL type-spec",
+     "trailers": [
+      "Assisted-by: Claude Opus 5.5"
+     ]
+    },
+    {
+     "sha": "3db0edb7331f",
+     "author": "Igor Shevlyakov",
+     "date": "2026-10-15",
+     "subject": "match.pd: Fix mode queries of VEC_PERM merge through view-convert [PR127882]",
+     "trailers": [
+      "Assisted-by: Claude Opus 5.5"
+     ]
+    },
+    {
+     "sha": "caab3df20acc",
+     "author": "Igor Shevlyakov",
+     "date": "2026-10-15",
+     "subject": "optabs: Reduce const permute selectors by the input length [PR127860]",
+     "trailers": [
+      "Assisted-by: Claude Opus 5.5"
+     ]
+    },
+    {
+     "sha": "3d0eda795006",
+     "author": "Kewen Lin",
+     "date": "2026-10-15",
+     "subject": "testsuite: Check LTO linkage for pi-based builtins",
+     "trailers": [
+      "Assisted-by: LLM"
+     ]
+    },
+    {
+     "sha": "df099a406fc3",
+     "author": "Yongqiang Tian",
+     "date": "2026-10-14",
+     "subject": "reorg: Ignore debug insns between consecutive labels [PR127796]",
+     "trailers": [
+      "Assisted-by: OpenAI Codex 5.6 Sol, co-reviewed by Claude and Yongqiang Tian."
+     ]
+    },
+    {
+     "sha": "125d0919fa1c",
+     "author": "Yongqiang Tian",
+     "date": "2026-10-14",
+     "subject": "resource: Ignore debug insns in find_basic_block [PR127726]",
+     "trailers": [
+      "Assisted-by: OpenAI Codex 5.6 Sol, co-reviewed by Claude and Yongqiang Tian."
+     ]
+    },
+    {
+     "sha": "38523a24316d",
+     "author": "Hugo Beauz\u00e9e-Luyssen",
+     "date": "2026-10-14",
+     "subject": "libstdc++: fix __cpp_lib_chrono for old-ABI-only builds",
+     "trailers": [
+      "Assisted-by: Claude (claude-sonnet-5)"
+     ]
+    },
+    {
+     "sha": "5d74e9640ebe",
+     "author": "Jerry DeLisle",
+     "date": "2026-10-13",
+     "subject": "libgfortran: [PR127837] Set END TEAM STAT= for stopped and failed images",
+     "trailers": [
+      "Assisted-by: Claude Opus 5.5"
+     ]
+    },
+    {
+     "sha": "05ac72feea40",
+     "author": "Jonathan Wakely",
+     "date": "2026-10-13",
+     "subject": "libstdc++: Fix missed atomic notifying operations [PR127757]",
+     "trailers": [
+      "Assisted-by: LLM"
+     ]
+    },
+    {
+     "sha": "6db085c8b79f",
+     "author": "Yongqiang Tian",
+     "date": "2026-10-13",
+     "subject": "[PATCH 2/2] jump: Ignore debug insns before BARRIER [PR127809]",
+     "trailers": [
+      "Assisted-by: OpenAI Codex 5.6 Sol, co-reviewed by Claude and Yongqiang Tian."
+     ]
+    },
+    {
+     "sha": "9d09d474b84b",
+     "author": "Yongqiang Tian",
+     "date": "2026-10-13",
+     "subject": "[PATCH 1/2] reorg: Ignore debug insns in BARRIER checks [PR127808]",
+     "trailers": [
+      "Assisted-by: OpenAI Codex 5.6 Sol, co-reviewed by Claude and Yongqiang Tian."
+     ]
+    },
+    {
+     "sha": "4d75e994d681",
+     "author": "Jerry DeLisle",
+     "date": "2026-10-11",
+     "subject": "fortran: [PR125762] Fix segfault for DATA pointer init to an array element",
+     "trailers": [
+      "Assisted-by: Claude Opus 5.5"
+     ]
+    },
+    {
+     "sha": "18b2b8c0b274",
+     "author": "Jerry DeLisle",
+     "date": "2026-10-11",
+     "subject": "fortran: [PR125760] Fix ICE in SELECT TYPE with array-section selector of a class array",
+     "trailers": [
+      "Assisted-by: Claude Opus 5.5"
+     ]
+    },
+    {
+     "sha": "21814c1470de",
+     "author": "Jerry DeLisle",
+     "date": "2026-10-11",
+     "subject": "fortran: [PR125724] ICE passing NULL() to an allocatable dummy argument",
+     "trailers": [
+      "Assisted-by: Claude Opus 5.5"
+     ]
+    },
+    {
+     "sha": "1da1aa07b7b7",
+     "author": "Jerry DeLisle",
+     "date": "2026-10-11",
+     "subject": "fortran: [PR125721] Fix ICE for a class pointer component in a structure constructor",
+     "trailers": [
+      "Assisted-by: Claude Opus 5.5"
+     ]
+    },
+    {
+     "sha": "78d6e3832905",
+     "author": "Jerry DeLisle",
+     "date": "2026-10-11",
+     "subject": "fortran: [PR125720] ICE assigning an allocatable character to an allocatable component",
+     "trailers": [
+      "Assisted-by: Claude Opus 5.5"
+     ]
+    },
+    {
+     "sha": "484a3f0c5f56",
+     "author": "Yongqiang Tian",
+     "date": "2026-10-09",
+     "subject": "[PATCH] reorg: Ignore debug insns in neighboring-insn lookups [PR127725]",
+     "trailers": [
+      "Assisted-by: OpenAI Codex 5.6 Sol, co-reviewed by Claude and Yongqiang Tian."
+     ]
+    },
+    {
+     "sha": "084169bfcc44",
+     "author": "Yongqiang Tian",
+     "date": "2026-10-09",
+     "subject": "[PATCH] reorg: Ignore debug insns in delete_prior_computation [PR127795]",
+     "trailers": [
+      "Assisted-by: OpenAI Codex 5.6 Sol, co-reviewed by Claude and Yongqiang Tian."
+     ]
+    },
+    {
+     "sha": "273bff9cc9fc",
+     "author": "Dominic P",
+     "date": "2026-10-08",
+     "subject": "vect: Account for peeling by masking in strided gather offsets",
+     "trailers": [
+      "Assisted-by: Claude Opus 5 (Anthropic)"
+     ]
+    },
+    {
+     "sha": "13920d004da3",
+     "author": "Jason Merrill",
+     "date": "2026-10-07",
+     "subject": "c++/modules: P1811: relaxing redefinition restrictions [PR99000]",
+     "trailers": [
+      "Assisted-by: GPT-5.6 Sol (p1811* testcases)"
+     ]
+    },
+    {
+     "sha": "4eda76ca63df",
+     "author": "Jerry DeLisle",
+     "date": "2026-10-06",
+     "subject": "libgfortran: [PR127684] caf_shmem: SYNC IMAGES hang on terminated image",
+     "trailers": [
+      "Assisted-by: Claude Opus 5.5"
+     ]
+    },
+    {
+     "sha": "962723b046ae",
+     "author": "Dominic P",
+     "date": "2026-10-05",
+     "subject": "c: Do not keep excess precision for the result of ! [PR123370]",
+     "trailers": [
+      "Assisted-by: Claude Opus 5 (Anthropic)"
+     ]
+    },
+    {
+     "sha": "30907bc0f06b",
+     "author": "Jerry DeLisle",
+     "date": "2026-10-04",
+     "subject": "fortran: [PR127724] ICE inserting coarray deallocation before END TEAM",
+     "trailers": [
+      "Assisted-by: Claude Opus 5.5"
+     ]
+    },
+    {
+     "sha": "7512b399cde4",
+     "author": "Andrew MacLeod",
+     "date": "2026-10-02",
+     "subject": "Change relation query to db style frontier search.",
+     "trailers": [
+      "Assisted-by: Claude Opus 5."
+     ]
+    },
+    {
+     "sha": "bd2a164d7fdf",
+     "author": "Jerry DeLisle",
+     "date": "2026-10-02",
+     "subject": "libgfortran: [PR127702] caf_shmem: do not take the size of a team from its barrier",
+     "trailers": [
+      "Assisted-by: Claude Opus 5"
+     ]
+    },
+    {
+     "sha": "791386dc22c9",
+     "author": "Yongqiang Tian",
+     "date": "2026-10-02",
+     "subject": "tree-optimization: Skip debug stmts before assigning UIDs [PR127687]",
+     "trailers": [
+      "Assisted-by: OpenAI Codex 5.6 Sol, co-reviewed by Claude and Yongqiang Tian."
+     ]
+    },
+    {
+     "sha": "0bb593752114",
+     "author": "Jerry DeLisle",
+     "date": "2026-10-02",
+     "subject": "libgfortran: [PR127347] caf_shmem: allocate a coarray part for every image",
+     "trailers": [
+      "Assisted-by: Claude Opus 5"
+     ]
+    },
+    {
+     "sha": "73309e444dea",
+     "author": "Jerry DeLisle",
+     "date": "2026-10-02",
+     "subject": "libgfortran: [PR127347] caf_shmem: drop images killed by a signal from teams",
+     "trailers": [
+      "Assisted-by: Claude Opus 5.5"
+     ]
+    },
+    {
+     "sha": "524847fec983",
+     "author": "Jonathan Wakely",
+     "date": "2026-10-02",
+     "subject": "libstdc++: Fix std::from_chars to not read past end of input [PR127666]",
+     "trailers": [
+      "Assisted-by: LLM"
+     ]
+    },
+    {
+     "sha": "9cfa3139f121",
+     "author": "Hugo Beauz\u00e9e-Luyssen",
+     "date": "2026-10-01",
+     "subject": "libstdc++: skip AIX fat-archive repackage for single-arch builds",
+     "trailers": [
+      "Assisted-by: Claude (claude-sonnet-5)"
+     ]
+    },
+    {
+     "sha": "a1b6e71e1e3a",
+     "author": "Jonathan Wakely",
+     "date": "2026-10-01",
+     "subject": "libstdc++: Fix typos and grammar in docs",
+     "trailers": [
+      "Assisted-by: LLM"
+     ]
+    },
+    {
+     "sha": "17c7aeffec9e",
+     "author": "Dominic P",
+     "date": "2026-10-01",
+     "subject": "forwprop: Reset the range of a rewritten MOD result [PR101179]",
+     "trailers": [
+      "Assisted-by: Claude Opus 5 (Anthropic)"
+     ]
+    },
+    {
+     "sha": "f4d32f612a3c",
+     "author": "Jerry DeLisle",
+     "date": "2026-09-30",
+     "subject": "fortran: [PR127671] Create the span of a dummy in its owning function",
+     "trailers": [
+      "Assisted-by: Claude Opus 5.5"
+     ]
+    },
+    {
+     "sha": "9edd8aa65a3c",
+     "author": "Dominic P",
+     "date": "2026-09-30",
+     "subject": "vect: Use the range of a loop-invariant operand when widening",
+     "trailers": [
+      "Assisted-by: Claude Opus 5 (Anthropic)"
+     ]
+    },
+    {
+     "sha": "c8aaf14bf688",
+     "author": "Dominic P",
+     "date": "2026-09-30",
+     "subject": "match.pd: Check that a - c does not wrap in minmax (a - c, b) + c [PR127103]",
+     "trailers": [
+      "Assisted-by: Claude Opus 5 (Anthropic)"
+     ]
+    },
+    {
+     "sha": "ef7d69b3a91c",
+     "author": "Uros Bizjak",
+     "date": "2026-09-30",
+     "subject": "i386: Do not over-align va_arg access to an over-aligned stack argument [PR127650]",
+     "trailers": [
+      "Assisted-by: Claude Sonnet 5.5"
+     ]
+    },
+    {
+     "sha": "ea52b53ad8fe",
+     "author": "Jerry DeLisle",
+     "date": "2026-09-29",
+     "subject": "fortran: [PR127187] Type parameter inquiry selector is not a variable",
+     "trailers": [
+      "Assisted-by: Claude Opus 5.5"
+     ]
+    },
+    {
+     "sha": "b04348794180",
+     "author": "Bohan Lei",
+     "date": "2026-09-28",
+     "subject": "RISC-V: Compute live ranges for pattern results",
+     "trailers": [
+      "Assisted-by: Codex"
+     ]
+    },
+    {
+     "sha": "728104624f30",
+     "author": "Andrew MacLeod",
+     "date": "2026-09-28",
+     "subject": "Correct inferred range application.",
+     "trailers": [
+      "Assisted-by: Claude Opus 5"
+     ]
+    },
+    {
+     "sha": "8361264a1be9",
+     "author": "Dominic P",
+     "date": "2026-09-27",
+     "subject": "doc: Remove the Windows CE target note from install.texi",
+     "trailers": [
+      "Assisted-by: Claude Opus 5 (Anthropic)"
+     ]
+    },
+    {
+     "sha": "19378ecd3851",
+     "author": "wangjue",
+     "date": "2026-09-27",
+     "subject": "[PATCH v2] vect: Look through promotions for SAT_TRUNC",
+     "trailers": [
+      "Assisted-by: GPT-6"
+     ]
+    },
+    {
+     "sha": "8b93d6bf0706",
+     "author": "Steven Sudit",
+     "date": "2026-09-27",
+     "subject": "c++: Don't re-base a folded string builtin on an offset argument [PR127218]",
+     "trailers": [
+      "Assisted-by: Claude Fable 5.1 (Anthropic)"
+     ]
+    },
+    {
+     "sha": "1dc037ec4216",
+     "author": "Dominic P",
+     "date": "2026-09-25",
+     "subject": "aarch64: Make the rounding shift-right pair reachable from generic code",
+     "trailers": [
+      "Assisted-by: Claude Opus 5 (Anthropic)"
+     ]
+    },
+    {
+     "sha": "238a3c104226",
+     "author": "Dominic P",
+     "date": "2026-09-25",
+     "subject": "aarch64: Match a rounding narrowing shift written at the source width",
+     "trailers": [
+      "Assisted-by: Claude Opus 5 (Anthropic)"
+     ]
+    },
+    {
+     "sha": "4b9034d6b240",
+     "author": "Dominic P",
+     "date": "2026-09-25",
+     "subject": "aarch64: express sqxtun and friends as us_truncate of smax",
+     "trailers": [
+      "Assisted-by: Claude Opus 5 (Anthropic)"
+     ]
+    },
+    {
+     "sha": "cb5a2055984a",
+     "author": "Dominic P",
+     "date": "2026-09-25",
+     "subject": "testsuite: derive the sign shift from sizeof in minmax-swar-1 and -2",
+     "trailers": [
+      "Assisted-by: Claude Opus 5 (Anthropic)"
+     ]
+    },
+    {
+     "sha": "273bbf231812",
+     "author": "Dominic P",
+     "date": "2026-09-25",
+     "subject": "testsuite: move the vector minmax tests to gcc.dg/vect",
+     "trailers": [
+      "Assisted-by: Claude Opus 5 (Anthropic)"
+     ]
+    },
+    {
+     "sha": "6ec6cf132ae1",
+     "author": "Dominic P",
+     "date": "2026-09-25",
+     "subject": "MAINTAINERS: Add myself to write after approval and DCO",
+     "trailers": [
+      "Assisted-by: Claude Opus 5 (Anthropic)"
+     ]
+    },
+    {
+     "sha": "909075f102c0",
+     "author": "Jerry DeLisle",
+     "date": "2026-09-25",
+     "subject": "libgfortran: [PR127347] caf_shmem: report a terminated image in a collective",
+     "trailers": [
+      "Assisted-by: Claude Opus 5"
+     ]
+    },
+    {
+     "sha": "c9239e63c63c",
+     "author": "Jerry DeLisle",
+     "date": "2026-09-24",
+     "subject": "libgfortran: [PR127347] caf_shmem: fix STAT= for stopped images",
+     "trailers": [
+      "Assisted-by: Claude Opus 5"
+     ]
+    },
+    {
+     "sha": "b9da28bcd9af",
+     "author": "Jerry DeLisle",
+     "date": "2026-09-24",
+     "subject": "libgfortran: [PR127347] caf_shmem: do not wait for terminated images",
+     "trailers": [
+      "Assisted-by: Claude Opus 5"
+     ]
+    },
+    {
+     "sha": "39a6b7de56eb",
+     "author": "Jerry DeLisle",
+     "date": "2026-09-24",
+     "subject": "libgfortran: [PR127347] caf_shmem: terminate all images on ERROR STOP",
+     "trailers": [
+      "Assisted-by: Claude Opus 5"
+     ]
+    },
+    {
+     "sha": "65f27f5a1562",
+     "author": "Kyrylo Tkachov",
+     "date": "2026-09-24",
+     "subject": "i386: Avoid duplicate ENDBR",
+     "trailers": [
+      "Assisted-by: OpenAI Codex 5.6 Sol"
+     ]
+    },
+    {
+     "sha": "4b78815305fa",
+     "author": "Andrew Stubbs",
+     "date": "2026-09-22",
+     "subject": "i386, rtl: Replace BASE_REG_CLASS macro family with a hook",
+     "trailers": [
+      "Assisted-by: Claude Sonnet 5"
+     ]
+    },
+    {
+     "sha": "eb311f861255",
+     "author": "liuhongt",
+     "date": "2026-09-21",
+     "subject": "tree-optimization/126486 - fold sign-changing conversions in IVOPTS",
+     "trailers": [
+      "Assisted-by: openai.gpt-5.6-sol xhigh <noreply@openai.com>"
+     ]
+    },
+    {
+     "sha": "471022256e47",
+     "author": "Richard Biener",
+     "date": "2026-09-21",
+     "subject": "tree-optimization/127515 - ivopts: fix bound when counter wraps on first increment",
+     "trailers": [
+      "Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>"
+     ]
+    },
+    {
+     "sha": "4bcae7a19c18",
+     "author": "Yongqiang Tian",
+     "date": "2026-09-20",
+     "subject": "[PATCH v2] ifcvt: Ignore debug insns in noce lifetime check [PR127423]",
+     "trailers": [
+      "Assisted-by: OpenAI Codex 5.6 Sol, co-reviewed by Claude and Yongqiang Tian."
+     ]
+    },
+    {
+     "sha": "82112166c1be",
+     "author": "Dominic P",
+     "date": "2026-09-20",
+     "subject": "[PATCH v6] tree-optimization: hoist a shift by an out-of-range count, reducing the count",
+     "trailers": [
+      "Assisted-by: Claude Opus 5 (Anthropic)"
+     ]
+    },
+    {
+     "sha": "e03a2c452764",
+     "author": "Dominic P",
+     "date": "2026-09-19",
+     "subject": "[PATCH] postreload: recover the branch condition through the cc register",
+     "trailers": [
+      "Assisted-by: Claude Opus 5 (Anthropic)"
+     ]
+    },
+    {
+     "sha": "be7393903c28",
+     "author": "Yongqiang Tian",
+     "date": "2026-09-18",
+     "subject": "reorg: Do not charge debug insns against search budget [PR127421]",
+     "trailers": [
+      "Assisted-by: OpenAI Codex 5.6 Sol, co-reviewed by Claude and Yongqiang Tian."
+     ]
+    },
+    {
+     "sha": "55e9aef65b2d",
+     "author": "Yongqiang Tian",
+     "date": "2026-09-18",
+     "subject": "combine: Ignore debug insns in volatile checks [PR127422]",
+     "trailers": [
+      "Assisted-by: OpenAI Codex 5.6 Sol, co-reviewed by Claude and Yongqiang Tian."
+     ]
+    },
+    {
+     "sha": "fea8a2b9bf26",
+     "author": "Andrew MacLeod",
+     "date": "2026-09-17",
+     "subject": "Keep partial equivalences out of ordering relations.",
+     "trailers": [
+      "Assisted-By: Claude Opus 5"
+     ]
+    },
+    {
+     "sha": "ef5d35795961",
+     "author": "Andrew MacLeod",
+     "date": "2026-09-17",
+     "subject": "Never record VREL_UNDEFINED in a relation chain.",
+     "trailers": [
+      "Assisted-By: Claude Opus 5"
+     ]
+    },
+    {
+     "sha": "5502ee6ed442",
+     "author": "Andrew MacLeod",
+     "date": "2026-09-17",
+     "subject": "Fill in the partial equivalence entries of the relation tables.",
+     "trailers": [
+      "Assisted-By: Claude Opus 5."
+     ]
+    },
+    {
+     "sha": "afa2c7515d19",
+     "author": "Richard Biener",
+     "date": "2026-09-15",
+     "subject": "ivopts: fix the bound when eliminating an IV with a LT comparison",
+     "trailers": [
+      "Assisted-by: Claude Opus 5 <noreply@anthropic.com>"
+     ]
+    },
+    {
+     "sha": "b3527d9b213f",
+     "author": "Dominic P",
+     "date": "2026-09-14",
+     "subject": "[PATCH] match.pd: Restrict the X | -X range test to scalars [PR127379]",
+     "trailers": [
+      "Assisted-by: Claude Opus 5 (Anthropic)"
+     ]
+    },
+    {
+     "sha": "9d734bb468e7",
+     "author": "Dominic P",
+     "date": "2026-09-13",
+     "subject": "[PATCH v2 2/2] match.pd: complete the branchless min and max folds",
+     "trailers": [
+      "Assisted-by: Claude Opus 5 (Anthropic)"
+     ]
+    },
+    {
+     "sha": "771f488a90f7",
+     "author": "Dominic P",
+     "date": "2026-09-13",
+     "subject": "[PATCH v2 1/2] match.pd: fold A - MIN (B, C) to A + MAX (-B, -C)",
+     "trailers": [
+      "Assisted-by: Claude Opus 5 (Anthropic)"
+     ]
+    },
+    {
+     "sha": "56c81c325ccc",
+     "author": "Dominic P",
+     "date": "2026-09-13",
+     "subject": "[PATCH] match.pd: Fold ((X + C1) | (C2 - X)) < 0 to an unsigned range test",
+     "trailers": [
+      "Assisted-by: Claude Opus 5 (Anthropic)"
+     ]
+    },
+    {
+     "sha": "912c701af37f",
+     "author": "Dominic P",
+     "date": "2026-09-11",
+     "subject": "[PATCH v2] vect: elide a consecutive load permutation from a non-dividing group",
+     "trailers": [
+      "Assisted-by: Claude Opus 5 (Anthropic)"
+     ]
+    },
+    {
+     "sha": "bb591391ec98",
+     "author": "Steven Sudit",
+     "date": "2026-09-09",
+     "subject": "libstdc++: Make __valid_types_for_check_dynamic_spec static [PR127219]",
+     "trailers": [
+      "Assisted-by: Claude Fable 5.1 (Anthropic)"
+     ]
+    },
+    {
+     "sha": "fe89c51bc6b9",
+     "author": "Aldy Hernandez",
+     "date": "2026-09-09",
+     "subject": "testsuite: cover adjust_paths_after_duplication",
+     "trailers": [
+      "Assisted-by: Claude Opus 5"
+     ]
+    },
+    {
+     "sha": "73680e030d24",
+     "author": "Richard Biener",
+     "date": "2026-09-09",
+     "subject": "ipa: require matching precision before VIEW_CONVERT_EXPR of a known value",
+     "trailers": [
+      "Assisted-by: Claude Opus 5 <noreply@anthropic.com>"
+     ]
+    },
+    {
+     "sha": "5d3f80d7d9ba",
+     "author": "Richard Biener",
+     "date": "2026-09-09",
+     "subject": "tree-optimization: do not lose reverse storage order when translating a ref",
+     "trailers": [
+      "Assisted-by: Claude Opus 5 <noreply@anthropic.com>"
+     ]
+    },
+    {
+     "sha": "ae033e5cef61",
+     "author": "Dominic P",
+     "date": "2026-09-08",
+     "subject": "[PATCH v2] match.pd: fold the rounded average idiom, the dual of the floor rule",
+     "trailers": [
+      "Assisted-by: Claude Opus 5 (Anthropic)"
+     ]
+    },
+    {
+     "sha": "d6c3e489d368",
+     "author": "Jerry DeLisle",
+     "date": "2026-09-06",
+     "subject": "fortran: [PR126964] Reduce the cost of a span addressed dummy",
+     "trailers": [
+      "Assisted-by: Claude Opus 5"
+     ]
+    },
+    {
+     "sha": "5e8f400f12c2",
+     "author": "Jerry DeLisle",
+     "date": "2026-09-06",
+     "subject": "libgfortran: [PR126964] Compare the elements a descriptor denotes in ASSOCIATED",
+     "trailers": [
+      "Assisted-by: Claude Opus 5"
+     ]
+    },
+    {
+     "sha": "1cd32c7d3e1d",
+     "author": "wangjue",
+     "date": "2026-09-06",
+     "subject": "[PATCH] ifcvt, m68k: Handle targets without scheduling models, add RISC-V tests",
+     "trailers": [
+      "Assisted-by: Codex (OpenAI)"
+     ]
+    },
+    {
+     "sha": "787c7e0c01f0",
+     "author": "Jerry DeLisle",
+     "date": "2026-09-05",
+     "subject": "fortran: [PR126950] Load the span of a span addressed dummy on entry",
+     "trailers": [
+      "Assisted-by: Claude Opus 5"
+     ]
+    },
+    {
+     "sha": "35dec12b401e",
+     "author": "Jerry DeLisle",
+     "date": "2026-09-04",
+     "subject": "fortran: [PR126777] Fix ICE for IMAGE_INDEX with a TEAM argument",
+     "trailers": [
+      "Assisted-by: Claude Opus 5"
+     ]
+    },
+    {
+     "sha": "d0e630221524",
+     "author": "Jerry DeLisle",
+     "date": "2026-09-04",
+     "subject": "fortran: [PR126777] Fix TEAM_NUMBER under -fcoarray=single and lib",
+     "trailers": [
+      "Assisted-by: Claude Opus 5"
+     ]
+    },
+    {
+     "sha": "9e3a7b8d9de2",
+     "author": "Yongqiang Tian",
+     "date": "2026-09-04",
+     "subject": "[PATCH] ira: Ignore debug insns in simple-LRA threshold [PR108784]",
+     "trailers": [
+      "Assisted-by: OpenAI Codex 5.6 Sol",
+      "Assisted-by: Claude"
+     ]
+    },
+    {
+     "sha": "93ac5163b5d0",
+     "author": "Dominic P",
+     "date": "2026-09-04",
+     "subject": "arm: fix vshll_n intrinsics with boundary shift [PR111609]",
+     "trailers": [
+      "Assisted-by: Claude Opus 5 (Anthropic)"
+     ]
+    },
+    {
+     "sha": "a3b4c732f41f",
+     "author": "Dominic P",
+     "date": "2026-09-03",
+     "subject": "arm: Missing barrier for cmp_exch rel/acq [PR96056]",
+     "trailers": [
+      "Assisted-by: Claude Opus 5 (Anthropic)"
+     ]
+    },
+    {
+     "sha": "c25dbfc56075",
+     "author": "Aldy Hernandez",
+     "date": "2026-09-02",
+     "subject": "Add testcase for backward threading from never-executed entry edges [PR105679]",
+     "trailers": [
+      "Assisted-by: Claude Fable 5 (Anthropic)"
+     ]
+    },
+    {
+     "sha": "0025ab8747c6",
+     "author": "Aldy Hernandez",
+     "date": "2026-09-02",
+     "subject": "Add testcases for backward threading to never-executed edges [PR106495]",
+     "trailers": [
+      "Assisted-by: Claude Fable 5 (Anthropic)"
+     ]
+    },
+    {
+     "sha": "f3c628585322",
+     "author": "Richard Biener",
+     "date": "2026-09-02",
+     "subject": "ipa: do not match bit-field predicate conditions against byte offsets",
+     "trailers": [
+      "Assisted-by: Claude Opus 5"
+     ]
+    },
+    {
+     "sha": "e1c8dac7ca8d",
+     "author": "Alexey Klimkin",
+     "date": "2026-09-01",
+     "subject": "libcpp: Use -1 for closed header-unit fd [PR c++/127097]",
+     "trailers": [
+      "Assisted-by: Claude Opus 5 (Anthropic)"
+     ]
+    },
+    {
+     "sha": "e128159fd670",
+     "author": "Luke Zhuang",
+     "date": "2026-08-29",
+     "subject": "[PATCH] RISC-V: Add RTL tests for slliw shifted bitfield constraints",
+     "trailers": [
+      "Assisted-by: codex-GPT 5.5"
+     ]
+    },
+    {
+     "sha": "322362ce5142",
+     "author": "Jerry DeLisle",
+     "date": "2026-08-26",
+     "subject": "fortran: [PR82065] ISO_FORTRAN_ENV array constants used in a procedure",
+     "trailers": [
+      "Assisted-by: Claude Opus 5"
+     ]
+    },
+    {
+     "sha": "db3b32439f9c",
+     "author": "Dominic P",
+     "date": "2026-08-22",
+     "subject": "[PATCH 3/3] middle-end: don't read a memory destination fully overwritten by a bit-field store [PR71",
+     "trailers": [
+      "Assisted-by: Claude Opus 5 (Anthropic)"
+     ]
+    },
+    {
+     "sha": "435528a4133b",
+     "author": "Dominic P",
+     "date": "2026-08-22",
+     "subject": "[PATCH 2/3] expmed: do not carry last_div_const between functions",
+     "trailers": [
+      "Assisted-by: Claude Opus 5 (Anthropic)"
+     ]
+    },
+    {
+     "sha": "58bf8a355a73",
+     "author": "Dominic P",
+     "date": "2026-08-22",
+     "subject": "[PATCH 1/3] tree-optimization: hoist shifts by an in-range constant count",
+     "trailers": [
+      "Assisted-by: Claude Opus 5 (Anthropic)"
+     ]
+    },
+    {
+     "sha": "2b367a1f0857",
+     "author": "Dominic P",
+     "date": "2026-08-18",
+     "subject": "match.pd: combine two single-bit tests into one masked compare",
+     "trailers": [
+      "Assisted-by: Claude Opus 4.8 (Anthropic)"
+     ]
+    },
+    {
+     "sha": "ce6a2e934906",
+     "author": "Dominic P",
+     "date": "2026-08-18",
+     "subject": "match.pd: fold (t * u) % u to zero when the product cannot overflow",
+     "trailers": [
+      "Assisted-by: Claude Opus 4.8 (Anthropic)"
+     ]
+    },
+    {
+     "sha": "75136eabafd2",
+     "author": "Jerry DeLisle",
+     "date": "2026-08-16",
+     "subject": "fortran: [PR126872] BIND(C) entities must keep default ELF visibility",
+     "trailers": [
+      "Assisted-by: Claude Opus 5"
+     ]
+    },
+    {
+     "sha": "a03222414043",
+     "author": "Christopher Albert",
+     "date": "2026-08-16",
+     "subject": "Fortran: [13-17 regression] Fix duplicated finalization [PR110626]",
+     "trailers": [
+      "Assisted-by: GPT-5.6-sol (OpenAI)",
+      "Assisted-by: Claude (Anthropic)"
+     ]
+    },
+    {
+     "sha": "2a4f36222246",
+     "author": "Christopher Albert",
+     "date": "2026-08-10",
+     "subject": "fortran: Diagnose allocatable PROCEDURE results early [PR102333]",
+     "trailers": [
+      "Assisted-by: GPT-5.6-sol (OpenAI)"
+     ]
+    },
+    {
+     "sha": "1f5c34702948",
+     "author": "Christopher Albert",
+     "date": "2026-08-08",
+     "subject": "fortran: Preserve host association for dummy procedures [PR125383]",
+     "trailers": [
+      "Assisted-by: GPT-5.6-sol (OpenAI)"
+     ]
+    },
+    {
+     "sha": "19fdf88ba9bb",
+     "author": "Pan Li",
+     "date": "2026-08-05",
+     "subject": "RISC-V: Add more test cases for vwsub/vwsubu/vwmul/vwmulu.vv",
+     "trailers": [
+      "Co-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>"
+     ]
+    },
+    {
+     "sha": "ec2023e159c7",
+     "author": "Pan Li",
+     "date": "2026-08-05",
+     "subject": "RISC-V: Add test cases for vwmulu.vv reg overlap",
+     "trailers": [
+      "Co-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>"
+     ]
+    },
+    {
+     "sha": "c55a61e3cdb4",
+     "author": "Pan Li",
+     "date": "2026-08-05",
+     "subject": "RISC-V: Add test cases for vwmul.vv reg overlap",
+     "trailers": [
+      "Co-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>"
+     ]
+    },
+    {
+     "sha": "41b68b76bc71",
+     "author": "Pan Li",
+     "date": "2026-08-05",
+     "subject": "RISC-V: Add test cases for vwsubu.vv reg overlap",
+     "trailers": [
+      "Co-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>"
+     ]
+    },
+    {
+     "sha": "44e0270ff482",
+     "author": "Pan Li",
+     "date": "2026-08-05",
+     "subject": "RISC-V: Add test cases for vwsub.vv reg overlap",
+     "trailers": [
+      "Co-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>"
+     ]
+    },
+    {
+     "sha": "ae423e262d90",
+     "author": "Pan Li",
+     "date": "2026-08-01",
+     "subject": "RISC-V: Add test cases for vwaddu.vv reg overlap",
+     "trailers": [
+      "Co-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>"
+     ]
+    },
+    {
+     "sha": "5f56bb4184db",
+     "author": "Pan Li",
+     "date": "2026-08-01",
+     "subject": "RISC-V: Add test cases for vwadd.vv reg overlap",
+     "trailers": [
+      "Co-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>"
+     ]
+    },
+    {
+     "sha": "322ba88ffa34",
+     "author": "Pan Li",
+     "date": "2026-08-01",
+     "subject": "RISC-V: Allow RVV register overlap for vw{add,sub,mul}[u].vv",
+     "trailers": [
+      "Co-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>"
+     ]
+    }
+   ]
+  },
+  "gentoo_gentoo": {
+   "ban": "2024-04-14",
+   "commits_after": 286372,
+   "ai_commits": 0,
+   "authors": [],
+   "commits": []
+  }
+ },
+ "allow": {
+  "torvalds_linux": {
+   "new_2026": 3599,
+   "tagged": 483,
+   "pct": 13.4
+  },
+  "llvm_llvm-project": {
+   "new_2026": 1635,
+   "tagged": 280,
+   "pct": 17.1
+  },
+  "NixOS_nixpkgs": {
+   "new_2026": 2021,
+   "tagged": 290,
+   "pct": 14.3
+  }
+ }
+}
