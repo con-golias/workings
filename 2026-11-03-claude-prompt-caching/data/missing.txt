@@ -1,0 +1,8 @@
+justmytwospence/opencode-cache-guard
+GroundPhasePraise/gitlab-duo-farm
+phk01/AI-Agent
+xX-VyrnCore-Xx/PourGateLLM
+huuhait/chatgpt-cc
+M-A1996/Incident-Triage-AI-Assistant.
+5omeOtherGuy/pi-claude-oauth
+thoravenger/ai-payment-assistant

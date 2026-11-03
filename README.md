@@ -8,6 +8,7 @@ question, the method, and what I checked and didn't.
 
 | Date | Piece | Folder |
 |---|---|---|
+| 3 Nov 2026 | Two in three new Claude agents on GitHub pay full price for the same tokens, every turn | [`2026-11-03-claude-prompt-caching`](2026-11-03-claude-prompt-caching/) |
 | 2 Nov 2026 | Banning AI code didn't cost open-source projects their contributors. It didn't keep AI out either ([X Article](https://x.com/con_golias/status/2117281178868666575)) | [`2026-11-02-ai-bans-open-source`](2026-11-02-ai-bans-open-source/) |
 | 1 Nov 2026 | AI now helps write 1 in 4 Linux kernel bug fixes. Its own patches need fixing no more often ([X Article](https://x.com/con_golias/status/2116932599180374190)) | [`2026-11-01-kernel-ai-patches`](2026-11-01-kernel-ai-patches/) |
 | 31 Oct 2026 | AI agents moved into 3 in 10 developers' public dotfiles in under two years ([X Article](https://x.com/con_golias/status/2116558183669878800)) | [`2026-11-01-dotfiles-agents`](2026-11-01-dotfiles-agents/) |

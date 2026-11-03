@@ -1,0 +1,91 @@
+repo,is_agent,caching_on,kind,learning,note
+git-blah/claude,no,no,structured_output,no,one forced tool call for structured output
+Fanorisky/unstream-proxy,no,no,proxy,no,translating proxy; client tools passed through
+Animeshkr9044/traject,yes,no,agent,no,provider maps tool_use/tool_result both ways
+CorinaHartmann/claude,no,no,structured_output,no,report_prices tool read once
+Squeak007/replit-agent-starter,yes,no,agent,yes,agent starter: provider with tools and tool_use
+N1nja-hunt3r/AI_AGENT,yes,no,agent,no,tool_use mapped to TOOL_CALL in an agent service
+girlsgotech/claudearcprep,yes,no,agent,yes,explicit loop while stop_reason == tool_use; short system prompt
+edilma/mcp-ai-research-assistant,yes,no,agent,no,MCP tools; loop until no tool_use
+NineAbyss/OR-License,no,no,proxy,no,OpenAI to Anthropic proxies; cache words are usage counters
+Faizanaziz21/AI-Agent-Development,yes,no,agent,no,C# client builds tool_use/tool_result turns
+adam-grafica/fmp-provider,no,no,proxy,no,provider proxy to a worker
+TKhy1/economical_ai_agent,yes,no,agent,no,TOOLS + append_tool_results loop
+AshishKalidas/replex,yes,no,agent,no,support agent loop for max_steps over raw HTTP
+Dcrr1717/claude-tool-agent,yes,no,agent,no,tool agent with three tools
+essanchez-13/ap-invoice-agent,yes,no,agent,no,for _ in range(MAX_TURNS) with tool_results
+Fayaz-Ali56/research-desk,no,no,server_tools_only,no,only Anthropic's server web_search tool; no client loop
+sjmillington/anthropic-academy-building-with-claude,yes,no,agent,yes,course notebook: tool usage loop
+santhosh-svg-kum/shadowgate,yes,no,agent,no,LLM wrapper returns tool calls to an agent loop
+Mistygoober/revive,no,no,structured_output,no,grader: one forced tool call
+kennethjinclaude/Prospect-Agent,no,no,server_tools_only,no,web_search server tool only
+Shriya285/AI-Agent-Basic-,yes,no,agent,no,LangChain AgentExecutor with three tools
+RichChrisDotCom/your-first-ai-agent,yes,no,agent,yes,for _ in range(10) loop with tools
+sticture/notion2api,no,no,proxy,no,gateway
+jrc9862/agent-demos,no,no,structured_output,no,extraction with one tool and retries
+EyesOnCloud/claude,yes,no,agent,yes,MAX_TURNS loop with tool_result
+Sup3rMar10/repo-explorer-agent,yes,no,agent,no,MAX_STEPS loop with tools
+MokuLakshithReddy/my-claude-code,yes,no,agent,no,coding agent provider with tool registry
+bronto-community/claude-otel-lab,yes,auto,managed_agents,no,Managed Agents sessions (caching always on)
+rpkpdl/local-ai-assistant,yes,no,agent,no,README says prompt caching isn't used yet
+troturier/ai-news,no,no,server_tools_only,no,pipeline with server web search/fetch
+OctriDev/anthropic-go-showcase-sdk,no,na,sdk_copy,no,generated SDK; marker in doc comments and types
+PrachishD/Claude-ANSYS-skill,yes,yes,agent,no,top-level cache_control in an MCP tool loop
+RasalShukla/ClaudeAgent,yes,yes,agent,yes,course; cached system block used by the context-managed agent
+vstaln/gray-claude-sub,no,na,proxy,no,strips cache_control; eval mock server
+Sumanthreddy-DE/resume-assistant,yes,yes,agent,no,cached system + corpus block; tools loop
+tayyare79/expressbus-nuernberg,yes,yes,agent,no,top-level cache_control in a 12-turn loop
+t0ti20/Ai_Agent,yes,yes,agent,no,adapter with top-level caching on by default
+Parithosh-Varma/opus-free,no,na,proxy,no,proxy stamps cache_control on forwarded requests
+JKrollinger/AI-Agent,no,yes,server_tools_only,no,server tools only; cached system blocks
+navin251285/Claude,yes,yes,agent,yes,course apps; copilot with cached policy block
+aidless/agent-loop-safety,yes,yes,agent,no,agent loop with a cache flag that adds cache_control
+sofiiaordazz/ask-your-pdfs,yes,yes,agent,no,top-level cache_control in agent loop
+mmgrevsen/Ai-agent,yes,yes,agent,no,cached system block; tools loop
+OctriDev/anthropic-python-showcase-sdk,no,na,sdk_copy,no,generated SDK
+Sanket-S-Thorat/llmGateway,no,na,proxy,no,gateway; marker in comments/tests
+kesava83/Anthropic-skills,no,na,docs_copy,no,copied skill files; marker in key lists
+tuanduy16/voyagent,yes,yes,agent,no,top-level cache_control in agent loop
+dieqiyun/uni-switch,no,na,proxy,no,protocol bridge; marker in a test fixture
+may-tonk/ai-agent-learning,yes,no,agent,yes,"marker only in a comment (""Claude needs cache_control""); the agent does not set it"
+rickyronne539-sudo/claude,no,na,docs_copy,no,course text data
+devhat-pm/Claude-Playbook,yes,yes,agent,yes,examples with top-level cache_control
+nebil24/claude-api-course,yes,no,agent,yes,agent.py has no caching; caching only in a separate prompt_caching.py demo
+kush-coder/autopilot-ai,yes,yes,agent,no,agent framework with prompt-cache module
+hisham8383/whatsapp-ai-agent,yes,yes,agent,no,tools + cached system prompt
+jdmahecha1/turnos-bot,yes,yes,agent,no,cached system + top-level cache_control
+Rhaylith/LLMHost,no,na,proxy,no,server emulating the Anthropic API
+Vicentehersant/portfolio-ai,yes,yes,agent,no,cached static prompt; tools loop
+jocelin-portafolio/nintai-prospeccion,yes,yes,agent,no,top-level cache_control in agent loop
+OctriDev/anthropic-php-showcase-sdk,no,na,sdk_copy,no,generated SDK
+OctriDev/anthropic-ruby-showcase-sdk,no,na,sdk_copy,no,generated SDK
+roeybar/coherence,unsure,yes,provider,no,provider maps tool_use; loop may live elsewhere
+fahimrahman1731-dev/claude,no,no,single_call,no,proxy with one call
+AceMQ-Company/acemq-java-amqp-ai,unsure,no,provider,no,Java model client; file not readable in excerpt
+menconi-commits/claude-site-assistant,no,yes,chat,no,site chat; cached system block
+shubhankar360/handoff-graph,no,no,structured_output,no,JSON schema calls
+kissopen/kissopen,unsure,no,demo,no,replay harness with tool_use blocks
+slimmii/llmtsc,no,no,single_call,no,"complete(system,user)"
+finessehumxn/llm-failover,no,no,provider,no,failover provider
+MaxMartiin/LLM-Learning,no,yes,lesson,no,lessons; one caching lesson
+rcngo/fluxo-nfs-e-automatico-brasil,no,yes,structured_output,no,extraction with cached system
+shravanchk/chatgpt-clone,no,no,chat,no,chat clone
+CJstate/hui-harness,yes,no,agent,no,"agent harness; Anthropic call only in tests, loop in another file (missed by v2)"
+tel-0s/pax-futura,no,yes,structured_output,no,one tool schema per request; cached system
+startcat/tria,no,yes,provider,no,provider
+Kungie/haiku-decides,no,yes,structured_output,no,decision calls; cached system
+rkrzywiecki/claude-lens,no,yes,single_call,no,insights coach call
+JLugagne/claudeproxy,no,na,proxy,no,proxy
+levlavryniuk/velox-plugin-anthropic-sub,no,no,proxy,no,wire plugin; call in tests
+ryiugn/ai-incident-investigator,no,no,single_call,no,one call per incident
+Icehunter/local-claude-router,no,na,proxy,no,router
+volvox-ltd/claude5-migration-kit,no,yes,scripts,no,cache probe script
+huss-huss/llm-gateway,no,no,proxy,no,gateway
+zr987459/workbuddy-app,no,no,proxy,no,local gateway
+MinhBienK2/cline2api,no,no,proxy,no,proxy
+Shikasar7/CicaTavern,no,yes,chat,no,roleplay chat front end
+frederickwainwright7/llm-application-workflows,unsure,no,workflows,no,LangChain chat model factory
+Dharmeshkumar2327/LLM_Advance_Datapilot_AI,unsure,no,provider,no,provider; loop may live elsewhere
+asifjahmed/claudemanager,no,na,proxy,no,daemon proxy
+rohanreddy79/llm-gateway,no,na,proxy,no,gateway
+major/opencode-mythos-plugin,no,na,plugin,no,opencode plugin; calls in tests

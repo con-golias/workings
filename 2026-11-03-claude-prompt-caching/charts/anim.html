@@ -1,0 +1,62 @@
+<!doctype html>
+<!-- Opening animation of X Article #11. Ten requests of the live test (Claude Haiku 5.5, data/summary.json →
+     live.small) appear one per second as horizontal lines whose length is the tokens sent. Left: without caching,
+     the whole line is charcoal (billed in full). Right: the same requests with one cache_control field, the part read
+     from the cache in stone and only the new or written part in terracotta. Text, lines and circles only: no rules,
+     no grid. ?t=0..13 -->
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="fonts/fonts.css">
+<style>
+  :root { --bg:#FAF8F3; --ink:#1F1C1A; --text:#615B53; --charcoal:#3A3531; --stone:#CBC1B1; --terra:#C9876A; }
+  html, body { margin:0; background:var(--bg); }
+  body { width:1200px; height:720px; overflow:hidden; }
+  svg { display:block; }
+  text { font-family:'Inter Tight', sans-serif; font-variant-numeric:tabular-nums lining-nums; }
+</style>
+</head>
+<body>
+<svg id="c" width="1200" height="720" viewBox="0 0 1200 720"></svg>
+<script>
+const C = document.getElementById('c');
+const T = Number(new URLSearchParams(location.search).get('t') || 0);
+const v = (n) => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+const clamp = (x) => Math.max(0, Math.min(1, x));
+const ease = (a, b) => { const x = clamp((T - a) / (b - a)); return x * x * (3 - 2 * x); };
+const n0 = (x) => Math.round(x).toLocaleString('en-US');
+
+function draw(N) {
+  const L = N.live.small, off = L.off.per_turn, on = L.on.per_turn;
+  const max = L.last_turn_total, W = 440, S = (n) => W * n / max;
+  const xl = 80, xr = 660, top = 190, gap = 40;
+  let s = `<text x="60" y="78" font-size="30" font-weight="600" fill="${v('--ink')}">An agent resends the whole conversation every turn</text>
+    <text x="60" y="114" font-size="20" fill="${v('--text')}">The same 10 requests to Claude, measured. Line length = tokens sent.</text>
+    <text x="${xl}" y="164" font-size="22" font-weight="700" fill="${v('--ink')}">Without caching</text>
+    <text x="${xr}" y="164" font-size="22" font-weight="700" fill="${v('--ink')}">With one cache_control field</text>
+    <text x="60" y="690" font-size="20" fill="${v('--text')}">Charcoal, terracotta: billed in full, or written to the cache at 1.25×. Stone: read from the cache at a tenth of the price.</text>`;
+  let sumOff = 0, sumOn = 0;
+  for (let i = 0; i < 10; i++) {
+    const k = ease(0.6 + i * 0.85, 1.2 + i * 0.85);
+    if (k <= 0) break;
+    const y = top + i * gap, o = off[i][0], [full, wr, rd] = on[i];
+    sumOff += k * o; sumOn += k * (full + wr);
+    s += `<text x="${xl - 16}" y="${y + 7}" font-size="18" text-anchor="end" fill="${v('--text')}">${i + 1}</text>
+      <line x1="${xl}" x2="${xl + S(o) * k}" y1="${y}" y2="${y}" stroke="${v('--charcoal')}" stroke-width="10" stroke-linecap="round"/>
+      <text x="${xl + S(o) * k + 14}" y="${y + 7}" font-size="18" fill="${v('--text')}" opacity="${k}">${n0(o)}</text>`;
+    if (rd > 0) s += `<line x1="${xr}" x2="${xr + S(rd) * k}" y1="${y}" y2="${y}" stroke="${v('--stone')}" stroke-width="10" stroke-linecap="round"/>`;
+    const xa = xr + S(rd) * k;
+    s += `<line x1="${xa}" x2="${xa + S(full + wr) * k}" y1="${y}" y2="${y}" stroke="${v('--terra')}" stroke-width="10" stroke-linecap="round"/>
+      <text x="${xa + S(full + wr) * k + 14}" y="${y + 7}" font-size="18" fill="${v('--text')}" opacity="${k}">${n0(full + wr)}</text>`;
+  }
+  const end = ease(9.6, 10.4);
+  if (end > 0) s += `<g opacity="${end}">
+      <text x="${xl}" y="${top + 10 * gap + 22}" font-size="22" font-weight="700" fill="${v('--ink')}">${n0(L.off.full_price)} tokens billed in full</text>
+      <text x="${xr}" y="${top + 10 * gap + 22}" font-size="22" font-weight="700" fill="${v('--ink')}">${n0(L.on.full_price + L.on.written)} billed in full or written</text>
+    </g>`;
+  return s;
+}
+fetch('../data/summary.json').then((r) => r.json()).then((N) => Promise.all([document.fonts.load('700 20px "Inter Tight"'), document.fonts.load('400 20px "Inter Tight"')]).then(() => { C.innerHTML = draw(N); window.done = true; }));
+</script>
+</body>
+</html>

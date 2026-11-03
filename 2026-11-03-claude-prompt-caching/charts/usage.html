@@ -1,0 +1,34 @@
+<!doctype html>
+<!-- The live test's raw usage, as the API returned it, set as a terminal listing. Read from ../data/live/small.json. -->
+<html><head><meta charset="utf-8"><link rel="stylesheet" href="fonts/fonts.css">
+<style>
+  html,body{margin:0;background:#FAF8F3}
+  body{width:1200px;height:720px;overflow:hidden;font-family:'Inter Tight',sans-serif}
+  .rule{position:absolute;left:40px;top:24px;width:1120px;height:4px;background:#1F1C1A}
+  h1{position:absolute;left:40px;top:44px;margin:0;font-size:26px;font-weight:600;color:#1F1C1A}
+  .note{position:absolute;right:40px;top:50px;font-size:20px;color:#615B53}
+  pre{position:absolute;left:40px;top:104px;width:1072px;height:478px;margin:0;padding:22px 24px;background:#1F1C1A;color:#E8E3DA;
+      font-family:'JetBrains Mono',monospace;font-size:21px;line-height:1.62;border-radius:6px;overflow:hidden}
+  .d{color:#9A9086}.t{color:#E3A98E}
+  .cap{position:absolute;left:40px;top:656px;font-size:20px;color:#615B53}
+  .hair{position:absolute;left:40px;top:640px;width:1120px;height:1px;background:#1F1C1A}
+</style></head><body>
+<div class="rule"></div><h1>What the API reported, request by request</h1><div class="note">usage, Claude Haiku 5.5</div>
+<pre id="p"></pre><div class="hair"></div>
+<div class="cap">Same 10 requests; the right side adds one top-level cache_control field. Raw JSON: data/live/small.json.</div>
+<script>
+const pad = (x, n) => String(x).padStart(n);
+const NL = String.fromCharCode(10);
+fetch('../data/live/small.json').then((r) => r.json()).then((d) => {
+  const rows = [
+    '<span class="d">        without caching   │  with cache_control</span>',
+    '<span class="d">turn    input_tokens     │  input_tokens  cache_creation  cache_read</span>',
+  ];
+  d.off.forEach((t, i) => {
+    const u = t.usage, w = d.on[i].usage;
+    rows.push(pad(t.turn, 4) + '    ' + pad(u.input_tokens, 12) + '     │  <span class="t">' + pad(w.input_tokens, 12) + '  ' +
+      pad(w.cache_creation_input_tokens, 14) + '  ' + pad(w.cache_read_input_tokens, 10) + '</span>');
+  });
+  document.getElementById('p').innerHTML = rows.join(NL);
+  return document.fonts.ready;}).then(()=>{window.done=true;});
+</script></body></html>

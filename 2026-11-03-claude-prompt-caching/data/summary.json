@@ -1,0 +1,1548 @@
+{
+ "universe": 718,
+ "cloned": 710,
+ "gone": 8,
+ "buckets": {
+  "direct_no_loop": 404,
+  "no_direct_call": 93,
+  "agent": 212,
+  "agent_sdk_only": 1
+ },
+ "agent_sdk_or_claude_code_any": 43,
+ "agent_sdk_only": 1,
+ "agent_sdk_also_direct": 42,
+ "openai_compat_claude_in_no_direct": 25,
+ "regex": {
+  "v2": {
+   "n": 212,
+   "no_marker": 126,
+   "pct": 59.4
+  },
+  "v1": {
+   "n": 445,
+   "no_marker": 266,
+   "pct": 59.8
+  },
+  "loose": {
+   "n": 378,
+   "no_marker": 218,
+   "pct": 57.7
+  },
+  "v2_without_agent_sdk_repos": {
+   "n": 188,
+   "no_marker": 119,
+   "pct": 63.3
+  }
+ },
+ "handcheck": {
+  "v2_marker": {
+   "pool": 86,
+   "n": 30,
+   "kinds": {
+    "sdk_copy": 4,
+    "agent": 18,
+    "proxy": 5,
+    "server_tools_only": 1,
+    "docs_copy": 2
+   },
+   "is_agent": {
+    "no": 12,
+    "yes": 18
+   },
+   "caching_among_agents": {
+    "yes": 16,
+    "no": 2
+   }
+  },
+  "v2_no_marker": {
+   "pool": 126,
+   "n": 30,
+   "kinds": {
+    "structured_output": 4,
+    "proxy": 4,
+    "agent": 18,
+    "server_tools_only": 3,
+    "managed_agents": 1
+   },
+   "is_agent": {
+    "no": 11,
+    "yes": 19
+   },
+   "caching_among_agents": {
+    "no": 18,
+    "auto": 1
+   }
+  },
+  "v1_minus_v2": {
+   "pool": 233,
+   "n": 15,
+   "kinds": {
+    "provider": 4,
+    "single_call": 2,
+    "chat": 2,
+    "structured_output": 4,
+    "demo": 1,
+    "lesson": 1,
+    "agent": 1
+   },
+   "is_agent": {
+    "unsure": 3,
+    "no": 11,
+    "yes": 1
+   },
+   "caching_among_agents": {
+    "no": 1
+   }
+  },
+  "loose_minus_v2": {
+   "pool": 51,
+   "n": 6,
+   "kinds": {
+    "proxy": 3,
+    "single_call": 1,
+    "workflows": 1,
+    "provider": 1
+   },
+   "is_agent": {
+    "no": 4,
+    "unsure": 2
+   },
+   "caching_among_agents": {}
+  }
+ },
+ "precision": {
+  "marker_side": {
+   "real_agent_with_caching": 16,
+   "of": 30
+  },
+  "no_marker_side": {
+   "real_agent_without_caching": 18,
+   "of": 30
+  }
+ },
+ "corrected_main": {
+  "est_agents": 146.9,
+  "est_with_caching": 50.1,
+  "est_without": 96.9,
+  "pct_without": 65.9,
+  "ci95_bootstrap": [
+   52.4,
+   77.3
+  ]
+ },
+ "corrected_unsure_counted_as_agents": {
+  "est_agents": 210.5,
+  "est_with_caching": 65.6,
+  "est_without": 144.9,
+  "pct_without": 68.8,
+  "ci95_bootstrap": [
+   52.6,
+   81.7
+  ]
+ },
+ "all_direct_callers": {
+  "n": 616,
+  "no_marker": 415,
+  "pct": 67.4
+ },
+ "handcheck_real_agents": 38,
+ "handcheck_learning_repos": 10,
+ "live": {
+  "small": {
+   "turns": 10,
+   "system_prompt_chars": 256,
+   "model": "claude-haiku-5-5",
+   "stop_reasons": [
+    "end_turn",
+    "tool_use"
+   ],
+   "off": {
+    "input_total": 72122,
+    "full_price": 72122,
+    "written": 0,
+    "read": 0,
+    "output": 714,
+    "per_turn": [
+     [
+      641,
+      0,
+      0
+     ],
+     [
+      2116,
+      0,
+      0
+     ],
+     [
+      3569,
+      0,
+      0
+     ],
+     [
+      5043,
+      0,
+      0
+     ],
+     [
+      6504,
+      0,
+      0
+     ],
+     [
+      7969,
+      0,
+      0
+     ],
+     [
+      9396,
+      0,
+      0
+     ],
+     [
+      10842,
+      0,
+      0
+     ],
+     [
+      12303,
+      0,
+      0
+     ],
+     [
+      13739,
+      0,
+      0
+     ]
+    ],
+    "turn1": [
+     641,
+     0,
+     0
+    ],
+    "last": [
+     13739,
+     0,
+     0
+    ]
+   },
+   "on": {
+    "input_total": 72122,
+    "full_price": 22,
+    "written": 13737,
+    "read": 58363,
+    "output": 746,
+    "per_turn": [
+     [
+      4,
+      637,
+      0
+     ],
+     [
+      2,
+      1477,
+      637
+     ],
+     [
+      2,
+      1453,
+      2114
+     ],
+     [
+      2,
+      1474,
+      3567
+     ],
+     [
+      2,
+      1461,
+      5041
+     ],
+     [
+      2,
+      1465,
+      6502
+     ],
+     [
+      2,
+      1427,
+      7967
+     ],
+     [
+      2,
+      1446,
+      9394
+     ],
+     [
+      2,
+      1461,
+      10840
+     ],
+     [
+      2,
+      1436,
+      12301
+     ]
+    ],
+    "turn1": [
+     4,
+     637,
+     0
+    ],
+    "last": [
+     2,
+     1436,
+     12301
+    ]
+   },
+   "last_turn_total": 13739,
+   "cost_input_side": {
+    "haiku_5_5": {
+     "off": 0.007212,
+     "on": 0.002303,
+     "on_pct": 31.9,
+     "saved_pct": 68.1,
+     "off_per_1000": 7.21,
+     "on_per_1000": 2.3,
+     "saved_per_1000": 4.91
+    },
+    "sonnet_5_5": {
+     "off": 0.144244,
+     "on": 0.040223,
+     "on_pct": 27.9,
+     "saved_pct": 72.1,
+     "off_per_1000": 144.24,
+     "on_per_1000": 40.22,
+     "saved_per_1000": 104.02
+    },
+    "opus_5_5": {
+     "off": 0.288488,
+     "on": 0.080446,
+     "on_pct": 27.9,
+     "saved_pct": 72.1,
+     "off_per_1000": 288.49,
+     "on_per_1000": 80.45,
+     "saved_per_1000": 208.04
+    }
+   }
+  },
+  "large": {
+   "turns": 10,
+   "system_prompt_chars": 36482,
+   "model": "claude-haiku-5-5",
+   "stop_reasons": [
+    "end_turn",
+    "tool_use"
+   ],
+   "off": {
+    "input_total": 186674,
+    "full_price": 186674,
+    "written": 0,
+    "read": 0,
+    "output": 914,
+    "per_turn": [
+     [
+      12062,
+      0,
+      0
+     ],
+     [
+      13575,
+      0,
+      0
+     ],
+     [
+      15028,
+      0,
+      0
+     ],
+     [
+      16502,
+      0,
+      0
+     ],
+     [
+      17963,
+      0,
+      0
+     ],
+     [
+      19428,
+      0,
+      0
+     ],
+     [
+      20855,
+      0,
+      0
+     ],
+     [
+      22301,
+      0,
+      0
+     ],
+     [
+      23762,
+      0,
+      0
+     ],
+     [
+      25198,
+      0,
+      0
+     ]
+    ],
+    "turn1": [
+     12062,
+     0,
+     0
+    ],
+    "last": [
+     25198,
+     0,
+     0
+    ]
+   },
+   "on": {
+    "input_total": 186674,
+    "full_price": 22,
+    "written": 25196,
+    "read": 161456,
+    "output": 798,
+    "per_turn": [
+     [
+      4,
+      12058,
+      0
+     ],
+     [
+      2,
+      1515,
+      12058
+     ],
+     [
+      2,
+      1453,
+      13573
+     ],
+     [
+      2,
+      1474,
+      15026
+     ],
+     [
+      2,
+      1461,
+      16500
+     ],
+     [
+      2,
+      1465,
+      17961
+     ],
+     [
+      2,
+      1427,
+      19426
+     ],
+     [
+      2,
+      1446,
+      20853
+     ],
+     [
+      2,
+      1461,
+      22299
+     ],
+     [
+      2,
+      1436,
+      23760
+     ]
+    ],
+    "turn1": [
+     4,
+     12058,
+     0
+    ],
+    "last": [
+     2,
+     1436,
+     23760
+    ]
+   },
+   "last_turn_total": 25198,
+   "cost_input_side": {
+    "haiku_5_5": {
+     "off": 0.018667,
+     "on": 0.004766,
+     "on_pct": 25.5,
+     "saved_pct": 74.5,
+     "off_per_1000": 18.67,
+     "on_per_1000": 4.77,
+     "saved_per_1000": 13.9
+    },
+    "sonnet_5_5": {
+     "off": 0.373348,
+     "on": 0.07918,
+     "on_pct": 21.2,
+     "saved_pct": 78.8,
+     "off_per_1000": 373.35,
+     "on_per_1000": 79.18,
+     "saved_per_1000": 294.17
+    },
+    "opus_5_5": {
+     "off": 0.746696,
+     "on": 0.158359,
+     "on_pct": 21.2,
+     "saved_pct": 78.8,
+     "off_per_1000": 746.7,
+     "on_per_1000": 158.36,
+     "saved_per_1000": 588.34
+    }
+   }
+  },
+  "sonnet_small": {
+   "turns": 10,
+   "system_prompt_chars": 256,
+   "model": "claude-sonnet-5-5",
+   "stop_reasons": [
+    "end_turn",
+    "tool_use"
+   ],
+   "off": {
+    "input_total": 71888,
+    "full_price": 71888,
+    "written": 0,
+    "read": 0,
+    "output": 688,
+    "per_turn": [
+     [
+      641,
+      0,
+      0
+     ],
+     [
+      2090,
+      0,
+      0
+     ],
+     [
+      3543,
+      0,
+      0
+     ],
+     [
+      5017,
+      0,
+      0
+     ],
+     [
+      6478,
+      0,
+      0
+     ],
+     [
+      7943,
+      0,
+      0
+     ],
+     [
+      9370,
+      0,
+      0
+     ],
+     [
+      10816,
+      0,
+      0
+     ],
+     [
+      12277,
+      0,
+      0
+     ],
+     [
+      13713,
+      0,
+      0
+     ]
+    ],
+    "turn1": [
+     641,
+     0,
+     0
+    ],
+    "last": [
+     13713,
+     0,
+     0
+    ]
+   },
+   "on": {
+    "input_total": 71888,
+    "full_price": 22,
+    "written": 13711,
+    "read": 58155,
+    "output": 834,
+    "per_turn": [
+     [
+      4,
+      637,
+      0
+     ],
+     [
+      2,
+      1451,
+      637
+     ],
+     [
+      2,
+      1453,
+      2088
+     ],
+     [
+      2,
+      1474,
+      3541
+     ],
+     [
+      2,
+      1461,
+      5015
+     ],
+     [
+      2,
+      1465,
+      6476
+     ],
+     [
+      2,
+      1427,
+      7941
+     ],
+     [
+      2,
+      1446,
+      9368
+     ],
+     [
+      2,
+      1461,
+      10814
+     ],
+     [
+      2,
+      1436,
+      12275
+     ]
+    ],
+    "turn1": [
+     4,
+     637,
+     0
+    ],
+    "last": [
+     2,
+     1436,
+     12275
+    ]
+   },
+   "last_turn_total": 13713,
+   "cost_input_side": {
+    "haiku_5_5": {
+     "off": 0.007189,
+     "on": 0.002298,
+     "on_pct": 32.0,
+     "saved_pct": 68.0,
+     "off_per_1000": 7.19,
+     "on_per_1000": 2.3,
+     "saved_per_1000": 4.89
+    },
+    "sonnet_5_5": {
+     "off": 0.143776,
+     "on": 0.040137,
+     "on_pct": 27.9,
+     "saved_pct": 72.1,
+     "off_per_1000": 143.78,
+     "on_per_1000": 40.14,
+     "saved_per_1000": 103.64
+    },
+    "opus_5_5": {
+     "off": 0.287552,
+     "on": 0.080274,
+     "on_pct": 27.9,
+     "saved_pct": 72.1,
+     "off_per_1000": 287.55,
+     "on_per_1000": 80.27,
+     "saved_per_1000": 207.28
+    }
+   }
+  },
+  "sonnet_large": {
+   "turns": 10,
+   "system_prompt_chars": 36482,
+   "model": "claude-sonnet-5-5",
+   "stop_reasons": [
+    "end_turn",
+    "tool_use"
+   ],
+   "off": {
+    "input_total": 186098,
+    "full_price": 186098,
+    "written": 0,
+    "read": 0,
+    "output": 785,
+    "per_turn": [
+     [
+      12062,
+      0,
+      0
+     ],
+     [
+      13511,
+      0,
+      0
+     ],
+     [
+      14964,
+      0,
+      0
+     ],
+     [
+      16438,
+      0,
+      0
+     ],
+     [
+      17899,
+      0,
+      0
+     ],
+     [
+      19364,
+      0,
+      0
+     ],
+     [
+      20791,
+      0,
+      0
+     ],
+     [
+      22237,
+      0,
+      0
+     ],
+     [
+      23698,
+      0,
+      0
+     ],
+     [
+      25134,
+      0,
+      0
+     ]
+    ],
+    "turn1": [
+     12062,
+     0,
+     0
+    ],
+    "last": [
+     25134,
+     0,
+     0
+    ]
+   },
+   "on": {
+    "input_total": 186098,
+    "full_price": 22,
+    "written": 25132,
+    "read": 160944,
+    "output": 862,
+    "per_turn": [
+     [
+      4,
+      12058,
+      0
+     ],
+     [
+      2,
+      1451,
+      12058
+     ],
+     [
+      2,
+      1453,
+      13509
+     ],
+     [
+      2,
+      1474,
+      14962
+     ],
+     [
+      2,
+      1461,
+      16436
+     ],
+     [
+      2,
+      1465,
+      17897
+     ],
+     [
+      2,
+      1427,
+      19362
+     ],
+     [
+      2,
+      1446,
+      20789
+     ],
+     [
+      2,
+      1461,
+      22235
+     ],
+     [
+      2,
+      1436,
+      23696
+     ]
+    ],
+    "turn1": [
+     4,
+     12058,
+     0
+    ],
+    "last": [
+     2,
+     1436,
+     23696
+    ]
+   },
+   "last_turn_total": 25134,
+   "cost_input_side": {
+    "haiku_5_5": {
+     "off": 0.01861,
+     "on": 0.004753,
+     "on_pct": 25.5,
+     "saved_pct": 74.5,
+     "off_per_1000": 18.61,
+     "on_per_1000": 4.75,
+     "saved_per_1000": 13.86
+    },
+    "sonnet_5_5": {
+     "off": 0.372196,
+     "on": 0.078968,
+     "on_pct": 21.2,
+     "saved_pct": 78.8,
+     "off_per_1000": 372.2,
+     "on_per_1000": 78.97,
+     "saved_per_1000": 293.23
+    },
+    "opus_5_5": {
+     "off": 0.744392,
+     "on": 0.157937,
+     "on_pct": 21.2,
+     "saved_pct": 78.8,
+     "off_per_1000": 744.39,
+     "on_per_1000": 157.94,
+     "saved_per_1000": 586.46
+    }
+   }
+  },
+  "sonnet_long": {
+   "turns": 20,
+   "system_prompt_chars": 258,
+   "model": "claude-sonnet-5-5",
+   "stop_reasons": [
+    "end_turn",
+    "tool_use"
+   ],
+   "off": {
+    "input_total": 549764,
+    "full_price": 549764,
+    "written": 0,
+    "read": 0,
+    "output": 1300,
+    "per_turn": [
+     [
+      641,
+      0,
+      0
+     ],
+     [
+      3505,
+      0,
+      0
+     ],
+     [
+      6301,
+      0,
+      0
+     ],
+     [
+      9101,
+      0,
+      0
+     ],
+     [
+      11894,
+      0,
+      0
+     ],
+     [
+      14761,
+      0,
+      0
+     ],
+     [
+      17577,
+      0,
+      0
+     ],
+     [
+      20402,
+      0,
+      0
+     ],
+     [
+      23255,
+      0,
+      0
+     ],
+     [
+      26090,
+      0,
+      0
+     ],
+     [
+      28934,
+      0,
+      0
+     ],
+     [
+      31786,
+      0,
+      0
+     ],
+     [
+      34630,
+      0,
+      0
+     ],
+     [
+      37370,
+      0,
+      0
+     ],
+     [
+      40185,
+      0,
+      0
+     ],
+     [
+      42988,
+      0,
+      0
+     ],
+     [
+      45877,
+      0,
+      0
+     ],
+     [
+      48652,
+      0,
+      0
+     ],
+     [
+      51475,
+      0,
+      0
+     ],
+     [
+      54340,
+      0,
+      0
+     ]
+    ],
+    "turn1": [
+     641,
+     0,
+     0
+    ],
+    "last": [
+     54340,
+     0,
+     0
+    ]
+   },
+   "on": {
+    "input_total": 549764,
+    "full_price": 42,
+    "written": 54338,
+    "read": 495384,
+    "output": 1308,
+    "per_turn": [
+     [
+      4,
+      637,
+      0
+     ],
+     [
+      2,
+      2866,
+      637
+     ],
+     [
+      2,
+      2796,
+      3503
+     ],
+     [
+      2,
+      2800,
+      6299
+     ],
+     [
+      2,
+      2793,
+      9099
+     ],
+     [
+      2,
+      2867,
+      11892
+     ],
+     [
+      2,
+      2816,
+      14759
+     ],
+     [
+      2,
+      2825,
+      17575
+     ],
+     [
+      2,
+      2853,
+      20400
+     ],
+     [
+      2,
+      2835,
+      23253
+     ],
+     [
+      2,
+      2844,
+      26088
+     ],
+     [
+      2,
+      2852,
+      28932
+     ],
+     [
+      2,
+      2844,
+      31784
+     ],
+     [
+      2,
+      2740,
+      34628
+     ],
+     [
+      2,
+      2815,
+      37368
+     ],
+     [
+      2,
+      2803,
+      40183
+     ],
+     [
+      2,
+      2889,
+      42986
+     ],
+     [
+      2,
+      2775,
+      45875
+     ],
+     [
+      2,
+      2823,
+      48650
+     ],
+     [
+      2,
+      2865,
+      51473
+     ]
+    ],
+    "turn1": [
+     4,
+     637,
+     0
+    ],
+    "last": [
+     2,
+     2865,
+     51473
+    ]
+   },
+   "last_turn_total": 54340,
+   "cost_input_side": {
+    "haiku_5_5": {
+     "off": 0.054976,
+     "on": 0.01175,
+     "on_pct": 21.4,
+     "saved_pct": 78.6,
+     "off_per_1000": 54.98,
+     "on_per_1000": 11.75,
+     "saved_per_1000": 43.23
+    },
+    "sonnet_5_5": {
+     "off": 1.099528,
+     "on": 0.185467,
+     "on_pct": 16.9,
+     "saved_pct": 83.1,
+     "off_per_1000": 1099.53,
+     "on_per_1000": 185.47,
+     "saved_per_1000": 914.06
+    },
+    "opus_5_5": {
+     "off": 2.199056,
+     "on": 0.370935,
+     "on_pct": 16.9,
+     "saved_pct": 83.1,
+     "off_per_1000": 2199.06,
+     "on_per_1000": 370.93,
+     "saved_per_1000": 1828.12
+    }
+   }
+  },
+  "sonnet_small_repeat": {
+   "turns": 10,
+   "system_prompt_chars": 256,
+   "model": "claude-sonnet-5-5",
+   "stop_reasons": [
+    "end_turn",
+    "tool_use"
+   ],
+   "off": {
+    "input_total": 71888,
+    "full_price": 71888,
+    "written": 0,
+    "read": 0,
+    "output": 899,
+    "per_turn": [
+     [
+      641,
+      0,
+      0
+     ],
+     [
+      2090,
+      0,
+      0
+     ],
+     [
+      3543,
+      0,
+      0
+     ],
+     [
+      5017,
+      0,
+      0
+     ],
+     [
+      6478,
+      0,
+      0
+     ],
+     [
+      7943,
+      0,
+      0
+     ],
+     [
+      9370,
+      0,
+      0
+     ],
+     [
+      10816,
+      0,
+      0
+     ],
+     [
+      12277,
+      0,
+      0
+     ],
+     [
+      13713,
+      0,
+      0
+     ]
+    ],
+    "turn1": [
+     641,
+     0,
+     0
+    ],
+    "last": [
+     13713,
+     0,
+     0
+    ]
+   },
+   "on": {
+    "input_total": 71888,
+    "full_price": 22,
+    "written": 0,
+    "read": 71866,
+    "output": 828,
+    "per_turn": [
+     [
+      4,
+      0,
+      637
+     ],
+     [
+      2,
+      0,
+      2088
+     ],
+     [
+      2,
+      0,
+      3541
+     ],
+     [
+      2,
+      0,
+      5015
+     ],
+     [
+      2,
+      0,
+      6476
+     ],
+     [
+      2,
+      0,
+      7941
+     ],
+     [
+      2,
+      0,
+      9368
+     ],
+     [
+      2,
+      0,
+      10814
+     ],
+     [
+      2,
+      0,
+      12275
+     ],
+     [
+      2,
+      0,
+      13711
+     ]
+    ],
+    "turn1": [
+     4,
+     0,
+     637
+    ],
+    "last": [
+     2,
+     0,
+     13711
+    ]
+   },
+   "last_turn_total": 13713,
+   "cost_input_side": {
+    "haiku_5_5": {
+     "off": 0.007189,
+     "on": 0.000721,
+     "on_pct": 10.0,
+     "saved_pct": 90.0,
+     "off_per_1000": 7.19,
+     "on_per_1000": 0.72,
+     "saved_per_1000": 6.47
+    },
+    "sonnet_5_5": {
+     "off": 0.143776,
+     "on": 0.007231,
+     "on_pct": 5.0,
+     "saved_pct": 95.0,
+     "off_per_1000": 143.78,
+     "on_per_1000": 7.23,
+     "saved_per_1000": 136.55
+    },
+    "opus_5_5": {
+     "off": 0.287552,
+     "on": 0.014461,
+     "on_pct": 5.0,
+     "saved_pct": 95.0,
+     "off_per_1000": 287.55,
+     "on_per_1000": 14.46,
+     "saved_per_1000": 273.09
+    }
+   }
+  },
+  "haiku_ttl_gap": {
+   "turns": 10,
+   "system_prompt_chars": 256,
+   "model": "claude-haiku-5-5",
+   "stop_reasons": [
+    "end_turn",
+    "tool_use"
+   ],
+   "off": {
+    "input_total": 72122,
+    "full_price": 72122,
+    "written": 0,
+    "read": 0,
+    "output": 718,
+    "per_turn": [
+     [
+      641,
+      0,
+      0
+     ],
+     [
+      2116,
+      0,
+      0
+     ],
+     [
+      3569,
+      0,
+      0
+     ],
+     [
+      5043,
+      0,
+      0
+     ],
+     [
+      6504,
+      0,
+      0
+     ],
+     [
+      7969,
+      0,
+      0
+     ],
+     [
+      9396,
+      0,
+      0
+     ],
+     [
+      10842,
+      0,
+      0
+     ],
+     [
+      12303,
+      0,
+      0
+     ],
+     [
+      13739,
+      0,
+      0
+     ]
+    ],
+    "turn1": [
+     641,
+     0,
+     0
+    ],
+    "last": [
+     13739,
+     0,
+     0
+    ]
+   },
+   "on": {
+    "input_total": 72122,
+    "full_price": 22,
+    "written": 20239,
+    "read": 51861,
+    "output": 735,
+    "per_turn": [
+     [
+      4,
+      637,
+      0
+     ],
+     [
+      2,
+      1477,
+      637
+     ],
+     [
+      2,
+      1453,
+      2114
+     ],
+     [
+      2,
+      1474,
+      3567
+     ],
+     [
+      2,
+      1461,
+      5041
+     ],
+     [
+      2,
+      7967,
+      0
+     ],
+     [
+      2,
+      1427,
+      7967
+     ],
+     [
+      2,
+      1446,
+      9394
+     ],
+     [
+      2,
+      1461,
+      10840
+     ],
+     [
+      2,
+      1436,
+      12301
+     ]
+    ],
+    "turn1": [
+     4,
+     637,
+     0
+    ],
+    "last": [
+     2,
+     1436,
+     12301
+    ]
+   },
+   "last_turn_total": 13739,
+   "cost_input_side": {
+    "haiku_5_5": {
+     "off": 0.007212,
+     "on": 0.003051,
+     "on_pct": 42.3,
+     "saved_pct": 57.7,
+     "off_per_1000": 7.21,
+     "on_per_1000": 3.05,
+     "saved_per_1000": 4.16
+    },
+    "sonnet_5_5": {
+     "off": 0.144244,
+     "on": 0.055828,
+     "on_pct": 38.7,
+     "saved_pct": 61.3,
+     "off_per_1000": 144.24,
+     "on_per_1000": 55.83,
+     "saved_per_1000": 88.42
+    },
+    "opus_5_5": {
+     "off": 0.288488,
+     "on": 0.111655,
+     "on_pct": 38.7,
+     "saved_pct": 61.3,
+     "off_per_1000": 288.49,
+     "on_per_1000": 111.66,
+     "saved_per_1000": 176.83
+    }
+   }
+  }
+ },
+ "live_spend_reported_runs": 2.19,
+ "live_spend_stopped_attempt": 0.2,
+ "live_spend_total": 2.39,
+ "est_agents_round": 147,
+ "pct_without_round": 66,
+ "sources": {
+  "paper_2610_34817": {
+   "prs": 120,
+   "apps": 10,
+   "silent": 108,
+   "silent_pct": 90,
+   "gating": 37,
+   "gating_pct": 31,
+   "volatile": 13,
+   "volatile_pct": 11,
+   "repos": 571,
+   "warnings": 37,
+   "tp": 32,
+   "fp": 5,
+   "projects": 33,
+   "precision": 0.86,
+   "confirmed": 21,
+   "fixed": 18
+  },
+  "paper_2601_06007": {
+   "saving_lo": 41,
+   "saving_hi": 80,
+   "sessions": 500,
+   "system_tokens": 10000
+  },
+  "anthropic": {
+   "min_tokens_new": 512,
+   "min_tokens_mid": 1024,
+   "min_tokens_old": 4096,
+   "read_x": 0.1,
+   "read_x_55": 0.05,
+   "read_x_fable": 0.025,
+   "write_5m_x": 1.25,
+   "write_1h_x": 2,
+   "ttl_min": 5,
+   "tool_prompt_tokens_55": 286,
+   "launch_up_to_pct": 90,
+   "haiku_55_in": 0.1,
+   "sonnet_55_in": 2,
+   "sonnet_55_read": 0.1,
+   "opus_55_in": 4,
+   "opus_55_read": 0.2
+  },
+  "openai": {
+   "min_tokens": 1024,
+   "up_to_pct": 95
+  },
+  "google": {
+   "min_tokens_new": 4096,
+   "min_tokens_25": 2048
+  }
+ }
+}

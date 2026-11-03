@@ -1,0 +1,171 @@
+<!doctype html>
+<!-- Static figures for X Article #11 (prompt caching). House plate: heavy ink rule over the title, hairline under the
+     plot, caption under it. Three faded colours: charcoal and stone carry the data, terracotta marks one thing per
+     figure. Lines, rings, lollipops, dumbbells; no dot grids. Inter Tight only, nothing under 18 px. ?fig=1..4|cover.
+     Every number is read from ../data/summary.json (code/analyze.py). -->
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="fonts/fonts.css">
+<style>
+  :root { --bg:#FAF8F3; --ink:#1F1C1A; --text:#615B53; --grid:#E8E3DA;
+          --charcoal:#3A3531; --stone:#CBC1B1; --terra:#C9876A; }
+  html, body { margin:0; background:var(--bg); }
+  body { width:1200px; height:720px; overflow:hidden; }
+  svg { display:block; }
+  text { font-family:'Inter Tight', sans-serif; font-variant-numeric:tabular-nums lining-nums; }
+</style>
+</head>
+<body>
+<svg id="c" width="1200" height="720" viewBox="0 0 1200 720"></svg>
+<script>
+const C = document.getElementById('c');
+const fig = new URLSearchParams(location.search).get('fig') || '1';
+const v = (n) => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+const n0 = (x) => Math.round(Number(x)).toLocaleString('en-US');
+const p1 = (x) => Number(x).toFixed(1);
+let N;
+
+function card(title, note, caption) {
+  return `<rect x="40" y="24" width="1120" height="4" fill="${v('--ink')}"/>
+    <line x1="40" x2="1160" y1="640" y2="640" stroke="${v('--ink')}" stroke-width="1"/>
+    <text x="40" y="74" font-size="26" font-weight="600" fill="${v('--ink')}">${title}</text>
+    <text x="1160" y="74" font-size="20" text-anchor="end" fill="${v('--text')}">${note}</text>
+    <text x="40" y="680" font-size="20" fill="${v('--text')}">${caption}</text>`;
+}
+const ring = (x, y, r, col, w = 2.5) => `<circle cx="${x}" cy="${y}" r="${r}" fill="${v('--bg')}" stroke="${col}" stroke-width="${w}"/>`;
+const disc = (x, y, r, col) => `<circle cx="${x}" cy="${y}" r="${r}" fill="${col}"/>`;
+const vgrid = (xs, y1, y2, yl) => xs.map(([x, t]) => `<line x1="${x}" x2="${x}" y1="${y1}" y2="${y2}" stroke="${v('--grid')}" stroke-width="1"/>
+  <text x="${x}" y="${yl}" font-size="20" text-anchor="middle" fill="${v('--text')}">${t}</text>`).join('');
+const hgrid = (ys, x1, x2) => ys.map(([y, t]) => `<line x1="${x1}" x2="${x2}" y1="${y}" y2="${y}" stroke="${v('--grid')}" stroke-width="1"/>
+  <text x="${x1 - 14}" y="${y + 7}" font-size="20" text-anchor="end" fill="${v('--text')}">${t}</text>`).join('');
+
+// 1 · funnel: from the repos that default to Claude to the agents without caching
+function fig1() {
+  const est = N.corrected_main;
+  const rows = [
+    ['Default to a Claude model', N.cloned, 'cloned at a recorded commit', false],
+    ['Call the Messages API directly', N.all_direct_callers.n, 'SDK, raw HTTP, LangChain, AI SDK, LiteLLM', false],
+    ['Agents by the scan rule', N.buckets.agent, 'tool loop in the calling file', false],
+    ['Real agents, after reading 90', est.est_agents, 'estimate from the hand check', false],
+    ['…with no prompt caching', est.est_without, `${p1(est.pct_without)}% of real agents`, true],
+  ];
+  let s = card('From 710 new Claude projects to the agents that never cache', 'GitHub, created October 2026',
+    'Real agents and the share without caching are estimated from 90 projects read by hand, weighted by group size.');
+  const x0 = 470, W = 600, X = (n) => x0 + W * n / 800;
+  s += vgrid([0, 200, 400, 600, 800].map((g) => [X(g), n0(g)]), 120, 590, 622);
+  rows.forEach(([lab, n, note, hot], i) => {
+    const y = 160 + i * 92;
+    s += `<text x="${x0 - 30}" y="${y + 4}" font-size="23" font-weight="700" text-anchor="end" fill="${v('--ink')}">${lab}</text>
+      <text x="${x0 - 30}" y="${y + 32}" font-size="20" text-anchor="end" fill="${v('--text')}">${note}</text>
+      <line x1="${x0}" x2="${X(n)}" y1="${y}" y2="${y}" stroke="${hot ? v('--terra') : v('--stone')}" stroke-width="${hot ? 3 : 2}"/>
+      ${hot ? disc(X(n), y, 11, v('--terra')) : ring(X(n), y, 9, v('--charcoal'), 3)}
+      <text x="${X(n) + 22}" y="${y + 9}" font-size="26" font-weight="700" fill="${v('--ink')}">${i >= 3 ? '≈ ' : ''}${n0(n)}</text>`;
+  });
+  return s;
+}
+
+// 2 · the share without caching, by method
+function fig2() {
+  const c = N.corrected_main, R = N.regex;
+  const rows = [
+    ['Scan, first rule', R.v1.pct, `${R.v1.no_marker} of ${R.v1.n}`, null],
+    ['Scan, loose rule', R.loose.pct, `${R.loose.no_marker} of ${R.loose.n}`, null],
+    ['Scan, final rule', R.v2.pct, `${R.v2.no_marker} of ${R.v2.n}`, null],
+    ['Every direct API caller', N.all_direct_callers.pct, `${N.all_direct_callers.no_marker} of ${N.all_direct_callers.n}`, null],
+    ['Real agents, read by hand', c.pct_without, `≈ ${n0(c.est_without)} of ${n0(c.est_agents)}`, c.ci95_bootstrap],
+  ];
+  let s = card('Share with no prompt caching, however it is counted', 'Percent of projects',
+    'Last row: 95% interval from 20,000 resamples of the 90 hand-checked projects. Dashed line: half.');
+  const x0 = 430, W = 640, X = (p) => x0 + W * (p - 40) / 45;
+  s += vgrid([40, 50, 60, 70, 80].map((g) => [X(g), `${g}%`]), 120, 590, 622);
+  s += `<line x1="${X(50)}" x2="${X(50)}" y1="120" y2="590" stroke="${v('--ink')}" stroke-width="1.5" stroke-dasharray="6 6"/>`;
+  rows.forEach(([lab, p, note, ci], i) => {
+    const y = 160 + i * 92, hot = !!ci;
+    if (ci) s += `<line x1="${X(ci[0])}" x2="${X(ci[1])}" y1="${y}" y2="${y}" stroke="${v('--terra')}" stroke-width="4" stroke-linecap="round"/>
+      <text x="${X(ci[0])}" y="${y + 34}" font-size="20" text-anchor="middle" fill="${v('--text')}">${p1(ci[0])}%</text>
+      <text x="${X(ci[1])}" y="${y + 34}" font-size="20" text-anchor="middle" fill="${v('--text')}">${p1(ci[1])}%</text>`;
+    s += `<text x="${x0 - 30}" y="${y + 4}" font-size="23" font-weight="700" text-anchor="end" fill="${v('--ink')}">${lab}</text>
+      <text x="${x0 - 30}" y="${y + 32}" font-size="20" text-anchor="end" fill="${v('--text')}">${note}</text>
+      ${hot ? disc(X(p), y, 12, v('--terra')) : ring(X(p), y, 9, v('--charcoal'), 3)}
+      <text x="${X(p)}" y="${y - 20}" font-size="24" font-weight="700" text-anchor="middle" fill="${v('--ink')}">${p1(p)}%</text>`;
+  });
+  return s;
+}
+
+// 3 · the live test: tokens per turn, billed at full price without caching vs with it
+function fig3() {
+  const L = N.live.sonnet_long, off = L.off.per_turn.map((t) => t[0]), on = L.on.per_turn, T = off.length;
+  let s = card(`The same ${T} requests, without and with one cache_control field`, 'Input tokens per request',
+    `Turns 1–${T} of one task on Claude Sonnet 5.5, 3 Nov 2026. Both passes sent ${n0(L.off.input_total)} input tokens; only the billing differs.`);
+  const x0 = 130, W = 820, y0 = 580, Hh = 440, X = (i) => x0 + i * W / (T - 1), Y = (n) => y0 - Hh * n / 60000;
+  s += hgrid([0, 20000, 40000, 60000].map((g) => [Y(g), n0(g)]), x0, x0 + W);
+  for (let i = 0; i < T; i++) if (i % 2 === 0 || i === T - 1) s += `<text x="${X(i)}" y="${y0 + 34}" font-size="20" text-anchor="middle" fill="${v('--text')}">${i + 1}</text>`;
+  const line = (vals, col, w, dash = '') => `<polyline points="${vals.map((y, i) => `${X(i)},${Y(y)}`).join(' ')}" fill="none" stroke="${col}" stroke-width="${w}" stroke-linejoin="round" ${dash ? `stroke-dasharray="${dash}"` : ''}/>`;
+  const read = on.map((t) => t[2]), paid = on.map((t) => t[0] + t[1]);
+  s += line(off, v('--charcoal'), 3.5) + line(read, v('--stone'), 3, '8 7') + line(paid, v('--terra'), 3.5);
+  off.forEach((y, i) => { s += ring(X(i), Y(y), 6, v('--charcoal')); });
+  paid.forEach((y, i) => { s += disc(X(i), Y(y), 6, v('--terra')); });
+  const e = T - 1;
+  s += `<text x="${X(e) + 18}" y="${Y(off[e]) - 14}" font-size="20" font-weight="700" fill="${v('--ink')}">${n0(off[e])}</text>
+    <text x="${X(e) + 18}" y="${Y(off[e]) + 12}" font-size="20" fill="${v('--text')}">full price, no caching</text>
+    <text x="${X(e) + 18}" y="${Y(read[e]) + 48}" font-size="20" fill="${v('--text')}">${n0(read[e])} read</text>
+    <text x="${X(e) + 18}" y="${Y(read[e]) + 72}" font-size="20" fill="${v('--text')}">from cache</text>
+    <text x="${X(e) + 18}" y="${Y(paid[e]) + 7}" font-size="20" font-weight="700" fill="${v('--ink')}">${n0(paid[e])}</text>
+    <text x="${X(e) + 18}" y="${Y(paid[e]) + 32}" font-size="20" fill="${v('--text')}">new or written</text>
+    <text x="${x0 + 10}" y="${Y(56800)}" font-size="20" fill="${v('--text')}">Charcoal: billed in full without caching · terracotta: billed in full or written, with caching</text>`;
+  return s;
+}
+
+// 4 · cost per 1,000 runs, input side, measured tokens at list prices
+function fig4() {
+  const S = N.live.small.cost_input_side, Lg = N.live.large.cost_input_side;
+  const Q = N.live, rows = [['Haiku 5.5', Q.small.cost_input_side.haiku_5_5, '10 turns, measured'], ['Sonnet 5.5', Q.sonnet_small.cost_input_side.sonnet_5_5, '10 turns, measured'],
+    ['Sonnet 5.5', Q.sonnet_long.cost_input_side.sonnet_5_5, '20 turns, measured'], ['Opus 5.5', Q.sonnet_long.cost_input_side.opus_5_5, '20 turns, repriced']];
+  let s = card('Input cost of 1,000 runs of the task', 'US dollars, without caching → with caching',
+    'Measured token counts at Anthropic’s list prices on 3 Nov 2026; Opus reprices the Sonnet run. Output left out.');
+  const x0 = 380, W = 560, X = (d) => x0 + W * d / 2400;
+  s += vgrid([0, 600, 1200, 1800, 2400].map((g) => [X(g), `$${n0(g)}`]), 120, 560, 592);
+  rows.forEach(([lab, c, note], i) => {
+    const y = 170 + i * 105, hot = i === 3;
+    s += `<text x="${x0 - 30}" y="${y + 4}" font-size="24" font-weight="700" text-anchor="end" fill="${v('--ink')}">${lab}</text>
+      <text x="${x0 - 30}" y="${y + 32}" font-size="20" text-anchor="end" fill="${v('--text')}">${note}</text>
+      <line x1="${X(c.on_per_1000)}" x2="${X(c.off_per_1000)}" y1="${y}" y2="${y}" stroke="${v('--stone')}" stroke-width="3"/>
+      ${ring(X(c.off_per_1000), y, 9, v('--charcoal'), 3)}${hot ? disc(X(c.on_per_1000), y, 11, v('--terra')) : disc(X(c.on_per_1000), y, 9, v('--charcoal'))}
+      <text x="${X(c.off_per_1000) + 20}" y="${y + 8}" font-size="22" font-weight="700" fill="${v('--ink')}">$${n0(c.off_per_1000)}</text>
+      <text x="${X(c.off_per_1000) + 20}" y="${y + 34}" font-size="20" fill="${v('--text')}">→ $${n0(c.on_per_1000)}, ${p1(c.saved_pct)}% less</text>`;
+  });
+  return s;
+}
+
+// cover · 1500×600. X's 'Article' badge sits bottom-left, x ≈ 30–280, y ≈ 480–590 (measured on the #9 card, owner 2 Nov):
+// nothing there and nothing left of x ≈ 440 below the title; the title sits low, just above it. No text under 30 px.
+function cover() {
+  const c = N.corrected_main, L = N.live.sonnet_long;
+  const bx = 1010, bw = 400, X = (p) => bx + bw * (p - 40) / 45;
+  let s = `<rect x="60" y="56" width="1380" height="5" fill="${v('--ink')}"/>
+    <text x="60" y="226" font-size="30" font-weight="600" letter-spacing="3" fill="${v('--text')}">CLAUDE AGENTS · PROMPT CACHING · OCT 2026</text>
+    <text x="60" y="314" font-size="54" font-weight="600" letter-spacing="-1" fill="${v('--ink')}">Two in three new Claude agents</text>
+    <text x="60" y="380" font-size="54" font-weight="600" letter-spacing="-1" fill="${v('--ink')}">pay full price, every turn</text>
+    <text x="1440" y="190" font-size="30" font-weight="600" text-anchor="end" fill="${v('--text')}">Real agents with no caching</text>
+    <text x="1440" y="300" font-size="96" font-weight="700" text-anchor="end" fill="${v('--ink')}">${Math.round(c.pct_without)}%</text>
+    <line x1="${X(c.ci95_bootstrap[0])}" x2="${X(c.ci95_bootstrap[1])}" y1="352" y2="352" stroke="${v('--terra')}" stroke-width="5" stroke-linecap="round"/>
+    ${disc(X(c.pct_without), 352, 14, v('--terra'))}
+    <text x="${X(c.ci95_bootstrap[0])}" y="398" font-size="30" text-anchor="middle" fill="${v('--text')}">${Math.round(c.ci95_bootstrap[0])}%</text>
+    <text x="${X(c.ci95_bootstrap[1])}" y="398" font-size="30" text-anchor="middle" fill="${v('--text')}">${Math.round(c.ci95_bootstrap[1])}%</text>
+    <line x1="440" x2="1440" y1="482" y2="482" stroke="${v('--ink')}" stroke-width="1.5"/>
+    <text x="440" y="540" font-size="30" fill="${v('--text')}">Turn 20 of a test agent: ${n0(L.off.last[0])} tokens at full price vs ${L.on.last[0]}</text>
+    <text x="1440" y="540" font-size="30" font-weight="600" text-anchor="end" fill="${v('--ink')}">@con_golias</text>`;
+  return s;
+}
+
+const F = { 1: fig1, 2: fig2, 3: fig3, 4: fig4, cover };
+if (fig === 'cover') {
+  document.body.style.width = '1500px'; document.body.style.height = '600px';
+  C.setAttribute('width', 1500); C.setAttribute('height', 600); C.setAttribute('viewBox', '0 0 1500 600');
+}
+window.ready = Promise.all([fetch('../data/summary.json').then((r) => r.json()), document.fonts.load('400 20px "Inter Tight"'), document.fonts.load('700 20px "Inter Tight"')])
+  .then(([j]) => { N = j; C.innerHTML = F[fig](); });
+</script>
+</body>
+</html>
