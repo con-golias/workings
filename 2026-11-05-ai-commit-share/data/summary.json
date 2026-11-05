@@ -1,0 +1,858 @@
+{
+ "calm": {
+  "from": "2026-10-13",
+  "to": "2026-11-03",
+  "days": 22,
+  "median_pct": 14.087349774076667,
+  "min_pct": 12.645988974807192,
+  "max_pct": 15.20804310580813,
+  "claude_per_day_median": 1793151.5,
+  "all_per_day_median": 12682722.0
+ },
+ "last_week": {
+  "from": "2026-10-26",
+  "to": "2026-11-01",
+  "claude": 12285543,
+  "all": 89285033,
+  "pct": 13.759913153641328,
+  "one_in": 7.267487729276597
+ },
+ "spike": {
+  "from": "2026-09-23",
+  "to": "2026-10-10",
+  "max_all": 218143544,
+  "max_day": "2026-09-27",
+  "min_pct": 0.5894430687345943,
+  "min_pct_day": "2026-09-27"
+ },
+ "swing": {
+  "max_pct": 15.20804310580813,
+  "min_pct": 0.5894430687345943,
+  "ratio": 25.80069885028334
+ },
+ "feb2": {
+  "all": 5152864,
+  "claude": 151531,
+  "pct": 2.9407141348966324,
+  "semi_claude": 134646,
+  "semi_pct": 4.0,
+  "semi_implied_denominator": 3366150.0,
+  "our_claude_vs_semi": 0.12540290836712575,
+  "our_claude_vs_semi_pct": 12.540290836712575
+ },
+ "nov3": {
+  "all": 13345545,
+  "claude": 1768584,
+  "pct": 13.252242602306612
+ },
+ "growth": {
+  "claude_x": 11.671433568048782,
+  "all_x": 2.58992765964714,
+  "claude_x_needed_frozen_denominator": 6.801069088173377
+ },
+ "projection": {
+  "days_left": 58,
+  "claude_daily_growth_pct": 0.9008009964057928,
+  "all_daily_growth_pct": 0.34791401950167167,
+  "a_frozen_denominator_pct": 23.458531594565724,
+  "a_growing_denominator_pct": 19.17858580786073,
+  "b_last_three_weeks_flat_pct": 14.087349774076667,
+  "calm_slope_pp_per_day": -0.03391613228416359,
+  "calm_trend_dec31_pct": 11.61590413242825
+ },
+ "weeks": [
+  {
+   "week": "2025-02-24",
+   "all_per_day": 3571614.1428571427,
+   "claude_per_day": 432.42857142857144,
+   "pct": 0.012107370901007984,
+   "spam": false,
+   "spam_sample": {
+    "n": 20,
+    "spam": 0
+   }
+  },
+  {
+   "week": "2025-03-03",
+   "all_per_day": 3824987.4285714286,
+   "claude_per_day": 610.5714285714286,
+   "pct": 0.015962704191147294,
+   "spam": false,
+   "spam_sample": {
+    "n": 20,
+    "spam": 0
+   }
+  },
+  {
+   "week": "2025-04-07",
+   "all_per_day": 3798413.5714285714,
+   "claude_per_day": 636.8571428571429,
+   "pct": 0.016766398152311332,
+   "spam": false,
+   "spam_sample": {
+    "n": 20,
+    "spam": 0
+   }
+  },
+  {
+   "week": "2025-05-05",
+   "all_per_day": 3860658.1428571427,
+   "claude_per_day": 691.8571428571429,
+   "pct": 0.017920704637813974,
+   "spam": false,
+   "spam_sample": {
+    "n": 20,
+    "spam": 0
+   }
+  },
+  {
+   "week": "2025-06-02",
+   "all_per_day": 3530335.8571428573,
+   "claude_per_day": 4606.0,
+   "pct": 0.13046917308676945,
+   "spam": false,
+   "spam_sample": {
+    "n": 20,
+    "spam": 0
+   }
+  },
+  {
+   "week": "2025-07-07",
+   "all_per_day": 3742536.5714285714,
+   "claude_per_day": 14490.857142857143,
+   "pct": 0.3871934680206961,
+   "spam": false,
+   "spam_sample": {
+    "n": 20,
+    "spam": 0
+   }
+  },
+  {
+   "week": "2025-08-04",
+   "all_per_day": 3655076.8571428573,
+   "claude_per_day": 18162.714285714286,
+   "pct": 0.49691743828095386,
+   "spam": false,
+   "spam_sample": {
+    "n": 20,
+    "spam": 0
+   }
+  },
+  {
+   "week": "2025-09-01",
+   "all_per_day": 3804854.285714286,
+   "claude_per_day": 17693.714285714286,
+   "pct": 0.46503001053541376,
+   "spam": false,
+   "spam_sample": {
+    "n": 20,
+    "spam": 0
+   }
+  },
+  {
+   "week": "2025-10-06",
+   "all_per_day": 3884115.1428571427,
+   "claude_per_day": 25957.571428571428,
+   "pct": 0.6683007705450544,
+   "spam": false,
+   "spam_sample": {
+    "n": 20,
+    "spam": 0
+   }
+  },
+  {
+   "week": "2025-11-03",
+   "all_per_day": 4465206.285714285,
+   "claude_per_day": 34234.71428571428,
+   "pct": 0.7666995004294155,
+   "spam": false,
+   "spam_sample": {
+    "n": 20,
+    "spam": 0
+   }
+  },
+  {
+   "week": "2025-12-01",
+   "all_per_day": 4552398.571428572,
+   "claude_per_day": 43737.57142857143,
+   "pct": 0.9607588338831743,
+   "spam": false,
+   "spam_sample": {
+    "n": 20,
+    "spam": 0
+   }
+  },
+  {
+   "week": "2026-01-05",
+   "all_per_day": 4862477.142857143,
+   "claude_per_day": 97245.71428571429,
+   "pct": 1.999921262942404,
+   "spam": false,
+   "spam_sample": {
+    "n": 20,
+    "spam": 0
+   }
+  },
+  {
+   "week": "2026-02-02",
+   "all_per_day": 5045936.714285715,
+   "claude_per_day": 160405.0,
+   "pct": 3.178894407174633,
+   "spam": false,
+   "spam_sample": {
+    "n": 20,
+    "spam": 0
+   }
+  },
+  {
+   "week": "2026-03-02",
+   "all_per_day": 6406144.285714285,
+   "claude_per_day": 262495.0,
+   "pct": 4.097550543551827,
+   "spam": false,
+   "spam_sample": {
+    "n": 20,
+    "spam": 0
+   }
+  },
+  {
+   "week": "2026-04-06",
+   "all_per_day": 6587084.428571428,
+   "claude_per_day": 380938.14285714284,
+   "pct": 5.78310703298149,
+   "spam": false,
+   "spam_sample": {
+    "n": 20,
+    "spam": 0
+   }
+  },
+  {
+   "week": "2026-05-04",
+   "all_per_day": 7047199.571428572,
+   "claude_per_day": 393278.14285714284,
+   "pct": 5.580630133586802,
+   "spam": false,
+   "spam_sample": {
+    "n": 20,
+    "spam": 0
+   }
+  },
+  {
+   "week": "2026-06-01",
+   "all_per_day": 10681032.714285715,
+   "claude_per_day": 516969.5714285714,
+   "pct": 4.840071042354666,
+   "spam": true,
+   "spam_sample": {
+    "n": 20,
+    "spam": 0
+   },
+   "flood_rule": "neighbours"
+  },
+  {
+   "week": "2026-07-06",
+   "all_per_day": 7895239.428571428,
+   "claude_per_day": 642028.5714285715,
+   "pct": 8.131844223814003,
+   "spam": false,
+   "spam_sample": {
+    "n": 20,
+    "spam": 0
+   }
+  },
+  {
+   "week": "2026-08-03",
+   "all_per_day": 8882813.0,
+   "claude_per_day": 637583.4285714285,
+   "pct": 7.177719812084624,
+   "spam": false,
+   "spam_sample": {
+    "n": 20,
+    "spam": 0
+   }
+  },
+  {
+   "week": "2026-08-31",
+   "all_per_day": 21763776.14285714,
+   "claude_per_day": 859795.2857142857,
+   "pct": 3.9505795321115262,
+   "spam": true,
+   "spam_sample": {
+    "n": 20,
+    "spam": 18
+   },
+   "flood_rule": "neighbours"
+  },
+  {
+   "week": "2026-09-07",
+   "all_per_day": 12123597.285714285,
+   "claude_per_day": 884611.4285714285,
+   "pct": 7.296608487761311,
+   "spam": false,
+   "spam_sample": {
+    "n": 20,
+    "spam": 0
+   }
+  },
+  {
+   "week": "2026-09-14",
+   "all_per_day": 23702813.85714286,
+   "claude_per_day": 899668.8571428572,
+   "pct": 3.7956204801892808,
+   "spam": true,
+   "spam_sample": {
+    "n": 20,
+    "spam": 10
+   },
+   "flood_rule": "neighbours"
+  },
+  {
+   "week": "2026-09-21",
+   "all_per_day": 135827708.0,
+   "claude_per_day": 1177799.0,
+   "pct": 0.8671271991131588,
+   "spam": true,
+   "spam_sample": {
+    "n": 20,
+    "spam": 10
+   }
+  },
+  {
+   "week": "2026-09-28",
+   "all_per_day": 43334087.0,
+   "claude_per_day": 1457896.857142857,
+   "pct": 3.3643188493687592,
+   "spam": true,
+   "spam_sample": {
+    "n": 20,
+    "spam": 10
+   }
+  },
+  {
+   "week": "2026-10-05",
+   "all_per_day": 58882886.571428575,
+   "claude_per_day": 1609298.7142857143,
+   "pct": 2.7330499708663836,
+   "spam": true,
+   "spam_sample": {
+    "n": 12,
+    "spam": 0
+   },
+   "flood_rule": "neighbours"
+  },
+  {
+   "week": "2026-10-12",
+   "all_per_day": 13635476.0,
+   "claude_per_day": 1750160.142857143,
+   "pct": 12.835343209559701,
+   "spam": false,
+   "spam_sample": {
+    "n": 20,
+    "spam": 0
+   }
+  },
+  {
+   "week": "2026-10-19",
+   "all_per_day": 12655066.42857143,
+   "claude_per_day": 1823436.0,
+   "pct": 14.408743014443735,
+   "spam": false,
+   "spam_sample": {
+    "n": 20,
+    "spam": 0
+   }
+  },
+  {
+   "week": "2026-10-26",
+   "all_per_day": 12753424.142857144,
+   "claude_per_day": 1754667.4285714286,
+   "pct": 13.758402519327891,
+   "spam": false,
+   "spam_sample": {
+    "n": 20,
+    "spam": 0
+   }
+  }
+ ],
+ "spam_weeks": [
+  "2026-06-01",
+  "2026-08-31",
+  "2026-09-14",
+  "2026-09-21",
+  "2026-09-28",
+  "2026-10-05"
+ ],
+ "spam_terms": {
+  "sep24": {
+   "caijing": 133617764,
+   "all": 206155615
+  },
+  "nov3": {
+   "caijing": 601826,
+   "all": 13345545
+  }
+ },
+ "dup": {
+  "all_single_repo": 100,
+  "all_n": 100,
+  "claude_single_repo": 98,
+  "claude_n": 100,
+  "claude_distinct_share": 0.988
+ },
+ "agents": {
+  "claude_author": 468406,
+  "claude_author_and_trailer": 426679,
+  "cursor": 34169,
+  "copilot_agent": 4239,
+  "jules": 1401,
+  "devin": 625,
+  "lovable": 38179,
+  "codex_connector": 42,
+  "codex_trailer": 7912,
+  "aider": 162,
+  "amp": 665,
+  "opencode": 582,
+  "gemini_trailer": 256,
+  "claude_trailer": 1768584,
+  "claude_author_without_trailer": 41727
+ },
+ "agents_share_claude_of_signed": 93.15480344664303,
+ "agents_other_total": 88232,
+ "owner": {
+  "owner_trailer": 0,
+  "owner_all": 2,
+  "owner_author_trailer": 11
+ },
+ "stars": {
+  "n_all": 1000,
+  "n_claude": 1000,
+  "repos_all": 506,
+  "repos_claude": 775,
+  "all_ge1": 18.8,
+  "claude_ge1": 33.300000000000004,
+  "all_ge2": 12.6,
+  "claude_ge2": 21.2,
+  "all_ge10": 5.7,
+  "claude_ge10": 12.3,
+  "all_ge100": 2.6,
+  "claude_ge100": 4.8,
+  "all_ge1000": 1.4000000000000001,
+  "claude_ge1000": 2.3,
+  "all_zero": 81.2,
+  "claude_zero": 66.7,
+  "all_new2026": 85.7,
+  "claude_new2026": 87.4,
+  "share_in_ge100_pct": 24.465678650412208,
+  "share_in_ge100_ci": [
+   16.464907475593066,
+   37.6642684486609
+  ],
+  "share_in_ge10_pct": 28.596944562872164,
+  "distinct_repos_ge100_all": 10,
+  "distinct_repos_ge100_claude": 39
+ },
+ "scheduled": {
+  "all_pct": 24.7,
+  "claude_pct": 2.4,
+  "share_among_unscheduled_pct": 17.176877529682937
+ },
+ "codex_trailer_verified": "20 of 20 full messages carry a literal Co-authored-by: Codex line (3 Nov)",
+ "facts": {
+  "semi_post_views_k": 621.2,
+  "semi_chart_growth_x": 42896,
+  "models_n": 100,
+  "models": {
+   "opus_5_5": 70,
+   "sonnet_5_5": 24,
+   "opus_5_5_1m": 4,
+   "sonnet_4_6": 1,
+   "haiku_5_5": 1
+  },
+  "spam_sample": {
+   "n": 100,
+   "spam": 79,
+   "repos": 11,
+   "day": "24 Sep"
+  },
+  "tracker_mar15_claude_then": 326731,
+  "mar15_claude_now": 337736,
+  "tracker_mar16_week_then_m": 2.6,
+  "mar16_week_claude_now": 2553070,
+  "mar16_week_all_now": 46018496,
+  "octoverse_2025_commits_m": 986,
+  "octoverse_2026_commits_b": 34.3,
+  "octoverse_2026_x": 6,
+  "octoverse_2026_new_repo_share": 55,
+  "octoverse_2026_agent_pr_share": 40,
+  "octoverse_2026_agent_pr_march": 17,
+  "repeat_rounds": 4,
+  "repeat_days": 5,
+  "spam_reachable": 3,
+  "trailer_in_all_sample": 26,
+  "all_sample_n": 200,
+  "sampled_weeks": 28,
+  "flood_weeks": 6
+ },
+ "daily": [
+  {
+   "day": "2026-08-24",
+   "all": 26094403,
+   "claude": 654899
+  },
+  {
+   "day": "2026-08-25",
+   "all": 28718669,
+   "claude": 717133
+  },
+  {
+   "day": "2026-08-26",
+   "all": 27576639,
+   "claude": 706055
+  },
+  {
+   "day": "2026-08-27",
+   "all": 30399938,
+   "claude": 716002
+  },
+  {
+   "day": "2026-08-28",
+   "all": 10293739,
+   "claude": 689236
+  },
+  {
+   "day": "2026-08-29",
+   "all": 7871582,
+   "claude": 610557
+  },
+  {
+   "day": "2026-08-30",
+   "all": 30189003,
+   "claude": 620310
+  },
+  {
+   "day": "2026-08-31",
+   "all": 30535506,
+   "claude": 713123
+  },
+  {
+   "day": "2026-09-01",
+   "all": 34959156,
+   "claude": 759013
+  },
+  {
+   "day": "2026-09-02",
+   "all": 37417563,
+   "claude": 957251
+  },
+  {
+   "day": "2026-09-03",
+   "all": 20085278,
+   "claude": 953516
+  },
+  {
+   "day": "2026-09-04",
+   "all": 11967073,
+   "claude": 943286
+  },
+  {
+   "day": "2026-09-05",
+   "all": 8783277,
+   "claude": 851376
+  },
+  {
+   "day": "2026-09-06",
+   "all": 8510295,
+   "claude": 841287
+  },
+  {
+   "day": "2026-09-07",
+   "all": 10007680,
+   "claude": 912277
+  },
+  {
+   "day": "2026-09-08",
+   "all": 12125558,
+   "claude": 925417
+  },
+  {
+   "day": "2026-09-09",
+   "all": 14026638,
+   "claude": 920823
+  },
+  {
+   "day": "2026-09-10",
+   "all": 13846535,
+   "claude": 920132
+  },
+  {
+   "day": "2026-09-11",
+   "all": 11506464,
+   "claude": 904667
+  },
+  {
+   "day": "2026-09-12",
+   "all": 12603843,
+   "claude": 799283
+  },
+  {
+   "day": "2026-09-13",
+   "all": 10676356,
+   "claude": 811344
+  },
+  {
+   "day": "2026-09-14",
+   "all": 12731095,
+   "claude": 942549
+  },
+  {
+   "day": "2026-09-15",
+   "all": 14351177,
+   "claude": 952379
+  },
+  {
+   "day": "2026-09-16",
+   "all": 10924601,
+   "claude": 942296
+  },
+  {
+   "day": "2026-09-17",
+   "all": 26307465,
+   "claude": 945043
+  },
+  {
+   "day": "2026-09-18",
+   "all": 27625850,
+   "claude": 911938
+  },
+  {
+   "day": "2026-09-19",
+   "all": 38561286,
+   "claude": 812750
+  },
+  {
+   "day": "2026-09-20",
+   "all": 35376426,
+   "claude": 802791
+  },
+  {
+   "day": "2026-09-21",
+   "all": 24525587,
+   "claude": 974611
+  },
+  {
+   "day": "2026-09-22",
+   "all": 35523773,
+   "claude": 1008713
+  },
+  {
+   "day": "2026-09-23",
+   "all": 128753591,
+   "claude": 1230831
+  },
+  {
+   "day": "2026-09-24",
+   "all": 206155615,
+   "claude": 1353126
+  },
+  {
+   "day": "2026-09-25",
+   "all": 149042838,
+   "claude": 1360386
+  },
+  {
+   "day": "2026-09-26",
+   "all": 180308563,
+   "claude": 1282976
+  },
+  {
+   "day": "2026-09-27",
+   "all": 218143544,
+   "claude": 1285832
+  },
+  {
+   "day": "2026-09-28",
+   "all": 78135738,
+   "claude": 1427824
+  },
+  {
+   "day": "2026-09-29",
+   "all": 38471489,
+   "claude": 1490957
+  },
+  {
+   "day": "2026-09-30",
+   "all": 26440434,
+   "claude": 1540660
+  },
+  {
+   "day": "2026-10-01",
+   "all": 53668338,
+   "claude": 1484257
+  },
+  {
+   "day": "2026-10-02",
+   "all": 24218766,
+   "claude": 1484318
+  },
+  {
+   "day": "2026-10-03",
+   "all": 29903466,
+   "claude": 1380476
+  },
+  {
+   "day": "2026-10-04",
+   "all": 52539029,
+   "claude": 1388895
+  },
+  {
+   "day": "2026-10-05",
+   "all": 86901384,
+   "claude": 1520629
+  },
+  {
+   "day": "2026-10-06",
+   "all": 61448934,
+   "claude": 1594349
+  },
+  {
+   "day": "2026-10-07",
+   "all": 69316412,
+   "claude": 1669870
+  },
+  {
+   "day": "2026-10-08",
+   "all": 95169072,
+   "claude": 1685422
+  },
+  {
+   "day": "2026-10-09",
+   "all": 51469443,
+   "claude": 1680658
+  },
+  {
+   "day": "2026-10-10",
+   "all": 37330528,
+   "claude": 1587808
+  },
+  {
+   "day": "2026-10-11",
+   "all": 19146395,
+   "claude": 1609880
+  },
+  {
+   "day": "2026-10-12",
+   "all": 19206591,
+   "claude": 1752040
+  },
+  {
+   "day": "2026-10-13",
+   "all": 13598693,
+   "claude": 1791388
+  },
+  {
+   "day": "2026-10-14",
+   "all": 12943109,
+   "claude": 1800716
+  },
+  {
+   "day": "2026-10-15",
+   "all": 14099203,
+   "claude": 1829769
+  },
+  {
+   "day": "2026-10-16",
+   "all": 12963176,
+   "claude": 1717655
+  },
+  {
+   "day": "2026-10-17",
+   "all": 11185316,
+   "claude": 1671934
+  },
+  {
+   "day": "2026-10-18",
+   "all": 11397157,
+   "claude": 1683382
+  },
+  {
+   "day": "2026-10-19",
+   "all": 12142772,
+   "claude": 1846678
+  },
+  {
+   "day": "2026-10-20",
+   "all": 12691371,
+   "claude": 1898503
+  },
+  {
+   "day": "2026-10-21",
+   "all": 15168947,
+   "claude": 1928665
+  },
+  {
+   "day": "2026-10-22",
+   "all": 12674073,
+   "claude": 1903992
+  },
+  {
+   "day": "2026-10-23",
+   "all": 12378973,
+   "claude": 1828934
+  },
+  {
+   "day": "2026-10-24",
+   "all": 11623283,
+   "claude": 1682309
+  },
+  {
+   "day": "2026-10-25",
+   "all": 11758035,
+   "claude": 1676949
+  },
+  {
+   "day": "2026-10-26",
+   "all": 12541233,
+   "claude": 1794915
+  },
+  {
+   "day": "2026-10-27",
+   "all": 13438309,
+   "claude": 1846600
+  },
+  {
+   "day": "2026-10-28",
+   "all": 12733935,
+   "claude": 1855712
+  },
+  {
+   "day": "2026-10-29",
+   "all": 12648391,
+   "claude": 1838341
+  },
+  {
+   "day": "2026-10-30",
+   "all": 13373165,
+   "claude": 1761207
+  },
+  {
+   "day": "2026-10-31",
+   "all": 12508316,
+   "claude": 1595720
+  },
+  {
+   "day": "2026-11-01",
+   "all": 12041684,
+   "claude": 1593048
+  },
+  {
+   "day": "2026-11-02",
+   "all": 13961842,
+   "claude": 1765613
+  },
+  {
+   "day": "2026-11-03",
+   "all": 13345545,
+   "claude": 1768584
+  }
+ ]
+}

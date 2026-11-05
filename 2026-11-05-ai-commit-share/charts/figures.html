@@ -1,0 +1,163 @@
+<!doctype html>
+<!-- Static figures for X Article #13 (Claude Code's share of public GitHub commits vs SemiAnalysis's 20% projection).
+     House plate: heavy ink rule over the title, hairline under the plot, caption under it. Charcoal and stone carry the
+     data, terracotta marks one thing per figure. Lines and rings; no dot grids. Inter Tight only, nothing under 18 px.
+     ?fig=1..3|cover. Every number is read from ../data/summary.json (code/analyze.py). -->
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="fonts/fonts.css">
+<style>
+  :root { --bg:#FAF8F3; --ink:#1F1C1A; --text:#615B53; --grid:#E8E3DA;
+          --charcoal:#3A3531; --stone:#CBC1B1; --terra:#C9876A; }
+  html, body { margin:0; background:var(--bg); }
+  body { width:1200px; height:720px; overflow:hidden; }
+  svg { display:block; }
+  text { font-family:'Inter Tight', sans-serif; font-variant-numeric:tabular-nums lining-nums; }
+</style>
+</head>
+<body>
+<svg id="c" width="1200" height="720" viewBox="0 0 1200 720"></svg>
+<script>
+const C = document.getElementById('c');
+const fig = new URLSearchParams(location.search).get('fig') || '1';
+const v = (n) => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+const n0 = (x) => Math.round(Number(x)).toLocaleString('en-US');
+const p1 = (x) => Number(x).toFixed(1);
+const MON = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+const t = (d) => new Date(d + 'T00:00:00Z').getTime();
+let N;
+
+function card(title, note, caption) {
+  return `<rect x="40" y="24" width="1120" height="4" fill="${v('--ink')}"/>
+    <line x1="40" x2="1160" y1="640" y2="640" stroke="${v('--ink')}" stroke-width="1"/>
+    <text x="40" y="74" font-size="26" font-weight="600" fill="${v('--ink')}">${title}</text>
+    <text x="1160" y="74" font-size="20" text-anchor="end" fill="${v('--text')}">${note}</text>
+    <text x="40" y="680" font-size="20" fill="${v('--text')}">${caption}</text>`;
+}
+const ring = (x, y, r, col, w = 2.5) => `<circle cx="${x}" cy="${y}" r="${r}" fill="${v('--bg')}" stroke="${col}" stroke-width="${w}"/>`;
+const disc = (x, y, r, col) => `<circle cx="${x}" cy="${y}" r="${r}" fill="${col}"/>`;
+const hgrid = (vals, Y, x1, x2, fmt) => vals.map((g) => `<line x1="${x1}" x2="${x2}" y1="${Y(g)}" y2="${Y(g)}" stroke="${v('--grid')}" stroke-width="1"/>
+  <text x="${x1 - 14}" y="${Y(g) + 7}" font-size="20" text-anchor="end" fill="${v('--text')}">${fmt(g)}</text>`).join('');
+function monthAxis(X, d0, d1, y, every = 2) {
+  let s = '', d = new Date(d0 + 'T00:00:00Z'), i = 0;
+  d.setUTCDate(1); d.setUTCMonth(d.getUTCMonth() + 1);
+  while (d.getTime() <= t(d1)) {
+    if (i % every === 0) {
+      const m = d.getUTCMonth();
+      s += `<text x="${X(d.getTime())}" y="${y}" font-size="20" text-anchor="middle" fill="${v('--text')}">${MON[m]}${m === 0 || i === 0 ? ' ’' + String(d.getUTCFullYear()).slice(2) : ''}</text>`;
+    }
+    d.setUTCMonth(d.getUTCMonth() + 1); i++;
+  }
+  return s;
+}
+
+// 1 · Claude Code commits per day: the growth SemiAnalysis predicted happened, and more
+function fig1() {
+  const W = N.weeks, d0 = '2025-02-24', d1 = '2026-11-03';
+  const x0 = 150, x1 = 1110, X = (ms) => x0 + (x1 - x0) * (ms - t(d0)) / (t(d1) - t(d0));
+  const y0 = 580, top = 2.0e6, Y = (n) => y0 - 440 * n / top;
+  let s = card('Commits carrying Claude Code’s co-author line, per day', 'GitHub commit search, 4–5 Nov 2026',
+    `Weekly average (first week of each month; every week from September). ×${p1(N.growth.claude_x)} from 2 Feb to 3 Nov 2026.`);
+  s += hgrid([0, 0.5e6, 1e6, 1.5e6, 2e6], Y, x0, x1, (g) => g === 0 ? '0' : (g / 1e6) + 'M');
+  s += monthAxis(X, d0, d1, y0 + 36, 2);
+  const pts = W.map((w) => [X(t(w.week) + 3 * 864e5), Y(w.claude_per_day)]);
+  s += `<polyline points="${pts.map((p) => p.join(',')).join(' ')}" fill="none" stroke="${v('--charcoal')}" stroke-width="3" stroke-linejoin="round"/>`;
+  pts.forEach(([x, y]) => { s += ring(x, y, 5, v('--charcoal'), 2.5); });
+  // SemiAnalysis's chart ends 2 Feb 2026
+  const xf = X(t('2026-02-02')), yf = Y(N.feb2.semi_claude);
+  s += `<line x1="${xf}" x2="${xf}" y1="${yf - 14}" y2="${Y(1.25e6)}" stroke="${v('--terra')}" stroke-width="2" stroke-dasharray="5 5"/>
+    ${disc(xf, yf, 9, v('--terra'))}
+    <text x="${xf - 12}" y="${Y(1.25e6) - 40}" font-size="22" font-weight="700" text-anchor="end" fill="${v('--ink')}">SemiAnalysis’s chart ends</text>
+    <text x="${xf - 12}" y="${Y(1.25e6) - 12}" font-size="20" text-anchor="end" fill="${v('--text')}">2 Feb · their count ${n0(N.feb2.semi_claude)} · “4%”</text>`;
+  const xn = X(t('2026-11-03')), yn = Y(N.nov3.claude);
+  s += disc(xn, yn, 9, v('--charcoal'))
+    + `<text x="${xn - 16}" y="${yn - 22}" font-size="22" font-weight="700" text-anchor="end" fill="${v('--ink')}">3 Nov · ${p1(N.nov3.claude / 1e6)}M a day</text>`;
+  return s;
+}
+
+// 2 · the share, and why some weeks have none
+function fig2() {
+  const W = N.weeks, d0 = '2025-02-24', d1 = '2026-12-31';
+  const x0 = 120, x1 = 960, X = (ms) => x0 + (x1 - x0) * (ms - t(d0)) / (t(d1) - t(d0));
+  const y0 = 580, Y = (p) => y0 - 430 * p / 25;
+  let s = card('Share of commits in GitHub’s search index carrying the line', 'weekly, % of all commits that week',
+    'Hollow rings: weeks flooded by spam (up to 218M commits a day), where a share means nothing. Dotted: two ways to extend.');
+  s += hgrid([0, 5, 10, 15, 20, 25], Y, x0, x1, (g) => g + '%');
+  s += monthAxis(X, d0, d1, y0 + 36, 2);
+  // 20% target, end of 2026
+  s += `<line x1="${X(t('2026-01-01'))}" x2="${x1}" y1="${Y(20)}" y2="${Y(20)}" stroke="${v('--terra')}" stroke-width="2.5" stroke-dasharray="8 6"/>
+    <text x="${X(t('2026-01-01')) - 10}" y="${Y(20) + 7}" font-size="20" font-weight="700" text-anchor="end" fill="${v('--ink')}">SemiAnalysis: “20%+ by end of 2026”</text>`;
+  const clean = W.filter((w) => !w.spam), mid = (w) => X(t(w.week) + 3 * 864e5);
+  s += `<polyline points="${clean.map((w) => `${mid(w)},${Y(w.pct)}`).join(' ')}" fill="none" stroke="${v('--charcoal')}" stroke-width="3" stroke-linejoin="round"/>`;
+  clean.forEach((w) => { s += disc(mid(w), Y(w.pct), 6, v('--charcoal')); });
+  W.filter((w) => w.spam).forEach((w) => { s += ring(mid(w), Y(w.pct), 7, v('--stone'), 2.5); });
+  // SemiAnalysis's 4% vs the same search's own total on 2 Feb
+  const xf = X(t('2026-02-02'));
+  s += `${ring(xf, Y(N.feb2.semi_pct), 8, v('--terra'), 3)}
+    <text x="${xf - 14}" y="${Y(N.feb2.semi_pct) - 16}" font-size="20" text-anchor="end" fill="${v('--text')}">their 4% · same search: ${p1(N.feb2.pct)}%</text>`;
+  // projections from the last full week to 31 Dec
+  const P = N.projection, lw = W[W.length - 1], xs = mid(lw), ys = Y(lw.pct), xe = X(t('2026-12-31'));
+  s += `<line x1="${xs}" x2="${xe}" y1="${ys}" y2="${Y(P.a_growing_denominator_pct)}" stroke="${v('--charcoal')}" stroke-width="2" stroke-dasharray="2 6" stroke-linecap="round"/>
+    <line x1="${xs}" x2="${xe}" y1="${ys}" y2="${Y(P.calm_trend_dec31_pct)}" stroke="${v('--charcoal')}" stroke-width="2" stroke-dasharray="2 6" stroke-linecap="round"/>
+    <text x="${xe + 14}" y="${Y(P.a_growing_denominator_pct) + 30}" font-size="20" fill="${v('--text')}">Feb–Nov pace</text>
+    <text x="${xe + 14}" y="${Y(P.a_growing_denominator_pct) + 56}" font-size="22" font-weight="700" fill="${v('--ink')}">${p1(P.a_growing_denominator_pct)}% on 31 Dec</text>
+    <text x="${xe + 14}" y="${Y(P.calm_trend_dec31_pct) + 2}" font-size="20" fill="${v('--text')}">last 3 weeks’ pace</text>
+    <text x="${xe + 14}" y="${Y(P.calm_trend_dec31_pct) + 28}" font-size="22" font-weight="700" fill="${v('--ink')}">${p1(P.calm_trend_dec31_pct)}% on 31 Dec</text>
+    <text x="${xe + 14}" y="${Y(20) + 7}" font-size="22" font-weight="700" fill="${v('--terra')}">20%</text>
+    <line x1="${xs - 3}" x2="${xs - 80}" y1="${ys + 1}" y2="${ys - 46}" stroke="${v('--charcoal')}" stroke-width="1.5"/><text x="${xs - 86}" y="${ys - 46}" font-size="22" font-weight="700" text-anchor="end" fill="${v('--ink')}">last full week: ${p1(lw.pct)}%</text>`;
+  return s;
+}
+
+// 3 · the denominator: what everyone divides by, day by day
+function fig3() {
+  const D = N.daily, d0 = D[0].day, d1 = D[D.length - 1].day;
+  const x0 = 140, x1 = 1110, X = (ms) => x0 + (x1 - x0) * (ms - t(d0)) / (t(d1) - t(d0));
+  const y0 = 580, Y = (n) => y0 - 430 * n / 225e6;
+  let s = card('All commits in the index per day, and Claude Code’s', '24 Aug – 3 Nov 2026',
+    `Peak ${n0(N.spike.max_all / 1e6)}M on ${N.spike.max_day.slice(8)} Sep: a flood of Chinese gambling-ad commits. Claude Code: under ${p1(Math.ceil(Math.max(...N.daily.map((r) => r.claude)) / 1e5) / 10)}M every day.`);
+  s += hgrid([0, 50e6, 100e6, 150e6, 200e6], Y, x0, x1, (g) => g === 0 ? '0' : (g / 1e6) + 'M');
+  [['2026-09-01', 'Sep'], ['2026-10-01', 'Oct'], ['2026-11-01', 'Nov']].forEach(([d, l]) => {
+    s += `<text x="${X(t(d))}" y="${y0 + 36}" font-size="20" text-anchor="middle" fill="${v('--text')}">${l}</text>`; });
+  s += `<polyline points="${D.map((r) => `${X(t(r.day))},${Y(r.all)}`).join(' ')}" fill="none" stroke="${v('--stone')}" stroke-width="3" stroke-linejoin="round"/>`;
+  s += `<polyline points="${D.map((r) => `${X(t(r.day))},${Y(r.claude)}`).join(' ')}" fill="none" stroke="${v('--charcoal')}" stroke-width="3" stroke-linejoin="round"/>`;
+  const pk = D.find((r) => r.day === N.spike.max_day);
+  s += `${disc(X(t(pk.day)), Y(pk.all), 9, v('--terra'))}
+    <text x="${X(t(pk.day)) + 18}" y="${Y(pk.all) + 8}" font-size="22" font-weight="700" fill="${v('--ink')}">${n0(pk.all / 1e6)}M · Claude ${p1(100 * pk.claude / pk.all)}%</text>`;
+  const last = D[D.length - 1];
+  s += `<text x="${X(t(last.day))}" y="${Y(last.all) - 40}" font-size="20" font-weight="600" text-anchor="end" fill="${v('--ink')}">all: ${p1(last.all / 1e6)}M</text>
+    <text x="${X(t(last.day))}" y="${Y(last.all) - 14}" font-size="20" font-weight="600" text-anchor="end" fill="${v('--ink')}">Claude: ${p1(last.claude / 1e6)}M (${p1(100 * last.claude / last.all)}%)</text>`;
+  return s;
+}
+
+// cover · 1500×600. Badge bottom-left (x ≈ 30–280, y ≈ 480–590): nothing there, nothing left of x ≈ 440 below the
+// title; the title sits low. No text under 30 px.
+function cover() {
+  const L = N.last_week;
+  const bx = 1000, bw = 440, X = (p) => bx + bw * p / 25;
+  return `<rect x="60" y="56" width="1380" height="5" fill="${v('--ink')}"/>
+    <text x="60" y="226" font-size="30" font-weight="600" letter-spacing="3" fill="${v('--text')}">THE CHECK · GITHUB COMMIT SEARCH · NOV 2026</text>
+    <text x="60" y="314" font-size="54" font-weight="600" letter-spacing="-1" fill="${v('--ink')}">Forecast: 1 in 5 by year end.</text>
+    <text x="60" y="380" font-size="54" font-weight="600" letter-spacing="-1" fill="${v('--ink')}">Eight weeks out: 1 in ${Math.round(L.one_in)}.</text>
+    <text x="1440" y="170" font-size="30" font-weight="600" text-anchor="end" fill="${v('--text')}">Commits signed by Claude Code</text>
+    <text x="1440" y="282" font-size="96" font-weight="700" text-anchor="end" fill="${v('--ink')}">${p1(L.pct)}%</text>
+    <line x1="${X(0)}" x2="${X(25)}" y1="330" y2="330" stroke="${v('--stone')}" stroke-width="5" stroke-linecap="round"/>
+    <line x1="${X(0)}" x2="${X(L.pct)}" y1="330" y2="330" stroke="${v('--charcoal')}" stroke-width="5" stroke-linecap="round"/>
+    ${disc(X(L.pct), 330, 12, v('--charcoal'))}
+    <line x1="${X(20)}" x2="${X(20)}" y1="312" y2="348" stroke="${v('--terra')}" stroke-width="4"/>
+    <text x="${X(20)}" y="384" font-size="30" font-weight="600" text-anchor="middle" fill="${v('--terra')}">20%</text>
+    <line x1="440" x2="1440" y1="482" y2="482" stroke="${v('--ink')}" stroke-width="1.5"/>
+    <text x="440" y="540" font-size="30" fill="${v('--text')}">Claude ×${p1(N.growth.claude_x)} since Feb · spam swings the share ${Math.round(N.swing.ratio)}×</text>
+    <text x="1440" y="540" font-size="30" font-weight="600" text-anchor="end" fill="${v('--ink')}">@con_golias</text>`;
+}
+
+const F = { 1: fig1, 2: fig2, 3: fig3, cover };
+if (fig === 'cover') {
+  document.body.style.width = '1500px'; document.body.style.height = '600px';
+  C.setAttribute('width', 1500); C.setAttribute('height', 600); C.setAttribute('viewBox', '0 0 1500 600');
+}
+window.ready = Promise.all([fetch('../data/summary.json').then((r) => r.json()), document.fonts.load('400 20px "Inter Tight"'), document.fonts.load('700 20px "Inter Tight"')])
+  .then(([j]) => { N = j; C.innerHTML = F[fig](); });
+</script>
+</body>
+</html>

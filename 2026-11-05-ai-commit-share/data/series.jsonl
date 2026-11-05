@@ -1,0 +1,28 @@
+{"week": "2025-02-24", "all": 25001299, "all_method": ["single", 0], "claude": 3027, "claude_method": ["single", 0]}
+{"week": "2025-03-03", "all": 26774912, "all_method": ["single", 0], "claude": 4274, "claude_method": ["sliced", 1, 4284]}
+{"week": "2025-04-07", "all": 26588895, "all_method": ["single", 0], "claude": 4458, "claude_method": ["single", 0]}
+{"week": "2025-05-05", "all": 27024607, "all_method": ["single", 0], "claude": 4843, "claude_method": ["single", 0]}
+{"week": "2025-06-02", "all": 24712351, "all_method": ["single", 0], "claude": 32242, "claude_method": ["single", 0]}
+{"week": "2025-07-07", "all": 26197756, "all_method": ["sliced", 0, 25954171], "claude": 101436, "claude_method": ["single", 0]}
+{"week": "2025-08-04", "all": 25585538, "all_method": ["single", 0], "claude": 127139, "claude_method": ["single", 0]}
+{"week": "2025-09-01", "all": 26633980, "all_method": ["single", 0], "claude": 123856, "claude_method": ["single", 0]}
+{"week": "2025-10-06", "all": 27188806, "all_method": ["single", 0], "claude": 181703, "claude_method": ["single", 0]}
+{"week": "2025-11-03", "all": 31256444, "all_method": ["single", 0], "claude": 239643, "claude_method": ["single", 0]}
+{"week": "2025-12-01", "all": 31866790, "all_method": ["single", 0], "claude": 306163, "claude_method": ["single", 0]}
+{"week": "2026-01-05", "all": 34037340, "all_method": ["single", 0], "claude": 680720, "claude_method": ["sliced", 0, 680713]}
+{"week": "2026-02-02", "all": 35321557, "all_method": ["single", 0], "claude": 1122835, "claude_method": ["single", 0]}
+{"week": "2026-03-02", "all": 44843010, "all_method": ["sliced", 0, 44588226], "claude": 1837465, "claude_method": ["single", 0]}
+{"week": "2026-04-06", "all": 46109591, "all_method": ["sliced", 0, 45498716], "claude": 2666567, "claude_method": ["sliced", 2, 2652143]}
+{"week": "2026-05-04", "all": 49330397, "all_method": ["single", 0], "claude": 2752947, "claude_method": ["sliced", 2, 2746172]}
+{"week": "2026-06-01", "all": 74767229, "all_method": ["sliced", 2, 74766766], "claude": 3618787, "claude_method": ["sliced", 5, 3379909]}
+{"week": "2026-07-06", "all": 55266676, "all_method": ["sliced", 0, 52996947], "claude": 4494200, "claude_method": ["sliced", 0, 4413225]}
+{"week": "2026-08-03", "all": 62179691, "all_method": ["sliced", 0, 60672766], "claude": 4463084, "claude_method": ["sliced", 0, 4382485]}
+{"week": "2026-08-31", "all": 152346433, "all_method": ["sliced", 0, 139760581], "claude": 6018567, "claude_method": ["sliced", 1, 5086863]}
+{"week": "2026-09-07", "all": 84865181, "all_method": ["sliced", 0, 74740805], "claude": 6192280, "claude_method": ["sliced", 1, 6090131]}
+{"week": "2026-09-14", "all": 165919697, "all_method": ["sliced", 0, 138397331], "claude": 6297682, "claude_method": ["sliced", 6, 6059529]}
+{"week": "2026-09-21", "all": 950793956, "all_method": ["sliced", 5, 786880251], "claude": 8244593, "claude_method": ["sliced", 7, 7156601]}
+{"week": "2026-09-28", "all": 303338609, "all_method": ["sliced", 1, 257702844], "claude": 10205278, "claude_method": ["sliced", 3, 9416034]}
+{"week": "2026-10-05", "all": 412180206, "all_method": ["sliced", 4, 365187972], "claude": 11265091, "claude_method": ["sliced", 7, 9864943]}
+{"week": "2026-10-12", "all": 95448332, "all_method": ["sliced", 0, 77287321], "claude": 12251121, "claude_method": ["sliced", 4, 11408596]}
+{"week": "2026-10-19", "all": 88585465, "all_method": ["sliced", 0, 67419510], "claude": 12764052, "claude_method": ["sliced", 3, 11865714]}
+{"week": "2026-10-26", "all": 89273969, "all_method": ["sliced", 0, 88245033], "claude": 12282672, "claude_method": ["sliced", 0, 12135776]}

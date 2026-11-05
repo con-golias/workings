@@ -1,0 +1,40 @@
+{"round": 0, "t": "01:39:42", "day": "2026-02-02", "term": "", "n": 5152868, "inc": false}
+{"round": 0, "t": "01:39:45", "day": "2026-02-02", "term": "\"Co-Authored-By: Claude\"", "n": 151531, "inc": false}
+{"round": 0, "t": "01:39:48", "day": "2026-09-21", "term": "", "n": 24522694, "inc": false}
+{"round": 0, "t": "01:39:52", "day": "2026-09-21", "term": "\"Co-Authored-By: Claude\"", "n": 974648, "inc": false}
+{"round": 0, "t": "01:39:55", "day": "2026-10-08", "term": "", "n": 94843678, "inc": true}
+{"round": 0, "t": "01:39:58", "day": "2026-10-08", "term": "\"Co-Authored-By: Claude\"", "n": 1685427, "inc": false}
+{"round": 0, "t": "01:40:01", "day": "2026-10-20", "term": "", "n": 12840940, "inc": false}
+{"round": 0, "t": "01:40:04", "day": "2026-10-20", "term": "\"Co-Authored-By: Claude\"", "n": 1895305, "inc": true}
+{"round": 0, "t": "01:41:38", "day": "2026-11-03", "term": "", "n": 13345764, "inc": false}
+{"round": 0, "t": "01:41:42", "day": "2026-11-03", "term": "\"Co-Authored-By: Claude\"", "n": 1768645, "inc": false}
+{"round": 1, "t": "01:42:42", "day": "2026-02-02", "term": "", "n": 5152864, "inc": false}
+{"round": 1, "t": "01:42:46", "day": "2026-02-02", "term": "\"Co-Authored-By: Claude\"", "n": 151531, "inc": false}
+{"round": 1, "t": "01:42:49", "day": "2026-09-21", "term": "", "n": 24522691, "inc": false}
+{"round": 1, "t": "01:42:52", "day": "2026-09-21", "term": "\"Co-Authored-By: Claude\"", "n": 971400, "inc": true}
+{"round": 1, "t": "01:42:55", "day": "2026-10-08", "term": "", "n": 95169076, "inc": false}
+{"round": 1, "t": "01:42:59", "day": "2026-10-08", "term": "\"Co-Authored-By: Claude\"", "n": 1685425, "inc": false}
+{"round": 1, "t": "01:43:02", "day": "2026-10-20", "term": "", "n": 12840978, "inc": false}
+{"round": 1, "t": "01:43:05", "day": "2026-10-20", "term": "\"Co-Authored-By: Claude\"", "n": 1898593, "inc": false}
+{"round": 1, "t": "01:43:08", "day": "2026-11-03", "term": "", "n": 13346013, "inc": false}
+{"round": 1, "t": "01:43:11", "day": "2026-11-03", "term": "\"Co-Authored-By: Claude\"", "n": 1768786, "inc": false}
+{"round": 2, "t": "01:44:12", "day": "2026-02-02", "term": "", "n": 5152864, "inc": false}
+{"round": 2, "t": "01:44:15", "day": "2026-02-02", "term": "\"Co-Authored-By: Claude\"", "n": 151531, "inc": false}
+{"round": 2, "t": "01:44:18", "day": "2026-09-21", "term": "", "n": 24522690, "inc": false}
+{"round": 2, "t": "01:44:22", "day": "2026-09-21", "term": "\"Co-Authored-By: Claude\"", "n": 974665, "inc": false}
+{"round": 2, "t": "01:44:25", "day": "2026-10-08", "term": "", "n": 95169072, "inc": false}
+{"round": 2, "t": "01:44:28", "day": "2026-10-08", "term": "\"Co-Authored-By: Claude\"", "n": 1684945, "inc": true}
+{"round": 2, "t": "01:44:31", "day": "2026-10-20", "term": "", "n": 12840981, "inc": false}
+{"round": 2, "t": "01:44:34", "day": "2026-10-20", "term": "\"Co-Authored-By: Claude\"", "n": 1898597, "inc": false}
+{"round": 2, "t": "01:44:38", "day": "2026-11-03", "term": "", "n": 13346654, "inc": false}
+{"round": 2, "t": "01:44:41", "day": "2026-11-03", "term": "\"Co-Authored-By: Claude\"", "n": 1768902, "inc": false}
+{"round": 3, "t": "01:45:42", "day": "2026-02-02", "term": "", "n": 5152877, "inc": false}
+{"round": 3, "t": "01:45:45", "day": "2026-02-02", "term": "\"Co-Authored-By: Claude\"", "n": 151531, "inc": false}
+{"round": 3, "t": "01:45:48", "day": "2026-09-21", "term": "", "n": 24522750, "inc": false}
+{"round": 3, "t": "01:45:51", "day": "2026-09-21", "term": "\"Co-Authored-By: Claude\"", "n": 974700, "inc": false}
+{"round": 3, "t": "01:45:54", "day": "2026-10-08", "term": "", "n": 95169126, "inc": false}
+{"round": 3, "t": "01:45:58", "day": "2026-10-08", "term": "\"Co-Authored-By: Claude\"", "n": 1685435, "inc": false}
+{"round": 3, "t": "01:46:01", "day": "2026-10-20", "term": "", "n": 12841094, "inc": false}
+{"round": 3, "t": "01:46:04", "day": "2026-10-20", "term": "\"Co-Authored-By: Claude\"", "n": 1898634, "inc": false}
+{"round": 3, "t": "01:46:07", "day": "2026-11-03", "term": "", "n": 13346966, "inc": false}
+{"round": 3, "t": "01:46:10", "day": "2026-11-03", "term": "\"Co-Authored-By: Claude\"", "n": 1768955, "inc": false}
