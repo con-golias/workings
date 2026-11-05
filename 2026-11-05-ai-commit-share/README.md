@@ -1,6 +1,6 @@
 # Claude Code's share of public GitHub commits, checked against SemiAnalysis's 20% forecast
 
-Workings for the X Article *"Claude Code grew 11.7× on GitHub and still trails the 1-in-5 forecast"* (Konstantinos Gkolias, [@con_golias](https://x.com/con_golias), November 2026).
+Workings for the X Article *"Claude Code grew 11.7× on GitHub and still trails the 1-in-5 forecast"* (Konstantinos Gkolias, [@con_golias](https://x.com/con_golias), [published on X](https://x.com/con_golias/status/2118301334835208380), November 2026).
 
 ## Rerun the core number
 
