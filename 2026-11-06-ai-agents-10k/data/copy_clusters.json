@@ -1,0 +1,1287 @@
+[
+ {
+  "companies": 7,
+  "members": [
+   {
+    "name": "Morgan Stanley Direct Lending Fund  (MSDL)  (CIK 0001782524)",
+    "cik": "0001782524",
+    "first": "2026-02-26",
+    "form": "10-K",
+    "adsh": "0001193125-26-076632",
+    "file": "msdl-20251231.htm",
+    "s": "Artificial intelligence (\u201cAI\u201d) refers to computer systems capable of performing tasks that typically require human intelligence, including but not limited to machine learning, natural language processing, and generative and agentic AI technologies."
+   },
+   {
+    "name": "T Series Middle Market Loan Fund LLC  (CIK 0001885968)",
+    "cik": "0001885968",
+    "first": "2026-03-02",
+    "form": "10-K",
+    "adsh": "0001193125-26-085572",
+    "file": "ck0001885968-20251231.htm",
+    "s": "Artificial intelligence (\u201cAI\u201d) refers to computer systems capable of performing tasks that typically require human intelligence, including but not limited to machine learning, natural language processing, and generative and agentic AI technologies."
+   },
+   {
+    "name": "North Haven Private Income Fund A LLC  (CIK 0001973476)",
+    "cik": "0001973476",
+    "first": "2026-03-03",
+    "form": "10-K",
+    "adsh": "0001193125-26-088351",
+    "file": "ck0001973476-20251231.htm",
+    "s": "Artificial intelligence (\u201cAI\u201d) refers to computer systems capable of performing tasks that typically require human intelligence, including but not limited to machine learning, natural language processing, and generative and agentic AI technologies."
+   },
+   {
+    "name": "North Haven Private Income Fund LLC  (CIK 0001851322)",
+    "cik": "0001851322",
+    "first": "2026-03-03",
+    "form": "10-K",
+    "adsh": "0001193125-26-088367",
+    "file": "ck0001851322-20251231.htm",
+    "s": "Artificial intelligence (\u201cAI\u201d) refers to computer systems capable of performing tasks that typically require human intelligence, including but not limited to machine learning, natural language processing, and generative and agentic AI technologies."
+   },
+   {
+    "name": "SL Investment Fund II LLC  (CIK 0002028686)",
+    "cik": "0002028686",
+    "first": "2026-03-04",
+    "form": "10-K",
+    "adsh": "0001193125-26-091861",
+    "file": "ck0002028686-20251231.htm",
+    "s": "Artificial intelligence (\u201cAI\u201d) refers to computer systems capable of performing tasks that typically require human intelligence, including but not limited to machine learning, natural language processing, and generative and agentic AI technologies."
+   },
+   {
+    "name": "LGAM Private Credit LLC  (CIK 0001983514)",
+    "cik": "0001983514",
+    "first": "2026-03-04",
+    "form": "10-K",
+    "adsh": "0001193125-26-091583",
+    "file": "ck0001983514-20251231.htm",
+    "s": "Artificial intelligence (\u201cAI\u201d) refers to computer systems capable of performing tasks that typically require human intelligence, including but not limited to machine learning, natural language processing, and generative and agentic AI technologies."
+   },
+   {
+    "name": "Oxford Square Capital Corp.  (OXSQ, OXSQG, OXSQH)  (CIK 0001259429)",
+    "cik": "0001259429",
+    "first": "2026-03-06",
+    "form": "10-K",
+    "adsh": "0001213900-26-024280",
+    "file": "ea0276931_10k.htm",
+    "s": "Artificial intelligence (\u201cAI\u201d) refers to computer systems capable of performing tasks that typically require human intelligence, including but not limited to machine learning, natural language processing, and generative and agentic AI technologies."
+   }
+  ]
+ },
+ {
+  "companies": 5,
+  "members": [
+   {
+    "name": "Axos Financial, Inc.  (AX)  (CIK 0001299709)",
+    "cik": "0001299709",
+    "first": "2025-08-21",
+    "form": "10-K",
+    "adsh": "0001299709-25-000125",
+    "file": "ax-20250630.htm",
+    "s": "The banking and financial services industry continually experiences technological changes, with frequent introductions of new technology-driven products and services, including recent and rapid developments in AI, including with agentic AI."
+   },
+   {
+    "name": "WAFD INC  (WAFD, WAFDP)  (CIK 0000936528)",
+    "cik": "0000936528",
+    "first": "2025-11-18",
+    "form": "10-K",
+    "adsh": "0000936528-25-000117",
+    "file": "wfsl-20250930.htm",
+    "s": "The banking and financial services industry continually experiences technological changes, with frequent introductions of new technology-driven products and services, including recent and rapid developments in AI, including with agentic AI."
+   },
+   {
+    "name": "PATHWARD FINANCIAL, INC.  (CASH)  (CIK 0000907471)",
+    "cik": "0000907471",
+    "first": "2025-11-25",
+    "form": "10-K",
+    "adsh": "0000907471-25-000116",
+    "file": "cash-20250930.htm",
+    "s": "The banking and financial services industry continually experiences technological changes, with frequent introductions of new technology-driven products and services, including recent and rapid developments in artificial intelligence (\"AI\"), including agentic AI."
+   },
+   {
+    "name": "CAPITAL CITY BANK GROUP INC  (CCBG)  (CIK 0000726601)",
+    "cik": "0000726601",
+    "first": "2026-02-27",
+    "form": "10-K",
+    "adsh": "0000726601-26-000007",
+    "file": "ccbg-20251231.htm",
+    "s": "The banking and financial services industry continually experiences technological changes, with frequent introductions of new technology-driven products and services, including recent and rapid developments in AI, including with agentic AI."
+   },
+   {
+    "name": "SOUTHSIDE BANCSHARES INC  (SBSI)  (CIK 0000705432)",
+    "cik": "0000705432",
+    "first": "2026-02-27",
+    "form": "10-K",
+    "adsh": "0000705432-26-000034",
+    "file": "sbsi-20251231.htm",
+    "s": "The banking and financial services industry continually experiences technological changes, with frequent introductions of new technology-driven products and services, including recent and rapid developments in AI, including with agentic AI."
+   }
+  ]
+ },
+ {
+  "companies": 4,
+  "members": [
+   {
+    "name": "WAFD INC  (WAFD, WAFDP)  (CIK 0000936528)",
+    "cik": "0000936528",
+    "first": "2025-11-18",
+    "form": "10-K",
+    "adsh": "0000936528-25-000117",
+    "file": "wfsl-20250930.htm",
+    "s": "AI models, particularly generative or agentic AI models, may produce outputs or take action that is incorrect, that reflects biases included in the data on which they are trained, that results in the release of private, confidential, or proprietary information, that infringes on the intellectual property rights of others, or that is otherwise harmful."
+   },
+   {
+    "name": "WESTERN ALLIANCE BANCORPORATION  (WAL, WAL-PA)  (CIK 0001212545)",
+    "cik": "0001212545",
+    "first": "2026-02-23",
+    "form": "10-K",
+    "adsh": "0001628280-26-010336",
+    "file": "wal-20251231.htm",
+    "s": "AI models, particularly generative or agentic AI models, may produce outputs or take action that is incorrect, that reflects biases included in the data on which they are trained, that results in the release of private, confidential, or proprietary information, that infringes on the intellectual property rights of others, or that is otherwise harmful."
+   },
+   {
+    "name": "CAPITAL CITY BANK GROUP INC  (CCBG)  (CIK 0000726601)",
+    "cik": "0000726601",
+    "first": "2026-02-27",
+    "form": "10-K",
+    "adsh": "0000726601-26-000007",
+    "file": "ccbg-20251231.htm",
+    "s": "AI models, particularly generative or agentic AI models, may produce outputs or take action that is incorrect, that reflects biases included in the data on which they are trained, that results in the release of private, confidential, or proprietary information, that infringes on the intellectual property rights of others, or that is otherwise harmful."
+   },
+   {
+    "name": "PATRIOT NATIONAL BANCORP INC  (PNBK)  (CIK 0001098146)",
+    "cik": "0001098146",
+    "first": "2026-03-31",
+    "form": "10-K",
+    "adsh": "0001628280-26-022508",
+    "file": "pnbk-20251231.htm",
+    "s": "AI models, particularly generative or agentic AI models, may produce outputs or take action that is incorrect, that reflects biases included in the data on which they are trained, that results in the release of private, confidential, or proprietary information, that infringes on the intellectual property rights of others, or that is otherwise harmful."
+   }
+  ]
+ },
+ {
+  "companies": 3,
+  "members": [
+   {
+    "name": "GoDaddy Inc.  (GDDY)  (CIK 0001609711)",
+    "cik": "0001609711",
+    "first": "2026-02-25",
+    "form": "10-K",
+    "adsh": "0001609711-26-000010",
+    "file": "gddy-20251231.htm",
+    "s": "We also are developing and deploying agentic AI systems that operate with greater autonomy, which presents additional risks, including unintended or unauthorized actions and increased difficulty in predicting, supervising and controlling agentic behavior."
+   },
+   {
+    "name": "Wix.com Ltd.  (WIX)  (CIK 0001576789)",
+    "cik": "0001576789",
+    "first": "2026-03-05",
+    "form": "20-F",
+    "adsh": "0001628280-26-015222",
+    "file": "wix-20251231.htm",
+    "s": "We also are developing and deploying agentic AI systems that operate with greater autonomy, which presents additional risks, including unintended or unauthorized actions and increased difficulty predicting, supervising, and controlling agentic behavior."
+   },
+   {
+    "name": "Fiverr International Ltd.  (FVRR)  (CIK 0001762301)",
+    "cik": "0001762301",
+    "first": "2026-03-12",
+    "form": "20-F",
+    "adsh": "0001178913-26-000858",
+    "file": "zk2634486.htm",
+    "s": "We also are developing and deploying agentic AI systems that operate with greater autonomy, which presents additional risks, including unintended or unauthorized actions and increased difficulty predicting, supervising, and controlling agentic behavior."
+   }
+  ]
+ },
+ {
+  "companies": 3,
+  "members": [
+   {
+    "name": "VISA INC.  (V)  (CIK 0001403161)",
+    "cik": "0001403161",
+    "first": "2025-11-06",
+    "form": "10-K",
+    "adsh": "0001403161-25-000089",
+    "file": "v-20250930.htm",
+    "s": "Legal frameworks governing such autonomous agents remain nascent, with limited direct guidance specific to payments."
+   },
+   {
+    "name": "BREAD FINANCIAL HOLDINGS, INC.  (BFH, BFH-PA)  (CIK 0001101215)",
+    "cik": "0001101215",
+    "first": "2026-02-13",
+    "form": "10-K",
+    "adsh": "0001101215-26-000016",
+    "file": "bfh-20251231.htm",
+    "s": "Legal frameworks governing such autonomous agents remain nascent, with limited direct guidance specific to payments."
+   },
+   {
+    "name": "Robinhood Markets, Inc.  (HOOD)  (CIK 0001783879)",
+    "cik": "0001783879",
+    "first": "2026-07-30",
+    "form": "10-Q",
+    "adsh": "0001783879-26-000114",
+    "file": "hood-20260630.htm",
+    "s": "Legal frameworks governing such autonomous agents remain nascent, with limited direct guidance specific to trading."
+   }
+  ]
+ },
+ {
+  "companies": 3,
+  "members": [
+   {
+    "name": "Xometry, Inc.  (XMTR)  (CIK 0001657573)",
+    "cik": "0001657573",
+    "first": "2026-02-24",
+    "form": "10-K",
+    "adsh": "0001193125-26-066959",
+    "file": "xmtr-20251231.htm",
+    "s": "We may also be required to invest significant resources to develop, acquire or integrate AI-driven and agentic technologies, and there can be no assurance that such investments will be successful, cost-effective or result in increased demand for our offerings."
+   },
+   {
+    "name": "Honest Company, Inc.  (HNST)  (CIK 0001530979)",
+    "cik": "0001530979",
+    "first": "2026-02-25",
+    "form": "10-K",
+    "adsh": "0001628280-26-011634",
+    "file": "hnst-20251231.htm",
+    "s": "We may also be required to invest significant resources to develop, acquire, or integrate AI-driven and agentic technologies, and there can be no assurance that such investments will be successful, cost-effective, or result in increased demand for our offerings."
+   },
+   {
+    "name": "Grove Collaborative Holdings, Inc.  (GROV, GROVW)  (CIK 0001841761)",
+    "cik": "0001841761",
+    "first": "2026-08-06",
+    "form": "10-Q",
+    "adsh": "0001841761-26-000064",
+    "file": "grov-20260630.htm",
+    "s": "We may also be required to invest significant resources to develop, acquire, or integrate AI-driven and agentic technologies, and there can be no assurance that such investments will be successful, cost-effective, or result in increased demand for our offerings."
+   }
+  ]
+ },
+ {
+  "companies": 3,
+  "members": [
+   {
+    "name": "PRUDENTIAL FINANCIAL INC  (PFH, PRH, PRS, PRU)  (CIK 0001137774)",
+    "cik": "0001137774",
+    "first": "2026-02-12",
+    "form": "10-K",
+    "adsh": "0001137774-26-000048",
+    "file": "pru-20251231.htm",
+    "s": "The development and adoption of AI, including generative AI and agentic AI, and its use and anticipated use by us or by third parties on whom we rely, may increase the operational risks discussed above or create new operational risks that we are not currently anticipating ."
+   },
+   {
+    "name": "PRUCO LIFE INSURANCE OF NEW JERSEY  (CIK 0001038509)",
+    "cik": "0001038509",
+    "first": "2026-03-06",
+    "form": "10-K",
+    "adsh": "0001038509-26-000008",
+    "file": "cik1038509-20251231.htm",
+    "s": "The development and adoption of artificial AI, including generative AI and agentic AI, and its use and anticipated use by us or by third-parties on whom we rely, may increase the operational risks discussed above or create new operational risks that we are not currently anticipating."
+   },
+   {
+    "name": "PRUCO LIFE INSURANCE CO  (CIK 0000777917)",
+    "cik": "0000777917",
+    "first": "2026-03-06",
+    "form": "10-K",
+    "adsh": "0000777917-26-000036",
+    "file": "cik777917-20251231.htm",
+    "s": "The development and adoption of artificial AI, including generative AI and agentic AI, and its use and anticipated use by us or by third-parties on whom we rely, may increase the operational risks discussed above or create new operational risks that we are not currently anticipating."
+   }
+  ]
+ },
+ {
+  "companies": 3,
+  "members": [
+   {
+    "name": "PRUDENTIAL FINANCIAL INC  (PFH, PRH, PRS, PRU)  (CIK 0001137774)",
+    "cik": "0001137774",
+    "first": "2026-02-12",
+    "form": "10-K",
+    "adsh": "0001137774-26-000048",
+    "file": "pru-20251231.htm",
+    "s": "The risks identified above could be exacerbated by agentic AI, which, acting without supervision, could take actions harmful to the Company or our customers."
+   },
+   {
+    "name": "PRUCO LIFE INSURANCE OF NEW JERSEY  (CIK 0001038509)",
+    "cik": "0001038509",
+    "first": "2026-03-06",
+    "form": "10-K",
+    "adsh": "0001038509-26-000008",
+    "file": "cik1038509-20251231.htm",
+    "s": "The risks identified above could be exacerbated by agentic AI, which, acting without supervision, could take actions harmful to the Company or our customers."
+   },
+   {
+    "name": "PRUCO LIFE INSURANCE CO  (CIK 0000777917)",
+    "cik": "0000777917",
+    "first": "2026-03-06",
+    "form": "10-K",
+    "adsh": "0000777917-26-000036",
+    "file": "cik777917-20251231.htm",
+    "s": "The risks identified above could be exacerbated by agentic AI, which, acting without supervision, could take actions harmful to the Company or our customers. 19"
+   }
+  ]
+ },
+ {
+  "companies": 2,
+  "members": [
+   {
+    "name": "IRSA INVESTMENTS & REPRESENTATIONS INC  (IRS)  (CIK 0000933267)",
+    "cik": "0000933267",
+    "first": "2026-10-21",
+    "form": "20-F",
+    "adsh": "0001654954-26-009071",
+    "file": "irsa_20f.htm",
+    "s": "Chocor\u00edsimo \u2013 Icelabs LLC, a retail company specializing in ice cream and chocolate products; and Bouldertech, a company focused on sovereign artificial intelligence infrastructure, artificial intelligence agents and enterprise automation solutions."
+   },
+   {
+    "name": "CRESUD INC  (CRESY)  (CIK 0001034957)",
+    "cik": "0001034957",
+    "first": "2026-10-21",
+    "form": "20-F",
+    "adsh": "0001654954-26-009074",
+    "file": "cresud_20f.htm",
+    "s": "Chocor\u00edsimo \u2013 Icelabs LLC, a retail company specializing in ice cream and chocolate products; and Bouldertech, a company focused on sovereign artificial intelligence infrastructure, artificial intelligence agents and enterprise automation solutions."
+   }
+  ]
+ },
+ {
+  "companies": 2,
+  "members": [
+   {
+    "name": "MongoDB, Inc.  (MDB)  (CIK 0001441816)",
+    "cik": "0001441816",
+    "first": "2026-03-11",
+    "form": "10-Q",
+    "adsh": "0001628280-26-059830",
+    "file": "mdb-20260731.htm",
+    "s": "In addition, the rapid adoption of generative and agentic AI tools may change how software developers design, build and deploy applications, including through increased automation of coding, infrastructure configuration and application architecture."
+   },
+   {
+    "name": "Elastic N.V.  (ESTC)  (CIK 0001707753)",
+    "cik": "0001707753",
+    "first": "2026-06-08",
+    "form": "10-K",
+    "adsh": "0001707753-26-000018",
+    "file": "estc-20260430.htm",
+    "s": "In addition, the rapid adoption of generative and agentic AI tools may change how software developers design, build and deploy applications, including through increased automation of coding, infrastructure configuration and application architecture."
+   }
+  ]
+ },
+ {
+  "companies": 2,
+  "members": [
+   {
+    "name": "Elastic N.V.  (ESTC)  (CIK 0001707753)",
+    "cik": "0001707753",
+    "first": "2026-06-08",
+    "form": "10-K",
+    "adsh": "0001707753-26-000018",
+    "file": "estc-20260430.htm",
+    "s": "Social, ethical, security and regulatory issues relating to the use of new and evolving technologies such as AI and ML, including generative and agentic AI and AI models, in our offerings, internal operations or partnerships, may result in reputational harm and liability, and may cause us to incur additional research and development costs to resolve such issues."
+   },
+   {
+    "name": "MongoDB, Inc.  (MDB)  (CIK 0001441816)",
+    "cik": "0001441816",
+    "first": "2026-09-01",
+    "form": "10-Q",
+    "adsh": "0001628280-26-059830",
+    "file": "mdb-20260731.htm",
+    "s": "Social, ethical, security and regulatory issues relating to the use of new and evolving technologies such as AI and ML, including generative and agentic AI and AI models, in our offerings, internal operations or partnerships, may result in reputational harm and liability, and may cause us to incur additional research and development costs to resolve such issues."
+   }
+  ]
+ },
+ {
+  "companies": 2,
+  "members": [
+   {
+    "name": "MongoDB, Inc.  (MDB)  (CIK 0001441816)",
+    "cik": "0001441816",
+    "first": "2026-03-11",
+    "form": "10-Q",
+    "adsh": "0001628280-26-059830",
+    "file": "mdb-20260731.htm",
+    "s": "The use of generative and agentic AI, relatively new and emerging technologies in the early stages of commercial use, exposes us to additional risks, such as damage to our reputation, competitive position, and business, legal and regulatory risks and additional costs."
+   },
+   {
+    "name": "Elastic N.V.  (ESTC)  (CIK 0001707753)",
+    "cik": "0001707753",
+    "first": "2026-06-08",
+    "form": "10-K",
+    "adsh": "0001707753-26-000018",
+    "file": "estc-20260430.htm",
+    "s": "The use of generative and agentic AI, which are relatively new and emerging technologies in the early stages of commercial use, exposes us to additional risks, such as damage to our reputation, competitive position, and business, legal and regulatory risks and additional costs."
+   }
+  ]
+ },
+ {
+  "companies": 2,
+  "members": [
+   {
+    "name": "Freshworks Inc.  (FRSH)  (CIK 0001544522)",
+    "cik": "0001544522",
+    "first": "2026-02-26",
+    "form": "10-K",
+    "adsh": "0001544522-26-000036",
+    "file": "frsh-20251231.htm",
+    "s": "Generative and agentic AI in our products and services may be difficult to deploy successfully due to operational issues inherent to the nature of such technologies."
+   },
+   {
+    "name": "Sprinklr, Inc.  (CXM)  (CIK 0001569345)",
+    "cik": "0001569345",
+    "first": "2026-03-19",
+    "form": "10-K",
+    "adsh": "0001569345-26-000015",
+    "file": "cxm-20260131.htm",
+    "s": "The use of AI, including generative and agentic AI, in our products and services may be difficult to deploy successfully due to operational issues inherent to the nature of such technologies, including the development, maintenance and operation of deep learning datasets."
+   }
+  ]
+ },
+ {
+  "companies": 2,
+  "members": [
+   {
+    "name": "Dynatrace, Inc.  (DT)  (CIK 0001773383)",
+    "cik": "0001773383",
+    "first": "2026-05-20",
+    "form": "10-K",
+    "adsh": "0001773383-26-000019",
+    "file": "dt-20260331.htm",
+    "s": "Our competitors or other third parties may incorporate AI into their products more quickly or more successfully than us, may invest more in AI development than us, or have access to more advanced AI models or autonomous agents with greater capabilities or broader functionality, which could reduce demand for our platform and adversely affect our results of operations."
+   },
+   {
+    "name": "Rimini Street, Inc.  (RMNI)  (CIK 0001635282)",
+    "cik": "0001635282",
+    "first": "2026-07-30",
+    "form": "10-Q",
+    "adsh": "0001635282-26-000074",
+    "file": "rmni-20260930.htm",
+    "s": "Our competitors or other third parties may incorporate AI into their products more quickly or more successfully than us, may invest more in AI development than us or have access to more advanced AI models or platforms with autonomous agents with greater capabilities or broader functionality, which could reduce demand for our products and services and adversely affect our results of operations."
+   }
+  ]
+ },
+ {
+  "companies": 2,
+  "members": [
+   {
+    "name": "Booking Holdings Inc.  (BKNG)  (CIK 0001075531)",
+    "cik": "0001075531",
+    "first": "2025-02-20",
+    "form": "10-K",
+    "adsh": "0001075531-25-000010",
+    "file": "bkng-20241231.htm",
+    "s": "\u2022 companies offering AI agents powered by Gen AI that can perform or facilitate travel-related services, such as virtual assistants."
+   },
+   {
+    "name": "Expedia Group, Inc.  (EXPE)  (CIK 0001324424)",
+    "cik": "0001324424",
+    "first": "2026-02-13",
+    "form": "10-K",
+    "adsh": "0001324424-26-000008",
+    "file": "expe-20251231.htm",
+    "s": "\u2022 companies offering AI agents powered by Gen AI that can perform or facilitate travel-related services, such as digital assistants; and"
+   }
+  ]
+ },
+ {
+  "companies": 2,
+  "members": [
+   {
+    "name": "Forward Industries, Inc.  (FWDI)  (CIK 0000038264)",
+    "cik": "0000038264",
+    "first": "2025-12-11",
+    "form": "10-K",
+    "adsh": "0001683168-25-009068",
+    "file": "forward_i10k-093025.htm",
+    "s": "Solana\u2019s performance and technical capabilities enable many use cases from DeFi to decentralized physical infrastructure networks, AI agents, social media, gaming, stablecoins, real-world assets, among others."
+   },
+   {
+    "name": "Sharps Technology Inc.  (STSS, STSSW)  (CIK 0001737995)",
+    "cik": "0001737995",
+    "first": "2026-03-31",
+    "form": "10-K",
+    "adsh": "0001493152-26-014261",
+    "file": "form10-k.htm",
+    "s": "Solana\u2019s performance and technical capabilities enable many use cases from DeFi to decentralized physical infrastructure networks, AI agents, social media, gaming, stablecoins, real-world assets, among others."
+   }
+  ]
+ },
+ {
+  "companies": 2,
+  "members": [
+   {
+    "name": "VISA INC.  (V)  (CIK 0001403161)",
+    "cik": "0001403161",
+    "first": "2025-11-06",
+    "form": "10-K",
+    "adsh": "0001403161-25-000089",
+    "file": "v-20250930.htm",
+    "s": "In particular, the adoption of agentic commerce, in which autonomous AI agents initiate and execute transactions on behalf of users, presents novel and complex regulatory, privacy and cybersecurity risks."
+   },
+   {
+    "name": "BREAD FINANCIAL HOLDINGS, INC.  (BFH, BFH-PA)  (CIK 0001101215)",
+    "cik": "0001101215",
+    "first": "2026-02-13",
+    "form": "10-K",
+    "adsh": "0001101215-26-000016",
+    "file": "bfh-20251231.htm",
+    "s": "In addition, the adoption of agentic commerce, in which autonomous AI agents initiate and execute transactions on behalf of users, presents novel and complex regulatory, privacy and cybersecurity risks, as well as risks relating to potential integrations with other agentic commerce applications."
+   }
+  ]
+ },
+ {
+  "companies": 2,
+  "members": [
+   {
+    "name": "VISA INC.  (V)  (CIK 0001403161)",
+    "cik": "0001403161",
+    "first": "2025-11-06",
+    "form": "10-K",
+    "adsh": "0001403161-25-000089",
+    "file": "v-20250930.htm",
+    "s": "The interplay between payments regulations, data privacy laws and evolving AI regulations may create uncertainty around compliance obligations and potential liability exposure as more participants (including sellers, fintechs, AI developers and enablers) enter the agentic commerce ecosystem."
+   },
+   {
+    "name": "Robinhood Markets, Inc.  (HOOD)  (CIK 0001783879)",
+    "cik": "0001783879",
+    "first": "2026-07-30",
+    "form": "10-Q",
+    "adsh": "0001783879-26-000114",
+    "file": "hood-20260630.htm",
+    "s": "For instance, with respect to our Agentic Trading feature, the interplay between payments regulations, data privacy laws and evolving AI regulations may create uncertainty around compliance obligations and potential liability exposure as more participants (including sellers, fintechs, AI developers and enablers) enter the agentic commerce ecosystem."
+   }
+  ]
+ },
+ {
+  "companies": 2,
+  "members": [
+   {
+    "name": "VISA INC.  (V)  (CIK 0001403161)",
+    "cik": "0001403161",
+    "first": "2025-11-06",
+    "form": "10-K",
+    "adsh": "0001403161-25-000089",
+    "file": "v-20250930.htm",
+    "s": "Furthermore, reliance on agentic AI introduces challenges in monitoring cross-border, prohibited or high-risk transactions, where conflicting regulatory requirements may apply."
+   },
+   {
+    "name": "Robinhood Markets, Inc.  (HOOD)  (CIK 0001783879)",
+    "cik": "0001783879",
+    "first": "2026-07-30",
+    "form": "10-Q",
+    "adsh": "0001783879-26-000114",
+    "file": "hood-20260630.htm",
+    "s": "Reliance on agentic AI also introduces challenges in monitoring cross-border, prohibited or high-risk transactions, where conflicting regulatory requirements may apply."
+   }
+  ]
+ },
+ {
+  "companies": 2,
+  "members": [
+   {
+    "name": "FIRST FINANCIAL BANCORP /OH/  (FFBC)  (CIK 0000708955)",
+    "cik": "0000708955",
+    "first": "2026-02-19",
+    "form": "10-K",
+    "adsh": "0000708955-26-000028",
+    "file": "ffbc-20251231.htm",
+    "s": "For more information on the risks associated with AI, see the Risk Factor titled \u201c The increased use and capacity of AI, Generative AI, large language models (LLMs), and AI agents by customers, vendors and competitors increases risks to our business. \u201d 18"
+   },
+   {
+    "name": "TRICO BANCSHARES /  (TCBK)  (CIK 0000356171)",
+    "cik": "0000356171",
+    "first": "2026-03-02",
+    "form": "10-K",
+    "adsh": "0000356171-26-000010",
+    "file": "tcbk-20251231.htm",
+    "s": "The increased use and capacity of AI, Generative AI, large language models (LLMs), and AI agents by customers, vendors and competitors increases risks to our business."
+   }
+  ]
+ },
+ {
+  "companies": 2,
+  "members": [
+   {
+    "name": "FIRST FINANCIAL BANCORP /OH/  (FFBC)  (CIK 0000708955)",
+    "cik": "0000708955",
+    "first": "2026-02-19",
+    "form": "10-K",
+    "adsh": "0000708955-26-000028",
+    "file": "ffbc-20251231.htm",
+    "s": "The use and capacity of AI, Generative AI, LLMs and AI agents has increased in the past year and is being employed by customers, competitors, and vendors at increased rates."
+   },
+   {
+    "name": "TRICO BANCSHARES /  (TCBK)  (CIK 0000356171)",
+    "cik": "0000356171",
+    "first": "2026-03-02",
+    "form": "10-K",
+    "adsh": "0000356171-26-000010",
+    "file": "tcbk-20251231.htm",
+    "s": "The use and capacity of AI, Generative AI, LLMs and AI agents has increased in the past year and is being employed by customers, competitors, and vendors at increased rates."
+   }
+  ]
+ },
+ {
+  "companies": 2,
+  "members": [
+   {
+    "name": "ADOBE INC.  (ADBE)  (CIK 0000796343)",
+    "cik": "0000796343",
+    "first": "2026-01-15",
+    "form": "10-K",
+    "adsh": "0000796343-26-000003",
+    "file": "adbe-20251128.htm",
+    "s": "For example, we face increasing competition from companies offering generative and agentic AI solutions, including but not limited to prompt-based and multi-modal creation and editing, document productivity and understanding, ad distribution and creation, and purpose-built AI agents."
+   },
+   {
+    "name": "Shutterstock, Inc.  (SSTK)  (CIK 0001549346)",
+    "cik": "0001549346",
+    "first": "2026-02-17",
+    "form": "10-K",
+    "adsh": "0001549346-26-000008",
+    "file": "sstk-20251231.htm",
+    "s": "For example, we face increasing competition from companies offering generative and agentic AI solutions, including but not limited to prompt-based and multi-modal creation and editing."
+   }
+  ]
+ },
+ {
+  "companies": 2,
+  "members": [
+   {
+    "name": "BARCLAYS BANK PLC  (DJP, GRN, VXX, VXZ, ATMP, GBUG, TAPR, BWVTF, JJETF)  (CIK 0000312070)",
+    "cik": "0000312070",
+    "first": "2026-02-10",
+    "form": "20-F",
+    "adsh": "0000312070-26-000006",
+    "file": "bbplc-20251231.htm",
+    "s": "There often exists a lack of transparency regarding the sources of data (including personal data) used to train or develop AI technologies or how inputs are converted to outputs and the Barclays Bank Group may not be able to fully validate this process and its accuracy (particularly where it is part of a complex, multi-step process and inaccurate or incomplete information may be compounded across many steps, such as in agentic AI systems)."
+   },
+   {
+    "name": "Gen Digital Inc.  (GEN, GENVR)  (CIK 0000849399)",
+    "cik": "0000849399",
+    "first": "2026-05-21",
+    "form": "10-K",
+    "adsh": "0000849399-26-000017",
+    "file": "gen-20260403.htm",
+    "s": "Additionally, there often exists a lack of transparency regarding the sources of data (including personal data) used to train or develop third-party AI technologies or how inputs are converted to outputs, and we may not be able to fully validate this process and its accuracy (particularly where it is part of a complex, multi-step process and inaccurate or incomplete information may be compounded across many steps, such as in agentic AI systems)."
+   }
+  ]
+ },
+ {
+  "companies": 2,
+  "members": [
+   {
+    "name": "PayPal Holdings, Inc.  (PYPL)  (CIK 0001633917)",
+    "cik": "0001633917",
+    "first": "2026-02-03",
+    "form": "10-K",
+    "adsh": "0001633917-26-000024",
+    "file": "pypl-20251231.htm",
+    "s": "We expect that new technologies applicable to the industries in which we operate, including the development, adoption, and use of generative AI technologies and autonomous AI agents, will continue to emerge and may be superior to, or render obsolete, the technologies we currently use in our products and services."
+   },
+   {
+    "name": "Usio, Inc.  (USIO)  (CIK 0001088034)",
+    "cik": "0001088034",
+    "first": "2026-03-18",
+    "form": "10-K",
+    "adsh": "0001437749-26-008833",
+    "file": "usio20251231_10k.htm",
+    "s": "We expect that new technologies applicable to the industries in which we operate, including the development, adoption, and use of generative AI technologies and autonomous AI agents, will continue to emerge and may be superior to, or render obsolete, the technologies we currently use in our products and services."
+   }
+  ]
+ },
+ {
+  "companies": 2,
+  "members": [
+   {
+    "name": "DraftKings Inc.  (DKNG)  (CIK 0001883685)",
+    "cik": "0001883685",
+    "first": "2026-02-13",
+    "form": "10-K",
+    "adsh": "0001883685-26-000013",
+    "file": "dkng-20251231.htm",
+    "s": "We may experiment with or deploy AI agents or other AI-enabled automation that can plan, make decisions, and take actions with reduced human prompting or oversight."
+   },
+   {
+    "name": "Rush Street Interactive, Inc.  (RSI)  (CIK 0001793659)",
+    "cik": "0001793659",
+    "first": "2026-02-18",
+    "form": "10-K",
+    "adsh": "0001793659-26-000009",
+    "file": "rsi-20251231.htm",
+    "s": "We may experiment with or deploy AI agents or other AI-enabled automation that can plan, make decisions, and take actions with reduced human prompting or oversight."
+   }
+  ]
+ },
+ {
+  "companies": 2,
+  "members": [
+   {
+    "name": "DeFi Development Corp.  (DFDV, DFDVW, DFUKF)  (CIK 0001805526)",
+    "cik": "0001805526",
+    "first": "2026-03-30",
+    "form": "10-K",
+    "adsh": "0001805526-26-000006",
+    "file": "dfdv-20251231.htm",
+    "s": "Solana is emerging as a preferred settlement layer for autonomous AI agents due to its high throughput, sub-second finality, and ultra-low transaction costs, enabling seamless machine-to-machine payments, DeFi interactions, and onchain economic coordination at scale."
+   },
+   {
+    "name": "Brera Holdings PLC  (SLMT)  (CIK 0001939965)",
+    "cik": "0001939965",
+    "first": "2026-05-15",
+    "form": "20-F",
+    "adsh": "0001213900-26-057974",
+    "file": "ea0290046-20f_brerahold.htm",
+    "s": "Solana is emerging as a preferred settlement layer for autonomous AI agents due to its high throughput, sub-second finality, and ultra-low transaction costs, enabling seamless machine-to-machine payments, decentralized finance interactions, and on-chain economic coordination at scale."
+   }
+  ]
+ },
+ {
+  "companies": 2,
+  "members": [
+   {
+    "name": "IQVIA HOLDINGS INC.  (IQV)  (CIK 0001478242)",
+    "cik": "0001478242",
+    "first": "2026-02-17",
+    "form": "10-K",
+    "adsh": "0001628280-26-008322",
+    "file": "iqv-20251231.htm",
+    "s": "In addition, the emergence of the use of Real World Evidence and the advancements in new approaches such as machine learning and artificial intelligence (AI), including generative, agentic and foundation models that are increasingly accessible through third\u2011party or open\u2011source platforms, that capitalize on the availability of large data sets may reduce the time and costs of the discovery and development process, may allow our clients to more readily perform for themselves clinical development tasks and services that we have typically provided, may cause even greater price competition and/or reduce the perceived differentiation of certain of our information, analytics and insight\u2011based offerings."
+   },
+   {
+    "name": "ICON PLC  (ICLR)  (CIK 0001060955)",
+    "cik": "0001060955",
+    "first": "2026-05-27",
+    "form": "20-F",
+    "adsh": "0001628280-26-038487",
+    "file": "iclr-20251231.htm",
+    "s": "In addition, the emergence of the use of Real World Evidence and the advancements in new approaches such as machine learning and artificial intelligence (AI), including generative, agentic and foundation models that are increasingly accessible through third-party or open-source platforms, that capitalize on the availability of large data sets may reduce the time and costs of the discovery and development process, may allow our clients to more readily perform for themselves clinical development tasks and services that we have typically provided, may cause even greater price competition and/or reduce the perceived differentiation of certain of our information, analytics and insight-based offerings."
+   }
+  ]
+ },
+ {
+  "companies": 2,
+  "members": [
+   {
+    "name": "MSD Investment Corp.  (CIK 0001849894)",
+    "cik": "0001849894",
+    "first": "2026-03-26",
+    "form": "10-K",
+    "adsh": "0001193125-26-124538",
+    "file": "ck0001849894-20251231.htm",
+    "s": "It is possible that AI agents and autonomous AI systems could displace traditional business applications."
+   },
+   {
+    "name": "SARATOGA INVESTMENT CORP.  (SAJ, SAR, SAT, SAV, SAY, SAZ)  (CIK 0001377936)",
+    "cik": "0001377936",
+    "first": "2026-05-05",
+    "form": "10-K",
+    "adsh": "0001213900-26-052176",
+    "file": "ea0283348-10k_saratoga.htm",
+    "s": "It is possible that AI agents and autonomous AI systems could displace traditional business applications."
+   }
+  ]
+ },
+ {
+  "companies": 2,
+  "members": [
+   {
+    "name": "FACTSET RESEARCH SYSTEMS INC  (FDS)  (CIK 0001013237)",
+    "cik": "0001013237",
+    "first": "2025-10-22",
+    "form": "10-K",
+    "adsh": "0001628280-26-066391",
+    "file": "fds-20260831.htm",
+    "s": "Our use of AI technologies, including generative and agentic AI, requires resources to develop, test and maintain such products, which is costly."
+   },
+   {
+    "name": "Victory Capital Holdings, Inc.  (VCTR)  (CIK 0001570827)",
+    "cik": "0001570827",
+    "first": "2026-02-26",
+    "form": "10-K",
+    "adsh": "0001193125-26-077057",
+    "file": "vctr-20251231.htm",
+    "s": "Our use of AI technologies, including generative and agentic AI, requires resources to develop, test and maintain, which is costly."
+   }
+  ]
+ },
+ {
+  "companies": 2,
+  "members": [
+   {
+    "name": "FACTSET RESEARCH SYSTEMS INC  (FDS)  (CIK 0001013237)",
+    "cik": "0001013237",
+    "first": "2025-10-22",
+    "form": "10-K",
+    "adsh": "0001628280-25-045769",
+    "file": "fds-20250831.htm",
+    "s": "The introduction of AI technologies, particularly generative and agentic AI, into new or existing offerings may result in new or expanded risks and liabilities, due to enhanced governmental or regulatory scrutiny, litigation, compliance issues, ethical concerns, confidentiality, data privacy or security risks, as well as other factors that could adversely affect our business, reputation, and financial results."
+   },
+   {
+    "name": "Victory Capital Holdings, Inc.  (VCTR)  (CIK 0001570827)",
+    "cik": "0001570827",
+    "first": "2026-02-26",
+    "form": "10-K",
+    "adsh": "0001193125-26-077057",
+    "file": "vctr-20251231.htm",
+    "s": "The introduction of AI technologies, particularly generative and agentic AI, into new or existing offerings may result in new or expanded risks and liabilities, due to enhanced governmental or regulatory scrutiny, litigation, compliance issues, ethical concerns, confidentiality, data privacy or security risks, as well as other factors that could adversely affect our business, reputation, and financial results."
+   }
+  ]
+ },
+ {
+  "companies": 2,
+  "members": [
+   {
+    "name": "BARCLAYS BANK PLC  (DJP, GRN, VXX, VXZ, ATMP, GBUG, TAPR, BWVTF, JJETF)  (CIK 0000312070)",
+    "cik": "0000312070",
+    "first": "2026-02-10",
+    "form": "20-F",
+    "adsh": "0000312070-26-000006",
+    "file": "bbplc-20251231.htm",
+    "s": "A deterioration in or failure to maintain these credit card relationships with co- brand partners, including non-renewal of contracts with existing partners, early termination of partnership arrangements due to a contractual breach and changes in consumer behaviour regarding spending patterns, could have a negative impact on the Barclays Bank Group\u2019s business, results of operations, financial condition and prospects. viii) Evolving landscape with respect to artificial intelligence (including generative and agentic artificial intelligence)(AI) and machine learning technologies"
+   },
+   {
+    "name": "BARCLAYS PLC  (BCS, BCLYF)  (CIK 0000312069)",
+    "cik": "0000312069",
+    "first": "2026-02-10",
+    "form": "20-F",
+    "adsh": "0000312069-26-000004",
+    "file": "bcs-20251231.htm",
+    "s": "A deterioration in or failure to maintain these credit card relationships with co-brand partners, including non-renewal of contracts with existing partners, early termination of partnership arrangements due to a contractual breach and changes in consumer behaviour regarding spending patterns, could have a negative impact on the Group\u2019s business, results of operations, financial condition and prospects. x) Evolving landscape with respect to artificial intelligence (including generative and agentic artificial intelligence) (AI) and machine learning technologies"
+   }
+  ]
+ },
+ {
+  "companies": 2,
+  "members": [
+   {
+    "name": "BARCLAYS BANK PLC  (DJP, GRN, VXX, VXZ, ATMP, GBUG, TAPR, BWVTF, JJETF)  (CIK 0000312070)",
+    "cik": "0000312070",
+    "first": "2026-02-10",
+    "form": "20-F",
+    "adsh": "0000312070-26-000006",
+    "file": "bbplc-20251231.htm",
+    "s": "Use of AI (and particularly the growing use of agentic AI) may expose the Barclays Bank Group to liability, reputational harm, regulatory actions and threats of litigation, particularly if such technology produces errors or hallucinations, or results in output that is biased, harmful, discriminatory or that infringes the intellectual property or data privacy rights of third parties, or otherwise if such technology does not function as intended."
+   },
+   {
+    "name": "BARCLAYS PLC  (BCS, BCLYF)  (CIK 0000312069)",
+    "cik": "0000312069",
+    "first": "2026-02-10",
+    "form": "20-F",
+    "adsh": "0000312069-26-000004",
+    "file": "bcs-20251231.htm",
+    "s": "Use of AI (and particularly the growing use of agentic AI) may expose the Group to liability, reputational harm, regulatory actions and threats of litigation, particularly if such technology produces errors or hallucinations, or results in output that is biased, harmful, discriminatory or that infringes the intellectual property or data privacy rights of third parties, or otherwise if such technology does not function as intended."
+   }
+  ]
+ },
+ {
+  "companies": 2,
+  "members": [
+   {
+    "name": "BARCLAYS BANK PLC  (DJP, GRN, VXX, VXZ, ATMP, GBUG, TAPR, BWVTF, JJETF)  (CIK 0000312070)",
+    "cik": "0000312070",
+    "first": "2026-02-10",
+    "form": "20-F",
+    "adsh": "0000312070-26-000006",
+    "file": "bbplc-20251231.htm",
+    "s": "Additionally, the Barclays Bank Group's deployment of agentic AI with access to systems, data and third-party tools creates an expanded attack surface for cyber attacks, as threat actors may exploit inadequate permissioning controls to manipulate agents into executing unauthorised actions, accessing sensitive information or initiating malicious transactions beyond their intended scope, and the autonomous nature of these systems may enable attackers to conduct multi-step attacks that evade traditional security controls before detection occurs."
+   },
+   {
+    "name": "BARCLAYS PLC  (BCS, BCLYF)  (CIK 0000312069)",
+    "cik": "0000312069",
+    "first": "2026-02-10",
+    "form": "20-F",
+    "adsh": "0000312069-26-000004",
+    "file": "bcs-20251231.htm",
+    "s": "Additionally, the Group's deployment of agentic AI with access to systems, data and third-party tools creates an expanded attack surface for cyber attacks, as threat actors may exploit inadequate permissioning controls to manipulate agents into executing unauthorised actions, accessing sensitive information or initiating malicious transactions beyond their intended scope, and the autonomous nature of these systems may enable attackers to conduct multi-step attacks that evade traditional security controls before detection occurs."
+   }
+  ]
+ },
+ {
+  "companies": 2,
+  "members": [
+   {
+    "name": "BARCLAYS BANK PLC  (DJP, GRN, VXX, VXZ, ATMP, GBUG, TAPR, BWVTF, JJETF)  (CIK 0000312070)",
+    "cik": "0000312070",
+    "first": "2026-02-10",
+    "form": "20-F",
+    "adsh": "0000312070-26-000006",
+    "file": "bbplc-20251231.htm",
+    "s": "If the output from AI in the Barclays Bank Group's products, systems or solutions is deemed to be inaccurate or questionable, or if the use of AI does not operate as anticipated or perform as promised (including in relation to confidential information and personal data), the Barclays Bank Group may be exposed to additional liability, reputational harm, potential regulatory enforcement and threats of litigation, as further described at \u201cEvolving landscape with respect to artificial intelligence (including generative and agentic artificial intelligence) (AI) and machine learning technologies,\u201d \u201cModel risk\u201d and \u201cData management, information protection and AI\u201d."
+   },
+   {
+    "name": "BARCLAYS PLC  (BCS, BCLYF)  (CIK 0000312069)",
+    "cik": "0000312069",
+    "first": "2026-02-10",
+    "form": "20-F",
+    "adsh": "0000312069-26-000004",
+    "file": "bcs-20251231.htm",
+    "s": "AI does not operate as anticipated or perform as promised (including in relation to confidential information and personal data), the Group may be exposed to additional liability, reputational harm, potential regulatory enforcement and threats of litigation, as further described at \u201cEvolving landscape with respect to artificial intelligence (including generative and agentic artificial intelligence) (AI) and machine learning technologies,\u201d \u201cModel risk\u201d and \u201cData management, information protection and AI\u201d."
+   }
+  ]
+ },
+ {
+  "companies": 2,
+  "members": [
+   {
+    "name": "BARCLAYS BANK PLC  (DJP, GRN, VXX, VXZ, ATMP, GBUG, TAPR, BWVTF, JJETF)  (CIK 0000312070)",
+    "cik": "0000312070",
+    "first": "2026-02-10",
+    "form": "20-F",
+    "adsh": "0000312070-26-000006",
+    "file": "bbplc-20251231.htm",
+    "s": "For further information on AI-related risks, including in connection with suppliers, please see the sections entitled \u201cEvolving landscape with respect to artificial intelligence (including generative and agentic artificial intelligence) (AI) and machine learning technologies\u201d, \u201cNew and emergent technology\u201d, \u201cData management, information protection and AI,\u201d and \u201cModel risk\u201d."
+   },
+   {
+    "name": "BARCLAYS PLC  (BCS, BCLYF)  (CIK 0000312069)",
+    "cik": "0000312069",
+    "first": "2026-02-10",
+    "form": "20-F",
+    "adsh": "0000312069-26-000004",
+    "file": "bcs-20251231.htm",
+    "s": "For further information on AI-related risks, including in connection with suppliers, please see the sections entitled \u201cEvolving landscape with respect to artificial intelligence (including generative and agentic artificial intelligence) (AI) and machine learning technologies\u201d, \u201cNew and emergent technology\u201d, \u201cData management, information protection and AI,\u201d and \u201cModel risk\u201d."
+   }
+  ]
+ },
+ {
+  "companies": 2,
+  "members": [
+   {
+    "name": "BARCLAYS BANK PLC  (DJP, GRN, VXX, VXZ, ATMP, GBUG, TAPR, BWVTF, JJETF)  (CIK 0000312070)",
+    "cik": "0000312070",
+    "first": "2026-02-10",
+    "form": "20-F",
+    "adsh": "0000312070-26-000006",
+    "file": "bbplc-20251231.htm",
+    "s": "In addition, the rapid development of AI, especially agentic AI creates further challenges due to the unique and heightened risks presented by these model types."
+   },
+   {
+    "name": "BARCLAYS PLC  (BCS, BCLYF)  (CIK 0000312069)",
+    "cik": "0000312069",
+    "first": "2026-02-10",
+    "form": "20-F",
+    "adsh": "0000312069-26-000004",
+    "file": "bcs-20251231.htm",
+    "s": "In addition, the rapid development of AI, especially agentic AI, creates further challenges due to the unique and heightened risks presented by these model types."
+   }
+  ]
+ },
+ {
+  "companies": 2,
+  "members": [
+   {
+    "name": "MICROSOFT CORP  (MSFT)  (CIK 0000789019)",
+    "cik": "0000789019",
+    "first": "2025-04-30",
+    "form": "10-K",
+    "adsh": "0000950170-25-100235",
+    "file": "msft-20250630.htm",
+    "s": "Human review of certain inputs and outputs may be required, including for agentic AI systems that can take actions autonomously."
+   },
+   {
+    "name": "Robinhood Ventures Fund II  (RVII)  (CIK 0002131040)",
+    "cik": "0002131040",
+    "first": "2026-09-28",
+    "form": "10-Q",
+    "adsh": "0002131040-26-000008",
+    "file": "rvii-20260630.htm",
+    "s": "Human review of certain inputs and outputs may be required, including for agentic AI systems that can take actions autonomously."
+   }
+  ]
+ },
+ {
+  "companies": 2,
+  "members": [
+   {
+    "name": "Sally Beauty Holdings, Inc.  (SBH)  (CIK 0001368458)",
+    "cik": "0001368458",
+    "first": "2025-11-13",
+    "form": "10-K",
+    "adsh": "0001193125-25-280122",
+    "file": "sbh-20250930.htm",
+    "s": "Emerging forms of autonomous or \u201cagentic\u201d AI \u2013 capable of taking independent actions to pursue goals \u2013 may amplify these risks by enabling competitors to operate faster, more efficiently or more creatively at scale."
+   },
+   {
+    "name": "UPBOUND GROUP, INC.  (UPBD)  (CIK 0000933036)",
+    "cik": "0000933036",
+    "first": "2026-02-23",
+    "form": "10-K",
+    "adsh": "0000933036-26-000008",
+    "file": "upbd-20251231.htm",
+    "s": "Emerging forms of autonomous or \u201cagentic\u201d AI, capable of taking independent actions to pursue goals, may amplify these risks by enabling competitors to operate faster, more efficiently or more creatively at scale."
+   }
+  ]
+ },
+ {
+  "companies": 2,
+  "members": [
+   {
+    "name": "WELLTOWER INC.  (WELL)  (CIK 0000766704)",
+    "cik": "0000766704",
+    "first": "2025-02-12",
+    "form": "10-K",
+    "adsh": "0000766704-25-000009",
+    "file": "well-20241231.htm",
+    "s": "Recent developments in AI, such as generative or agentic AI, may accelerate or exacerbate these effects, and industry trends and consumer expectations may influence the pace at which AI solutions are used in our business operations."
+   },
+   {
+    "name": "SONIDA SENIOR LIVING, INC.  (SNDA)  (CIK 0001043000)",
+    "cik": "0001043000",
+    "first": "2025-03-17",
+    "form": "10-K",
+    "adsh": "0001043000-25-000010",
+    "file": "snda-20241231.htm",
+    "s": "Recent developments in AI, such as generative or agentic AI, may accelerate or exacerbate these effects, and industry trends and consumer expectations may influence the pace at which AI solutions are used in our business operations."
+   }
+  ]
+ },
+ {
+  "companies": 2,
+  "members": [
+   {
+    "name": "ETSY INC  (ETSY)  (CIK 0001370637)",
+    "cik": "0001370637",
+    "first": "2026-02-19",
+    "form": "10-K",
+    "adsh": "0001370637-26-000019",
+    "file": "etsy-20251231.htm",
+    "s": "Our competitors also may be able to more quickly or effectively develop, adopt, and integrate new technologies, including AI\u2013enabled tools and agentic commerce experiences, into their platforms, which could make their offerings more attractive to buyers or sellers and reduce our ability to compete effectively."
+   },
+   {
+    "name": "AMAZE HOLDINGS, INC.  (AMZE)  (CIK 0001880343)",
+    "cik": "0001880343",
+    "first": "2026-04-01",
+    "form": "10-K",
+    "adsh": "0001493152-26-014431",
+    "file": "form10-k.htm",
+    "s": "Our competitors also may be able to more quickly or effectively develop, adopt, and integrate new technologies, including AI\u2013enabled tools and agentic commerce experiences, into their platforms, which could make their offerings more attractive to buyers or sellers and reduce our ability to compete effectively."
+   }
+  ]
+ },
+ {
+  "companies": 2,
+  "members": [
+   {
+    "name": "Macy's, Inc.  (M)  (CIK 0000794367)",
+    "cik": "0000794367",
+    "first": "2026-03-27",
+    "form": "10-K",
+    "adsh": "0001628280-26-021721",
+    "file": "m-20260131.htm",
+    "s": "The autonomous nature of agentic AI may present challenges in aligning with current AI governance, including testing protocols, and increase risk that agents may learn to circumvent guardrails."
+   },
+   {
+    "name": "CS Disco, Inc.  (LAW)  (CIK 0001625641)",
+    "cik": "0001625641",
+    "first": "2026-05-06",
+    "form": "10-Q",
+    "adsh": "0001625641-26-000108",
+    "file": "law-20260331.htm",
+    "s": "For example, the autonomous nature of agentic AI may present challenges in aligning with current AI governance, including testing protocols, and increase risk that agents may learn to circumvent guardrails."
+   }
+  ]
+ },
+ {
+  "companies": 2,
+  "members": [
+   {
+    "name": "SIERRA BANCORP  (BSRR)  (CIK 0001130144)",
+    "cik": "0001130144",
+    "first": "2026-02-27",
+    "form": "10-K",
+    "adsh": "0001104659-26-021479",
+    "file": "bsrr-20251231x10k.htm",
+    "s": "The Company or its third-party vendors, clients or counterparties may develop or incorporate AI technology, including agentic AI, in certain business processes, services or products."
+   },
+   {
+    "name": "Bank of Marin Bancorp  (BMRC)  (CIK 0001403475)",
+    "cik": "0001403475",
+    "first": "2026-03-13",
+    "form": "10-K",
+    "adsh": "0001403475-26-000018",
+    "file": "bmrc-20251231.htm",
+    "s": "The Company or its third-party vendors, clients or counterparties may develop or incorporate AI technology, including agentic AI, in certain business processes, services or products."
+   }
+  ]
+ },
+ {
+  "companies": 2,
+  "members": [
+   {
+    "name": "Honest Company, Inc.  (HNST)  (CIK 0001530979)",
+    "cik": "0001530979",
+    "first": "2026-02-25",
+    "form": "10-K",
+    "adsh": "0001628280-26-011634",
+    "file": "hnst-20251231.htm",
+    "s": "The adoption of AI technologies (including generative AI and autonomous or \"agentic\" AI systems) also introduces operational risks."
+   },
+   {
+    "name": "Grove Collaborative Holdings, Inc.  (GROV, GROVW)  (CIK 0001841761)",
+    "cik": "0001841761",
+    "first": "2026-08-06",
+    "form": "10-Q",
+    "adsh": "0001841761-26-000064",
+    "file": "grov-20260630.htm",
+    "s": "The adoption of AI technologies (including generative AI and autonomous or \"agentic\" AI systems) also introduces operational risks."
+   }
+  ]
+ },
+ {
+  "companies": 2,
+  "members": [
+   {
+    "name": "NATIONAL HEALTH INVESTORS INC  (NHI)  (CIK 0000877860)",
+    "cik": "0000877860",
+    "first": "2026-02-26",
+    "form": "10-K",
+    "adsh": "0000877860-26-000053",
+    "file": "nhi-20251231.htm",
+    "s": "We may use AI tools in our operations, including machine learning technology and generative and agentic AI technologies."
+   },
+   {
+    "name": "DigitalBridge Group, Inc.  (DBRG, DBRG-PH, DBRG-PI, DBRG-PJ)  (CIK 0001679688)",
+    "cik": "0001679688",
+    "first": "2026-02-26",
+    "form": "10-K",
+    "adsh": "0001679688-26-000021",
+    "file": "dbrg-20251231.htm",
+    "s": "We may use AI tools in our operations, including machine learning technology and generative and agentic AI technologies."
+   }
+  ]
+ },
+ {
+  "companies": 2,
+  "members": [
+   {
+    "name": "Roivant Sciences Ltd.  (ROIV)  (CIK 0001635088)",
+    "cik": "0001635088",
+    "first": "2026-02-06",
+    "form": "10-Q",
+    "adsh": "0001635088-26-000011",
+    "file": "roiv-20251231.htm",
+    "s": "Additionally, uncertainty remains as to how the FDA\u2019s agency-wide implementation of ELSA, a generative artificial intelligence tool, including for review of drug product applications, as well as its deployment of agentic artificial intelligence capabilities, will impact the outcomes and timeliness of FDA reviews and other activities."
+   },
+   {
+    "name": "ARGENX SE  (ARGX)  (CIK 0001697862)",
+    "cik": "0001697862",
+    "first": "2026-03-19",
+    "form": "20-F",
+    "adsh": "0001697862-26-000032",
+    "file": "argx-20251231.htm",
+    "s": "Additionally, uncertainty remains as to how the FDA\u2019s agency-wide implementation of ELSA, a generative artificial intelligence tool, including for review of drug product applications, as well as its deployment of agentic artificial intelligence capabilities, will impact the outcomes and timeliness of FDA reviews and other activities."
+   }
+  ]
+ },
+ {
+  "companies": 2,
+  "members": [
+   {
+    "name": "BROADRIDGE FINANCIAL SOLUTIONS, INC.  (BR)  (CIK 0001383312)",
+    "cik": "0001383312",
+    "first": "2026-08-04",
+    "form": "10-K",
+    "adsh": "0001628280-26-052243",
+    "file": "br-20260630.htm",
+    "s": "Some of our products, services and processes leverage AI, including both machine learning and Generative and Agentic AI, and we continue to make investments in initiatives focused on the further development and deployment of these technologies."
+   },
+   {
+    "name": "Arena Group Holdings, Inc.  (AREN)  (CIK 0000894871)",
+    "cik": "0000894871",
+    "first": "2026-08-10",
+    "form": "10-Q",
+    "adsh": "0001628280-26-055208",
+    "file": "aren-20260630.htm",
+    "s": "Some of our products, services, publishing tools and processes leverage AI, including both machine learning and Generative and Agentic AI, and we continue to make investments in initiatives focused on the further development and deployment of these technologies."
+   }
+  ]
+ },
+ {
+  "companies": 2,
+  "members": [
+   {
+    "name": "WESTERN DIGITAL CORP  (WDC)  (CIK 0000106040)",
+    "cik": "0000106040",
+    "first": "2026-08-14",
+    "form": "10-K",
+    "adsh": "0001628280-26-057139",
+    "file": "wdc-20260703.htm",
+    "s": "The unauthorized or unapproved use of generative AI tools by our employees, contractors, or other third parties, as well as overreliance on AI automation or agentic AI without appropriate human oversight, may lead to the inadvertent disclosure of confidential, proprietary, or personal information, flawed or unauthorized actions, or other adverse consequences, including disruptions to business operations, exposing us to data security, privacy, legal, regulatory, and reputational risks."
+   },
+   {
+    "name": "Sandisk Corp  (SNDK)  (CIK 0002023554)",
+    "cik": "0002023554",
+    "first": "2026-08-17",
+    "form": "10-K",
+    "adsh": "0001628280-26-057406",
+    "file": "sndk-20260703.htm",
+    "s": "The unauthorized or unapproved use of generative AI tools by our employees, contractors, or other third parties, as well as overreliance on AI automation or agentic AI without appropriate human oversight, may lead to the inadvertent disclosure of confidential, proprietary, or personal information, flawed or unauthorized actions, or other adverse consequences, including disruptions to business operations, exposing us to data security, privacy, legal, regulatory, and reputational risks."
+   }
+  ]
+ },
+ {
+  "companies": 2,
+  "members": [
+   {
+    "name": "Santander UK plc  (SNTUF, STNDF)  (CIK 0001087711)",
+    "cik": "0001087711",
+    "first": "2026-03-12",
+    "form": "20-F",
+    "adsh": "0001087711-26-000008",
+    "file": "san-20251231.htm",
+    "s": "The emergent use of Agentic AI which uses autonomous AI systems that can reason, plan, and act independently to achieve a defined set of goals is the next transformative phase for many businesses, with banks exploring implementation."
+   },
+   {
+    "name": "SANTANDER UK GROUP HOLDINGS PLC  (CIK 0001649373)",
+    "cik": "0001649373",
+    "first": "2026-03-12",
+    "form": "20-F",
+    "adsh": "0001649373-26-000013",
+    "file": "san-20251231.htm",
+    "s": "The emergent use of Agentic AI which uses autonomous AI systems that can reason, plan, and act independently to achieve a defined set of goals is the next transformative phase for many businesses, with banks exploring implementation."
+   }
+  ]
+ },
+ {
+  "companies": 2,
+  "members": [
+   {
+    "name": "Santander UK plc  (SNTUF, STNDF)  (CIK 0001087711)",
+    "cik": "0001087711",
+    "first": "2026-03-12",
+    "form": "20-F",
+    "adsh": "0001087711-26-000008",
+    "file": "san-20251231.htm",
+    "s": "We will start exploring the use of Agentic AI and put AI tools directly in front of our customers whilst maintaining strong risk management and oversight to ensure we deliver innovation and good customer outcomes."
+   },
+   {
+    "name": "SANTANDER UK GROUP HOLDINGS PLC  (CIK 0001649373)",
+    "cik": "0001649373",
+    "first": "2026-03-12",
+    "form": "20-F",
+    "adsh": "0001649373-26-000013",
+    "file": "san-20251231.htm",
+    "s": "We will start exploring the use of Agentic AI and put AI tools directly in front of our customers whilst maintaining strong risk management and oversight to ensure we deliver innovation and good customer outcomes."
+   }
+  ]
+ },
+ {
+  "companies": 2,
+  "members": [
+   {
+    "name": "CGI INC  (GIB)  (CIK 0001061574)",
+    "cik": "0001061574",
+    "first": "2025-12-17",
+    "form": "40-F",
+    "adsh": "0001193125-25-322911",
+    "file": "d88305dex993.htm",
+    "s": "Offerings relating to digital, cloud and security services are examples of areas that are continually evolving, as well as changes and developments in artificial intelligence (including agentic AI, generative AI, as well as automation and machine learning) (AI)."
+   },
+   {
+    "name": "Alithya Group inc  (ALYAF)  (CIK 0001734520)",
+    "cik": "0001734520",
+    "first": "2026-06-11",
+    "form": "40-F",
+    "adsh": "0001734520-26-000033",
+    "file": "alithyagroupmdaenglishq420.htm",
+    "s": "Offerings relating to digital, cloud and security services are examples of areas that are continually evolving, as well as changes and developments in AI (including agentic AI, generative AI, as well as automation and machine learning)."
+   }
+  ]
+ }
+]

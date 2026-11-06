@@ -1,0 +1,900 @@
+{
+ "corpus": {
+  "files": 1509,
+  "filings": 1500,
+  "sentences": 6597,
+  "companies": 713,
+  "first_day": "2022-03-31",
+  "last_day": "2026-11-05"
+ },
+ "companies_by_year": {
+  "2022": 6,
+  "2023": 7,
+  "2024": 20,
+  "2025": 207,
+  "2026": 675
+ },
+ "filers_by_year": {
+  "2022": 9053,
+  "2023": 8650,
+  "2024": 8206,
+  "2025": 8134,
+  "2026": 8099
+ },
+ "quarters": [
+  {
+   "q": "2022Q1",
+   "companies": 1,
+   "filers": 7434,
+   "pct": 0.01
+  },
+  {
+   "q": "2022Q2",
+   "companies": 3,
+   "filers": 7391,
+   "pct": 0.04
+  },
+  {
+   "q": "2022Q3",
+   "companies": 0,
+   "filers": 6838,
+   "pct": 0.0
+  },
+  {
+   "q": "2022Q4",
+   "companies": 2,
+   "filers": 6757,
+   "pct": 0.03
+  },
+  {
+   "q": "2023Q1",
+   "companies": 0,
+   "filers": 7117,
+   "pct": 0.0
+  },
+  {
+   "q": "2023Q2",
+   "companies": 6,
+   "filers": 6906,
+   "pct": 0.09
+  },
+  {
+   "q": "2023Q3",
+   "companies": 1,
+   "filers": 6261,
+   "pct": 0.02
+  },
+  {
+   "q": "2023Q4",
+   "companies": 3,
+   "filers": 6200,
+   "pct": 0.05
+  },
+  {
+   "q": "2024Q1",
+   "companies": 3,
+   "filers": 6316,
+   "pct": 0.05
+  },
+  {
+   "q": "2024Q2",
+   "companies": 9,
+   "filers": 6412,
+   "pct": 0.14
+  },
+  {
+   "q": "2024Q3",
+   "companies": 5,
+   "filers": 5872,
+   "pct": 0.09
+  },
+  {
+   "q": "2024Q4",
+   "companies": 8,
+   "filers": 5856,
+   "pct": 0.14
+  },
+  {
+   "q": "2025Q1",
+   "companies": 70,
+   "filers": 6541,
+   "pct": 1.07
+  },
+  {
+   "q": "2025Q2",
+   "companies": 69,
+   "filers": 6210,
+   "pct": 1.11
+  },
+  {
+   "q": "2025Q3",
+   "companies": 83,
+   "filers": 5721,
+   "pct": 1.45
+  },
+  {
+   "q": "2025Q4",
+   "companies": 109,
+   "filers": 5744,
+   "pct": 1.9
+  },
+  {
+   "q": "2026Q1",
+   "companies": 430,
+   "filers": 6659,
+   "pct": 6.46
+  },
+  {
+   "q": "2026Q2",
+   "companies": 276,
+   "filers": 6255,
+   "pct": 4.41
+  },
+  {
+   "q": "2026Q3",
+   "companies": 268,
+   "filers": 5766,
+   "pct": 4.65
+  },
+  {
+   "q": "2026Q4",
+   "companies": 119,
+   "filers": 1862,
+   "pct": 6.39
+  }
+ ],
+ "share_2026": 8.3,
+ "share_2024": 0.24,
+ "warn": {
+  "n": 52,
+  "first": "Tenable",
+  "first_date": "2025-11-04",
+  "by_2025_end": 3,
+  "by_half": {
+   "2025H2": 3,
+   "2026H1": 23,
+   "2026H2": 26
+  },
+  "since_oct1": 12,
+  "list": [
+   {
+    "group": "Tenable",
+    "date": "2025-11-04",
+    "form": "10-Q"
+   },
+   {
+    "group": "Klaviyo",
+    "date": "2025-11-05",
+    "form": "10-Q"
+   },
+   {
+    "group": "Navan",
+    "date": "2025-12-15",
+    "form": "10-Q"
+   },
+   {
+    "group": "ITT",
+    "date": "2026-02-09",
+    "form": "10-K"
+   },
+   {
+    "group": "Barclays",
+    "date": "2026-02-10",
+    "form": "20-F"
+   },
+   {
+    "group": "HubSpot",
+    "date": "2026-02-11",
+    "form": "10-K"
+   },
+   {
+    "group": "Prudential Financial",
+    "date": "2026-02-12",
+    "form": "10-K"
+   },
+   {
+    "group": "DraftKings",
+    "date": "2026-02-13",
+    "form": "10-K"
+   },
+   {
+    "group": "Rush Street Interactive",
+    "date": "2026-02-18",
+    "form": "10-K"
+   },
+   {
+    "group": "GoDaddy",
+    "date": "2026-02-25",
+    "form": "10-K"
+   },
+   {
+    "group": "MercadoLibre",
+    "date": "2026-02-25",
+    "form": "10-K"
+   },
+   {
+    "group": "Bank of America",
+    "date": "2026-02-25",
+    "form": "10-K"
+   },
+   {
+    "group": "Murphy Oil",
+    "date": "2026-02-25",
+    "form": "10-K"
+   },
+   {
+    "group": "Wix",
+    "date": "2026-03-05",
+    "form": "20-F"
+   },
+   {
+    "group": "Fiverr",
+    "date": "2026-03-12",
+    "form": "20-F"
+   },
+   {
+    "group": "DocuSign",
+    "date": "2026-03-18",
+    "form": "10-K"
+   },
+   {
+    "group": "Sprinklr",
+    "date": "2026-03-19",
+    "form": "10-K"
+   },
+   {
+    "group": "ServiceTitan",
+    "date": "2026-03-25",
+    "form": "10-K"
+   },
+   {
+    "group": "Roblox",
+    "date": "2026-04-30",
+    "form": "10-Q"
+   },
+   {
+    "group": "Twilio",
+    "date": "2026-05-01",
+    "form": "10-Q"
+   },
+   {
+    "group": "RingCentral",
+    "date": "2026-05-11",
+    "form": "10-Q"
+   },
+   {
+    "group": "Dynatrace",
+    "date": "2026-05-20",
+    "form": "10-K"
+   },
+   {
+    "group": "Gen Digital",
+    "date": "2026-05-21",
+    "form": "10-K"
+   },
+   {
+    "group": "Zscaler",
+    "date": "2026-05-26",
+    "form": "10-Q"
+   },
+   {
+    "group": "Global AI",
+    "date": "2026-05-28",
+    "form": "10-K"
+   },
+   {
+    "group": "VIDA Global",
+    "date": "2026-06-26",
+    "form": "10-Q"
+   },
+   {
+    "group": "Varonis",
+    "date": "2026-07-29",
+    "form": "10-Q"
+   },
+   {
+    "group": "Bandwidth",
+    "date": "2026-07-29",
+    "form": "10-Q"
+   },
+   {
+    "group": "Meta",
+    "date": "2026-07-30",
+    "form": "10-Q"
+   },
+   {
+    "group": "Regeneron",
+    "date": "2026-07-30",
+    "form": "10-Q"
+   },
+   {
+    "group": "Solowin",
+    "date": "2026-08-03",
+    "form": "20-F"
+   },
+   {
+    "group": "Snap",
+    "date": "2026-08-04",
+    "form": "10-Q"
+   },
+   {
+    "group": "Arvinas",
+    "date": "2026-08-04",
+    "form": "10-Q"
+   },
+   {
+    "group": "Block",
+    "date": "2026-08-05",
+    "form": "10-Q"
+   },
+   {
+    "group": "SUI Group",
+    "date": "2026-08-06",
+    "form": "10-Q"
+   },
+   {
+    "group": "Western Digital",
+    "date": "2026-08-14",
+    "form": "10-K"
+   },
+   {
+    "group": "Sandisk",
+    "date": "2026-08-17",
+    "form": "10-K"
+   },
+   {
+    "group": "Cisco",
+    "date": "2026-09-02",
+    "form": "10-K"
+   },
+   {
+    "group": "Samsara",
+    "date": "2026-09-08",
+    "form": "10-Q"
+   },
+   {
+    "group": "Nutanix",
+    "date": "2026-09-18",
+    "form": "10-K"
+   },
+   {
+    "group": "Microsoft",
+    "date": "2026-10-28",
+    "form": "10-Q"
+   },
+   {
+    "group": "Robinhood",
+    "date": "2026-10-28",
+    "form": "10-Q"
+   },
+   {
+    "group": "Rimini Street",
+    "date": "2026-10-29",
+    "form": "10-Q"
+   },
+   {
+    "group": "Alphabet",
+    "date": "2026-10-29",
+    "form": "10-Q"
+   },
+   {
+    "group": "Apple",
+    "date": "2026-11-03",
+    "form": "10-K"
+   },
+   {
+    "group": "Palantir",
+    "date": "2026-11-03",
+    "form": "10-Q"
+   },
+   {
+    "group": "Arista",
+    "date": "2026-11-04",
+    "form": "10-Q"
+   },
+   {
+    "group": "Fastly",
+    "date": "2026-11-04",
+    "form": "10-Q"
+   },
+   {
+    "group": "Oportun",
+    "date": "2026-11-04",
+    "form": "10-Q"
+   },
+   {
+    "group": "CS Disco",
+    "date": "2026-11-04",
+    "form": "10-Q"
+   },
+   {
+    "group": "Amplitude",
+    "date": "2026-11-05",
+    "form": "10-Q"
+   },
+   {
+    "group": "Pattern Group",
+    "date": "2026-11-05",
+    "form": "10-Q"
+   }
+  ],
+  "first_date_text": "4 November 2025",
+  "pct_of_agent_companies": 7.3,
+  "cumulative": [
+   {
+    "date": "2025-11-04",
+    "n": 1,
+    "group": "Tenable"
+   },
+   {
+    "date": "2025-11-05",
+    "n": 2,
+    "group": "Klaviyo"
+   },
+   {
+    "date": "2025-12-15",
+    "n": 3,
+    "group": "Navan"
+   },
+   {
+    "date": "2026-02-09",
+    "n": 4,
+    "group": "ITT"
+   },
+   {
+    "date": "2026-02-10",
+    "n": 5,
+    "group": "Barclays"
+   },
+   {
+    "date": "2026-02-11",
+    "n": 6,
+    "group": "HubSpot"
+   },
+   {
+    "date": "2026-02-12",
+    "n": 7,
+    "group": "Prudential Financial"
+   },
+   {
+    "date": "2026-02-13",
+    "n": 8,
+    "group": "DraftKings"
+   },
+   {
+    "date": "2026-02-18",
+    "n": 9,
+    "group": "Rush Street Interactive"
+   },
+   {
+    "date": "2026-02-25",
+    "n": 10,
+    "group": "GoDaddy"
+   },
+   {
+    "date": "2026-02-25",
+    "n": 11,
+    "group": "MercadoLibre"
+   },
+   {
+    "date": "2026-02-25",
+    "n": 12,
+    "group": "Bank of America"
+   },
+   {
+    "date": "2026-02-25",
+    "n": 13,
+    "group": "Murphy Oil"
+   },
+   {
+    "date": "2026-03-05",
+    "n": 14,
+    "group": "Wix"
+   },
+   {
+    "date": "2026-03-12",
+    "n": 15,
+    "group": "Fiverr"
+   },
+   {
+    "date": "2026-03-18",
+    "n": 16,
+    "group": "DocuSign"
+   },
+   {
+    "date": "2026-03-19",
+    "n": 17,
+    "group": "Sprinklr"
+   },
+   {
+    "date": "2026-03-25",
+    "n": 18,
+    "group": "ServiceTitan"
+   },
+   {
+    "date": "2026-04-30",
+    "n": 19,
+    "group": "Roblox"
+   },
+   {
+    "date": "2026-05-01",
+    "n": 20,
+    "group": "Twilio"
+   },
+   {
+    "date": "2026-05-11",
+    "n": 21,
+    "group": "RingCentral"
+   },
+   {
+    "date": "2026-05-20",
+    "n": 22,
+    "group": "Dynatrace"
+   },
+   {
+    "date": "2026-05-21",
+    "n": 23,
+    "group": "Gen Digital"
+   },
+   {
+    "date": "2026-05-26",
+    "n": 24,
+    "group": "Zscaler"
+   },
+   {
+    "date": "2026-05-28",
+    "n": 25,
+    "group": "Global AI"
+   },
+   {
+    "date": "2026-06-26",
+    "n": 26,
+    "group": "VIDA Global"
+   },
+   {
+    "date": "2026-07-29",
+    "n": 27,
+    "group": "Varonis"
+   },
+   {
+    "date": "2026-07-29",
+    "n": 28,
+    "group": "Bandwidth"
+   },
+   {
+    "date": "2026-07-30",
+    "n": 29,
+    "group": "Meta"
+   },
+   {
+    "date": "2026-07-30",
+    "n": 30,
+    "group": "Regeneron"
+   },
+   {
+    "date": "2026-08-03",
+    "n": 31,
+    "group": "Solowin"
+   },
+   {
+    "date": "2026-08-04",
+    "n": 32,
+    "group": "Snap"
+   },
+   {
+    "date": "2026-08-04",
+    "n": 33,
+    "group": "Arvinas"
+   },
+   {
+    "date": "2026-08-05",
+    "n": 34,
+    "group": "Block"
+   },
+   {
+    "date": "2026-08-06",
+    "n": 35,
+    "group": "SUI Group"
+   },
+   {
+    "date": "2026-08-14",
+    "n": 36,
+    "group": "Western Digital"
+   },
+   {
+    "date": "2026-08-17",
+    "n": 37,
+    "group": "Sandisk"
+   },
+   {
+    "date": "2026-09-02",
+    "n": 38,
+    "group": "Cisco"
+   },
+   {
+    "date": "2026-09-08",
+    "n": 39,
+    "group": "Samsara"
+   },
+   {
+    "date": "2026-09-18",
+    "n": 40,
+    "group": "Nutanix"
+   },
+   {
+    "date": "2026-10-28",
+    "n": 41,
+    "group": "Microsoft"
+   },
+   {
+    "date": "2026-10-28",
+    "n": 42,
+    "group": "Robinhood"
+   },
+   {
+    "date": "2026-10-29",
+    "n": 43,
+    "group": "Rimini Street"
+   },
+   {
+    "date": "2026-10-29",
+    "n": 44,
+    "group": "Alphabet"
+   },
+   {
+    "date": "2026-11-03",
+    "n": 45,
+    "group": "Apple"
+   },
+   {
+    "date": "2026-11-03",
+    "n": 46,
+    "group": "Palantir"
+   },
+   {
+    "date": "2026-11-04",
+    "n": 47,
+    "group": "Arista"
+   },
+   {
+    "date": "2026-11-04",
+    "n": 48,
+    "group": "Fastly"
+   },
+   {
+    "date": "2026-11-04",
+    "n": 49,
+    "group": "Oportun"
+   },
+   {
+    "date": "2026-11-04",
+    "n": 50,
+    "group": "CS Disco"
+   },
+   {
+    "date": "2026-11-05",
+    "n": 51,
+    "group": "Amplitude"
+   },
+   {
+    "date": "2026-11-05",
+    "n": 52,
+    "group": "Pattern Group"
+   }
+  ]
+ },
+ "copies": {
+  "n": 13,
+  "pct": 25,
+  "pairs": [
+   {
+    "earlier": "Klaviyo",
+    "earlier_date": "2025-11-05",
+    "later": "HubSpot",
+    "later_date": "2026-02-11",
+    "longest_identical_words": 16,
+    "run": "take or suggest actions based on incomplete or inaccurate data, “hallucinatory” inferences, or flawed training inputs,"
+   },
+   {
+    "earlier": "DraftKings",
+    "earlier_date": "2026-02-13",
+    "later": "Rush Street Interactive",
+    "later_date": "2026-02-18",
+    "longest_identical_words": 54,
+    "run": "We may experiment with or deploy AI agents or other AI-enabled automation that can plan, make decisions, and take actions with reduced human prompting or oversight. Such autonomous systems may increase the risk of unintended, unauthorized or harmful outcomes, including where such systems interact with other systems or third-party tools, data sources or vendors."
+   },
+   {
+    "earlier": "GoDaddy",
+    "earlier_date": "2026-02-25",
+    "later": "Wix",
+    "later_date": "2026-03-05",
+    "longest_identical_words": 26,
+    "run": "We also are developing and deploying agentic AI systems that operate with greater autonomy, which presents additional risks, including unintended or unauthorized actions and increased difficulty"
+   },
+   {
+    "earlier": "Wix",
+    "earlier_date": "2026-03-05",
+    "later": "Fiverr",
+    "later_date": "2026-03-12",
+    "longest_identical_words": 89,
+    "run": "throughout our business, and are constantly working on expanding our AI capabilities, internally and through collaborations with vendors, including through improvements to our existing AI technologies, as well as through development of new products and features. For example, we use AI technologies as part of our product offering, and to improve our internal workflows and development velocity. We also are developing and deploying agentic AI systems that operate with greater autonomy, which presents additional risks, including unintended or unauthorized actions and increased difficulty predicting, supervising, and controlling agentic behavior."
+   },
+   {
+    "earlier": "DocuSign",
+    "earlier_date": "2026-03-18",
+    "later": "RingCentral",
+    "later_date": "2026-05-11",
+    "longest_identical_words": 11,
+    "run": "designed to perform tasks and make decisions with limited human intervention."
+   },
+   {
+    "earlier": "ServiceTitan",
+    "earlier_date": "2026-03-25",
+    "later": "Dynatrace",
+    "later_date": "2026-05-20",
+    "longest_identical_words": 11,
+    "run": "could be incorrect or unintended, resulting in negative impacts for both"
+   },
+   {
+    "earlier": "Dynatrace",
+    "earlier_date": "2026-05-20",
+    "later": "Nutanix",
+    "later_date": "2026-09-18",
+    "longest_identical_words": 10,
+    "run": "As we integrate more agentic AI workflows into our platform,"
+   },
+   {
+    "earlier": "Barclays",
+    "earlier_date": "2026-02-10",
+    "later": "Gen Digital",
+    "later_date": "2026-05-21",
+    "longest_identical_words": 27,
+    "run": "(particularly where it is part of a complex, multi-step process and inaccurate or incomplete information may be compounded across many steps, such as in agentic AI systems)."
+   },
+   {
+    "earlier": "Twilio",
+    "earlier_date": "2026-05-01",
+    "later": "Bandwidth",
+    "later_date": "2026-07-29",
+    "longest_identical_words": 8,
+    "run": "agentic AI (systems that autonomously execute multi-step tasks"
+   },
+   {
+    "earlier": "Bandwidth",
+    "earlier_date": "2026-07-29",
+    "later": "Pattern Group",
+    "later_date": "2026-11-05",
+    "longest_identical_words": 36,
+    "run": "incorporate agentic AI (systems that autonomously execute multi-step tasks with reduced human intervention). The deployment of such agentic AI introduces risks that are distinct from those of traditional AI features, including risks of unintended or unauthorized"
+   },
+   {
+    "earlier": "Global AI",
+    "earlier_date": "2026-05-28",
+    "later": "SUI Group",
+    "later_date": "2026-08-06",
+    "longest_identical_words": 33,
+    "run": "including risks related to model accuracy and reliability, unintended actions, data security and privacy, third-party system dependencies, intellectual property, regulatory compliance, and potential liability for outcomes produced or actions taken by such systems."
+   },
+   {
+    "earlier": "Western Digital",
+    "earlier_date": "2026-08-14",
+    "later": "Sandisk",
+    "later_date": "2026-08-17",
+    "longest_identical_words": 126,
+    "run": "ition, the use of AI in the development of our products could potentially lead to ambiguities in intellectual property ownership, infringement or misappropriation risks, which could impact our competitive position and expose us to litigation, monetary penalties, or operational disruptions. The unauthorized or unapproved use of generative AI tools by our employees, contractors, or other third parties, as well as overreliance on AI automation or agentic AI without appropriate human oversight, may lead to the inadvertent disclosure of confidential, proprietary, or personal information, flawed or unauthorized actions, or other adverse consequences, including disruptions to business operations, exposing us to data security, privacy, legal, regulatory, and reputational risks. Misuse of such tools can also result in violations of applicable laws and regulations, including data protection and intellectual"
+   },
+   {
+    "earlier": "Samsara",
+    "earlier_date": "2026-09-08",
+    "later": "Arista",
+    "later_date": "2026-11-04",
+    "longest_identical_words": 32,
+    "run": "obtaining access to networks or systems that were not intended to be accessible, escalating privileges, accessing, modifying, or disclosing confidential information, or using available tools and credentials to take additional unauthorized actions."
+   }
+  ],
+  "verbatim_25plus": 8
+ },
+ "phrase_uuas": {
+  "phrase": "unintended or unauthorized actions",
+  "first": "GoDaddy",
+  "first_date": "2026-02-25",
+  "companies": 12,
+  "names": [
+   "GoDaddy",
+   "Wix",
+   "Fiverr",
+   "Roblox",
+   "Twilio",
+   "Bandwidth",
+   "Marvell",
+   "Samsara",
+   "Microsoft",
+   "Apple",
+   "Palantir",
+   "Arista"
+  ]
+ },
+ "themes": {
+  "acts_unintended": 79,
+  "security": 112,
+  "fraud_payments": 40,
+  "agents_buy_for_customers": 36,
+  "competition": 76,
+  "demand_for_our_work": 20,
+  "errors_quality": 77,
+  "legal_liability": 127,
+  "data_leak": 55
+ },
+ "themes_base": 370,
+ "sellers": {
+  "Salesforce": 86,
+  "ServiceNow": 27,
+  "UiPath": 67,
+  "Workday": 27,
+  "Adobe": 16,
+  "Microsoft": 6,
+  "Alphabet": 2,
+  "Meta": 1,
+  "Apple": 4,
+  "Palantir": 6,
+  "Twilio": 2
+ },
+ "links": {
+  "Tenable": "https://www.sec.gov/Archives/edgar/data/1660280/000166028025000128/tenb-20250930.htm",
+  "Klaviyo": "https://www.sec.gov/Archives/edgar/data/1835830/000183583025000110/kvyo-20250930.htm",
+  "Navan": "https://www.sec.gov/Archives/edgar/data/1639723/000163972325000017/navn-20251031.htm",
+  "ITT": "https://www.sec.gov/Archives/edgar/data/216228/000021622826000012/itt-20251231.htm",
+  "Barclays": "https://www.sec.gov/Archives/edgar/data/312069/000031206926000004/bcs-20251231.htm",
+  "HubSpot": "https://www.sec.gov/Archives/edgar/data/1404655/000119312526046646/hubs-20251231.htm",
+  "Prudential_Financial": "https://www.sec.gov/Archives/edgar/data/1137774/000113777426000048/pru-20251231.htm",
+  "DraftKings": "https://www.sec.gov/Archives/edgar/data/1883685/000188368526000013/dkng-20251231.htm",
+  "Rush_Street_Interactive": "https://www.sec.gov/Archives/edgar/data/1793659/000179365926000009/rsi-20251231.htm",
+  "GoDaddy": "https://www.sec.gov/Archives/edgar/data/1609711/000160971126000010/gddy-20251231.htm",
+  "MercadoLibre": "https://www.sec.gov/Archives/edgar/data/1099590/000109959026000006/meli-20251231.htm",
+  "Bank_of_America": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000157/bac-20251231.htm",
+  "Murphy_Oil": "https://www.sec.gov/Archives/edgar/data/717423/000162828026011709/mur-20251231.htm",
+  "Wix": "https://www.sec.gov/Archives/edgar/data/1576789/000162828026015222/wix-20251231.htm",
+  "Fiverr": "https://www.sec.gov/Archives/edgar/data/1762301/000117891326000858/zk2634486.htm",
+  "DocuSign": "https://www.sec.gov/Archives/edgar/data/1261333/000126133326000021/docu-20260131.htm",
+  "Sprinklr": "https://www.sec.gov/Archives/edgar/data/1569345/000156934526000015/cxm-20260131.htm",
+  "ServiceTitan": "https://www.sec.gov/Archives/edgar/data/1638826/000163882626000028/ttan-20260131.htm",
+  "Roblox": "https://www.sec.gov/Archives/edgar/data/1315098/000162828026028904/rblx-20260331.htm",
+  "Twilio": "https://www.sec.gov/Archives/edgar/data/1447669/000144766926000049/twlo-20260331.htm",
+  "RingCentral": "https://www.sec.gov/Archives/edgar/data/1384905/000138490526000037/rng-20260331.htm",
+  "Dynatrace": "https://www.sec.gov/Archives/edgar/data/1773383/000177338326000019/dt-20260331.htm",
+  "Gen_Digital": "https://www.sec.gov/Archives/edgar/data/849399/000084939926000017/gen-20260403.htm",
+  "Zscaler": "https://www.sec.gov/Archives/edgar/data/1713683/000171368326000096/zs-20260430.htm",
+  "Global_AI": "https://www.sec.gov/Archives/edgar/data/1473490/000149315226025669/form10-k.htm",
+  "VIDA_Global": "https://www.sec.gov/Archives/edgar/data/1973062/000149315226030343/form10-q.htm",
+  "Varonis": "https://www.sec.gov/Archives/edgar/data/1361113/000162828026050630/vrns-20260630.htm",
+  "Bandwidth": "https://www.sec.gov/Archives/edgar/data/1514416/000151441626000057/band-20260630.htm",
+  "Meta": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026050705/meta-20260630.htm",
+  "Regeneron": "https://www.sec.gov/Archives/edgar/data/872589/000087258926000025/regn-20260630.htm",
+  "Solowin": "https://www.sec.gov/Archives/edgar/data/1959224/000121390026084178/ea0298409-20f_solowin.htm",
+  "Snap": "https://www.sec.gov/Archives/edgar/data/1564408/000156440826000052/snap-20260630.htm",
+  "Arvinas": "https://www.sec.gov/Archives/edgar/data/1655759/000162828026052554/arvn-20260630.htm",
+  "Block": "https://www.sec.gov/Archives/edgar/data/1512673/000162828026053368/xyz-20260630.htm",
+  "SUI_Group": "https://www.sec.gov/Archives/edgar/data/1425355/000165495426007355/suig_10q.htm",
+  "Western_Digital": "https://www.sec.gov/Archives/edgar/data/106040/000162828026057139/wdc-20260703.htm",
+  "Sandisk": "https://www.sec.gov/Archives/edgar/data/2023554/000162828026057406/sndk-20260703.htm",
+  "Cisco": "https://www.sec.gov/Archives/edgar/data/858877/000085887726000132/csco-20260725.htm",
+  "Samsara": "https://www.sec.gov/Archives/edgar/data/1642896/000162828026060909/iot-20260801.htm",
+  "Nutanix": "https://www.sec.gov/Archives/edgar/data/1618732/000119312526394793/ntnx-20260731.htm",
+  "Microsoft": "https://www.sec.gov/Archives/edgar/data/789019/000119312526436133/msft-20260930.htm",
+  "Robinhood": "https://www.sec.gov/Archives/edgar/data/1783879/000178387926000167/hood-20260930.htm",
+  "Rimini_Street": "https://www.sec.gov/Archives/edgar/data/1635282/000163528226000074/rmni-20260930.htm",
+  "Alphabet": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
+  "Apple": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000026/aapl-20260926.htm",
+  "Palantir": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000048/pltr-20260930.htm",
+  "Arista": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000254/anet-20260930.htm",
+  "Fastly": "https://www.sec.gov/Archives/edgar/data/1517413/000151741326000345/fsly-20260930.htm",
+  "Oportun": "https://www.sec.gov/Archives/edgar/data/1538716/000153871626000119/oprt-20260930.htm",
+  "CS_Disco": "https://www.sec.gov/Archives/edgar/data/1625641/000162564126000193/law-20260930.htm",
+  "Amplitude": "https://www.sec.gov/Archives/edgar/data/1866692/000119312526447817/ampl-20260930.htm",
+  "Pattern_Group": "https://www.sec.gov/Archives/edgar/data/1811935/000181193526000064/ptrn-20260930.htm",
+  "Salesforce_annual": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000060/crm-20260131.htm",
+  "ServiceNow_annual": "https://www.sec.gov/Archives/edgar/data/1373715/000137371526000007/now-20251231.htm",
+  "UiPath_annual": "https://www.sec.gov/Archives/edgar/data/1734722/000173472226000012/path-20260131.htm",
+  "Workday_annual": "https://www.sec.gov/Archives/edgar/data/1327811/000132781126000014/wday-20260131.htm"
+ }
+}

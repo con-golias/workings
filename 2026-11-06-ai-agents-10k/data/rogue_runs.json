@@ -1,0 +1,366 @@
+[
+ {
+  "date": "2025-11-04",
+  "group": "Tenable",
+  "longest_run_words": 0,
+  "with": null,
+  "run": ""
+ },
+ {
+  "date": "2025-11-05",
+  "group": "Klaviyo",
+  "longest_run_words": 3,
+  "with": "Tenable",
+  "run": "expose us to"
+ },
+ {
+  "date": "2025-12-15",
+  "group": "Navan",
+  "longest_run_words": 5,
+  "with": "Tenable",
+  "run": "may rely on or use"
+ },
+ {
+  "date": "2026-02-09",
+  "group": "ITT",
+  "longest_run_words": 5,
+  "with": "Navan",
+  "run": "and results of operations if"
+ },
+ {
+  "date": "2026-02-10",
+  "group": "Barclays",
+  "longest_run_words": 4,
+  "with": "Klaviyo",
+  "run": "the use of ai"
+ },
+ {
+  "date": "2026-02-11",
+  "group": "HubSpot",
+  "longest_run_words": 16,
+  "with": "Klaviyo",
+  "run": "take or suggest actions based on incomplete or inaccurate data hallucinatory inferences or flawed training inputs"
+ },
+ {
+  "date": "2026-02-12",
+  "group": "Prudential Financial",
+  "longest_run_words": 3,
+  "with": "Tenable",
+  "run": "the risk of"
+ },
+ {
+  "date": "2026-02-13",
+  "group": "DraftKings",
+  "longest_run_words": 9,
+  "with": "ITT",
+  "run": "our business reputation financial condition and results of operations"
+ },
+ {
+  "date": "2026-02-18",
+  "group": "Rush Street Interactive",
+  "longest_run_words": 56,
+  "with": "DraftKings",
+  "run": "we may experiment with or deploy ai agents or other ai enabled automation that can plan make decisions and take actions with reduced human prompting or oversight such autonomous systems may increase the risk of unintended unauthorized or harmful outcomes including where such systems interact with other systems or third party tools data sources or vendors"
+ },
+ {
+  "date": "2026-02-25",
+  "group": "GoDaddy",
+  "longest_run_words": 6,
+  "with": "Navan",
+  "run": "there are significant risks involved in"
+ },
+ {
+  "date": "2026-02-25",
+  "group": "MercadoLibre",
+  "longest_run_words": 3,
+  "with": "Tenable",
+  "run": "could lead to"
+ },
+ {
+  "date": "2026-02-25",
+  "group": "Bank of America",
+  "longest_run_words": 6,
+  "with": "Navan",
+  "run": "there can be no assurance that"
+ },
+ {
+  "date": "2026-02-25",
+  "group": "Murphy Oil",
+  "longest_run_words": 5,
+  "with": "Barclays",
+  "run": "to the use of ai"
+ },
+ {
+  "date": "2026-03-05",
+  "group": "Wix",
+  "longest_run_words": 26,
+  "with": "GoDaddy",
+  "run": "we also are developing and deploying agentic ai systems that operate with greater autonomy which presents additional risks including unintended or unauthorized actions and increased difficulty"
+ },
+ {
+  "date": "2026-03-12",
+  "group": "Fiverr",
+  "longest_run_words": 89,
+  "with": "Wix",
+  "run": "throughout our business and are constantly working on expanding our ai capabilities internally and through collaborations with vendors including through improvements to our existing ai technologies as well as through development of new products and features for example we use ai technologies as part of our product offering and to improve our internal workflows and development velocity we also are developing and deploying agentic ai systems that operate with greater autonomy which presents additional risks including unintended or unauthorized actions and increased difficulty predicting supervising and controlling agentic behavior"
+ },
+ {
+  "date": "2026-03-18",
+  "group": "DocuSign",
+  "longest_run_words": 5,
+  "with": "Navan",
+  "run": "accuracy bias and other variables"
+ },
+ {
+  "date": "2026-03-19",
+  "group": "Sprinklr",
+  "longest_run_words": 6,
+  "with": "ITT",
+  "run": "if we are unable to effectively"
+ },
+ {
+  "date": "2026-03-25",
+  "group": "ServiceTitan",
+  "longest_run_words": 8,
+  "with": "Fiverr",
+  "run": "financial condition and results of operations could be"
+ },
+ {
+  "date": "2026-04-30",
+  "group": "Roblox",
+  "longest_run_words": 6,
+  "with": "GoDaddy",
+  "run": "agentic ai systems that operate with"
+ },
+ {
+  "date": "2026-05-01",
+  "group": "Twilio",
+  "longest_run_words": 8,
+  "with": "Navan",
+  "run": "our business results of operations and financial condition"
+ },
+ {
+  "date": "2026-05-11",
+  "group": "RingCentral",
+  "longest_run_words": 11,
+  "with": "DocuSign",
+  "run": "designed to perform tasks and make decisions with limited human intervention"
+ },
+ {
+  "date": "2026-05-20",
+  "group": "Dynatrace",
+  "longest_run_words": 15,
+  "with": "RingCentral",
+  "run": "there can be no assurance that we will realize the desired or anticipated benefits from"
+ },
+ {
+  "date": "2026-05-21",
+  "group": "Gen Digital",
+  "longest_run_words": 28,
+  "with": "Barclays",
+  "run": "particularly where it is part of a complex multi step process and inaccurate or incomplete information may be compounded across many steps such as in agentic ai systems"
+ },
+ {
+  "date": "2026-05-26",
+  "group": "Zscaler",
+  "longest_run_words": 6,
+  "with": "Dynatrace",
+  "run": "a software as a service saas"
+ },
+ {
+  "date": "2026-05-28",
+  "group": "Global AI",
+  "longest_run_words": 9,
+  "with": "RingCentral",
+  "run": "could have a material adverse effect on our business"
+ },
+ {
+  "date": "2026-06-26",
+  "group": "VIDA Global",
+  "longest_run_words": 11,
+  "with": "RingCentral",
+  "run": "could have a material adverse effect on our business financial condition"
+ },
+ {
+  "date": "2026-07-29",
+  "group": "Varonis",
+  "longest_run_words": 18,
+  "with": "Twilio",
+  "run": "successfully than us which could impair our ability to compete effectively and adversely affect our results of operations"
+ },
+ {
+  "date": "2026-07-29",
+  "group": "Bandwidth",
+  "longest_run_words": 12,
+  "with": "Dynatrace",
+  "run": "our competitors or other third parties may incorporate ai into their products"
+ },
+ {
+  "date": "2026-07-30",
+  "group": "Meta",
+  "longest_run_words": 5,
+  "with": "Navan",
+  "run": "the use of ai including"
+ },
+ {
+  "date": "2026-07-30",
+  "group": "Regeneron",
+  "longest_run_words": 5,
+  "with": "Murphy Oil",
+  "run": "use of unapproved ai tools"
+ },
+ {
+  "date": "2026-08-03",
+  "group": "Solowin",
+  "longest_run_words": 7,
+  "with": "Klaviyo",
+  "run": "may require us to modify our products"
+ },
+ {
+  "date": "2026-08-04",
+  "group": "Snap",
+  "longest_run_words": 15,
+  "with": "Meta",
+  "run": "compromise of data systems or valuable intellectual property including source code model weights and other"
+ },
+ {
+  "date": "2026-08-04",
+  "group": "Arvinas",
+  "longest_run_words": 8,
+  "with": "ServiceTitan",
+  "run": "our business financial condition and results of operations"
+ },
+ {
+  "date": "2026-08-05",
+  "group": "Block",
+  "longest_run_words": 8,
+  "with": "Roblox",
+  "run": "the use of open source software in our"
+ },
+ {
+  "date": "2026-08-06",
+  "group": "SUI Group",
+  "longest_run_words": 34,
+  "with": "Global AI",
+  "run": "including risks related to model accuracy and reliability unintended actions data security and privacy third party system dependencies intellectual property regulatory compliance and potential liability for outcomes produced or actions taken by such systems"
+ },
+ {
+  "date": "2026-08-14",
+  "group": "Western Digital",
+  "longest_run_words": 5,
+  "with": "Tenable",
+  "run": "lead to the inadvertent disclosure"
+ },
+ {
+  "date": "2026-08-17",
+  "group": "Sandisk",
+  "longest_run_words": 126,
+  "with": "Western Digital",
+  "run": "ition the use of ai in the development of our products could potentially lead to ambiguities in intellectual property ownership infringement or misappropriation risks which could impact our competitive position and expose us to litigation monetary penalties or operational disruptions the unauthorized or unapproved use of generative ai tools by our employees contractors or other third parties as well as overreliance on ai automation or agentic ai without appropriate human oversight may lead to the inadvertent disclosure of confidential proprietary or personal information flawed or unauthorized actions or other adverse consequences including disruptions to business operations exposing us to data security privacy legal regulatory and reputational risks misuse of such tools can also result in violations of applicable laws and regulations including data protection and intellectual"
+ },
+ {
+  "date": "2026-09-02",
+  "group": "Cisco",
+  "longest_run_words": 5,
+  "with": "HubSpot",
+  "run": "ai presents risks and challenges"
+ },
+ {
+  "date": "2026-09-08",
+  "group": "Samsara",
+  "longest_run_words": 8,
+  "with": "Block",
+  "run": "ai technologies including generative ai and ai agents"
+ },
+ {
+  "date": "2026-09-18",
+  "group": "Nutanix",
+  "longest_run_words": 10,
+  "with": "Dynatrace",
+  "run": "as we integrate more agentic ai workflows into our platform"
+ },
+ {
+  "date": "2026-10-28",
+  "group": "Microsoft",
+  "longest_run_words": 11,
+  "with": "VIDA Global",
+  "run": "could adversely affect our business financial condition and results of operations"
+ },
+ {
+  "date": "2026-10-28",
+  "group": "Robinhood",
+  "longest_run_words": 8,
+  "with": "Global AI",
+  "run": "adversely affect our business reputation and financial results"
+ },
+ {
+  "date": "2026-10-29",
+  "group": "Rimini Street",
+  "longest_run_words": 36,
+  "with": "Dynatrace",
+  "run": "our competitors or other third parties may incorporate ai into their products more quickly or more successfully than us may invest more in ai development than us or have access to more advanced ai models or"
+ },
+ {
+  "date": "2026-10-29",
+  "group": "Alphabet",
+  "longest_run_words": 8,
+  "with": "Microsoft",
+  "run": "agentic ai systems that can take actions autonomously"
+ },
+ {
+  "date": "2026-11-03",
+  "group": "Apple",
+  "longest_run_words": 7,
+  "with": "DocuSign",
+  "run": "may give rise to risks related to"
+ },
+ {
+  "date": "2026-11-03",
+  "group": "Palantir",
+  "longest_run_words": 23,
+  "with": "RingCentral",
+  "run": "ai and there can be no assurance that using ai in our platforms and products will enhance or be beneficial to our business"
+ },
+ {
+  "date": "2026-11-04",
+  "group": "Arista",
+  "longest_run_words": 32,
+  "with": "Samsara",
+  "run": "obtaining access to networks or systems that were not intended to be accessible escalating privileges accessing modifying or disclosing confidential information or using available tools and credentials to take additional unauthorized actions"
+ },
+ {
+  "date": "2026-11-04",
+  "group": "Fastly",
+  "longest_run_words": 9,
+  "with": "Snap",
+  "run": "are subject to a variety of evolving threats including"
+ },
+ {
+  "date": "2026-11-04",
+  "group": "Oportun",
+  "longest_run_words": 6,
+  "with": "Sprinklr",
+  "run": "technologies including generative and agentic ai"
+ },
+ {
+  "date": "2026-11-04",
+  "group": "CS Disco",
+  "longest_run_words": 6,
+  "with": "DocuSign",
+  "run": "the development and use of ai"
+ },
+ {
+  "date": "2026-11-05",
+  "group": "Amplitude",
+  "longest_run_words": 29,
+  "with": "Wix",
+  "run": "as with many technological innovations there are significant risks involved in developing maintaining and deploying ai technologies and there can be no assurance that the usage of or our"
+ },
+ {
+  "date": "2026-11-05",
+  "group": "Pattern Group",
+  "longest_run_words": 37,
+  "with": "Bandwidth",
+  "run": "incorporate agentic ai systems that autonomously execute multi step tasks with reduced human intervention the deployment of such agentic ai introduces risks that are distinct from those of traditional ai features including risks of unintended or unauthorized"
+ }
+]

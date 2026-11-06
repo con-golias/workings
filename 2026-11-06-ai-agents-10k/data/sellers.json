@@ -1,0 +1,79 @@
+[
+ {
+  "group": "Salesforce",
+  "annual": "2026-03-02",
+  "form": "10-K",
+  "agent_sentences": 86,
+  "warns": false
+ },
+ {
+  "group": "ServiceNow",
+  "annual": "2026-01-29",
+  "form": "10-K",
+  "agent_sentences": 27,
+  "warns": false
+ },
+ {
+  "group": "UiPath",
+  "annual": "2026-03-25",
+  "form": "10-K",
+  "agent_sentences": 67,
+  "warns": false
+ },
+ {
+  "group": "Workday",
+  "annual": "2026-03-06",
+  "form": "10-K",
+  "agent_sentences": 27,
+  "warns": false
+ },
+ {
+  "group": "Adobe",
+  "annual": "2026-01-15",
+  "form": "10-K",
+  "agent_sentences": 16,
+  "warns": false
+ },
+ {
+  "group": "Microsoft",
+  "annual": "2026-07-29",
+  "form": "10-K",
+  "agent_sentences": 6,
+  "warns": true
+ },
+ {
+  "group": "Alphabet",
+  "annual": "2026-02-05",
+  "form": "10-K",
+  "agent_sentences": 2,
+  "warns": true
+ },
+ {
+  "group": "Meta",
+  "annual": "2026-01-29",
+  "form": "10-K",
+  "agent_sentences": 1,
+  "warns": true
+ },
+ {
+  "group": "Apple",
+  "annual": "2026-11-03",
+  "form": "10-K",
+  "agent_sentences": 4,
+  "warns": true
+ },
+ {
+  "group": "Palantir",
+  "annual": "2026-02-17",
+  "form": "10-K",
+  "agent_sentences": 6,
+  "warns": true
+ },
+ {
+  "group": "Twilio",
+  "annual": "2026-02-24",
+  "form": "10-K",
+  "agent_sentences": 2,
+  "warns": true
+ }
+]

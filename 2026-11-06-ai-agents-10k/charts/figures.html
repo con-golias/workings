@@ -1,0 +1,172 @@
+<!doctype html>
+<!-- Static figures for X Article #14 (AI agents in SEC risk factors).
+     House plate: heavy ink rule over the title, hairline under the plot, caption under it. Charcoal and stone carry the
+     data, terracotta marks one thing per figure. Lines and rings; no dot grids. Inter Tight only, nothing under 18 px.
+     ?fig=1..4|cover. Every number is read from ../data/summary.json and ../data/sellers.json (code/analyze.py, sellers.py). -->
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="fonts/fonts.css">
+<style>
+  :root { --bg:#FAF8F3; --ink:#1F1C1A; --text:#615B53; --grid:#E8E3DA;
+          --charcoal:#3A3531; --stone:#CBC1B1; --terra:#C9876A; }
+  html, body { margin:0; background:var(--bg); }
+  body { width:1200px; height:720px; overflow:hidden; }
+  svg { display:block; }
+  text { font-family:'Inter Tight', sans-serif; font-variant-numeric:tabular-nums lining-nums; }
+</style>
+</head>
+<body>
+<svg id="c" width="1200" height="720" viewBox="0 0 1200 720"></svg>
+<script>
+const C = document.getElementById('c');
+const fig = new URLSearchParams(location.search).get('fig') || '1';
+const v = (n) => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+const MON = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+const t = (d) => new Date(d + 'T00:00:00Z').getTime();
+const fmtd = (d) => `${+d.slice(8)} ${MON[+d.slice(5, 7) - 1]}`;
+let N, SL;
+
+function card(title, note, caption) {
+  return `<rect x="40" y="24" width="1120" height="4" fill="${v('--ink')}"/>
+    <line x1="40" x2="1160" y1="640" y2="640" stroke="${v('--ink')}" stroke-width="1"/>
+    <text x="40" y="74" font-size="26" font-weight="600" fill="${v('--ink')}">${title}</text>
+    <text x="1160" y="74" font-size="20" text-anchor="end" fill="${v('--text')}">${note}</text>
+    <text x="40" y="680" font-size="20" fill="${v('--text')}">${caption}</text>`;
+}
+const ring = (x, y, r, col, w = 2.5) => `<circle cx="${x}" cy="${y}" r="${r}" fill="${v('--bg')}" stroke="${col}" stroke-width="${w}"/>`;
+const disc = (x, y, r, col) => `<circle cx="${x}" cy="${y}" r="${r}" fill="${col}" stroke="${v('--ink')}" stroke-width="1"/>`;
+const hgrid = (vals, Y, x1, x2, fmt) => vals.map((g) => `<line x1="${x1}" x2="${x2}" y1="${Y(g)}" y2="${Y(g)}" stroke="${v('--grid')}" stroke-width="1"/>
+  <text x="${x1 - 14}" y="${Y(g) + 7}" font-size="20" text-anchor="end" fill="${v('--text')}">${fmt(g)}</text>`).join('');
+
+// 1 · share of companies filing a periodic report that mention AI agents, by quarter
+function fig1() {
+  const Q = N.quarters.filter((q) => q.q >= '2023Q1');
+  const x0 = 130, x1 = 1110, X = (i) => x0 + (x1 - x0) * i / (Q.length - 1);
+  const y0 = 570, Y = (p) => y0 - 440 * p / 8;
+  let s = card('Companies whose 10-K, 10-Q or 20-F mentions AI agents', 'share of that quarter’s filers',
+    `EDGAR full-text search, ${N.corpus.filings.toLocaleString('en-US')} reports. Q4 2026 runs to 5 Nov (${Q[Q.length - 1].filers.toLocaleString('en-US')} filers so far).`);
+  s += hgrid([0, 2, 4, 6, 8], Y, x0, x1, (g) => g + '%');
+  Q.forEach((q, i) => { if (q.q.endsWith('Q1') || i === Q.length - 1)
+    s += `<text x="${X(i)}" y="${y0 + 36}" font-size="20" text-anchor="middle" fill="${v('--text')}">${q.q.endsWith('Q1') ? q.q.slice(0, 4) : 'Q4 ’26'}</text>`; });
+  const pts = Q.map((q, i) => [X(i), Y(q.pct)]);
+  s += `<polyline points="${pts.map((p) => p.join(',')).join(' ')}" fill="none" stroke="${v('--charcoal')}" stroke-width="3" stroke-linejoin="round"/>`;
+  pts.forEach(([x, y], i) => { s += i === pts.length - 1 ? ring(x, y, 7, v('--charcoal'), 3) : disc(x, y, 6, v('--charcoal')); });
+  const a = Q.findIndex((q) => q.q === '2024Q4'), b = Q.findIndex((q) => q.q === '2026Q1');
+  s += `<text x="${X(a) - 20}" y="${Y(Q[a].pct) - 40}" font-size="22" font-weight="700" text-anchor="end" fill="${v('--ink')}">${Q[a].companies} companies</text>
+    <text x="${X(a) - 20}" y="${Y(Q[a].pct) - 68}" font-size="20" text-anchor="end" fill="${v('--text')}">Q4 2024</text>
+    ${disc(X(b), Y(Q[b].pct), 9, v('--terra'))}
+    <text x="${X(b) - 16}" y="${Y(Q[b].pct) - 18}" font-size="22" font-weight="700" text-anchor="end" fill="${v('--ink')}">${Q[b].companies} · ${Q[b].pct.toFixed(1)}%</text>
+    <text x="${X(b) - 16}" y="${Y(Q[b].pct) + 10}" font-size="20" text-anchor="end" fill="${v('--text')}">annual-report season, Q1 2026</text>`;
+  return s;
+}
+
+// 2 · cumulative count of companies warning that an agent may act on its own
+function fig2() {
+  const P = N.warn.cumulative, d0 = '2025-10-01', d1 = '2026-11-30';
+  const x0 = 120, x1 = 1110, X = (ms) => x0 + (x1 - x0) * (ms - t(d0)) / (t(d1) - t(d0));
+  const y0 = 570, Y = (n) => y0 - 440 * n / 60;
+  let s = card('Companies telling investors an AI agent may act on its own', 'cumulative, by first report',
+    'Every candidate passage read by hand. Counted: an agent may take an action that is wrong, unintended, unauthorised or outside its scope.');
+  s += hgrid([0, 10, 20, 30, 40, 50, 60], Y, x0, x1, (g) => g);
+  let d = new Date(t('2025-10-01'));
+  for (let i = 0; i < 14; i++) {
+    const m = d.getUTCMonth();
+    if (i % 2 === 0) s += `<text x="${X(d.getTime())}" y="${y0 + 36}" font-size="20" text-anchor="middle" fill="${v('--text')}">${MON[m]}${m === 0 || i === 0 ? ' ’' + String(d.getUTCFullYear()).slice(2) : ''}</text>`;
+    d.setUTCMonth(m + 1);
+  }
+  let path = `M${X(t(d0))},${Y(0)}`, prev = 0;
+  P.forEach((p) => { path += ` H${X(t(p.date))} V${Y(p.n)}`; prev = p.n; });
+  path += ` H${X(t('2026-11-05'))}`;
+  s += `<path d="${path}" fill="none" stroke="${v('--charcoal')}" stroke-width="3" stroke-linejoin="round"/>`;
+  const mark = (g, dx, dy, anchor, terra) => {
+    const p = P.find((q) => q.group === g); const x = X(t(p.date)), y = Y(p.n);
+    return (terra ? disc(x, y, 9, v('--terra')) : ring(x, y, 6, v('--charcoal'), 2.5)) +
+      `<line x1="${x}" x2="${x + dx}" y1="${y}" y2="${y + dy}" stroke="${v('--charcoal')}" stroke-width="1.2"/>
+      <text x="${x + dx + (anchor === 'end' ? -6 : 6)}" y="${y + dy + 7}" font-size="21" font-weight="700" text-anchor="${anchor}" fill="${v('--ink')}">${g} · ${fmtd(p.date)}</text>`;
+  };
+  s += mark('Tenable', 20, -70, 'start', true) + mark('GoDaddy', -10, -70, 'end') + mark('Meta', -14, -60, 'end')
+     + mark('Microsoft', -30, 230, 'end') + mark('Apple', -60, -80, 'end');
+  const last = P[P.length - 1];
+  s += `<text x="${X(t('2026-11-05')) + 14}" y="${Y(last.n) + 8}" font-size="26" font-weight="700" fill="${v('--ink')}">${last.n}</text>`;
+  return s;
+}
+
+// 3 · the wording travels: earlier filer → later filer, identical words
+function fig3() {
+  const L = N.copies.pairs.slice().sort((a, b) => a.later_date.localeCompare(b.later_date));
+  const d0 = '2025-10-15', d1 = '2026-11-20';
+  const x0 = 520, x1 = 1110, X = (d) => x0 + (x1 - x0) * (t(d) - t(d0)) / (t(d1) - t(d0));
+  const top = 118, step = 38;
+  let s = card('Agent warnings reused from an earlier company’s report', 'longest run of identical words',
+    'Filled: the later report. Hollow: the report it matches. Western Digital → Sandisk is a spin-off sharing one risk section.');
+  ['2025-11-01', '2026-02-01', '2026-05-01', '2026-08-01', '2026-11-01'].forEach((d) => {
+    s += `<line x1="${X(d)}" x2="${X(d)}" y1="${top - 14}" y2="${top + step * L.length - 18}" stroke="${v('--grid')}" stroke-width="1"/>
+      <text x="${X(d)}" y="${top + step * L.length + 12}" font-size="20" text-anchor="middle" fill="${v('--text')}">${MON[+d.slice(5, 7) - 1]}${d.slice(5, 7) === '11' || d.slice(5, 7) === '02' && d.startsWith('2026') ? ' ’' + d.slice(2, 4) : ''}</text>`; });
+  const maxw = Math.max(...L.map((p) => p.longest_identical_words));
+  L.forEach((p, i) => {
+    const y = top + i * step, xa = X(p.earlier_date), xb = X(p.later_date);
+    const hot = p.later === 'Wix';
+    s += `<text x="40" y="${y + 7}" font-size="20" font-weight="600" fill="${v('--ink')}">${p.earlier} → ${p.later}</text>
+      <text x="${x0 - 30}" y="${y + 7}" font-size="20" text-anchor="end" fill="${v('--text')}">${p.longest_identical_words} words</text>
+      <line x1="${xa}" x2="${xb}" y1="${y}" y2="${y}" stroke="${hot ? v('--terra') : v('--stone')}" stroke-width="4" stroke-linecap="round"/>
+      ${ring(xa, y, 7, v('--charcoal'), 2.5)}${disc(xb, y, 8, hot ? v('--terra') : v('--charcoal'))}`;
+  });
+  return s;
+}
+
+// 4 · agent talk vs agent warnings
+function fig4() {
+  const R = SL.filter((r) => r.annual).sort((a, b) => b.agent_sentences - a.agent_sentences);
+  const x0 = 300, x1 = 1040, X = (n) => x0 + (x1 - x0) * n / 100;
+  const top = 132, step = 42;
+  let s = card('Sentences about AI agents in the latest annual report', 'and whether any report warns an agent may misact',
+    'Annual report: the latest 10-K in the corpus. Warning: any 10-K or 10-Q up to 5 Nov 2026, read by hand.');
+  [0, 25, 50, 75, 100].forEach((g) => { s += `<line x1="${X(g)}" x2="${X(g)}" y1="${top - 22}" y2="${top + step * R.length - 20}" stroke="${v('--grid')}" stroke-width="1"/>
+    <text x="${X(g)}" y="${top + step * R.length + 10}" font-size="20" text-anchor="middle" fill="${v('--text')}">${g}</text>`; });
+  R.forEach((r, i) => {
+    const y = top + i * step, hot = r.group === 'Salesforce';
+    s += `<text x="${x0 - 24}" y="${y + 7}" font-size="21" font-weight="600" text-anchor="end" fill="${v('--ink')}">${r.group}</text>
+      <line x1="${X(0)}" x2="${X(r.agent_sentences)}" y1="${y}" y2="${y}" stroke="${r.warns ? v('--charcoal') : v('--stone')}" stroke-width="4" stroke-linecap="round"/>
+      ${hot ? disc(X(r.agent_sentences), y, 9, v('--terra')) : r.warns ? disc(X(r.agent_sentences), y, 7, v('--charcoal')) : ring(X(r.agent_sentences), y, 7, v('--charcoal'))}
+      <text x="${X(r.agent_sentences) + 18}" y="${y + 7}" font-size="20" fill="${v('--text')}">${r.agent_sentences}</text>
+      <text x="1160" y="${y + 7}" font-size="20" font-weight="${r.warns ? 700 : 400}" text-anchor="end" fill="${r.warns ? v('--ink') : v('--text')}">${r.warns ? 'warns' : 'no warning'}</text>`;
+  });
+  return s;
+}
+
+// cover · 1500×600. Badge bottom-left (x ≈ 30–280, y ≈ 480–590): nothing there, nothing left of x ≈ 440 below the
+// title; the title sits low. No text under 30 px.
+function cover() {
+  const P = N.warn.cumulative, d0 = '2025-10-01', d1 = '2026-11-10';
+  const bx = 1000, bw = 440, X = (d) => bx + bw * (t(d) - t(d0)) / (t(d1) - t(d0)), Y = (n) => 400 - 230 * n / 52;
+  let path = `M${X(d0)},${Y(0)}`;
+  P.forEach((p) => { path += ` H${X(p.date)} V${Y(p.n)}`; });
+  path += ` H${X('2026-11-05')}`;
+  const last = P[P.length - 1];
+  return `<rect x="60" y="56" width="1380" height="5" fill="${v('--ink')}"/>
+    <text x="60" y="226" font-size="30" font-weight="600" letter-spacing="3" fill="${v('--text')}">THE COUNTER-READ · SEC FILINGS · NOV 2026</text>
+    <text x="60" y="314" font-size="54" font-weight="600" letter-spacing="-1" fill="${v('--ink')}">AI agents may go off-script,</text>
+    <text x="60" y="380" font-size="54" font-weight="600" letter-spacing="-1" fill="${v('--ink')}">${last.n} companies now tell investors.</text>
+    <line x1="${bx}" x2="${bx + bw}" y1="${Y(0)}" y2="${Y(0)}" stroke="${v('--stone')}" stroke-width="2"/>
+    <path d="${path}" fill="none" stroke="${v('--charcoal')}" stroke-width="5" stroke-linejoin="round"/>
+    ${disc(X(P[0].date), Y(1), 10, v('--terra'))}
+    ${disc(X('2026-11-05'), Y(last.n), 12, v('--charcoal'))}
+    <text x="${bx}" y="${Y(0) + 44}" font-size="30" font-weight="600" fill="${v('--terra')}">0 · Oct 2025</text>
+    <text x="${X('2026-11-05') - 22}" y="${Y(last.n) + 12}" font-size="44" font-weight="700" text-anchor="end" fill="${v('--ink')}">${last.n}</text>
+    <line x1="440" x2="1440" y1="482" y2="482" stroke="${v('--ink')}" stroke-width="1.5"/>
+    <text x="440" y="540" font-size="30" fill="${v('--text')}">None before Nov 2025 · 1 in 4 reused another’s words</text>
+    <text x="1440" y="540" font-size="30" font-weight="600" text-anchor="end" fill="${v('--ink')}">@con_golias</text>`;
+}
+
+const F = { 1: fig1, 2: fig2, 3: fig3, 4: fig4, cover };
+if (fig === 'cover') {
+  document.body.style.width = '1500px'; document.body.style.height = '600px';
+  C.setAttribute('width', 1500); C.setAttribute('height', 600); C.setAttribute('viewBox', '0 0 1500 600');
+}
+window.ready = Promise.all([fetch('../data/summary.json').then((r) => r.json()), fetch('../data/sellers.json').then((r) => r.json()),
+  document.fonts.load('400 20px "Inter Tight"'), document.fonts.load('700 20px "Inter Tight"')])
+  .then(([j, s]) => { N = j; SL = s; C.innerHTML = F[fig](); });
+</script>
+</body>
+</html>

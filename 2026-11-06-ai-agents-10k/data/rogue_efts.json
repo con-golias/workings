@@ -1,0 +1,947 @@
+[
+ {
+  "cik": "0000320193",
+  "name": "Apple Inc.  (AAPL)  (CIK 0000320193)",
+  "date": "2026-11-03",
+  "form": "10-K",
+  "id": "0000320193-26-000026:aapl-20260926.htm",
+  "phrase": "\"exceeding permissions\"",
+  "window": "etitive harm, regulatory action, legal liability, and other adverse effects to its business.   In particular, artificial intelligence agents and other technologies can take actions autonomously, including interacting with internal or external systems that in some cases they may not be authorized to access, executing or altering code, sending communications, and completing transactions. Such technologies, whether developed or deployed by the Company or by third parties, may behave in unintended or unpredictable ways, including by taking actions that were not directed, instructed or authorized, exceeding permissions, defying directions or resisting instructions, circumventing the Company’s or third parties’ security measures and other controls, or being manipulated or compromised through malicious inputs or by bad actors. In addition, such technologies may conceal actions, hide, withhold or manipulate informat"
+ },
+ {
+  "cik": "0000320193",
+  "name": "Apple Inc.  (AAPL)  (CIK 0000320193)",
+  "date": "2026-11-03",
+  "form": "10-K",
+  "id": "0000320193-26-000026:aapl-20260926.htm",
+  "phrase": "\"unintended or unauthorized actions\"",
+  "window": "These technologies present emerging legal, regulatory, ethical and operational risks.   For example, the Company’s artificial intelligence efforts may give rise to risks related to, among other things: competition and strategy; recouping costs and returns on investments; product liability; intellectual property infringement; data privacy; cybersecurity; sanctions and export controls; unauthorized access to or inadvertent releases of confidential information or other unexpected access to or use of user information; exposing users to harmful, inaccurate or other negative content or experiences; unintended or unauthorized actions by autonomous or agentic systems; misuse of artificial intelligence by employees and other personnel; changing public sentiment; bias and discrimination; and online safety and protection of minors. While the Company is committed to developing and deploying artificial intelligence responsibly, the C"
+ },
+ {
+  "cik": "0000320193",
+  "name": "Apple Inc.  (AAPL)  (CIK 0000320193)",
+  "date": "2026-11-03",
+  "form": "10-K",
+  "id": "0000320193-26-000026:aapl-20260926.htm",
+  "phrase": "\"unauthorized actions\"",
+  "window": "gies present emerging legal, regulatory, ethical and operational risks.   For example, the Company’s artificial intelligence efforts may give rise to risks related to, among other things: competition and strategy; recouping costs and returns on investments; product liability; intellectual property infringement; data privacy; cybersecurity; sanctions and export controls; unauthorized access to or inadvertent releases of confidential information or other unexpected access to or use of user information; exposing users to harmful, inaccurate or other negative content or experiences; unintended or unauthorized actions by autonomous or agentic systems; misuse of artificial intelligence by employees and other personnel; changing public sentiment; bias and discrimination; and online safety and protection of minors. While the Company is committed to developing and deploying artificial intelligence responsibly, the C"
+ },
+ {
+  "cik": "0001609711",
+  "name": "GoDaddy Inc.  (GDDY)  (CIK 0001609711)",
+  "date": "2026-02-25",
+  "form": "10-K",
+  "id": "0001609711-26-000010:gddy-20251231.htm",
+  "phrase": "\"unintended or unauthorized actions\"",
+  "window": "ficant risks involved in the development, adoption, use, deployment and maintenance of AI, such as potential increases in intellectual property infringement or misappropriation claims, privacy, data protection, cybersecurity, confidentiality, operational and technological risks, as well as risks associated with harmful content, accuracy, bias and discrimination, any of which could affect our further development, adoption, use, deployment and maintenance of AI. We also are developing and deploying agentic AI systems that operate with greater autonomy, which presents additional risks, including unintended or unauthorized actions and increased difficulty in predicting, supervising and controlling agentic behavior. Our use of AI technologies in new and existing solutions and within our business operations may result in new or increasing governmental or regulatory scrutiny, litigation, ethical concerns, increases in research "
+ },
+ {
+  "cik": "0001609711",
+  "name": "GoDaddy Inc.  (GDDY)  (CIK 0001609711)",
+  "date": "2026-02-25",
+  "form": "10-K",
+  "id": "0001609711-26-000010:gddy-20251231.htm",
+  "phrase": "\"unauthorized actions\"",
+  "window": "nvolved in the development, adoption, use, deployment and maintenance of AI, such as potential increases in intellectual property infringement or misappropriation claims, privacy, data protection, cybersecurity, confidentiality, operational and technological risks, as well as risks associated with harmful content, accuracy, bias and discrimination, any of which could affect our further development, adoption, use, deployment and maintenance of AI. We also are developing and deploying agentic AI systems that operate with greater autonomy, which presents additional risks, including unintended or unauthorized actions and increased difficulty in predicting, supervising and controlling agentic behavior. Our use of AI technologies in new and existing solutions and within our business operations may result in new or increasing governmental or regulatory scrutiny, litigation, ethical concerns, increases in research "
+ },
+ {
+  "cik": "0001642896",
+  "name": "Samsara Inc.  (IOT)  (CIK 0001642896)",
+  "date": "2026-09-08",
+  "form": "10-Q",
+  "id": "0001628280-26-060909:iot-20260801.htm",
+  "phrase": "\"outside the scope of their instructions\"",
+  "window": "nal operations, software development, security, customer support, or other activities, and such systems may be permitted to access data, execute code, use internal tools, interact with other systems, or take actions on our behalf. If our employees were to intentionally or negligently abuse or misuse these tools, for example, by interfering with or altering our IoT devices or our customers’ connected assets, accessing our customers’ data, or otherwise violating company policies, our customers could be significantly harmed. Similarly, AI agents could take unintended or unauthorized actions, act outside the scope of their instructions or permissions, or exploit vulnerabilities or weaknesses in the systems or environments in which they operate. For example, AI agents with access to software development, computing, network, or other system resources may be capable of circumventing or escaping technical restrictions or isolated exe"
+ },
+ {
+  "cik": "0001642896",
+  "name": "Samsara Inc.  (IOT)  (CIK 0001642896)",
+  "date": "2026-09-08",
+  "form": "10-Q",
+  "id": "0001628280-26-060909:iot-20260801.htm",
+  "phrase": "\"unintended or unauthorized actions\"",
+  "window": "e the cost of our devices, disrupt supply chain logistics, and affect our ability to efficiently transport, store, and deliver our IoT devices to customers, which could negatively impact our revenue growth and operating margins. Our efforts to optimize our supply chain and manufacturing practices in light of evolving trade policies, component, production, and transportation costs, and other factors can be expensive, time-consuming, ineffective, and disruptive to our business and results of operations and may not succeed.   Abuse or misuse of our internal platform controls and system tools, or unintended or unauthorized actions by AI agents using such tools, could cause significant harm to our business and reputation.   In order to provide real-time support to our customers and improve and develop our products, we have created internal platform and system tools that are used by our employees to access data and systems. We"
+ },
+ {
+  "cik": "0001642896",
+  "name": "Samsara Inc.  (IOT)  (CIK 0001642896)",
+  "date": "2026-09-08",
+  "form": "10-Q",
+  "id": "0001628280-26-060909:iot-20260801.htm",
+  "phrase": "\"unauthorized actions\"",
+  "window": "our devices, disrupt supply chain logistics, and affect our ability to efficiently transport, store, and deliver our IoT devices to customers, which could negatively impact our revenue growth and operating margins. Our efforts to optimize our supply chain and manufacturing practices in light of evolving trade policies, component, production, and transportation costs, and other factors can be expensive, time-consuming, ineffective, and disruptive to our business and results of operations and may not succeed.   Abuse or misuse of our internal platform controls and system tools, or unintended or unauthorized actions by AI agents using such tools, could cause significant harm to our business and reputation.   In order to provide real-time support to our customers and improve and develop our products, we have created internal platform and system tools that are used by our employees to access data and systems. We"
+ },
+ {
+  "cik": "0000789019",
+  "name": "MICROSOFT CORP  (MSFT)  (CIK 0000789019)",
+  "date": "2026-10-28",
+  "form": "10-Q",
+  "id": "0001193125-26-436133:msft-20260930.htm",
+  "phrase": "\"conceal activity\"",
+  "window": "l deployment, AI models may behave in ways that are difficult to predict, prevent, detect, attribute, contain, mitigate, evaluate, or audit, and may result in unintended consequences or harm. Datasets may be overbroad, insufficient, or contain biased or inaccurate information. Content generated by AI systems may be offensive, illegal, inaccurate, or otherwise harmful. Models and agentic systems may pursue unintended goals and be manipulated through prompts, retrieved content, external communications, compromised tools, or other inputs to disclose sensitive information, disregard instructions, conceal activity, take unauthorized actions, or otherwise engage in harmful activity. Ineffective or inadequate AI development or deployment practices by Microsoft or others could result in incidents that impair the acceptance of AI solutions, cause harm to individuals, customers, or society, or result in our produ"
+ },
+ {
+  "cik": "0000789019",
+  "name": "MICROSOFT CORP  (MSFT)  (CIK 0000789019)",
+  "date": "2026-10-28",
+  "form": "10-Q",
+  "id": "0001193125-26-436133:msft-20260930.htm",
+  "phrase": "\"unintended or unauthorized actions\"",
+  "window": "ize may also face the AI-based enhanced cybersecurity risk as described elsewhere in these risk factors. Employees or third parties may intentionally compromise our or our users’ security or systems or reveal confidential information, and laws in certain jurisdictions may compel actions by such parties against our interests and could limit our recourse. AI models and agents with access to our internal infrastructure, sensitive data, software development environments, or operational tools may present risks similar to those associated with highly privileged users or threat actors. They may take unintended or unauthorized actions, be manipulated by malicious inputs, or be compromised by threat actors, and if inadequately   47   PART II   Item 1A   controlled, facilitate unauthorized access, disclosure, alteration, or destruction of data or disruption of critical operations. Malicious actors have and may continue to exploit "
+ },
+ {
+  "cik": "0000789019",
+  "name": "MICROSOFT CORP  (MSFT)  (CIK 0000789019)",
+  "date": "2026-10-28",
+  "form": "10-Q",
+  "id": "0001193125-26-436133:msft-20260930.htm",
+  "phrase": "\"unauthorized actions\"",
+  "window": "ace the AI-based enhanced cybersecurity risk as described elsewhere in these risk factors. Employees or third parties may intentionally compromise our or our users’ security or systems or reveal confidential information, and laws in certain jurisdictions may compel actions by such parties against our interests and could limit our recourse. AI models and agents with access to our internal infrastructure, sensitive data, software development environments, or operational tools may present risks similar to those associated with highly privileged users or threat actors. They may take unintended or unauthorized actions, be manipulated by malicious inputs, or be compromised by threat actors, and if inadequately   47   PART II   Item 1A   controlled, facilitate unauthorized access, disclosure, alteration, or destruction of data or disruption of critical operations. Malicious actors have and may continue to exploit "
+ },
+ {
+  "cik": "0001321655",
+  "name": "Palantir Technologies Inc.  (PLTR)  (CIK 0001321655)",
+  "date": "2026-11-03",
+  "form": "10-Q",
+  "id": "0001321655-26-000048:pltr-20260930.htm",
+  "phrase": "\"unintended or unauthorized actions\"",
+  "window": "I solutions. Third-party AI capabilities that can be integrated with our platforms could also produce false or “hallucinatory” inferences about customer data or enterprises, or other information or subject matter. If the recommendations, forecasts, or analyses that AI applications assist in producing are deficient, unreliable, or inaccurate, we could be subject to competitive harm, potential legal liability, including under existing, forthcoming, or proposed legislation regulating AI in jurisdictions such as the EU, and brand or reputational harm. AI systems, tooling, and agents may also take unintended or unauthorized actions, including through misuse of otherwise authorized access, that delete, alter, or disclose data, modify software or system configurations, or disrupt our systems and business operations, or cause other cybersecurity, privacy, legal, or operational incidents. The rapid evolution of AI and its evolvin"
+ },
+ {
+  "cik": "0001321655",
+  "name": "Palantir Technologies Inc.  (PLTR)  (CIK 0001321655)",
+  "date": "2026-11-03",
+  "form": "10-Q",
+  "id": "0001321655-26-000048:pltr-20260930.htm",
+  "phrase": "\"unauthorized actions\"",
+  "window": "hird-party AI capabilities that can be integrated with our platforms could also produce false or “hallucinatory” inferences about customer data or enterprises, or other information or subject matter. If the recommendations, forecasts, or analyses that AI applications assist in producing are deficient, unreliable, or inaccurate, we could be subject to competitive harm, potential legal liability, including under existing, forthcoming, or proposed legislation regulating AI in jurisdictions such as the EU, and brand or reputational harm. AI systems, tooling, and agents may also take unintended or unauthorized actions, including through misuse of otherwise authorized access, that delete, alter, or disclose data, modify software or system configurations, or disrupt our systems and business operations, or cause other cybersecurity, privacy, legal, or operational incidents. The rapid evolution of AI and its evolvin"
+ },
+ {
+  "cik": "0001447669",
+  "name": "TWILIO INC  (TWLO)  (CIK 0001447669)",
+  "date": "2026-05-01",
+  "form": "10-Q",
+  "id": "0001447669-26-000049:twlo-20260331.htm",
+  "phrase": "\"unintended or unauthorized actions\"",
+  "window": "e quickly or more successfully than us, which could impair our ability to compete effectively and adversely affect our results of operations. Our ability to effectively implement and market our AI solutions and features will depend, in part, on our ability to attract and retain employees with AI expertise, and we expect significant competition for professionals with the skills and technical knowledge that we will require.   The deployment of agentic AI — systems that autonomously execute multi-step tasks — introduces risks that are distinct from those of traditional AI features resulting from unintended or unauthorized actions that disrupt our internal operations and service delivery. These risks may be difficult to monitor or prevent given the autonomous nature of such systems.   Additionally, our use of AI internally and in our offerings may expose us to additional claims, demands and proceedings by private parties and"
+ },
+ {
+  "cik": "0001447669",
+  "name": "TWILIO INC  (TWLO)  (CIK 0001447669)",
+  "date": "2026-05-01",
+  "form": "10-Q",
+  "id": "0001447669-26-000049:twlo-20260331.htm",
+  "phrase": "\"unauthorized actions\"",
+  "window": "ore successfully than us, which could impair our ability to compete effectively and adversely affect our results of operations. Our ability to effectively implement and market our AI solutions and features will depend, in part, on our ability to attract and retain employees with AI expertise, and we expect significant competition for professionals with the skills and technical knowledge that we will require.   The deployment of agentic AI — systems that autonomously execute multi-step tasks — introduces risks that are distinct from those of traditional AI features resulting from unintended or unauthorized actions that disrupt our internal operations and service delivery. These risks may be difficult to monitor or prevent given the autonomous nature of such systems.   Additionally, our use of AI internally and in our offerings may expose us to additional claims, demands and proceedings by private parties and"
+ },
+ {
+  "cik": "0001447669",
+  "name": "TWILIO INC  (TWLO)  (CIK 0001447669)",
+  "date": "2026-10-30",
+  "form": "10-Q",
+  "id": "0001447669-26-000110:twlo-20260930.htm",
+  "phrase": "\"unintended or unauthorized actions\"",
+  "window": "e quickly or more successfully than us, which could impair our ability to compete effectively and adversely affect our results of operations. Our ability to effectively implement and market our AI solutions and features will depend, in part, on our ability to attract and retain employees with AI expertise, and we expect significant competition for professionals with the skills and technical knowledge that we will require.   The deployment of agentic AI — systems that autonomously execute multi-step tasks — introduces risks that are distinct from those of traditional AI features resulting from unintended or unauthorized actions that disrupt our internal operations and service delivery or create unknown or unexpected compliance risks. These risks may be difficult to monitor or prevent given the autonomous nature of such systems.   Additionally, our use of AI internally and in our offerings may expose us to additional claim"
+ },
+ {
+  "cik": "0001447669",
+  "name": "TWILIO INC  (TWLO)  (CIK 0001447669)",
+  "date": "2026-10-30",
+  "form": "10-Q",
+  "id": "0001447669-26-000110:twlo-20260930.htm",
+  "phrase": "\"unauthorized actions\"",
+  "window": "ore successfully than us, which could impair our ability to compete effectively and adversely affect our results of operations. Our ability to effectively implement and market our AI solutions and features will depend, in part, on our ability to attract and retain employees with AI expertise, and we expect significant competition for professionals with the skills and technical knowledge that we will require.   The deployment of agentic AI — systems that autonomously execute multi-step tasks — introduces risks that are distinct from those of traditional AI features resulting from unintended or unauthorized actions that disrupt our internal operations and service delivery or create unknown or unexpected compliance risks. These risks may be difficult to monitor or prevent given the autonomous nature of such systems.   Additionally, our use of AI internally and in our offerings may expose us to additional claim"
+ },
+ {
+  "cik": "0001609711",
+  "name": "GoDaddy Inc.  (GDDY)  (CIK 0001609711)",
+  "date": "2026-07-31",
+  "form": "10-Q",
+  "id": "0001609711-26-000088:gddy-20260630.htm",
+  "phrase": "\"unintended or unauthorized actions\"",
+  "window": "chnological risks, as well as risks associated with harmful content, accuracy, bias and discrimination, any of which could affect our further development, adoption, use, deployment and maintenance of AI. We are also increasingly developing and deploying agentic AI workflows and agents that operate with greater autonomy, which may be deployed to perform tasks and make predictions, among other things. In addition to the risks discussed above, these agentic systems and agents, in particular due to the autonomous nature of the technology, could act in ways that present additional risks, including unintended or unauthorized actions, errors, hallucinations, and increased difficulty in predicting, supervising and controlling agentic behavior. Our development, deployment and use of AI technologies, including agentic systems and agents, in new and existing solutions and within our business operations may result in governmental or"
+ },
+ {
+  "cik": "0001609711",
+  "name": "GoDaddy Inc.  (GDDY)  (CIK 0001609711)",
+  "date": "2026-07-31",
+  "form": "10-Q",
+  "id": "0001609711-26-000088:gddy-20260630.htm",
+  "phrase": "\"unauthorized actions\"",
+  "window": "sks, as well as risks associated with harmful content, accuracy, bias and discrimination, any of which could affect our further development, adoption, use, deployment and maintenance of AI. We are also increasingly developing and deploying agentic AI workflows and agents that operate with greater autonomy, which may be deployed to perform tasks and make predictions, among other things. In addition to the risks discussed above, these agentic systems and agents, in particular due to the autonomous nature of the technology, could act in ways that present additional risks, including unintended or unauthorized actions, errors, hallucinations, and increased difficulty in predicting, supervising and controlling agentic behavior. Our development, deployment and use of AI technologies, including agentic systems and agents, in new and existing solutions and within our business operations may result in governmental or"
+ },
+ {
+  "cik": "0001609711",
+  "name": "GoDaddy Inc.  (GDDY)  (CIK 0001609711)",
+  "date": "2026-05-01",
+  "form": "10-Q",
+  "id": "0001609711-26-000037:gddy-20260331.htm",
+  "phrase": "\"unintended or unauthorized actions\"",
+  "window": "s in intellectual property infringement or misappropriation claims, privacy, data protection, cybersecurity, confidentiality, operational and technological risks, as well as risks associated with harmful content, accuracy, bias and discrimination, any of which could affect our further development, adoption, use, deployment and maintenance of AI. We are also increasingly developing and deploying agentic AI workflows and agents that operate with greater autonomy. In addition to the risks discussed above, these agentic systems and agents could act in ways that present additional risks, including unintended or unauthorized actions, errors, hallucinations, and increased difficulty in predicting, supervising and controlling agentic behavior. Our development, deployment and use of AI technologies, including agentic systems and agents, in new and existing solutions and within our business operations may result in governmental or"
+ },
+ {
+  "cik": "0001609711",
+  "name": "GoDaddy Inc.  (GDDY)  (CIK 0001609711)",
+  "date": "2026-05-01",
+  "form": "10-Q",
+  "id": "0001609711-26-000037:gddy-20260331.htm",
+  "phrase": "\"unauthorized actions\"",
+  "window": "ual property infringement or misappropriation claims, privacy, data protection, cybersecurity, confidentiality, operational and technological risks, as well as risks associated with harmful content, accuracy, bias and discrimination, any of which could affect our further development, adoption, use, deployment and maintenance of AI. We are also increasingly developing and deploying agentic AI workflows and agents that operate with greater autonomy. In addition to the risks discussed above, these agentic systems and agents could act in ways that present additional risks, including unintended or unauthorized actions, errors, hallucinations, and increased difficulty in predicting, supervising and controlling agentic behavior. Our development, deployment and use of AI technologies, including agentic systems and agents, in new and existing solutions and within our business operations may result in governmental or"
+ },
+ {
+  "cik": "0001596532",
+  "name": "Arista Networks, Inc.  (ANET)  (CIK 0001596532)",
+  "date": "2026-11-04",
+  "form": "10-Q",
+  "id": "0001596532-26-000254:anet-20260930.htm",
+  "phrase": "\"outside the scope of their instructions\"",
+  "window": "and our customers and introduce malicious software and attacks by state sponsors. For example, we have and could continue to face attacks that involve malicious software directed at our products, services, networks, or exfiltration of our data or that of our customers. If our products, services, or external-facing or internal networks are compromised or are perceived to have been compromised,   42   Table of Contents   our reputation may be damaged and our financial results may be negatively affected. In addition, our or third-party AI agents could take unintended or unauthorized actions, act outside the scope of their instructions or permissions, exploit vulnerabilities or weaknesses in the systems in which they operate, or may be vulnerable to adversarial manipulation such as prompt injection. Such AI agents may be capable of circumventing or escaping technical restrictions or isolated execution environments, obtaining acce"
+ },
+ {
+  "cik": "0001596532",
+  "name": "Arista Networks, Inc.  (ANET)  (CIK 0001596532)",
+  "date": "2026-11-04",
+  "form": "10-Q",
+  "id": "0001596532-26-000254:anet-20260930.htm",
+  "phrase": "\"unintended or unauthorized actions\"",
+  "window": "ically designed to disrupt our business and our customers and introduce malicious software and attacks by state sponsors. For example, we have and could continue to face attacks that involve malicious software directed at our products, services, networks, or exfiltration of our data or that of our customers. If our products, services, or external-facing or internal networks are compromised or are perceived to have been compromised,   42   Table of Contents   our reputation may be damaged and our financial results may be negatively affected. In addition, our or third-party AI agents could take unintended or unauthorized actions, act outside the scope of their instructions or permissions, exploit vulnerabilities or weaknesses in the systems in which they operate, or may be vulnerable to adversarial manipulation such as prompt injection. Such AI agents may be capable of circumventing or escaping technical restrictions or is"
+ },
+ {
+  "cik": "0001596532",
+  "name": "Arista Networks, Inc.  (ANET)  (CIK 0001596532)",
+  "date": "2026-11-04",
+  "form": "10-Q",
+  "id": "0001596532-26-000254:anet-20260930.htm",
+  "phrase": "\"unauthorized actions\"",
+  "window": "d to disrupt our business and our customers and introduce malicious software and attacks by state sponsors. For example, we have and could continue to face attacks that involve malicious software directed at our products, services, networks, or exfiltration of our data or that of our customers. If our products, services, or external-facing or internal networks are compromised or are perceived to have been compromised,   42   Table of Contents   our reputation may be damaged and our financial results may be negatively affected. In addition, our or third-party AI agents could take unintended or unauthorized actions, act outside the scope of their instructions or permissions, exploit vulnerabilities or weaknesses in the systems in which they operate, or may be vulnerable to adversarial manipulation such as prompt injection. Such AI agents may be capable of circumventing or escaping technical restrictions or is"
+ },
+ {
+  "cik": "0001447669",
+  "name": "TWILIO INC  (TWLO)  (CIK 0001447669)",
+  "date": "2026-08-07",
+  "form": "10-Q",
+  "id": "0001447669-26-000092:twlo-20260630.htm",
+  "phrase": "\"unintended or unauthorized actions\"",
+  "window": "e quickly or more successfully than us, which could impair our ability to compete effectively and adversely affect our results of operations. Our ability to effectively implement and market our AI solutions and features will depend, in part, on our ability to attract and retain employees with AI expertise, and we expect significant competition for professionals with the skills and technical knowledge that we will require.   The deployment of agentic AI — systems that autonomously execute multi-step tasks — introduces risks that are distinct from those of traditional AI features resulting from unintended or unauthorized actions that disrupt our internal operations and service delivery or create unknown or unexpected compliance risks. These risks may be difficult to monitor or prevent given the autonomous nature of such systems.   Additionally, our use of AI internally and in our offerings may expose us to additional claim"
+ },
+ {
+  "cik": "0001447669",
+  "name": "TWILIO INC  (TWLO)  (CIK 0001447669)",
+  "date": "2026-08-07",
+  "form": "10-Q",
+  "id": "0001447669-26-000092:twlo-20260630.htm",
+  "phrase": "\"unauthorized actions\"",
+  "window": "ore successfully than us, which could impair our ability to compete effectively and adversely affect our results of operations. Our ability to effectively implement and market our AI solutions and features will depend, in part, on our ability to attract and retain employees with AI expertise, and we expect significant competition for professionals with the skills and technical knowledge that we will require.   The deployment of agentic AI — systems that autonomously execute multi-step tasks — introduces risks that are distinct from those of traditional AI features resulting from unintended or unauthorized actions that disrupt our internal operations and service delivery or create unknown or unexpected compliance risks. These risks may be difficult to monitor or prevent given the autonomous nature of such systems.   Additionally, our use of AI internally and in our offerings may expose us to additional claim"
+ },
+ {
+  "cik": "0001609711",
+  "name": "GoDaddy Inc.  (GDDY)  (CIK 0001609711)",
+  "date": "2026-10-30",
+  "form": "10-Q",
+  "id": "0001609711-26-000120:gddy-20260930.htm",
+  "phrase": "\"unintended or unauthorized actions\"",
+  "window": " cybersecurity, confidentiality, operational and technological risks, as well as risks associated with harmful content, accuracy, bias and discrimination, any of which could affect our further development, adoption, use, deployment and maintenance of AI. We continue to develop and use new and rapidly evolving technologies, including agentic AI workflows and agents that operate with greater autonomy. In addition to the risks discussed above, these agentic systems and agents, in particular due to the autonomous nature of the technology, could act in ways that present additional risks, including unintended or unauthorized actions, errors, hallucinations, and increased difficulty in predicting, supervising and controlling agentic behavior. Our development, deployment and use of AI technologies, including agentic systems and agents, in new and existing solutions and within our business operations may result in governmental or"
+ },
+ {
+  "cik": "0001609711",
+  "name": "GoDaddy Inc.  (GDDY)  (CIK 0001609711)",
+  "date": "2026-10-30",
+  "form": "10-Q",
+  "id": "0001609711-26-000120:gddy-20260930.htm",
+  "phrase": "\"unauthorized actions\"",
+  "window": ", confidentiality, operational and technological risks, as well as risks associated with harmful content, accuracy, bias and discrimination, any of which could affect our further development, adoption, use, deployment and maintenance of AI. We continue to develop and use new and rapidly evolving technologies, including agentic AI workflows and agents that operate with greater autonomy. In addition to the risks discussed above, these agentic systems and agents, in particular due to the autonomous nature of the technology, could act in ways that present additional risks, including unintended or unauthorized actions, errors, hallucinations, and increased difficulty in predicting, supervising and controlling agentic behavior. Our development, deployment and use of AI technologies, including agentic systems and agents, in new and existing solutions and within our business operations may result in governmental or"
+ },
+ {
+  "cik": "0001514416",
+  "name": "Bandwidth Inc.  (BAND)  (CIK 0001514416)",
+  "date": "2026-07-29",
+  "form": "10-Q",
+  "id": "0001514416-26-000057:band-20260630.htm",
+  "phrase": "\"unintended or unauthorized actions\"",
+  "window": "uch capabilities. We also offer our customers the ability to integrate certain AI technologies developed by third parties into certain of our offerings, and this integration capability is a prominent feature of our Maestro offering. Certain other features of our products are also supported by third-party AI technologies. Certain capabilities within our products incorporate agentic AI (systems that autonomously execute multi-step tasks with reduced human intervention). The deployment of such agentic AI introduces risks that are distinct from those of traditional AI features, including risks of unintended or unauthorized actions, overstepping its intended boundaries, or straying from their original business goals.   Our competitors or other third parties may incorporate AI into their products and offerings, or use AI to gain internal efficiencies, more quickly or more successfully than us. The failure to differentiate our "
+ },
+ {
+  "cik": "0001514416",
+  "name": "Bandwidth Inc.  (BAND)  (CIK 0001514416)",
+  "date": "2026-07-29",
+  "form": "10-Q",
+  "id": "0001514416-26-000057:band-20260630.htm",
+  "phrase": "\"unauthorized actions\"",
+  "window": "es. We also offer our customers the ability to integrate certain AI technologies developed by third parties into certain of our offerings, and this integration capability is a prominent feature of our Maestro offering. Certain other features of our products are also supported by third-party AI technologies. Certain capabilities within our products incorporate agentic AI (systems that autonomously execute multi-step tasks with reduced human intervention). The deployment of such agentic AI introduces risks that are distinct from those of traditional AI features, including risks of unintended or unauthorized actions, overstepping its intended boundaries, or straying from their original business goals.   Our competitors or other third parties may incorporate AI into their products and offerings, or use AI to gain internal efficiencies, more quickly or more successfully than us. The failure to differentiate our "
+ },
+ {
+  "cik": "0001514416",
+  "name": "Bandwidth Inc.  (BAND)  (CIK 0001514416)",
+  "date": "2026-10-29",
+  "form": "10-Q",
+  "id": "0001514416-26-000082:band-20260930.htm",
+  "phrase": "\"unintended or unauthorized actions\"",
+  "window": "uch capabilities. We also offer our customers the ability to integrate certain SI technologies developed by third parties into certain of our offerings, and this integration capability is a prominent feature of our Maestro offering. Certain other features of our products are also supported by third-party SI technologies. Certain capabilities within our products incorporate agentic SI (systems that autonomously execute multi-step tasks with reduced human intervention). The deployment of such agentic SI introduces risks that are distinct from those of traditional SI features, including risks of unintended or unauthorized actions, overstepping its intended boundaries, or straying from their original business goals.   Our competitors or other third parties may incorporate SI into their products and offerings, or use SI to gain internal efficiencies, more quickly or more successfully than us. The failure to differentiate our "
+ },
+ {
+  "cik": "0001514416",
+  "name": "Bandwidth Inc.  (BAND)  (CIK 0001514416)",
+  "date": "2026-10-29",
+  "form": "10-Q",
+  "id": "0001514416-26-000082:band-20260930.htm",
+  "phrase": "\"unauthorized actions\"",
+  "window": "es. We also offer our customers the ability to integrate certain SI technologies developed by third parties into certain of our offerings, and this integration capability is a prominent feature of our Maestro offering. Certain other features of our products are also supported by third-party SI technologies. Certain capabilities within our products incorporate agentic SI (systems that autonomously execute multi-step tasks with reduced human intervention). The deployment of such agentic SI introduces risks that are distinct from those of traditional SI features, including risks of unintended or unauthorized actions, overstepping its intended boundaries, or straying from their original business goals.   Our competitors or other third parties may incorporate SI into their products and offerings, or use SI to gain internal efficiencies, more quickly or more successfully than us. The failure to differentiate our "
+ },
+ {
+  "cik": "0001315098",
+  "name": "Roblox Corp  (RBLX)  (CIK 0001315098)",
+  "date": "2026-04-30",
+  "form": "10-Q",
+  "id": "0001628280-26-028904:rblx-20260331.htm",
+  "phrase": "\"unintended or unauthorized actions\"",
+  "window": "security-related incidents. In addition, the use of open source software in our Platform has exposed us to security vulnerabilities in the past and will likely continue to expose us to security vulnerabilities in the future.   The use of AI in our products and business practices may increase or create additional cybersecurity and privacy risks, including risks of data breaches and security incidents. In particular, the deployment of agentic AI introduces new attack surfaces and risk profiles for us to address. Prompt injection attacks, in which malicious instructions cause an AI agent to take unintended or unauthorized actions, are an emerging threat vector for which established defenses are still developing. As AI use expands across our products and operations, we expect the frequency and sophistication of AI-targeted attacks to increase.   Our Platform and services operate in conjunction with, and we are dependent upon"
+ },
+ {
+  "cik": "0001315098",
+  "name": "Roblox Corp  (RBLX)  (CIK 0001315098)",
+  "date": "2026-04-30",
+  "form": "10-Q",
+  "id": "0001628280-26-028904:rblx-20260331.htm",
+  "phrase": "\"unauthorized actions\"",
+  "window": "ed incidents. In addition, the use of open source software in our Platform has exposed us to security vulnerabilities in the past and will likely continue to expose us to security vulnerabilities in the future.   The use of AI in our products and business practices may increase or create additional cybersecurity and privacy risks, including risks of data breaches and security incidents. In particular, the deployment of agentic AI introduces new attack surfaces and risk profiles for us to address. Prompt injection attacks, in which malicious instructions cause an AI agent to take unintended or unauthorized actions, are an emerging threat vector for which established defenses are still developing. As AI use expands across our products and operations, we expect the frequency and sophistication of AI-targeted attacks to increase.   Our Platform and services operate in conjunction with, and we are dependent upon"
+ },
+ {
+  "cik": "0001315098",
+  "name": "Roblox Corp  (RBLX)  (CIK 0001315098)",
+  "date": "2026-10-29",
+  "form": "10-Q",
+  "id": "0001628280-26-068253:rblx-20260930.htm",
+  "phrase": "\"unintended or unauthorized actions\"",
+  "window": " and third-party software in our Platform has exposed us to security vulnerabilities in the past and will likely continue to expose us to security vulnerabilities in the future.   The use of AI in our products and business practices may increase or create additional cybersecurity and privacy risks, including risks of unauthorized disclosure or exposure of data, breaches, and other security incidents. In particular, the deployment of agentic AI introduces new attack surfaces and risk profiles for us to address. Prompt injection attacks, in which malicious instructions cause an AI agent to take unintended or unauthorized actions, are an emerging threat vector for which established defenses are still developing. As AI use expands across our products and operations, we expect the scale, frequency, and sophistication of AI-targeted attacks to increase. Beyond external threats, agentic AI systems operating with limited human o"
+ },
+ {
+  "cik": "0001315098",
+  "name": "Roblox Corp  (RBLX)  (CIK 0001315098)",
+  "date": "2026-10-29",
+  "form": "10-Q",
+  "id": "0001628280-26-068253:rblx-20260930.htm",
+  "phrase": "\"unauthorized actions\"",
+  "window": "ty software in our Platform has exposed us to security vulnerabilities in the past and will likely continue to expose us to security vulnerabilities in the future.   The use of AI in our products and business practices may increase or create additional cybersecurity and privacy risks, including risks of unauthorized disclosure or exposure of data, breaches, and other security incidents. In particular, the deployment of agentic AI introduces new attack surfaces and risk profiles for us to address. Prompt injection attacks, in which malicious instructions cause an AI agent to take unintended or unauthorized actions, are an emerging threat vector for which established defenses are still developing. As AI use expands across our products and operations, we expect the scale, frequency, and sophistication of AI-targeted attacks to increase. Beyond external threats, agentic AI systems operating with limited human o"
+ },
+ {
+  "cik": "0001315098",
+  "name": "Roblox Corp  (RBLX)  (CIK 0001315098)",
+  "date": "2026-07-30",
+  "form": "10-Q",
+  "id": "0001628280-26-051082:rblx-20260630.htm",
+  "phrase": "\"unintended or unauthorized actions\"",
+  "window": " incidents. In addition, the use of open source and third-party software in our Platform has exposed us to security vulnerabilities in the past and will likely continue to expose us to security vulnerabilities in the future.   The use of AI in our products and business practices may increase or create additional cybersecurity and privacy risks, including risks of data breaches and security incidents. In particular, the deployment of agentic AI introduces new attack surfaces and risk profiles for us to address. Prompt injection attacks, in which malicious instructions cause an AI agent to take unintended or unauthorized actions, are an emerging threat vector for which established defenses are still developing. As AI use expands across our products and operations, we expect the frequency and sophistication of AI-targeted attacks to increase. Beyond external threats, agentic AI systems operating with limited human oversight"
+ },
+ {
+  "cik": "0001315098",
+  "name": "Roblox Corp  (RBLX)  (CIK 0001315098)",
+  "date": "2026-07-30",
+  "form": "10-Q",
+  "id": "0001628280-26-051082:rblx-20260630.htm",
+  "phrase": "\"unauthorized actions\"",
+  "window": " addition, the use of open source and third-party software in our Platform has exposed us to security vulnerabilities in the past and will likely continue to expose us to security vulnerabilities in the future.   The use of AI in our products and business practices may increase or create additional cybersecurity and privacy risks, including risks of data breaches and security incidents. In particular, the deployment of agentic AI introduces new attack surfaces and risk profiles for us to address. Prompt injection attacks, in which malicious instructions cause an AI agent to take unintended or unauthorized actions, are an emerging threat vector for which established defenses are still developing. As AI use expands across our products and operations, we expect the frequency and sophistication of AI-targeted attacks to increase. Beyond external threats, agentic AI systems operating with limited human oversight"
+ },
+ {
+  "cik": "0001762301",
+  "name": "Fiverr International Ltd.  (FVRR)  (CIK 0001762301)",
+  "date": "2026-03-12",
+  "form": "20-F",
+  "id": "0001178913-26-000858:zk2634486.htm",
+  "phrase": "\"unintended or unauthorized actions\"",
+  "window": "including proprietary AI and machine learning algorithms and models, throughout our business, and are constantly working on expanding our AI capabilities, internally and through collaborations with vendors, including through improvements to our existing AI technologies, as well as through development of new products and features. For example, we use AI technologies as part of our product offering, and to improve our internal workflows and development velocity. We also are developing and deploying agentic AI systems that operate with greater autonomy, which presents additional risks, including unintended or unauthorized actions and increased difficulty predicting, supervising, and controlling agentic behavior. If we are unable to put mechanisms in place to prevent inaccurate or misleading content or other discriminatory or unexpected results or behaviors from our AI technologies our brand, business, prospects, financial c"
+ },
+ {
+  "cik": "0001762301",
+  "name": "Fiverr International Ltd.  (FVRR)  (CIK 0001762301)",
+  "date": "2026-03-12",
+  "form": "20-F",
+  "id": "0001178913-26-000858:zk2634486.htm",
+  "phrase": "\"unauthorized actions\"",
+  "window": "rietary AI and machine learning algorithms and models, throughout our business, and are constantly working on expanding our AI capabilities, internally and through collaborations with vendors, including through improvements to our existing AI technologies, as well as through development of new products and features. For example, we use AI technologies as part of our product offering, and to improve our internal workflows and development velocity. We also are developing and deploying agentic AI systems that operate with greater autonomy, which presents additional risks, including unintended or unauthorized actions and increased difficulty predicting, supervising, and controlling agentic behavior. If we are unable to put mechanisms in place to prevent inaccurate or misleading content or other discriminatory or unexpected results or behaviors from our AI technologies our brand, business, prospects, financial c"
+ },
+ {
+  "cik": "0001576789",
+  "name": "Wix.com Ltd.  (WIX)  (CIK 0001576789)",
+  "date": "2026-03-05",
+  "form": "20-F",
+  "id": "0001628280-26-015222:wix-20251231.htm",
+  "phrase": "\"unintended or unauthorized actions\"",
+  "window": "ne learning algorithms and models, (collectively, “AI Technologies”) throughout our business, and are constantly working on expanding our AI capabilities, internally and through collaborations with vendors, including through improvements to our existing AI Technologies, as well as through development of new products and features. For example, we use AI Technologies as part of our product offering, and to improve our internal workflows and development velocity. We also are developing and deploying agentic AI systems that operate with greater autonomy, which presents additional risks, including unintended or unauthorized actions and increased difficulty predicting, supervising, and controlling agentic behavior.   We have incurred increased costs for developing AI Technologies and expect that increased investment will continue to be required in the future to continuously improve our use of AI Technologies, which may include"
+ },
+ {
+  "cik": "0001576789",
+  "name": "Wix.com Ltd.  (WIX)  (CIK 0001576789)",
+  "date": "2026-03-05",
+  "form": "20-F",
+  "id": "0001628280-26-015222:wix-20251231.htm",
+  "phrase": "\"unauthorized actions\"",
+  "window": "gorithms and models, (collectively, “AI Technologies”) throughout our business, and are constantly working on expanding our AI capabilities, internally and through collaborations with vendors, including through improvements to our existing AI Technologies, as well as through development of new products and features. For example, we use AI Technologies as part of our product offering, and to improve our internal workflows and development velocity. We also are developing and deploying agentic AI systems that operate with greater autonomy, which presents additional risks, including unintended or unauthorized actions and increased difficulty predicting, supervising, and controlling agentic behavior.   We have incurred increased costs for developing AI Technologies and expect that increased investment will continue to be required in the future to continuously improve our use of AI Technologies, which may include"
+ },
+ {
+  "cik": "0000350894",
+  "name": "SEI INVESTMENTS CO  (SEIC)  (CIK 0000350894)",
+  "date": "2026-02-23",
+  "form": "10-K",
+  "id": "0000350894-26-000013:seic-20251231.htm",
+  "phrase": "\"unauthorized actions\"",
+  "window": "nterconnectivity among financial institutions and central agents, has amplified the risk of operational failure at both individual and industry-wide levels. Accelerated integration timelines further elevate these risks. A failure by a third-party provider could impair our ability to deliver contractual services, process transactions accurately, or meet regulatory obligations. If a provider is unable or unwilling to perform adequately, we may incur significant costs to internalize services, implement alternatives, or compensate clients for resulting losses. Breakdowns in third-party systems or unauthorized actions by consultants and subcontractors could lead to financial loss, business disruption, regulatory sanctions, or reputational harm. We also depend on critical market infrastructure, such as clearing and settlement systems like the Depository Trust Company (DTC). Disruptions in these systems could hind"
+ },
+ {
+  "cik": "0000106040",
+  "name": "WESTERN DIGITAL CORP  (WDC)  (CIK 0000106040)",
+  "date": "2026-08-14",
+  "form": "10-K",
+  "id": "0001628280-26-057139:wdc-20260703.htm",
+  "phrase": "\"unauthorized actions\"",
+  "window": "ition, the use of AI in the development of our products could potentially lead to ambiguities in intellectual property ownership, infringement or misappropriation risks, which could impact our competitive position and expose us to litigation, monetary penalties, or operational disruptions. The unauthorized or unapproved use of generative AI tools by our employees, contractors, or other third parties, as well as overreliance on AI automation or agentic AI without appropriate human oversight, may lead to the inadvertent disclosure of confidential, proprietary, or personal information, flawed or unauthorized actions, or other adverse consequences, including disruptions to business operations, exposing us to data security, privacy, legal, regulatory, and reputational risks.   Misuse of such tools can also result in violations of applicable laws and regulations, including data protection and intellectual propert"
+ },
+ {
+  "cik": "0000908937",
+  "name": "SIRIUS XM HOLDINGS INC.  (SIRI)  (CIK 0000908937)",
+  "date": "2024-02-01",
+  "form": "10-K",
+  "id": "0000908937-24-000008:siri-20231231.htm",
+  "phrase": "\"unauthorized actions\"",
+  "window": "s as they develop in the future (or as legal requirements related to data security increase) could be material. In addition, hardware, software, or applications we develop or procure from third parties may contain defects in design or manufacture or other problems that could unexpectedly compromise information security. Unauthorized parties may also attempt to gain access to our systems or facilities, or those of third parties with whom we do business, through fraud, trickery, or other forms of deceiving our employees, contractors or other agents. We may not be able to effectively control the unauthorized actions of third parties who may have access to the data we collect. To date, we are not aware that we have had a significant cyber-attack or breach that has had a material impact on our business or results of operations. We have implemented systems and processes intended to secure our information technolo"
+ },
+ {
+  "cik": "0000858877",
+  "name": "CISCO SYSTEMS, INC.  (CSCO)  (CIK 0000858877)",
+  "date": "2026-09-02",
+  "form": "10-K",
+  "id": "0000858877-26-000132:csco-20260725.htm",
+  "phrase": "\"unauthorized actions\"",
+  "window": "ial offerings and in our business operations. Our research and development of AI technology remains ongoing. AI presents risks and challenges and may result in unintended consequences, including inadvertent disclosure or misuse of intellectual property, confidential, personal, and/or competitive information, that could affect our reputation, our further AI development or our and our customers’ adoption and use of this technology. Agentic AI systems, which operate with autonomous decision-making capabilities and access to multiple tools and data sources, may also introduce unique risks such as unauthorized actions, privilege escalation, and potential exploitation by malicious actors. AI algorithms and training methodologies may be flawed. Additionally, AI technologies are complex and rapidly evolving, and we face significant competition in the market and from other companies regarding such technologies. Leve"
+ },
+ {
+  "cik": "0000849399",
+  "name": "Gen Digital Inc.  (GEN, GENVR)  (CIK 0000849399)",
+  "date": "2026-05-21",
+  "form": "10-K",
+  "id": "0000849399-26-000017:gen-20260403.htm",
+  "phrase": "\"unauthorized actions\"",
+  "window": "s succeeded in penetrating, our networks or those of our vendors. Such attempts are increasing in number and in technical sophistication, including through the use of AI, and have in the past and could in the future expose us and the affected parties, to risk of loss or misuse of proprietary, personal or confidential information or disruptions of our business operations. Additionally, deployment of agentic AI with access to our systems, data, and third-party tools creates an expanded surface for cyberattacks, as threat actors may exploit inadequate controls to manipulate agents into executing unauthorized actions, accessing sensitive information, or initiating malicious transactions, and the autonomous nature of these systems may enable attackers to conduct multi-step attacks that evade traditional security controls before detection occurs.   When a data breach occurs, our information technology systems and"
+ },
+ {
+  "cik": "0001327567",
+  "name": "Palo Alto Networks Inc  (PANW)  (CIK 0001327567)",
+  "date": "2026-09-10",
+  "form": "10-K",
+  "id": "0001327567-26-000023:panw-20260731.htm",
+  "phrase": "\"unauthorized actions\"",
+  "window": "urity and governance for enterprise AI agents, from development through production. It establishes a central registry to inventory and verify every agent across endpoints, browsers, SaaS tools, and internal systems, mapping autonomous actions directly to human sponsors, specific agents, and business tasks. By assessing operational risk based on permissions, connected data, and integrated tools, Agent Security enforces identity-aware authorization and task-specific boundaries. These capabilities help organizations reduce shadow agent blind spots, protect sensitive data, prevent tool misuse and unauthorized actions, and maintain audit trails as agents automate business processes.   • AI Red Teaming. Continuously validates the security of custom autonomous agents, applications, and models through automated adversarial testing at enterprise scale. By profiling each deployment’s unique business context, workflow"
+ },
+ {
+  "cik": "0002023554",
+  "name": "Sandisk Corp  (SNDK)  (CIK 0002023554)",
+  "date": "2026-08-17",
+  "form": "10-K",
+  "id": "0001628280-26-057406:sndk-20260703.htm",
+  "phrase": "\"unauthorized actions\"",
+  "window": "ition, the use of AI in the development of our products could potentially lead to ambiguities in intellectual property ownership, infringement or misappropriation risks, which could impact our competitive position and expose us to litigation, monetary penalties, or operational disruptions. The unauthorized or unapproved use of generative AI tools by our employees, contractors, or other third parties, as well as overreliance on AI automation or agentic AI without appropriate human oversight, may lead to the inadvertent disclosure of confidential, proprietary, or personal information, flawed or unauthorized actions, or other adverse consequences, including disruptions to business operations, exposing us to data security, privacy, legal, regulatory, and reputational risks. Misuse of such tools can also result in violations of applicable laws and regulations, including data protection and intellectual property "
+ },
+ {
+  "cik": "0000908937",
+  "name": "SIRIUS XM HOLDINGS INC.  (SIRI)  (CIK 0000908937)",
+  "date": "2025-01-30",
+  "form": "10-K",
+  "id": "0000908937-25-000005:siri-20241231.htm",
+  "phrase": "\"unauthorized actions\"",
+  "window": "s as they develop in the future (or as legal requirements related to data security increase) could be material. In addition, hardware, software, or applications we develop or procure from third parties may contain defects in design or manufacture or other problems that could unexpectedly compromise information security. Unauthorized parties may also attempt to gain access to our systems or facilities, or those of third parties with whom we do business, through fraud, trickery, or other forms of deceiving our employees, contractors or other agents. We may not be able to effectively control the unauthorized actions of third parties who may have access to the data we collect. To date, we are not aware that we have had a significant cyber-attack or breach that has had a material impact on our business or results of operations. We have implemented systems and processes intended to secure our information technolo"
+ },
+ {
+  "cik": "0001309108",
+  "name": "WEX Inc.  (WEX)  (CIK 0001309108)",
+  "date": "2026-02-13",
+  "form": "10-K",
+  "id": "0001309108-26-000010:wex-20251231.htm",
+  "phrase": "\"unauthorized actions\"",
+  "window": "so have anti-corruption laws, which we are, have been or will be subject to. Our employees and agents interact with government officials on our behalf, including as necessary to obtain licenses and other regulatory approvals necessary to operate our business. We also have a number of contracts with third-parties that are owned or controlled by foreign governments. These interactions and contracts create a risk of unauthorized payments or offers of payments by one of our employees or agents that could be in violation of the FCPA, UKBA or other similar laws, and we could be held liable for such unauthorized actions taken by our employees or agents. In recent years, there have been significant regulatory reviews and actions taken by the United States and other regulators related to anti-bribery laws, and the trend appears to be applying greater scrutiny around payments to, and 42 Table of Contents PART I relat"
+ },
+ {
+  "cik": "0001309108",
+  "name": "WEX Inc.  (WEX)  (CIK 0001309108)",
+  "date": "2024-02-23",
+  "form": "10-K",
+  "id": "0001309108-24-000033:wex-20231231.htm",
+  "phrase": "\"unauthorized actions\"",
+  "window": "so have anti-corruption laws, which we are, have been or will be subject to. Our employees and agents interact with government officials on our behalf, including as necessary to obtain licenses and other regulatory approvals necessary to operate our business. We also have a number of contracts with third-parties that are owned or controlled by foreign governments. These interactions and contracts create a risk of unauthorized payments or offers of payments by one of our employees or agents that could be in violation of the FCPA, UKBA or other similar laws, and we could be held liable for such unauthorized actions taken by our employees or agents. In recent years, there have been significant regulatory reviews and actions taken by the United States and other regulators related to anti-bribery laws, and the trend appears to be applying greater scrutiny around payments to, and relationships with, foreign entit"
+ },
+ {
+  "cik": "0001309108",
+  "name": "WEX Inc.  (WEX)  (CIK 0001309108)",
+  "date": "2025-02-20",
+  "form": "10-K",
+  "id": "0001309108-25-000017:wex-20241231.htm",
+  "phrase": "\"unauthorized actions\"",
+  "window": ", which we are, have been or will be subject to. 42 Table of Contents PART I Our employees and agents interact with government officials on our behalf, including as necessary to obtain licenses and other regulatory approvals necessary to operate our business. We also have a number of contracts with third-parties that are owned or controlled by foreign governments. These interactions and contracts create a risk of unauthorized payments or offers of payments by one of our employees or agents that could be in violation of the FCPA, UKBA or other similar laws, and we could be held liable for such unauthorized actions taken by our employees or agents. In recent years, there have been significant regulatory reviews and actions taken by the United States and other regulators related to anti-bribery laws, and the trend appears to be applying greater scrutiny around payments to, and relationships with, foreign entit"
+ },
+ {
+  "cik": "0001560385",
+  "name": "Liberty Media Corp  (FWONA, FWONB, FWONK, LLYVA, LLYVB, LLYVK, LSXMA, LSXMB, LSXMK)  (CIK 0001560385)",
+  "date": "2024-02-28",
+  "form": "10-K",
+  "id": "0001558370-24-002013:lmca-20231231x10k.htm",
+  "phrase": "\"unauthorized actions\"",
+  "window": "ments related to data security increase) could be material. In addition, hardware, software, or applications Sirius XM Holdings develops or procures from third parties may contain defects in design or manufacture or other problems that could unexpectedly compromise information security. Unauthorized parties may also attempt to gain access to Sirius XM Holdings’ systems or facilities, or those of third parties with whom it does business, through fraud, trickery, or other forms of deceiving its employees, contractors or other agents. Sirius XM Holdings may not be able to effectively control the unauthorized actions of third parties who may have access to the data it collects. To date, Sirius XM Holdings is not aware that it has had a significant cyber-attack or breach that has had a material impact on its business or results of operations. Sirius XM Holdings has implemented systems and processes intended to s"
+ },
+ {
+  "cik": "0001652044",
+  "name": "Alphabet Inc.  (GOOG, GOOGL, GOOGM, GOOGN)  (CIK 0001652044)",
+  "date": "2026-10-29",
+  "form": "10-Q",
+  "id": "0001652044-26-000084:goog-20260930.htm",
+  "phrase": "\"unauthorized actions\"",
+  "window": "ilistic nature of AI models means we may not be able to anticipate, identify, or resolve all AI-related issues, deficiencies, and failures before they arise. During model testing, we have sometimes observed unexpected behavior, including autonomous agents taking actions outside of their intended scope. Furthermore, as our AI systems increasingly orchestrate multi-step tasks and interact autonomously with third-party tools, applications, and APIs, errors or misalignments in one component may compound across the workflow, potentially leading to operational, technical, or transactional failures, unauthorized actions, or unforeseen liabilities for us or third parties. In the event of an incident, we may be unable to isolate root causes or detect and respond in a timely manner, and we may face difficulties identifying similar incidents in the future, any of which could subject us to heightened regulatory scrutin"
+ },
+ {
+  "cik": "0001652044",
+  "name": "Alphabet Inc.  (GOOG, GOOGL, GOOGM, GOOGN)  (CIK 0001652044)",
+  "date": "2026-10-29",
+  "form": "10-Q",
+  "id": "0001652044-26-000084:goog-20260930.htm",
+  "phrase": "\"outside of their intended scope\"",
+  "window": "ons of existing data protection, privacy, intellectual property, and other laws, and brand or reputational harm.   Some uses of AI will present ethical issues and may have broad effects on society. Although we have already devoted and will continue to invest significant resources to develop and deploy AI responsibly, the probabilistic nature of AI models means we may not be able to anticipate, identify, or resolve all AI-related issues, deficiencies, and failures before they arise. During model testing, we have sometimes observed unexpected behavior, including autonomous agents taking actions outside of their intended scope. Furthermore, as our AI systems increasingly orchestrate multi-step tasks and interact autonomously with third-party tools, applications, and APIs, errors or misalignments in one component may compound across the workflow, potentially leading to operational, technical, or transactional failures, un"
+ },
+ {
+  "cik": "0000849399",
+  "name": "Gen Digital Inc.  (GEN, GENVR)  (CIK 0000849399)",
+  "date": "2026-08-07",
+  "form": "10-Q",
+  "id": "0000849399-26-000031:gen-20260703.htm",
+  "phrase": "\"unauthorized actions\"",
+  "window": "s succeeded in penetrating, our networks or those of our vendors. Such attempts are increasing in number and in technical sophistication, including through the use of AI, and have in the past and could in the future expose us and the affected parties, to risk of loss or misuse of proprietary, personal or confidential information or disruptions of our business operations. Additionally, deployment of agentic AI with access to our systems, data, and third-party tools creates an expanded surface for cyberattacks, as threat actors may exploit inadequate controls to manipulate agents into executing unauthorized actions, accessing sensitive information, or initiating malicious transactions, and the autonomous nature of these systems may enable attackers to conduct multi-step attacks that evade traditional security controls before detection occurs.   When a data breach occurs, our information technology systems and"
+ },
+ {
+  "cik": "0000849399",
+  "name": "Gen Digital Inc.  (GEN, GENVR)  (CIK 0000849399)",
+  "date": "2026-10-29",
+  "form": "10-Q",
+  "id": "0000849399-26-000083:gen-20261002.htm",
+  "phrase": "\"unauthorized actions\"",
+  "window": "s succeeded in penetrating, our networks or those of our vendors. Such attempts are increasing in number and in technical sophistication, including through the use of AI, and have in the past and could in the future expose us and the affected parties, to risk of loss or misuse of proprietary, personal or confidential information or disruptions of our business operations. Additionally, deployment of agentic AI with access to our systems, data, and third-party tools creates an expanded surface for cyberattacks, as threat actors may exploit inadequate controls to manipulate agents into executing unauthorized actions, accessing sensitive information, or initiating malicious transactions, and the autonomous nature of these systems may enable attackers to conduct multi-step attacks that evade traditional security controls before detection occurs.   When a data breach occurs, our information technology systems and"
+ },
+ {
+  "cik": "0001635282",
+  "name": "Rimini Street, Inc.  (RMNI)  (CIK 0001635282)",
+  "date": "2026-10-29",
+  "form": "10-Q",
+  "id": "0001635282-26-000074:rmni-20260930.htm",
+  "phrase": "\"unauthorized actions\"",
+  "window": "sting, monitoring, logging, usage limits, validation procedures, rollback capabilities and incident-response processes. These safeguards may be improperly designed, configured or implemented, may not operate as intended and may be circumvented or become insufficient as agentic AI technologies, connected systems and use cases evolve. Human reviewers also may over-rely on agent outputs, lack sufficient information or time to identify errors or be unable to intervene before an AI system or agent completes an action. Any failure or perceived failure of these controls could result in inaccurate or unauthorized actions, service disruptions, security incidents, client claims, regulatory scrutiny, remediation costs and harm to our reputation, business and financial results.   We may not be able to fully explain, reproduce, attribute, audit or reverse actions taken by agentic AI technologies, which could hamper inve"
+ },
+ {
+  "cik": "0001361113",
+  "name": "VARONIS SYSTEMS INC  (VRNS)  (CIK 0001361113)",
+  "date": "2026-07-29",
+  "form": "10-Q",
+  "id": "0001628280-26-050630:vrns-20260630.htm",
+  "phrase": "\"unauthorized actions\"",
+  "window": "ons around the globe, including Europe and the United States, have already proposed or enacted laws governing AI, and we may need to commit significant resources to maintain business practices that comply with the evolving regulatory landscape. Our competitors or other third parties may incorporate AI into their products more quickly and successfully than us, which could impair our ability to compete effectively and adversely affect our results of operations. In addition, the increasing adoption of agentic AI technologies may increase the risk of control failures, security vulnerabilities and unauthorized actions. Errors or unintended decisions by autonomous AI systems could result in operational disruptions, regulatory exposure or financial losses.   Any or all of these issues could tarnish our reputation, negatively impact our ability to attract new customers or sell additional products to our existing cu"
+ },
+ {
+  "cik": "0001361113",
+  "name": "VARONIS SYSTEMS INC  (VRNS)  (CIK 0001361113)",
+  "date": "2026-11-04",
+  "form": "10-Q",
+  "id": "0001628280-26-070185:vrns-20260930.htm",
+  "phrase": "\"unauthorized actions\"",
+  "window": "ons around the globe, including Europe and the United States, have already proposed or enacted laws governing AI, and we may need to commit significant resources to maintain business practices that comply with the evolving regulatory landscape. Our competitors or other third parties may incorporate AI into their products more quickly and successfully than us, which could impair our ability to compete effectively and adversely affect our results of operations. In addition, the increasing adoption of agentic AI technologies may increase the risk of control failures, security vulnerabilities and unauthorized actions. Errors or unintended decisions by autonomous AI systems could result in operational disruptions, regulatory exposure or financial losses.   Any or all of these issues could tarnish our reputation, negatively impact our ability to attract new customers or sell additional products to our existing cu"
+ },
+ {
+  "cik": "0001866692",
+  "name": "Amplitude, Inc.  (AMPL)  (CIK 0001866692)",
+  "date": "2026-11-05",
+  "form": "10-Q",
+  "id": "0001193125-26-447817:ampl-20260930.htm",
+  "phrase": "\"unauthorized actions\"",
+  "window": " may in the future become, the target of cyberattacks by third parties seeking unauthorized access to our confidential information or to disrupt our operations or ability to provide our services.   Our use of AI Technologies across our platform, products, and internal operations also introduces new attack vectors that do not exist in traditional software. For example, threat actors may use prompt injection, embedding crafted inputs in user prompts, customer data, or third-party content to manipulate an AI model or agent into bypassing safeguards, extracting confidential information, or taking unauthorized actions. Threat actors may also attempt model or data poisoning, corrupting the data our AI Technologies are trained on or rely upon to degrade performance, introduce hidden vulnerabilities, or produce inaccurate, biased, or harmful outputs. AI Technologies may also make the social engineering attacks desc"
+ },
+ {
+  "cik": "0001866692",
+  "name": "Amplitude, Inc.  (AMPL)  (CIK 0001866692)",
+  "date": "2026-11-05",
+  "form": "10-Q",
+  "id": "0001193125-26-447817:ampl-20260930.htm",
+  "phrase": "\"take unintended actions\"",
+  "window": " ensure the accuracy of AI-generated insights, those measures may not always be successful, and in some cases, we may need to rely on users to report such inaccuracies. Beyond the risk of inaccurate outputs, certain of our AI Technologies, including our AI Agents, operate with a degree of autonomy, planning and executing multi-step tasks, interacting with customer data and connected third-party systems, and acting on behalf of users, in some cases without human review of each action. An AI agent acting on incomplete, inaccurate, or manipulated information, or misinterpreting instructions, may take unintended actions, such as modifying, deleting, or corrupting data, triggering incorrect workflow or communications, or accessing, using, or disclosing data beyond its intended scope or customer-granted permissions. Because these actions may occur quickly, at scale, and across connected systems, errors may be diffic"
+ },
+ {
+  "cik": "0000872589",
+  "name": "REGENERON PHARMACEUTICALS, INC.  (REGN)  (CIK 0000872589)",
+  "date": "2026-10-30",
+  "form": "10-Q",
+  "id": "0000872589-26-000034:regn-20260930.htm",
+  "phrase": "\"unauthorized actions\"",
+  "window": "detectable by users, or may produce unreliable outputs over time. Reliance on such outputs could result in errors, inefficiencies, compliance issues, or other adverse consequences. Employee use of unapproved AI tools could create ungoverned data flows, unmonitored compliance gaps, and data protection risks that are not visible until an adverse event occurs. In addition, the increasing use of agentic and autonomous AI systems may create additional operational, cybersecurity, compliance, and data protection risks. Failures in the design, governance, or monitoring of such systems could result in unauthorized actions, inaccurate and/or biased outputs, disruption of business processes, or unauthorized access to sensitive information.   75   Table of Contents   In the United States and in many jurisdictions outside the United States, new regulations have recently passed or have been proposed to ensure the ethical"
+ },
+ {
+  "cik": "0000872589",
+  "name": "REGENERON PHARMACEUTICALS, INC.  (REGN)  (CIK 0000872589)",
+  "date": "2026-07-30",
+  "form": "10-Q",
+  "id": "0000872589-26-000025:regn-20260630.htm",
+  "phrase": "\"unauthorized actions\"",
+  "window": "detectable by users, or may produce unreliable outputs over time. Reliance on such outputs could result in errors, inefficiencies, compliance issues, or other adverse consequences. Employee use of unapproved AI tools could create ungoverned data flows, unmonitored compliance gaps, and data protection risks that are not visible until an adverse event occurs. In addition, the increasing use of agentic and autonomous AI systems may create additional operational, cybersecurity, compliance, and data protection risks. Failures in the design, governance, or monitoring of such systems could result in unauthorized actions, inaccurate and/or biased outputs, disruption of business processes, or unauthorized access to sensitive information.   73   Table of Contents   In the United States and in many jurisdictions outside the United States, new regulations have recently passed or have been proposed to ensure the ethical"
+ },
+ {
+  "cik": "0001903595",
+  "name": "House of Doge Inc.  (HODO)  (CIK 0001903595)",
+  "date": "2026-08-14",
+  "form": "10-Q",
+  "id": "0001213900-26-090312:ea0300475-10q_house.htm",
+  "phrase": "\"unauthorized actions\"",
+  "window": "y investment in the Company. Operational risks, such as misconduct and errors of employees, contractors or entities with which we do business, may be difficult to detect and deter and could cause us material reputational and financial harm. Our employees and agents could engage in misconduct, which may include conducting and concealing unauthorized activities or improperly using or disclosing confidential information. It may not be possible to deter misconduct by employees or others, and the precautions that we take to prevent and detect these activities may not be effective in all cases. Any unauthorized actions by our employees or agents could lead to regulatory or criminal proceedings, which, in each case, could have a material and adverse effect on the Company. Furthermore, our employees could make errors recording or executing transactions, which may result in additional material costs to us. Our colle"
+ },
+ {
+  "cik": "0001851112",
+  "name": "RISKIFIED LTD.  (RSKD)  (CIK 0001851112)",
+  "date": "2026-03-06",
+  "form": "20-F",
+  "id": "0001851112-26-000007:rskd-20251231.htm",
+  "phrase": "\"unauthorized actions\"",
+  "window": "e risks. The rapid evolution and increasing capabilities of such technologies may outpace the development and corresponding security, monitoring and governance tools. As a result, existing cybersecurity controls and detection frameworks, which were primarily designed for traditional software architectures and human-driven workflows, may not be fully effective in addressing the novel threat vectors, emergent behaviors and system interactions introduced by generative or autonomous AI systems. Such systems may increase our attack surface and could be susceptible to prompt injection, tool misuse, unauthorized actions, indirect data exfiltration or other emergent, compound or previously unidentified attack vectors. AI Technologies that access or synthesize information across systems may unintentionally expose, infer, correlate, or recombine sensitive or confidential data through outputs, summaries, logs or memor"
+ },
+ {
+  "cik": "0001103838",
+  "name": "ICICI BANK LTD  (IBN)  (CIK 0001103838)",
+  "date": "2024-07-31",
+  "form": "20-F",
+  "id": "0000950103-24-011297:dp213313_20f.htm",
+  "phrase": "\"unauthorized actions\"",
+  "window": "y service providers), which could result, among other things, in suspension or revocation of one or more of our licenses, cease and desist orders, fines, civil penalties, criminal penalties or other disciplinary action which could materially harm our reputation, results of operations and financial condition. 16 Table of Contents We may be subject to fines, restrictions or other sanctions for regulatory compliance failures, which may adversely affect our financial position or our ability to expand our activities. Failure to comply with applicable regulations in various jurisdictions, including unauthorized actions by employees, representatives, agents and third parties, suspected or perceived failures and media reports, and ensuing inquiries or investigations or proceedings by regulatory and enforcement authorities, has resulted, and may result in the future, in regulatory actions, including financial penalt"
+ },
+ {
+  "cik": "0001103838",
+  "name": "ICICI BANK LTD  (IBN)  (CIK 0001103838)",
+  "date": "2026-07-20",
+  "form": "20-F",
+  "id": "0000950103-26-010820:dp249803_20f.htm",
+  "phrase": "\"unauthorized actions\"",
+  "window": "arty service providers, which could result, among other things, in suspension or revocation of one or more of our licenses, cease and desist orders, fines, civil penalties, criminal penalties or other disciplinary action which may materially harm our reputation, results of operations and financial condition. 17 Table of Contents We may be subject to fines, restrictions or other sanctions for regulatory compliance failures, which may adversely affect our financial position or our ability to expand our activities. Failure to comply with applicable regulations in various jurisdictions, including unauthorized actions by employees, representatives, agents and third parties, suspected or perceived failures and media reports, and ensuing inquiries or investigations or proceedings by regulatory and enforcement authorities, has resulted, and may result in the future, in regulatory actions, including financial penalt"
+ },
+ {
+  "cik": "0001103838",
+  "name": "ICICI BANK LTD  (IBN)  (CIK 0001103838)",
+  "date": "2025-07-25",
+  "form": "20-F",
+  "id": "0000950103-25-009269:dp231278_20f.htm",
+  "phrase": "\"unauthorized actions\"",
+  "window": "ents or our third-party service providers, which could result, among other things, in suspension or revocation of one or more of our licenses, cease and desist orders, fines, civil penalties, criminal penalties or other disciplinary action which could materially harm our reputation, results of operations and financial condition. We may be subject to fines, restrictions or other sanctions for regulatory compliance failures, which may adversely affect our financial position or our ability to expand our activities. Failure to comply with applicable regulations in various jurisdictions, including unauthorized actions by employees, representatives, agents and third parties, suspected or perceived failures and media reports, and 15 Table of Contents ensuing inquiries or investigations or proceedings by regulatory and enforcement authorities, has resulted, and may result in the future, in regulatory actions, inclu"
+ },
+ {
+  "cik": "0001812477",
+  "name": "Bitfarms Ltd  (BITF)  (CIK 0001812477)",
+  "date": "2024-12-10",
+  "form": "40-F/A",
+  "id": "0001213900-24-107072:ea022397701ex99-3_bitfarms.htm",
+  "phrase": "\"unauthorized actions\"",
+  "window": "against giving or accepting money or gifts in certain circumstances; namely the Company’s Code of Business Conduct and Ethics, Anti-Bribery and Anti-Corruption Policy and Whistleblower Policy. The Company uses its best efforts to prevent the occurrence of fraud, bribery and corruption, but it may not be possible to detect or prevent every instance of fraud, bribery and corruption in every jurisdiction in which its employees, agents or contractors are located. The Company, or any of its employees or contractors, could be charged with bribery or corruption as a result of the actual or perceived unauthorized actions of its employees or contractors. If the Company is found guilty of such a violation, which could include a failure to take effective steps to prevent or address corruption by its employees or contractors, the Company could be subject to onerous penalties and reputational damage. A mere investigatio"
+ },
+ {
+  "cik": "0001812477",
+  "name": "Bitfarms Ltd  (BITF)  (CIK 0001812477)",
+  "date": "2024-03-07",
+  "form": "40-F",
+  "id": "0001213900-24-020602:ea0200005ex99-3_bitfarms.htm",
+  "phrase": "\"unauthorized actions\"",
+  "window": "against giving or accepting money or gifts in certain circumstances; namely the Company’s Code of Business Conduct and Ethics, Anti-Bribery and Anti-Corruption Policy and Whistleblower Policy. The Company uses its best efforts to prevent the occurrence of fraud, bribery and corruption, but it may not be possible to detect or prevent every instance of fraud, bribery and corruption in every jurisdiction in which its employees, agents or contractors are located. The Company, or any of its employees or contractors, could be charged with bribery or corruption as a result of the actual or perceived unauthorized actions of its employees or contractors. If the Company is found guilty of such a violation, which could include a failure to take effective steps to prevent or address corruption by its employees or contractors, the Company could be subject to onerous penalties and reputational damage. A mere investigatio"
+ },
+ {
+  "cik": "0001812477",
+  "name": "Bitfarms Ltd  (BITF)  (CIK 0001812477)",
+  "date": "2024-03-07",
+  "form": "40-F",
+  "id": "0001213900-24-020602:ea0200005ex99-1_bitfarms.htm",
+  "phrase": "\"unauthorized actions\"",
+  "window": "against giving or accepting money or gifts in certain circumstances; namely the Company’s Code of Business Conduct and Ethics, Anti-Bribery and Anti-Corruption Policy and Whistleblower Policy. The Company uses its best efforts to prevent the occurrence of fraud, bribery and corruption, but it may not be possible to detect or prevent every instance of fraud, bribery and corruption in every jurisdiction in which its employees, agents or contractors are located. The Company, or any of its employees or contractors, could be charged with bribery or corruption as a result of the actual or perceived unauthorized actions of its employees or contractors. If the Company is found guilty of such a violation, which could include a failure to take effective steps to prevent or address corruption by its employees or contractors, the Company could be subject to onerous penalties and reputational damage. A mere investigatio"
+ },
+ {
+  "cik": "0001812477",
+  "name": "Bitfarms Ltd  (BITF)  (CIK 0001812477)",
+  "date": "2025-04-01",
+  "form": "40-F",
+  "id": "0001213900-25-026575:ea023426801ex99-3_bitfarms.htm",
+  "phrase": "\"unauthorized actions\"",
+  "window": "against giving or accepting money or gifts in certain circumstances; namely the Company’s Code of Business Conduct and Ethics, Anti-Bribery and Anti-Corruption Policy and Whistleblower Policy. The Company uses its best efforts to prevent the occurrence of fraud, bribery and corruption, but it may not be possible to detect or prevent every instance of fraud, bribery and corruption in every jurisdiction in which its employees, agents or contractors are located. The Company, or any of its employees or contractors, could be charged with bribery or corruption as a result of the actual or perceived unauthorized actions of its employees or contractors. If the Company is found guilty of such a violation, which could include a failure to take effective steps to prevent or address corruption by its employees or contractors, the Company could be subject to onerous penalties and reputational damage. A mere investigatio"
+ },
+ {
+  "cik": "0001812477",
+  "name": "Bitfarms Ltd  (BITF)  (CIK 0001812477)",
+  "date": "2025-04-01",
+  "form": "40-F",
+  "id": "0001213900-25-026575:ea023426801ex99-1_bitfarms.htm",
+  "phrase": "\"unauthorized actions\"",
+  "window": "against giving or accepting money or gifts in certain circumstances; namely the Company’s Code of Business Conduct and Ethics, Anti-Bribery and Anti-Corruption Policy and Whistleblower Policy. The Company uses its best efforts to prevent the occurrence of fraud, bribery and corruption, but it may not be possible to detect or prevent every instance of fraud, bribery and corruption in every jurisdiction in which its employees, agents or contractors are located. The Company, or any of its employees or contractors, could be charged with bribery or corruption as a result of the actual or perceived unauthorized actions of its employees or contractors. If the Company is found guilty of such a violation, which could include a failure to take effective steps to prevent or address corruption by its employees or contractors, the Company could be subject to onerous penalties and reputational damage. A mere investigatio"
+ },
+ {
+  "cik": "0000312070",
+  "name": "BARCLAYS BANK PLC  (DJP, GRN, VXX, VXZ, ATMP, GBUG, TAPR, BWVTF, JJETF)  (CIK 0000312070)",
+  "date": "2026-02-10",
+  "form": "20-F",
+  "id": "0000312070-26-000006:bbplc-20251231.htm",
+  "phrase": "\"beyond their intended scope\"",
+  "window": "s underway, but not yet complete. Malicious actors are also increasingly developing methods   to avoid detection and alerting capabilities, including by employing counter-forensic tactics, making response activities more   difficult. Additionally, the Barclays Bank Group's deployment of agentic AI with access to systems, data and third-party tools   creates an expanded attack surface for cyber attacks, as threat actors may exploit inadequate permissioning controls to   manipulate agents into executing unauthorised actions, accessing sensitive information or initiating malicious transactions   beyond their intended scope, and the autonomous nature of these systems may enable attackers to conduct multi-step   attacks that evade traditional security controls before detection occurs.   Cyber attacks can originate from a wide variety of sources and target the Barclays Bank Group in numerous ways, including   via the Ba"
+ },
+ {
+  "cik": "0000312070",
+  "name": "BARCLAYS BANK PLC  (DJP, GRN, VXX, VXZ, ATMP, GBUG, TAPR, BWVTF, JJETF)  (CIK 0000312070)",
+  "date": "2026-02-10",
+  "form": "20-F",
+  "id": "0000312070-26-000006:bbplc-20251231.htm",
+  "phrase": "\"unauthorised actions\"",
+  "window": "ay take advantage of the window during which patching or the   deployment of other defences is underway, but not yet complete. Malicious actors are also increasingly developing methods   to avoid detection and alerting capabilities, including by employing counter-forensic tactics, making response activities more   difficult. Additionally, the Barclays Bank Group's deployment of agentic AI with access to systems, data and third-party tools   creates an expanded attack surface for cyber attacks, as threat actors may exploit inadequate permissioning controls to   manipulate agents into executing unauthorised actions, accessing sensitive information or initiating malicious transactions   beyond their intended scope, and the autonomous nature of these systems may enable attackers to conduct multi-step   attacks that evade traditional security controls before detection occurs.   Cyber attacks can originate from a"
+ },
+ {
+  "cik": "0000312069",
+  "name": "BARCLAYS PLC  (BCS, BCLYF)  (CIK 0000312069)",
+  "date": "2026-02-10",
+  "form": "20-F",
+  "id": "0000312069-26-000004:bcs-20251231.htm",
+  "phrase": "\"beyond their intended scope\"",
+  "window": "derway, but not yet   complete. Malicious actors are also   increasingly developing methods to avoid   detection and alerting capabilities, including   by employing counter-forensic tactics,   making response activities more difficult.   Additionally, the Group's deployment of   agentic AI with access to systems, data and   third-party tools creates an expanded attack   surface for cyber attacks, as threat actors   may exploit inadequate permissioning   controls to manipulate agents into executing   unauthorised actions, accessing sensitive   information or initiating malicious   transactions beyond their intended scope,   and the autonomous nature of these systems   may enable attackers to conduct multi-step   attacks that evade traditional security   controls before detection occurs.   Cyber attacks can originate from a wide   variety of sources and target the Group in   numerous ways, including via the Group's "
+ },
+ {
+  "cik": "0000312069",
+  "name": "BARCLAYS PLC  (BCS, BCLYF)  (CIK 0000312069)",
+  "date": "2026-02-10",
+  "form": "20-F",
+  "id": "0000312069-26-000004:bcs-20251231.htm",
+  "phrase": "\"unauthorised actions\"",
+  "window": "ake advantage of the window   during which patching or the deployment of   other defences is underway, but not yet   complete. Malicious actors are also   increasingly developing methods to avoid   detection and alerting capabilities, including   by employing counter-forensic tactics,   making response activities more difficult.   Additionally, the Group's deployment of   agentic AI with access to systems, data and   third-party tools creates an expanded attack   surface for cyber attacks, as threat actors   may exploit inadequate permissioning   controls to manipulate agents into executing   unauthorised actions, accessing sensitive   information or initiating malicious   transactions beyond their intended scope,   and the autonomous nature of these systems   may enable attackers to conduct multi-step   attacks that evade traditional security   controls before detection occurs.   Cyber attacks can originat"
+ },
+ {
+  "cik": "0001261333",
+  "name": "DOCUSIGN, INC.  (DOCU)  (CIK 0001261333)",
+  "date": "2026-03-18",
+  "form": "10-K",
+  "id": "0001261333-26-000021:docu-20260131.htm",
+  "phrase": "\"beyond their intended scope\"",
+  "window": "ons, litigation or reputational harm.   The development and use of AI present various intellectual property, data privacy, and security risks. Significant investment in the development and maintenance of proprietary datasets and training models and the development of appropriate protections, safeguards, and policies for handling the processing of data, including transparency of customer data extraction and usage in training models may be costly and may subject us to legal liability. Additionally, the agentic AI systems described above may inadvertently access or disclose sensitive information beyond their intended scope or be subject to “prompt injection” and other cyberattacks that could cause the agents to take unauthorized or harmful actions. Any integration of third-party AI functionality with our products and solutions relies on safeguards implemented by the third-party developers of the underlying AI models,"
+ },
+ {
+  "cik": "0001261333",
+  "name": "DOCUSIGN, INC.  (DOCU)  (CIK 0001261333)",
+  "date": "2026-06-05",
+  "form": "10-Q",
+  "id": "0001261333-26-000074:docu-20260430.htm",
+  "phrase": "\"beyond their intended scope\"",
+  "window": "ons, litigation or reputational harm.   The development and use of AI present various intellectual property, data privacy, and security risks. Significant investment in the development and maintenance of proprietary datasets and training models and the development of appropriate protections, safeguards, and policies for handling the processing of data, including transparency of customer data extraction and usage in training models may be costly and may subject us to legal liability. Additionally, the agentic AI systems described above may inadvertently access or disclose sensitive information beyond their intended scope or be subject to “prompt injection” and other cyberattacks that could cause the agents to take unauthorized or harmful actions. Any integration of third-party AI functionality with our products and solutions relies on safeguards implemented by the third-party developers of the underlying AI models,"
+ },
+ {
+  "cik": "0001261333",
+  "name": "DOCUSIGN, INC.  (DOCU)  (CIK 0001261333)",
+  "date": "2026-09-04",
+  "form": "10-Q",
+  "id": "0001261333-26-000099:docu-20260731.htm",
+  "phrase": "\"beyond their intended scope\"",
+  "window": "tigation or reputational harm.   The development and use of AI present various intellectual property, data privacy, security, and other risks. Significant investment in the development and maintenance of proprietary datasets and training models and the development of appropriate protections, safeguards, and policies for handling the processing of data, including transparency of customer data extraction and usage in training models may be costly and may subject us to legal liability. Additionally, the agentic AI systems described above may inadvertently access or disclose sensitive information beyond their intended scope or be subject to “prompt injection” and other cyberattacks that could cause the agents to take unauthorized or harmful actions.   Docusign, Inc. | 2027 Form 10-Q | 42   Our usage of third-party AI models and related infrastructure providers exposes us to risks arising from model deprecation, change"
+ },
+ {
+  "cik": "0001564408",
+  "name": "Snap Inc  (SNAP)  (CIK 0001564408)",
+  "date": "2026-11-05",
+  "form": "10-Q",
+  "id": "0001564408-26-000067:snap-20260930.htm",
+  "phrase": "\"beyond their intended scope\"",
+  "window": "ed or that their systems, networks, or code are free from exploitable vulnerabilities, errors, bugs, or defects. In addition, rapid advances in AI have enabled the discovery of security vulnerabilities at increased speed and scale across our industry, which may outpace our or third parties' ability to remediate them, and our development and deployment of AI models and AI agents may expose us and our users to increased and novel risks and vulnerabilities, including prompt injection, circumvention of AI safety controls to generate harmful or otherwise unauthorized outputs, errors, agents acting beyond their intended scope. Any of these risks and vulnerabilities may lead to the compromise of data, systems, or valuable intellectual property, including source code, model weights, and other proprietary assets. We take steps designed to detect and remediate vulnerabilities in our software, hardware, and information syste"
+ },
+ {
+  "cik": "0001564408",
+  "name": "Snap Inc  (SNAP)  (CIK 0001564408)",
+  "date": "2026-11-05",
+  "form": "10-Q",
+  "id": "0001564408-26-000067:snap-20260930.htm",
+  "phrase": "\"take unintended actions\"",
+  "window": "incidents, security incidents, and AI-specific risks like prompt injection, all of which could result in litigation, regulatory investigations, or enforcements, and require us to expend significant resources, all of which could seriously harm our business. There is also no guarantee that these AI platforms and tools will provide the intended benefits to our business. We may also become operationally dependent on AI-enabled or agentic workflows used in our internal operations and product development. Because these tools may require access to large volumes of data and internal systems, they may take unintended actions, create unintended data movement or execution paths, or otherwise disrupt important workflows, including in ways that are difficult to predict, monitor, or remediate. In addition, if third-party AI providers change pricing, functionality, availability, security posture, or contractual terms, or if "
+ },
+ {
+  "cik": "0001326801",
+  "name": "Meta Platforms, Inc.  (META)  (CIK 0001326801)",
+  "date": "2026-07-30",
+  "form": "10-Q",
+  "id": "0001628280-26-050705:meta-20260630.htm",
+  "phrase": "\"beyond their intended scope\"",
+  "window": "ur users' data, or other services or systems. Our AI initiatives and other efforts to develop and launch new features, products, and services in a timely manner have introduced additional risks and vulnerabilities that are not fully mitigated. In particular, our efforts to develop and deploy AI models, internal and third-party AI tools, and other AI applications and agents expose us and users of AI agents to increased and novel risks and vulnerabilities, including prompt injection, circumvention of AI safety controls to generate harmful or otherwise unauthorized outputs, errors, agents acting beyond their intended scope, and other issues related to AI agents, as well as compromise of data, systems, or valuable intellectual property including source code, model weights, and other assets. There are similar emerging supply chain vulnerabilities across the industry. Cyber-attacks continue to evolve in sophistication  "
+ },
+ {
+  "cik": "0001326801",
+  "name": "Meta Platforms, Inc.  (META)  (CIK 0001326801)",
+  "date": "2026-10-22",
+  "form": "10-Q",
+  "id": "0001628280-26-066773:meta-20260930.htm",
+  "phrase": "\"beyond their intended scope\"",
+  "window": "er efforts to develop and launch new features, products, and services in a timely manner have introduced additional risks and vulnerabilities. In particular, our efforts to develop and deploy AI models, internal and third-party AI tools, other AI applications and agents, and computing environments in which third parties operate their own applications, agents, or workloads, expose us and users of AI agents to increased and novel risks and vulnerabilities, including prompt injection, circumvention of AI safety controls to generate harmful or otherwise unauthorized outputs, errors, agents acting beyond their intended scope, inadequate isolation of corporate or production environments, third-party environments or activity, use of our systems or infrastructure to conduct activity directed at other parties, and other issues related to AI agents, as well as compromise of data, systems, or valuable intellectual property i"
+ },
+ {
+  "cik": "0001639723",
+  "name": "Navan, Inc.  (NAVN)  (CIK 0001639723)",
+  "date": "2026-04-02",
+  "form": "10-K",
+  "id": "0001628280-26-023250:navn-20260131.htm",
+  "phrase": "\"take unintended actions\"",
+  "window": "d related expenses (including if users ultimately need to interact with live agents due to any failures, including perceived failures, of such virtual agents). Our growth, reputation, business, margins, and results of operations could also be harmed if our virtual agents make errors or introduce flawed, incomplete, or inaccurate outputs, some of which may appear correct, including due to flaws in the logic of the AI (a so-called “hallucination”), when interacting with users or processing their requests. In some cases, our virtual agents produce results that are inaccurate or incomplete or may take unintended actions from user queries and inputs, even with no hallucinations, which could result in negative impacts to our users and customers and harm our reputation, growth, business, and results of operations. If we do not help our customers quickly resolve issues and provide effective ongoing support, or if our "
+ },
+ {
+  "cik": "0001639723",
+  "name": "Navan, Inc.  (NAVN)  (CIK 0001639723)",
+  "date": "2026-09-10",
+  "form": "10-Q",
+  "id": "0001628280-26-061416:navn-20260731.htm",
+  "phrase": "\"take unintended actions\"",
+  "window": "d related expenses (including if users ultimately need to interact with live agents due to any failures, including perceived failures, of such virtual agents). Our growth, reputation, business, margins, and results of operations could also be harmed if our virtual agents make errors or introduce flawed, incomplete, or inaccurate outputs, some of which may appear correct, including due to flaws in the logic of the AI (a so-called “hallucination”), when interacting with users or processing their requests. In some cases, our virtual agents produce results that are inaccurate or incomplete or may take unintended actions from user queries and inputs, even with no hallucinations, which could result in negative impacts to our users and customers and harm our reputation, growth, business, and results of operations. If we do not help our customers quickly resolve issues and provide effective ongoing support, or if our "
+ },
+ {
+  "cik": "0001639723",
+  "name": "Navan, Inc.  (NAVN)  (CIK 0001639723)",
+  "date": "2026-06-11",
+  "form": "10-Q",
+  "id": "0001628280-26-042552:navn-20260430.htm",
+  "phrase": "\"take unintended actions\"",
+  "window": "d related expenses (including if users ultimately need to interact with live agents due to any failures, including perceived failures, of such virtual agents). Our growth, reputation, business, margins, and results of operations could also be harmed if our virtual agents make errors or introduce flawed, incomplete, or inaccurate outputs, some of which may appear correct, including due to flaws in the logic of the AI (a so-called “hallucination”), when interacting with users or processing their requests. In some cases, our virtual agents produce results that are inaccurate or incomplete or may take unintended actions from user queries and inputs, even with no hallucinations, which could result in negative impacts to our users and customers and harm our reputation, growth, business, and results of operations. If we do not help our customers quickly resolve issues and provide effective ongoing support, or if our "
+ },
+ {
+  "cik": "0001639723",
+  "name": "Navan, Inc.  (NAVN)  (CIK 0001639723)",
+  "date": "2025-12-15",
+  "form": "10-Q",
+  "id": "0001639723-25-000017:navn-20251031.htm",
+  "phrase": "\"take unintended actions\"",
+  "window": "d related expenses (including if users ultimately need to interact with live agents due to any failures, including perceived failures, of such virtual agents). Our growth, reputation, business, margins, and results of operations could also be harmed if our virtual agents make errors or introduce flawed, incomplete, or inaccurate outputs, some of which may appear correct, including due to flaws in the logic of the AI (a so-called “hallucination”), when interacting with users or processing their requests. In some cases, our virtual agents produce results that are inaccurate or incomplete or may take unintended actions from user queries and inputs, even with no hallucinations, which could result in negative impacts to our users and customers and harm our reputation, growth, business, and results of operations. If we do not help our customers quickly resolve issues and provide effective ongoing support, or if our "
+ },
+ {
+  "cik": "0001973062",
+  "name": "VIDA Global Inc.  (VIDA)  (CIK 0001973062)",
+  "date": "2026-06-26",
+  "form": "10-Q",
+  "id": "0001493152-26-030343:form10-q.htm",
+  "phrase": "\"take unintended actions\"",
+  "window": "s, limit our roadmap, or reduce our differentiation, which could adversely affect our business, financial condition, and results of operations.   Our use of LLMs exposes us to emerging attack vectors such as prompt injection, model “jailbreaking,” and adversarial inputs that may circumvent existing security and compliance controls.   LLM-based systems are vulnerable to new classes of attacks that exploit the way models interpret natural language, including prompt injection and related techniques that induce a model or agent to ignore its system instructions, disclose sensitive information, or take unintended actions. These attacks can occur not only through user prompts but also via data retrieved from external tools, websites, or systems of record, including in multi-agent environments where one agent’s output becomes another’s input.   Although we invest in guardrails, input and output filters, permissions, "
+ },
+ {
+  "cik": "0001973062",
+  "name": "VIDA Global Inc.  (VIDA)  (CIK 0001973062)",
+  "date": "2026-08-14",
+  "form": "10-Q",
+  "id": "0001493152-26-038335:form10-q.htm",
+  "phrase": "\"take unintended actions\"",
+  "window": "s, limit our roadmap, or reduce our differentiation, which could adversely affect our business, financial condition, and results of operations.   Our use of LLMs exposes us to emerging attack vectors such as prompt injection, model “jailbreaking,” and adversarial inputs that may circumvent existing security and compliance controls.   LLM-based systems are vulnerable to new classes of attacks that exploit the way models interpret natural language, including prompt injection and related techniques that induce a model or agent to ignore its system instructions, disclose sensitive information, or take unintended actions. These attacks can occur not only through user prompts but also via data retrieved from external tools, websites, or systems of record, including in multi-agent environments where one agent’s output becomes another’s input.   Although we invest in guardrails, input and output filters, permissions, "
+ },
+ {
+  "cik": "0001564408",
+  "name": "Snap Inc  (SNAP)  (CIK 0001564408)",
+  "date": "2026-08-04",
+  "form": "10-Q",
+  "id": "0001564408-26-000052:snap-20260630.htm",
+  "phrase": "\"take unintended actions\"",
+  "window": "incidents, security incidents, and AI-specific risks like prompt injection, all of which could result in litigation, regulatory investigations, or enforcements, and require us to expend significant resources, all of which could seriously harm our business. There is also no guarantee that these AI platforms and tools will provide the intended benefits to our business. We may also become operationally dependent on AI-enabled or agentic workflows used in our internal operations and product development. Because these tools may require access to large volumes of data and internal systems, they may take unintended actions, create unintended data movement or execution paths, or otherwise disrupt important workflows, including in ways that are difficult to predict, monitor, or remediate. In addition, if third-party AI providers change pricing, functionality, availability, security posture, or contractual terms, or if "
+ },
+ {
+  "cik": "0001713683",
+  "name": "Zscaler, Inc.  (ZS)  (CIK 0001713683)",
+  "date": "2026-09-03",
+  "form": "10-K",
+  "id": "0001713683-26-000157:zs-20260731.htm",
+  "phrase": "\"erroneous, irreversible\"",
+  "window": "use and our ability to realize their anticipated benefits. The rapid evolution of AI and ML requires the application of significant financial, operational and human resources to develop, test, maintain and monitor our products and services and our internal applications, systems and processes to help ensure that AI and ML are implemented effectively and responsibly. We may not accurately forecast the required resources or effectively deploy resources when and where needed to realize the benefits of AI and ML technologies. We are increasingly deploying AI agents, which may take actions that are erroneous, irreversible or misaligned with intended business outcomes, including interacting with unauthorized data sources and external tools. We are also enabling employees across our organization to design, build and deploy software applications. This decentralization of software development activity may increase the r"
+ },
+ {
+  "cik": "0001713683",
+  "name": "Zscaler, Inc.  (ZS)  (CIK 0001713683)",
+  "date": "2026-05-26",
+  "form": "10-Q",
+  "id": "0001713683-26-000096:zs-20260430.htm",
+  "phrase": "\"erroneous, irreversible\"",
+  "window": "use and our ability to realize their anticipated benefits. The rapid evolution of AI and ML requires the application of significant financial, operational and human resources to develop, test, maintain and monitor our products and services and our internal applications, systems and processes to help ensure that AI and ML are implemented effectively and responsibly. We may not accurately forecast the required resources or effectively deploy resources when and where needed to realize the benefits of AI and ML technologies. We are increasingly deploying AI agents, which may take actions that are erroneous, irreversible or misaligned with intended business outcomes, including interacting with unauthorized data sources and external tools. We are also enabling employees across our organization to design, build and deploy software applications. This decentralization of software development activity may increase the r"
+ },
+ {
+  "cik": "0001038509",
+  "name": "PRUCO LIFE INSURANCE OF NEW JERSEY  (CIK 0001038509)",
+  "date": "2026-03-06",
+  "form": "10-K",
+  "id": "0001038509-26-000008:cik1038509-20251231.htm",
+  "phrase": "\"acting without supervision\"",
+  "window": "ormation and disinformation, impacting public opinion and undermining trust in the financial system.   • Privacy Concerns: AI could be used to create synthetic identities or manipulate personal data, raising privacy concerns related to data breaches and other potential violations of consumer rights and data protection regulations.   • Cybersecurity Threats: AI could be used to create sophisticated, long-term and persistent phishing attacks or bypass security measures, increasing the risk of cyberattacks and data breaches.   The risks identified above could be exacerbated by agentic AI, which, acting without supervision, could take actions harmful to the Company or our customers.   We, or third-parties on whom we rely, may not adequately ensure the integrity, confidentiality, or availability of personal and confidential information. In the course of our ordinary business, we collect, store and disclose to various "
+ },
+ {
+  "cik": "0000777917",
+  "name": "PRUCO LIFE INSURANCE CO  (CIK 0000777917)",
+  "date": "2026-03-06",
+  "form": "10-K",
+  "id": "0000777917-26-000036:cik777917-20251231.htm",
+  "phrase": "\"acting without supervision\"",
+  "window": "ormation and disinformation, impacting public opinion and undermining trust in the financial system.   • Privacy Concerns: AI could be used to create synthetic identities or manipulate personal data, raising privacy concerns related to data breaches and other potential violations of consumer rights and data protection regulations.   • Cybersecurity Threats: AI could be used to create sophisticated, long-term and persistent phishing attacks or bypass security measures, increasing the risk of cyberattacks and data breaches.   The risks identified above could be exacerbated by agentic AI, which, acting without supervision, could take actions harmful to the Company or our customers.   19   Table of Contents   We, or third-parties on whom we rely, may not adequately ensure the integrity, confidentiality, or availability of personal and confidential information. In the course of our ordinary business, we collect, store"
+ },
+ {
+  "cik": "0001137774",
+  "name": "PRUDENTIAL FINANCIAL INC  (PFH, PRH, PRS, PRU)  (CIK 0001137774)",
+  "date": "2026-02-12",
+  "form": "10-K",
+  "id": "0001137774-26-000048:pru-20251231.htm",
+  "phrase": "\"acting without supervision\"",
+  "window": "ormation and disinformation, impacting public opinion and undermining trust in the financial system.   • Privacy Concerns: AI could be used to create synthetic identities or manipulate personal data, raising privacy concerns related to data breaches and other potential violations of consumer rights and data protection regulations.   • Cybersecurity Threats: AI could be used to create sophisticated, long-term and persistent phishing attacks or bypass security measures, increasing the risk of cyberattacks and data breaches.   The risks identified above could be exacerbated by agentic AI, which, acting without supervision, could take actions harmful to the Company or our customers.   We, or third parties on whom we rely, may not adequately ensure the integrity, confidentiality, or availability of personal and confidential information. In the course of our ordinary business, we collect, store and disclose to various "
+ },
+ {
+  "cik": "0001495932",
+  "name": "eXp World Holdings, Inc.  (EXPI)  (CIK 0001495932)",
+  "date": "2026-02-24",
+  "form": "10-K",
+  "id": "0001104659-26-019145:expi-20251231xex10d14.htm",
+  "phrase": "\"without human oversight\"",
+  "window": "t impersonates Agent without clear disclosure.  Allow AI tools to transmit or store client or customer information in non-U.S. jurisdictions or unknown cloud environments that are not controlled and limited to U.S. locations, including backups.  Use AI to generate or disseminate false, deceptive, or misleading content, including fake reviews, impersonation without consent, or misrepresentative media such as deepfakes.  Employ AI for profiling or automated decision-making that may have a legal or significant impact on a client or customer, such as lending, housing, or eligibility decisions, without human oversight, transparency, and legal disclosure.  Utilize AI for any purpose prohibited by law, including harassment, discrimination, political campaigning, social scoring, or behavioral manipulation. eXp Realty (USA) Policies and Procedures Page 71 of 88 Version_R_USA_EN_09.15.2025 POLICIES AND PROCEDURES 6."
+ },
+ {
+  "cik": "0001773383",
+  "name": "Dynatrace, Inc.  (DT)  (CIK 0001773383)",
+  "date": "2026-05-20",
+  "form": "10-K",
+  "id": "0001773383-26-000019:dt-20260331.htm",
+  "phrase": "\"without human oversight\"",
+  "window": "r customers and to the efficiency of our operations, there can be no assurance that we will realize the desired or anticipated benefits from our AI investments.   21   Table of Contents   AI technologies and solutions, including agentic and generative AI tools, may have bias, produce inaccurate, misleading, harmful, or incomplete data, content, analyses, and recommendations, or other discriminatory, hallucinatory, or unexpected results, inferences, or behaviors. As we integrate more agentic AI workflows into our platform, the actions that are taken or suggested by AI-powered agents performing without human oversight could be incorrect or unintended, resulting in negative impacts for both our company and our customers. If our use of AI were to draw controversy, it could harm our reputation and could give rise to legal or regulatory action.   While we focus on using AI in a responsible, ethical, and legal manner"
+ },
+ {
+  "cik": "0001618732",
+  "name": "Nutanix, Inc.  (NTNX)  (CIK 0001618732)",
+  "date": "2026-09-18",
+  "form": "10-K",
+  "id": "0001193125-26-394793:ntnx-20260731.htm",
+  "phrase": "\"without human oversight\"",
+  "window": "at may apply to their development, deployment, and use. Our development, integration, offering or use of AI technologies, including with or in new or existing products and services, may result in new or enhanced governmental or regulatory scrutiny, litigation, privacy, data protection, confidentiality, intellectual property or cybersecurity risks, ethical concerns, legal liability, or other complications that could adversely affect our business, reputation, or financial results. As we integrate more agentic AI workflows into our platform, actions taken or suggested by AI-powered agents acting without human oversight could be incorrect, unintended, unauthorized, or harmful, which could expose us to contractual disputes, indemnity obligations, litigation, regulatory investigations, and reputational harm.   The use of generative AI by our workforce in our operations and code development processes poses ownership "
+ },
+ {
+  "cik": "0001773383",
+  "name": "Dynatrace, Inc.  (DT)  (CIK 0001773383)",
+  "date": "2026-08-05",
+  "form": "10-Q",
+  "id": "0001773383-26-000050:dt-20260630.htm",
+  "phrase": "\"without human oversight\"",
+  "window": "r platform provides to our customers and to the efficiency of our operations, there can be no assurance that we will realize the desired or anticipated benefits from our AI investments.   AI technologies and solutions, including agentic and generative AI tools, may have bias, produce inaccurate, misleading, harmful, or incomplete data, content, analyses, and recommendations, or other discriminatory, hallucinatory, or unexpected results, inferences, or behaviors. As we integrate more agentic AI workflows into our platform, the actions that are taken or suggested by AI-powered agents performing without human oversight could be incorrect or unintended, resulting in negative impacts for both our company and our customers. If our use of AI were to draw controversy, it could harm our reputation and could give rise to legal or regulatory action.   While we focus on using AI in a responsible, ethical, and legal manner"
+ },
+ {
+  "cik": "0001495932",
+  "name": "AGNT, Inc.  (AGNT)  (CIK 0001495932)",
+  "date": "2026-08-04",
+  "form": "10-Q",
+  "id": "0001104659-26-090337:agnt-20260630xex10d14.htm",
+  "phrase": "\"without human oversight\"",
+  "window": "nates Agent without clear disclosure.   o  Allow AI tools to transmit or store client or customer information in non-U.S. jurisdictions or unknown cloud environments that are not controlled and limited to U.S. locations, including backups.   o  Use AI to generate or disseminate false, deceptive, or misleading content, including fake reviews, impersonation without consent, or misrepresentative media such as deepfakes.   o  Employ AI for profiling or automated decision-making that may have a legal or significant impact on a client or customer, such as lending, housing, or eligibility decisions, without human oversight, transparency, and legal disclosure.   o  Utilize AI for any purpose prohibited by law, including harassment, discrimination, political campaigning, social scoring, or behavioral manipulation.   ​   6.  Company Tools & Security Practices .   ●  Agents must only use AI or Customer Relationship Manag"
+ },
+ {
+  "cik": "0001495932",
+  "name": "eXp World Holdings, Inc.  (EXPI)  (CIK 0001495932)",
+  "date": "2025-11-06",
+  "form": "10-Q",
+  "id": "0001104659-25-107719:expi-20250930xex10d3.htm",
+  "phrase": "\"without human oversight\"",
+  "window": "t impersonates Agent without clear disclosure. ⚪ Allow AI tools to transmit or store client or customer information in non-U.S. jurisdictions or unknown cloud environments that are not controlled and limited to U.S. locations, including backups. ⚪ Use AI to generate or disseminate false, deceptive, or misleading content, including fake reviews, impersonation without consent, or misrepresentative media such as deepfakes. ⚪ Employ AI for profiling or automated decision-making that may have a legal or significant impact on a client or customer, such as lending, housing, or eligibility decisions, without human oversight, transparency, and legal disclosure. ⚪ Utilize AI for any purpose prohibited by law, including harassment, discrimination, political campaigning, social scoring, or behavioral manipulation. ​ 6. Approved Company Tools & Security Practices . ● Agents must only use AI or Customer Relationship Managem"
+ },
+ {
+  "cik": "0001773383",
+  "name": "Dynatrace, Inc.  (DT)  (CIK 0001773383)",
+  "date": "2026-11-03",
+  "form": "10-Q",
+  "id": "0001773383-26-000070:dt-20260930.htm",
+  "phrase": "\"without human oversight\"",
+  "window": "r platform provides to our customers and to the efficiency of our operations, there can be no assurance that we will realize the desired or anticipated benefits from our AI investments.   AI technologies and solutions, including agentic and generative AI tools, may have bias, produce inaccurate, misleading, harmful, or incomplete data, content, analyses, and recommendations, or other discriminatory, hallucinatory, or unexpected results, inferences, or behaviors. As we integrate more agentic AI workflows into our platform, the actions that are taken or suggested by AI-powered agents performing without human oversight could be incorrect or unintended, resulting in negative impacts for both our company and our customers. If our use of AI were to draw controversy, it could harm our reputation and could give rise to legal or regulatory action.   While we focus on using AI in a responsible, ethical, and legal manner"
+ }
+]

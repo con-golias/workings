@@ -1,0 +1,106 @@
+[
+ {
+  "earlier": "Klaviyo",
+  "earlier_date": "2025-11-05",
+  "later": "HubSpot",
+  "later_date": "2026-02-11",
+  "longest_identical_words": 16,
+  "run": "take or suggest actions based on incomplete or inaccurate data, “hallucinatory” inferences, or flawed training inputs,"
+ },
+ {
+  "earlier": "DraftKings",
+  "earlier_date": "2026-02-13",
+  "later": "Rush Street Interactive",
+  "later_date": "2026-02-18",
+  "longest_identical_words": 54,
+  "run": "We may experiment with or deploy AI agents or other AI-enabled automation that can plan, make decisions, and take actions with reduced human prompting or oversight. Such autonomous systems may increase the risk of unintended, unauthorized or harmful outcomes, including where such systems interact with other systems or third-party tools, data sources or vendors."
+ },
+ {
+  "earlier": "GoDaddy",
+  "earlier_date": "2026-02-25",
+  "later": "Wix",
+  "later_date": "2026-03-05",
+  "longest_identical_words": 26,
+  "run": "We also are developing and deploying agentic AI systems that operate with greater autonomy, which presents additional risks, including unintended or unauthorized actions and increased difficulty"
+ },
+ {
+  "earlier": "Wix",
+  "earlier_date": "2026-03-05",
+  "later": "Fiverr",
+  "later_date": "2026-03-12",
+  "longest_identical_words": 89,
+  "run": "throughout our business, and are constantly working on expanding our AI capabilities, internally and through collaborations with vendors, including through improvements to our existing AI technologies, as well as through development of new products and features. For example, we use AI technologies as part of our product offering, and to improve our internal workflows and development velocity. We also are developing and deploying agentic AI systems that operate with greater autonomy, which presents additional risks, including unintended or unauthorized actions and increased difficulty predicting, supervising, and controlling agentic behavior."
+ },
+ {
+  "earlier": "DocuSign",
+  "earlier_date": "2026-03-18",
+  "later": "RingCentral",
+  "later_date": "2026-05-11",
+  "longest_identical_words": 11,
+  "run": "designed to perform tasks and make decisions with limited human intervention."
+ },
+ {
+  "earlier": "ServiceTitan",
+  "earlier_date": "2026-03-25",
+  "later": "Dynatrace",
+  "later_date": "2026-05-20",
+  "longest_identical_words": 11,
+  "run": "could be incorrect or unintended, resulting in negative impacts for both"
+ },
+ {
+  "earlier": "Dynatrace",
+  "earlier_date": "2026-05-20",
+  "later": "Nutanix",
+  "later_date": "2026-09-18",
+  "longest_identical_words": 10,
+  "run": "As we integrate more agentic AI workflows into our platform,"
+ },
+ {
+  "earlier": "Barclays",
+  "earlier_date": "2026-02-10",
+  "later": "Gen Digital",
+  "later_date": "2026-05-21",
+  "longest_identical_words": 27,
+  "run": "(particularly where it is part of a complex, multi-step process and inaccurate or incomplete information may be compounded across many steps, such as in agentic AI systems)."
+ },
+ {
+  "earlier": "Twilio",
+  "earlier_date": "2026-05-01",
+  "later": "Bandwidth",
+  "later_date": "2026-07-29",
+  "longest_identical_words": 8,
+  "run": "agentic AI (systems that autonomously execute multi-step tasks"
+ },
+ {
+  "earlier": "Bandwidth",
+  "earlier_date": "2026-07-29",
+  "later": "Pattern Group",
+  "later_date": "2026-11-05",
+  "longest_identical_words": 36,
+  "run": "incorporate agentic AI (systems that autonomously execute multi-step tasks with reduced human intervention). The deployment of such agentic AI introduces risks that are distinct from those of traditional AI features, including risks of unintended or unauthorized"
+ },
+ {
+  "earlier": "Global AI",
+  "earlier_date": "2026-05-28",
+  "later": "SUI Group",
+  "later_date": "2026-08-06",
+  "longest_identical_words": 33,
+  "run": "including risks related to model accuracy and reliability, unintended actions, data security and privacy, third-party system dependencies, intellectual property, regulatory compliance, and potential liability for outcomes produced or actions taken by such systems."
+ },
+ {
+  "earlier": "Western Digital",
+  "earlier_date": "2026-08-14",
+  "later": "Sandisk",
+  "later_date": "2026-08-17",
+  "longest_identical_words": 126,
+  "run": "ition, the use of AI in the development of our products could potentially lead to ambiguities in intellectual property ownership, infringement or misappropriation risks, which could impact our competitive position and expose us to litigation, monetary penalties, or operational disruptions. The unauthorized or unapproved use of generative AI tools by our employees, contractors, or other third parties, as well as overreliance on AI automation or agentic AI without appropriate human oversight, may lead to the inadvertent disclosure of confidential, proprietary, or personal information, flawed or unauthorized actions, or other adverse consequences, including disruptions to business operations, exposing us to data security, privacy, legal, regulatory, and reputational risks. Misuse of such tools can also result in violations of applicable laws and regulations, including data protection and intellectual"
+ },
+ {
+  "earlier": "Samsara",
+  "earlier_date": "2026-09-08",
+  "later": "Arista",
+  "later_date": "2026-11-04",
+  "longest_identical_words": 32,
+  "run": "obtaining access to networks or systems that were not intended to be accessible, escalating privileges, accessing, modifying, or disclosing confidential information, or using available tools and credentials to take additional unauthorized actions."
+ }
+]

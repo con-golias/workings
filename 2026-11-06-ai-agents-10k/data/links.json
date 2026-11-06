@@ -1,0 +1,282 @@
+{
+ "Tenable": {
+  "date": "2025-11-04",
+  "form": "10-Q",
+  "url": "https://www.sec.gov/Archives/edgar/data/1660280/000166028025000128/tenb-20250930.htm"
+ },
+ "Klaviyo": {
+  "date": "2025-11-05",
+  "form": "10-Q",
+  "url": "https://www.sec.gov/Archives/edgar/data/1835830/000183583025000110/kvyo-20250930.htm"
+ },
+ "Navan": {
+  "date": "2025-12-15",
+  "form": "10-Q",
+  "url": "https://www.sec.gov/Archives/edgar/data/1639723/000163972325000017/navn-20251031.htm"
+ },
+ "ITT": {
+  "date": "2026-02-09",
+  "form": "10-K",
+  "url": "https://www.sec.gov/Archives/edgar/data/216228/000021622826000012/itt-20251231.htm"
+ },
+ "Barclays": {
+  "date": "2026-02-10",
+  "form": "20-F",
+  "url": "https://www.sec.gov/Archives/edgar/data/312069/000031206926000004/bcs-20251231.htm"
+ },
+ "HubSpot": {
+  "date": "2026-02-11",
+  "form": "10-K",
+  "url": "https://www.sec.gov/Archives/edgar/data/1404655/000119312526046646/hubs-20251231.htm"
+ },
+ "Prudential Financial": {
+  "date": "2026-02-12",
+  "form": "10-K",
+  "url": "https://www.sec.gov/Archives/edgar/data/1137774/000113777426000048/pru-20251231.htm"
+ },
+ "DraftKings": {
+  "date": "2026-02-13",
+  "form": "10-K",
+  "url": "https://www.sec.gov/Archives/edgar/data/1883685/000188368526000013/dkng-20251231.htm"
+ },
+ "Rush Street Interactive": {
+  "date": "2026-02-18",
+  "form": "10-K",
+  "url": "https://www.sec.gov/Archives/edgar/data/1793659/000179365926000009/rsi-20251231.htm"
+ },
+ "GoDaddy": {
+  "date": "2026-02-25",
+  "form": "10-K",
+  "url": "https://www.sec.gov/Archives/edgar/data/1609711/000160971126000010/gddy-20251231.htm"
+ },
+ "MercadoLibre": {
+  "date": "2026-02-25",
+  "form": "10-K",
+  "url": "https://www.sec.gov/Archives/edgar/data/1099590/000109959026000006/meli-20251231.htm"
+ },
+ "Bank of America": {
+  "date": "2026-02-25",
+  "form": "10-K",
+  "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000157/bac-20251231.htm"
+ },
+ "Murphy Oil": {
+  "date": "2026-02-25",
+  "form": "10-K",
+  "url": "https://www.sec.gov/Archives/edgar/data/717423/000162828026011709/mur-20251231.htm"
+ },
+ "Wix": {
+  "date": "2026-03-05",
+  "form": "20-F",
+  "url": "https://www.sec.gov/Archives/edgar/data/1576789/000162828026015222/wix-20251231.htm"
+ },
+ "Fiverr": {
+  "date": "2026-03-12",
+  "form": "20-F",
+  "url": "https://www.sec.gov/Archives/edgar/data/1762301/000117891326000858/zk2634486.htm"
+ },
+ "DocuSign": {
+  "date": "2026-03-18",
+  "form": "10-K",
+  "url": "https://www.sec.gov/Archives/edgar/data/1261333/000126133326000021/docu-20260131.htm"
+ },
+ "Sprinklr": {
+  "date": "2026-03-19",
+  "form": "10-K",
+  "url": "https://www.sec.gov/Archives/edgar/data/1569345/000156934526000015/cxm-20260131.htm"
+ },
+ "ServiceTitan": {
+  "date": "2026-03-25",
+  "form": "10-K",
+  "url": "https://www.sec.gov/Archives/edgar/data/1638826/000163882626000028/ttan-20260131.htm"
+ },
+ "Roblox": {
+  "date": "2026-04-30",
+  "form": "10-Q",
+  "url": "https://www.sec.gov/Archives/edgar/data/1315098/000162828026028904/rblx-20260331.htm"
+ },
+ "Twilio": {
+  "date": "2026-05-01",
+  "form": "10-Q",
+  "url": "https://www.sec.gov/Archives/edgar/data/1447669/000144766926000049/twlo-20260331.htm"
+ },
+ "RingCentral": {
+  "date": "2026-05-11",
+  "form": "10-Q",
+  "url": "https://www.sec.gov/Archives/edgar/data/1384905/000138490526000037/rng-20260331.htm"
+ },
+ "Dynatrace": {
+  "date": "2026-05-20",
+  "form": "10-K",
+  "url": "https://www.sec.gov/Archives/edgar/data/1773383/000177338326000019/dt-20260331.htm"
+ },
+ "Gen Digital": {
+  "date": "2026-05-21",
+  "form": "10-K",
+  "url": "https://www.sec.gov/Archives/edgar/data/849399/000084939926000017/gen-20260403.htm"
+ },
+ "Zscaler": {
+  "date": "2026-05-26",
+  "form": "10-Q",
+  "url": "https://www.sec.gov/Archives/edgar/data/1713683/000171368326000096/zs-20260430.htm"
+ },
+ "Global AI": {
+  "date": "2026-05-28",
+  "form": "10-K",
+  "url": "https://www.sec.gov/Archives/edgar/data/1473490/000149315226025669/form10-k.htm"
+ },
+ "VIDA Global": {
+  "date": "2026-06-26",
+  "form": "10-Q",
+  "url": "https://www.sec.gov/Archives/edgar/data/1973062/000149315226030343/form10-q.htm"
+ },
+ "Varonis": {
+  "date": "2026-07-29",
+  "form": "10-Q",
+  "url": "https://www.sec.gov/Archives/edgar/data/1361113/000162828026050630/vrns-20260630.htm"
+ },
+ "Bandwidth": {
+  "date": "2026-07-29",
+  "form": "10-Q",
+  "url": "https://www.sec.gov/Archives/edgar/data/1514416/000151441626000057/band-20260630.htm"
+ },
+ "Meta": {
+  "date": "2026-07-30",
+  "form": "10-Q",
+  "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026050705/meta-20260630.htm"
+ },
+ "Regeneron": {
+  "date": "2026-07-30",
+  "form": "10-Q",
+  "url": "https://www.sec.gov/Archives/edgar/data/872589/000087258926000025/regn-20260630.htm"
+ },
+ "Solowin": {
+  "date": "2026-08-03",
+  "form": "20-F",
+  "url": "https://www.sec.gov/Archives/edgar/data/1959224/000121390026084178/ea0298409-20f_solowin.htm"
+ },
+ "Snap": {
+  "date": "2026-08-04",
+  "form": "10-Q",
+  "url": "https://www.sec.gov/Archives/edgar/data/1564408/000156440826000052/snap-20260630.htm"
+ },
+ "Arvinas": {
+  "date": "2026-08-04",
+  "form": "10-Q",
+  "url": "https://www.sec.gov/Archives/edgar/data/1655759/000162828026052554/arvn-20260630.htm"
+ },
+ "Block": {
+  "date": "2026-08-05",
+  "form": "10-Q",
+  "url": "https://www.sec.gov/Archives/edgar/data/1512673/000162828026053368/xyz-20260630.htm"
+ },
+ "SUI Group": {
+  "date": "2026-08-06",
+  "form": "10-Q",
+  "url": "https://www.sec.gov/Archives/edgar/data/1425355/000165495426007355/suig_10q.htm"
+ },
+ "Western Digital": {
+  "date": "2026-08-14",
+  "form": "10-K",
+  "url": "https://www.sec.gov/Archives/edgar/data/106040/000162828026057139/wdc-20260703.htm"
+ },
+ "Sandisk": {
+  "date": "2026-08-17",
+  "form": "10-K",
+  "url": "https://www.sec.gov/Archives/edgar/data/2023554/000162828026057406/sndk-20260703.htm"
+ },
+ "Cisco": {
+  "date": "2026-09-02",
+  "form": "10-K",
+  "url": "https://www.sec.gov/Archives/edgar/data/858877/000085887726000132/csco-20260725.htm"
+ },
+ "Samsara": {
+  "date": "2026-09-08",
+  "form": "10-Q",
+  "url": "https://www.sec.gov/Archives/edgar/data/1642896/000162828026060909/iot-20260801.htm"
+ },
+ "Nutanix": {
+  "date": "2026-09-18",
+  "form": "10-K",
+  "url": "https://www.sec.gov/Archives/edgar/data/1618732/000119312526394793/ntnx-20260731.htm"
+ },
+ "Microsoft": {
+  "date": "2026-10-28",
+  "form": "10-Q",
+  "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526436133/msft-20260930.htm"
+ },
+ "Robinhood": {
+  "date": "2026-10-28",
+  "form": "10-Q",
+  "url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387926000167/hood-20260930.htm"
+ },
+ "Rimini Street": {
+  "date": "2026-10-29",
+  "form": "10-Q",
+  "url": "https://www.sec.gov/Archives/edgar/data/1635282/000163528226000074/rmni-20260930.htm"
+ },
+ "Alphabet": {
+  "date": "2026-10-29",
+  "form": "10-Q",
+  "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm"
+ },
+ "Apple": {
+  "date": "2026-11-03",
+  "form": "10-K",
+  "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000026/aapl-20260926.htm"
+ },
+ "Palantir": {
+  "date": "2026-11-03",
+  "form": "10-Q",
+  "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000048/pltr-20260930.htm"
+ },
+ "Arista": {
+  "date": "2026-11-04",
+  "form": "10-Q",
+  "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000254/anet-20260930.htm"
+ },
+ "Fastly": {
+  "date": "2026-11-04",
+  "form": "10-Q",
+  "url": "https://www.sec.gov/Archives/edgar/data/1517413/000151741326000345/fsly-20260930.htm"
+ },
+ "Oportun": {
+  "date": "2026-11-04",
+  "form": "10-Q",
+  "url": "https://www.sec.gov/Archives/edgar/data/1538716/000153871626000119/oprt-20260930.htm"
+ },
+ "CS Disco": {
+  "date": "2026-11-04",
+  "form": "10-Q",
+  "url": "https://www.sec.gov/Archives/edgar/data/1625641/000162564126000193/law-20260930.htm"
+ },
+ "Amplitude": {
+  "date": "2026-11-05",
+  "form": "10-Q",
+  "url": "https://www.sec.gov/Archives/edgar/data/1866692/000119312526447817/ampl-20260930.htm"
+ },
+ "Pattern Group": {
+  "date": "2026-11-05",
+  "form": "10-Q",
+  "url": "https://www.sec.gov/Archives/edgar/data/1811935/000181193526000064/ptrn-20260930.htm"
+ },
+ "Salesforce (annual)": {
+  "date": "2026-03-02",
+  "form": "10-K",
+  "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000060/crm-20260131.htm"
+ },
+ "ServiceNow (annual)": {
+  "date": "2026-01-29",
+  "form": "10-K",
+  "url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371526000007/now-20251231.htm"
+ },
+ "UiPath (annual)": {
+  "date": "2026-03-25",
+  "form": "10-K",
+  "url": "https://www.sec.gov/Archives/edgar/data/1734722/000173472226000012/path-20260131.htm"
+ },
+ "Workday (annual)": {
+  "date": "2026-03-06",
+  "form": "10-K",
+  "url": "https://www.sec.gov/Archives/edgar/data/1327811/000132781126000014/wday-20260131.htm"
+ }
+}
