@@ -8,6 +8,7 @@ question, the method, and what I checked and didn't.
 
 | Date | Piece | Folder |
 |---|---|---|
+| 6 Nov 2026 | 52 companies now warn their AI agents may go off-script. One in four copied the warning ([X Article](https://x.com/con_golias/status/2118652981306421262)) | [`2026-11-06-ai-agents-10k`](2026-11-06-ai-agents-10k/) |
 | 5 Nov 2026 | Claude Code grew 11.7× on GitHub and still trails the 1-in-5 forecast ([X Article](https://x.com/con_golias/status/2118301334835208380)) | [`2026-11-05-ai-commit-share`](2026-11-05-ai-commit-share/) |
 | 3 Nov 2026 | Two in three new Claude agents on GitHub pay full price for the same tokens, every turn ([X Article](https://x.com/con_golias/status/2117686000893694342)) | [`2026-11-03-claude-prompt-caching`](2026-11-03-claude-prompt-caching/) |
 | 2 Nov 2026 | Banning AI code didn't cost open-source projects their contributors. It didn't keep AI out either ([X Article](https://x.com/con_golias/status/2117281178868666575)) | [`2026-11-02-ai-bans-open-source`](2026-11-02-ai-bans-open-source/) |

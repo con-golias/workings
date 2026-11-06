@@ -1,7 +1,7 @@
 # AI agents in SEC risk factors: who warns, who copied, who stays silent
 
 Workings for the X Article *"52 companies now warn their AI agents may go off-script. One in four copied the warning"*
-(Konstantinos Gkolias, [@con_golias](https://x.com/con_golias), November 2026).
+(Konstantinos Gkolias, [@con_golias](https://x.com/con_golias), [published on X](https://x.com/con_golias/status/2118652981306421262), November 2026).
 
 ## Rerun the core search
 
