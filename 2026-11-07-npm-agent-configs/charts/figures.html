@@ -1,0 +1,146 @@
+<!doctype html>
+<!-- Static figures for X Article #15 (npm packages that write into AI agents' configuration at install time).
+     House plate: heavy ink rule over the title, hairline under the plot, caption under it. Charcoal and stone carry the
+     data, terracotta marks one thing per figure. Lines and rings; no dot grids. Inter Tight only, nothing under 18 px.
+     ?fig=1..4|cover. Every number is read from ../data/summary.json (code/analyze.py). -->
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="fonts/fonts.css">
+<style>
+  :root { --bg:#FAF8F3; --ink:#1F1C1A; --text:#615B53; --grid:#E8E3DA;
+          --charcoal:#3A3531; --stone:#CBC1B1; --terra:#C9876A; }
+  html, body { margin:0; background:var(--bg); }
+  body { width:1200px; height:720px; overflow:hidden; }
+  svg { display:block; }
+  text { font-family:'Inter Tight', sans-serif; font-variant-numeric:tabular-nums lining-nums; }
+</style>
+</head>
+<body>
+<svg id="c" width="1200" height="720" viewBox="0 0 1200 720"></svg>
+<script>
+const C = document.getElementById('c');
+const fig = new URLSearchParams(location.search).get('fig') || '1';
+const v = (n) => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+const n0 = (x) => Math.round(Number(x)).toLocaleString('en-US');
+const MON = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+const t = (d) => new Date(d + 'T00:00:00Z').getTime();
+let N;
+function card(title, note, caption) {
+  return `<rect x="40" y="24" width="1120" height="4" fill="${v('--ink')}"/>
+    <line x1="40" x2="1160" y1="640" y2="640" stroke="${v('--ink')}" stroke-width="1"/>
+    <text x="40" y="74" font-size="26" font-weight="600" fill="${v('--ink')}">${title}</text>
+    <text x="1160" y="74" font-size="20" text-anchor="end" fill="${v('--text')}">${note}</text>
+    <text x="40" y="680" font-size="20" fill="${v('--text')}">${caption}</text>`;
+}
+const ring = (x, y, r, col, w = 2.5) => `<circle cx="${x}" cy="${y}" r="${r}" fill="${v('--bg')}" stroke="${col}" stroke-width="${w}"/>`;
+const disc = (x, y, r, col) => `<circle cx="${x}" cy="${y}" r="${r}" fill="${col}" stroke="${v('--ink')}" stroke-width="1"/>`;
+
+// 1 · the funnel, agent ecosystem vs the most-used npm packages (log scale)
+function fig1() {
+  const x0 = 330, x1 = 1060, L = (n) => n <= 0 ? x0 : x0 + (x1 - x0) * Math.log10(n) / Math.log10(20000);
+  const rows = [
+    ['Packages checked', N.A.n, N.B.n],
+    ['Run code when installed', N.A.install, N.B.install],
+    ['Install code names an agent', N.A.flagged, N.B.flagged],
+    ['Write into the agent’s setup', N.global.n, N.B.writers],
+  ];
+  let s = card('npm packages that change your AI agent when you install them', 'log scale',
+    `Agent packages: top 1,000 per keyword (mcp, claude-code, codex, cursor…). Most-used: npm-high-impact list. 55 read by hand.`);
+  [1, 10, 100, 1000, 10000].forEach((g) => { s += `<line x1="${L(g)}" x2="${L(g)}" y1="110" y2="590" stroke="${v('--grid')}" stroke-width="1"/>
+    <text x="${L(g)}" y="616" font-size="19" text-anchor="middle" fill="${v('--text')}">${n0(g)}</text>`; });
+  rows.forEach(([lab, a, b], i) => {
+    const y = 150 + i * 118;
+    s += `<text x="40" y="${y + 6}" font-size="21" font-weight="600" fill="${v('--ink')}">${lab}</text>`;
+    const last = i === rows.length - 1;
+    s += `<line x1="${x0}" x2="${L(a)}" y1="${y - 14}" y2="${y - 14}" stroke="${v('--charcoal')}" stroke-width="4" stroke-linecap="round"/>
+      ${last ? disc(L(a), y - 14, 10, v('--terra')) : disc(L(a), y - 14, 7, v('--charcoal'))}
+      <text x="${L(a) > 800 ? L(a) - 18 : L(a) + 18}" y="${L(a) > 800 ? y - 30 : y - 7}" font-size="21" font-weight="700" text-anchor="${L(a) > 800 ? 'end' : 'start'}" fill="${v('--ink')}">${n0(a)} agent packages</text>`;
+    s += (b > 0 ? `<line x1="${x0}" x2="${L(b)}" y1="${y + 20}" y2="${y + 20}" stroke="${v('--stone')}" stroke-width="4" stroke-linecap="round"/>${ring(L(b), y + 20, 7, v('--charcoal'))}` : ring(x0, y + 20, 7, v('--charcoal')))
+      + `<text x="${L(b) > 800 ? L(b) - 18 : (b > 0 ? L(b) : x0) + 18}" y="${L(b) > 800 ? y + 50 : y + 27}" font-size="20" text-anchor="${L(b) > 800 ? 'end' : 'start'}" fill="${v('--text')}">${n0(b)} of the most-used</text>`;
+  });
+  return s;
+}
+
+// 2 · what the 29 write, and how
+function fig2() {
+  const W = N.global.what, x0 = 400, x1 = 760, X = (n) => x0 + (x1 - x0) * n / 20;
+  const rows = [['files', 'Skill, command and agent files'], ['settings', 'Settings: env, permissions, statusline'], ['mcp', 'MCP server entries'],
+                ['hooks', 'Hooks the agent runs later'], ['instructions', 'Lines in CLAUDE.md / AGENTS.md']];
+  let s = card(`What the ${N.global.n} write into your agent’s setup`, 'packages (one can do several)',
+    'Read by hand in the install-time code of the 55 most-downloaded flagged packages, 6 Nov 2026.');
+  [0, 5, 10, 15, 20].forEach((g) => { s += `<line x1="${X(g)}" x2="${X(g)}" y1="110" y2="400" stroke="${v('--grid')}"/><text x="${X(g)}" y="424" font-size="19" text-anchor="middle" fill="${v('--text')}">${g}</text>`; });
+  rows.forEach(([k, lab], i) => {
+    const y = 130 + i * 56;
+    s += `<text x="${x0 - 22}" y="${y + 7}" font-size="21" text-anchor="end" fill="${v('--ink')}">${lab}</text>
+      <line x1="${X(0)}" x2="${X(W[k])}" y1="${y}" y2="${y}" stroke="${v('--charcoal')}" stroke-width="4" stroke-linecap="round"/>${disc(X(W[k]), y, 7, v('--charcoal'))}
+      <text x="${X(W[k]) + 18}" y="${y + 7}" font-size="21" font-weight="700" fill="${v('--ink')}">${W[k]}</text>`;
+  });
+  // the consent row: three rings sized to counts
+  const c = [[N.global.as_dependency, 'also run when installed', 'as a dependency'], [N.global.no_optout, 'have no way', 'to switch it off'], [N.global.grant, 'grant themselves', 'trust or permissions']];
+  c.forEach(([n, a, b], i) => {
+    const cx = 240 + i * 360, cy = 530, r = 18 + 2.2 * n;
+    s += (i === 2 ? disc(cx, cy, r, v('--terra')) : ring(cx, cy, r, v('--charcoal'), 3))
+      + `<text x="${cx}" y="${cy + 10}" font-size="28" font-weight="700" text-anchor="middle" fill="${i === 2 ? v('--bg') : v('--ink')}">${n}</text>
+      <text x="${cx + r + 18}" y="${cy - 4}" font-size="20" fill="${v('--ink')}">${a}</text><text x="${cx + r + 18}" y="${cy + 22}" font-size="20" fill="${v('--text')}">${b}</text>`;
+  });
+  return s;
+}
+
+// 3 · Postman: the CLI kept writing while the desktop change was being reverted
+function fig3() {
+  const d0 = '2026-09-15', d1 = '2026-11-10', x0 = 90, x1 = 1110, X = (d) => x0 + (x1 - x0) * (t(d) - t(d0)) / (t(d1) - t(d0));
+  const V = N.postman_versions;
+  let s = card('Postman CLI on npm: every release since 25 Sep writes into your agent’s files', '19 releases',
+    'Each ring: a postman-cli release whose postinstall appends a line to ~/.claude/CLAUDE.md and ~/.codex/AGENTS.md.');
+  ['2026-10-01', '2026-10-15', '2026-11-01'].forEach((d) => { s += `<line x1="${X(d)}" x2="${X(d)}" y1="150" y2="560" stroke="${v('--grid')}"/><text x="${X(d)}" y="590" font-size="20" text-anchor="middle" fill="${v('--text')}">${+d.slice(8)} ${MON[+d.slice(5, 7) - 1]}</text>`; });
+  s += `<line x1="${X(V[0])}" x2="${X(V[V.length - 1])}" y1="420" y2="420" stroke="${v('--stone')}" stroke-width="3"/>`;
+  V.forEach((d) => { s += ring(X(d), 420, 8, v('--charcoal'), 2.5); });
+  const ev = [['2026-09-25', 'CLI 1.65.0: first release that writes', 200, 'start'], ['2026-10-25', 'Issue #14370: the desktop app', 300, 'end'],
+              ['2026-11-05', '“we are reverting this change”', 200, 'end']];
+  ev.forEach(([d, lab, y, a], i) => {
+    s += `<line x1="${X(d)}" x2="${X(d)}" y1="${y + 12}" y2="404" stroke="${v('--charcoal')}" stroke-width="1.2"/>
+      <text x="${X(d) + (a === 'end' ? -8 : 8)}" y="${y}" font-size="21" font-weight="700" text-anchor="${a}" fill="${v('--ink')}">${lab}</text>
+      <text x="${X(d) + (a === 'end' ? -8 : 8)}" y="${y - 28}" font-size="19" text-anchor="${a}" fill="${v('--text')}">${+d.slice(8)} ${MON[+d.slice(5, 7) - 1]}</text>`;
+  });
+  const L = V[V.length - 1];
+  s += `${disc(X(L), 420, 11, v('--terra'))}<text x="${X(L) - 4}" y="486" font-size="21" font-weight="700" text-anchor="end" fill="${v('--ink')}">1.86.0, 4 Nov: still writes</text>`;
+  return s;
+}
+
+// 4 · npm 12 blocks install scripts; Node still ships npm 11
+function fig4() {
+  let s = card('npm 12 stops install scripts. Node.js LTS still ships npm 10 and 11', 'as of 6 Nov 2026',
+    'Tested 6 Nov: npm 10.9 and 11.17 ran a test postinstall; npm 12.2.2 blocked it as a dependency and with -g.');
+  const rows = [['npm 12 (Jul 2026)', 'blocks dependency and global install scripts unless you allow them', true],
+                ['Node 22 LTS', `bundles npm ${N.node.v22}: scripts run, no warning`, false], ['Node 24 LTS', `bundles npm ${N.node.v24}: scripts run`, false], ['Node 26 LTS', `bundles npm ${N.node.v26}: scripts run`, false],
+                ['Node 27 (alpha)', `bundles npm ${N.node.v27_alpha}`, true]];
+  rows.forEach(([a, b, blocks], i) => {
+    const y = 140 + i * 92;
+    s += `${blocks ? (i === 0 ? disc(80, y, 14, v('--terra')) : ring(80, y, 14, v('--charcoal'), 3)) : disc(80, y, 14, v('--charcoal'))}
+      <text x="118" y="${y + 8}" font-size="24" font-weight="700" fill="${v('--ink')}">${a}</text>
+      <text x="420" y="${y + 8}" font-size="22" fill="${v('--text')}">${b}</text>`;
+  });
+  return s;
+}
+
+function cover() {
+  return `<rect x="60" y="56" width="1380" height="5" fill="${v('--ink')}"/>
+    <text x="60" y="226" font-size="30" font-weight="600" letter-spacing="3" fill="${v('--text')}">THE COUNTER-READ · NPM INSTALL SCRIPTS · NOV 2026</text>
+    <text x="60" y="314" font-size="54" font-weight="600" letter-spacing="-1" fill="${v('--ink')}">You ran npm install.</text>
+    <text x="60" y="380" font-size="54" font-weight="600" letter-spacing="-1" fill="${v('--ink')}">Your AI agent changed.</text>
+    <text x="1440" y="190" font-size="30" font-weight="600" text-anchor="end" fill="${v('--text')}">agent packages that do it</text>
+    <text x="1440" y="300" font-size="110" font-weight="700" text-anchor="end" fill="${v('--ink')}">${N.global.n}</text>
+    <text x="1440" y="356" font-size="30" text-anchor="end" fill="${v('--terra')}">most-used packages: ${N.B.writers}</text>
+    <line x1="440" x2="1440" y1="482" y2="482" stroke="${v('--ink')}" stroke-width="1.5"/>
+    <text x="440" y="540" font-size="30" fill="${v('--text')}">Postman’s CLI is one · ${N.global.as_dependency} fire as dependencies</text>
+    <text x="1440" y="540" font-size="30" font-weight="600" text-anchor="end" fill="${v('--ink')}">@con_golias</text>`;
+}
+const F = { 1: fig1, 2: fig2, 3: fig3, 4: fig4, cover };
+if (fig === 'cover') { document.body.style.width = '1500px'; document.body.style.height = '600px'; C.setAttribute('width', 1500); C.setAttribute('height', 600); C.setAttribute('viewBox', '0 0 1500 600'); }
+window.ready = Promise.all([fetch('../data/summary.json').then((r) => r.json()), fetch('../data/postman_cli_versions.json').then((r) => r.json()),
+  document.fonts.load('400 20px "Inter Tight"'), document.fonts.load('700 20px "Inter Tight"')])
+  .then(([j, pv]) => { N = j; N.postman_versions = Object.values(pv).filter((x) => x.appends_instruction).map((x) => x.time.slice(0, 10)).sort(); C.innerHTML = F[fig](); });
+</script>
+</body>
+</html>

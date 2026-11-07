@@ -1,0 +1,579 @@
+{
+ "criterion": "Hand verdicts (6 Nov 2026) for the 55 most-downloaded flagged agent packages, read in their install-time code.\nscope: global = writes into a user-level agent config or folder (~/.claude*, ~/.codex, ~/.cursor, ~/.gemini,\n~/.config/opencode, Claude Desktop config); project = writes into the project's .claude/.cursor/...; none = only prints,\nchecks or reads; unclear = could not settle from the code.\nwhat: instructions (CLAUDE.md / AGENTS.md / rules), hooks (commands the agent runs later), mcp (server entries),\nsettings (env, permissions, statusline, plugins, output style), files (skills, commands, agents copied in).\nglobal_only: the write runs only on `npm install -g` (npm_config_global checked); False = also when installed as a dependency.\noptout: an environment variable stops it.  grant: the package also grants itself trust or permissions.\nproduct: what the package is for, when it is not an agent add-on (the Postman shape).",
+ "read": [
+  {
+   "scope": "global",
+   "what": [
+    "files"
+   ],
+   "global_only": false,
+   "optout": true,
+   "name": "whatshell",
+   "downloads": 232462,
+   "description": "Whatshell: a Rust WhatsApp Web CLI for coding agents",
+   "npx_latest": false
+  },
+  {
+   "scope": "global",
+   "what": [
+    "instructions"
+   ],
+   "global_only": true,
+   "optout": false,
+   "product": "API client CLI",
+   "name": "postman-cli",
+   "downloads": 46134,
+   "description": "Official Postman CLI - Command-line companion for API development, testing, and automation",
+   "npx_latest": false
+  },
+  {
+   "scope": "global",
+   "what": [
+    "settings",
+    "files"
+   ],
+   "global_only": false,
+   "optout": true,
+   "note": "telemetry env in ~/.claude/settings.json: prompts, responses, tool details to the vendor's OTLP collector",
+   "name": "toga-ai",
+   "downloads": 24640,
+   "description": "TOGA Technology Team Claude Knowledge System — shared AI coding harness with skills, knowledge base CLI, and project installer for Claude Code.",
+   "npx_latest": true
+  },
+  {
+   "scope": "none",
+   "name": "@nanonets/graft",
+   "downloads": 24350,
+   "description": "Build a repo's context graph as a folder of linked markdown files: a local, regenerable cache that every query keeps in sync with your code.",
+   "npx_latest": false
+  },
+  {
+   "scope": "project",
+   "what": [
+    "settings",
+    "files"
+   ],
+   "global_only": false,
+   "optout": false,
+   "name": "@codyswann/lisa",
+   "downloads": 21126,
+   "description": "Governance-as-code for AI coding agents: turns a repository into agent-operated software factories with guardrails, guidance and automated enforcement for Claude Code, Codex, Cursor, OpenCode, Antigra",
+   "npx_latest": true
+  },
+  {
+   "scope": "global",
+   "what": [
+    "mcp",
+    "files"
+   ],
+   "global_only": true,
+   "optout": false,
+   "name": "@muggleai/works",
+   "downloads": 14320,
+   "description": "13 years of Microsoft hyperscale engineering, packaged as a harness for your AI coding agent.",
+   "npx_latest": false
+  },
+  {
+   "scope": "none",
+   "name": "@trailhq/trail-code",
+   "downloads": 10268,
+   "description": "Your team's shared memory for coding agents: a code map on your machine, and the learnings, decisions and skills your whole team shares. Formerly graft.",
+   "npx_latest": false
+  },
+  {
+   "scope": "none",
+   "name": "aidevops",
+   "downloads": 9938,
+   "description": "AI DevOps Framework - AI-assisted development workflows, code quality, and deployment automation",
+   "npx_latest": false
+  },
+  {
+   "scope": "global",
+   "what": [
+    "hooks",
+    "settings",
+    "files"
+   ],
+   "global_only": false,
+   "optout": false,
+   "grant": true,
+   "note": "writes Codex hooks with trusted_hash entries (ensure-codex-hooks.mjs:160); permission rules in ~/.claude/settings.json (native-peer-permissions.mjs:423)",
+   "name": "triflux",
+   "downloads": 7524,
+   "description": "CLI-first multi-model orchestrator for Claude Code — route tasks to Codex, Antigravity, and Claude",
+   "npx_latest": true
+  },
+  {
+   "scope": "global",
+   "what": [
+    "hooks",
+    "instructions"
+   ],
+   "global_only": true,
+   "optout": true,
+   "name": "@su-record/vibe",
+   "downloads": 6069,
+   "description": "Your personal FDE in Claude and Codex. Understand the work, use the right tools, deliver and retain useful context. One entry: vibe.",
+   "npx_latest": false
+  },
+  {
+   "scope": "global",
+   "what": [
+    "mcp"
+   ],
+   "global_only": true,
+   "optout": true,
+   "name": "local-mcp",
+   "downloads": 6068,
+   "description": "Let ChatGPT, Claude, Cursor & any MCP client actually use your Mac or Windows PC — read & reply to email, manage your calendar, text over iMessage, find files, work with Teams, Slack, Notion & Office.",
+   "npx_latest": true
+  },
+  {
+   "scope": "global",
+   "what": [
+    "files"
+   ],
+   "global_only": false,
+   "optout": true,
+   "name": "passoff",
+   "downloads": 5661,
+   "description": "Portable CLI for transferring coding-agent sessions between Claude Code and Codex.",
+   "npx_latest": false
+  },
+  {
+   "scope": "global",
+   "what": [
+    "mcp"
+   ],
+   "global_only": false,
+   "optout": false,
+   "name": "karajan-code",
+   "downloads": 5641,
+   "description": "Local multi-agent coding orchestrator with TDD, SonarQube, and code review pipeline",
+   "npx_latest": false
+  },
+  {
+   "scope": "global",
+   "what": [
+    "mcp"
+   ],
+   "global_only": true,
+   "optout": true,
+   "name": "@minhspark/codex-mcp-bridge",
+   "downloads": 5327,
+   "description": "Connect Claude, Codex, and Antigravity through MCP, with native Desktop handoffs and bridge-owned Antigravity CLI sessions.",
+   "npx_latest": true
+  },
+  {
+   "scope": "none",
+   "note": "stopped writing hooks after issue #449; now prints a hint",
+   "name": "@ooples/token-optimizer-mcp",
+   "downloads": 4896,
+   "description": "Audit net MCP context avoided per AI coding agent, optimize context, and share a live local knowledge graph across 16 CLI clients",
+   "npx_latest": false
+  },
+  {
+   "scope": "none",
+   "name": "sprag-cli",
+   "downloads": 4398,
+   "description": "Model-delegation router for Claude Code and Codex: lookups, checks and test runs go to cheaper models, documents go in as compact Markdown, and a live statusline shows spend and savings.",
+   "npx_latest": false
+  },
+  {
+   "scope": "global",
+   "what": [
+    "mcp"
+   ],
+   "global_only": false,
+   "optout": false,
+   "name": "@karajan-family/code",
+   "downloads": 4340,
+   "description": "Local multi-agent coding orchestrator with TDD, SonarQube, and code review pipeline",
+   "npx_latest": false
+  },
+  {
+   "scope": "none",
+   "name": "aicodeman",
+   "downloads": 4270,
+   "description": "Self-hosted mission control for AI coding agents: run Claude Code, Codex, OpenCode, Gemini, DeepSeek, Grok and more 24/7 in tmux, from any device.",
+   "npx_latest": false
+  },
+  {
+   "scope": "global",
+   "what": [
+    "files",
+    "mcp",
+    "settings"
+   ],
+   "global_only": false,
+   "optout": false,
+   "grant": true,
+   "note": "overwrites ~/.claude/settings.json with permissions.allow Bash(*), Write(*), Edit(*), mcp__*; Gemini settings autoAccept true with 'never ask permission' system prompt; Codex config.toml approval_policy = \"never\" (postinstall.js:270-284, 406-431, 500)",
+   "name": "claude-all-config",
+   "downloads": 4173,
+   "description": "🦾 MONSTER ENGINEER v2 - Ultimate AI CLI with 63 Skills, 12 Superpowers, 14 Agents. Multi-Agent Orchestration, Cost-Aware, Security Scorecard, Parallel-First.",
+   "npx_latest": true
+  },
+  {
+   "scope": "global",
+   "what": [
+    "settings"
+   ],
+   "global_only": false,
+   "optout": false,
+   "note": "creates an empty ~/.claude/settings.json if missing",
+   "name": "@kaitranntt/ccs",
+   "downloads": 3899,
+   "description": "Claude Codex Switch - Instant profile switching between Claude, GLM, Kimi, and more",
+   "npx_latest": false
+  },
+  {
+   "scope": "none",
+   "name": "@tpsdev-ai/flair-mcp",
+   "downloads": 3776,
+   "description": "MCP server for Flair — persistent memory for Claude Code, Cursor, and any MCP client.",
+   "npx_latest": true
+  },
+  {
+   "scope": "none",
+   "name": "@acedatacloud/skills",
+   "downloads": 3532,
+   "description": "Agent Skills for AceDataCloud AI services — music, image, video generation, LLM chat, web search. Compatible with Claude Code, GitHub Copilot, Gemini CLI, OpenAI Codex, and 30+ AI coding agents.",
+   "npx_latest": false
+  },
+  {
+   "scope": "none",
+   "name": "great-cto",
+   "downloads": 3071,
+   "description": "One command install for the great_cto Claude Code plugin. Auto-detects your stack, picks the right archetype, bootstraps PROJECT.md.",
+   "npx_latest": false
+  },
+  {
+   "scope": "global",
+   "what": [
+    "mcp"
+   ],
+   "global_only": true,
+   "optout": false,
+   "name": "xlsx-for-ai",
+   "downloads": 2388,
+   "description": "The missing reliability layer for spreadsheet work in LLM agents. Read, write, diff, validate, and analyze .xlsx files end-to-end — with merged cells, formulas, named ranges, conditional formatting, p",
+   "npx_latest": false
+  },
+  {
+   "scope": "global",
+   "what": [
+    "settings"
+   ],
+   "global_only": false,
+   "optout": false,
+   "grant": true,
+   "note": "statusline + permissions it adds to Claude settings (claude-settings-manager.js)",
+   "name": "@polymorphism-tech/morph-spec",
+   "downloads": 2163,
+   "description": "MORPH-SPEC: NLH (Natural Language Harness) for spec-driven development with Claude Code",
+   "npx_latest": false
+  },
+  {
+   "scope": "global",
+   "what": [
+    "hooks",
+    "files"
+   ],
+   "global_only": true,
+   "optout": false,
+   "name": "@babylonjs-toolkit/agent",
+   "downloads": 2084,
+   "description": "Installs the Babylon Toolkit Desktop Agent for Claude Code, Codex, GitHub Copilot, Gemini CLI and Antigravity.",
+   "npx_latest": false
+  },
+  {
+   "scope": "global",
+   "what": [
+    "files"
+   ],
+   "global_only": false,
+   "optout": false,
+   "name": "devez-vibe",
+   "downloads": 2070,
+   "description": "Stable terminal UI for Codex and Claude Agent SDK",
+   "npx_latest": false
+  },
+  {
+   "scope": "none",
+   "name": "0xray",
+   "downloads": 2039,
+   "description": "Three-subsystem autonomous engine. The suit powers the agent you already run: memory, judgement, payments, and the wake.",
+   "npx_latest": false
+  },
+  {
+   "scope": "none",
+   "name": "@astudioplus/codegraph-mcp",
+   "downloads": 1977,
+   "description": "CodeGraph MCP server — cross-language code intelligence with 42 tools, 38 languages",
+   "npx_latest": false
+  },
+  {
+   "scope": "unclear",
+   "name": "@essentialai/cogent-bridge",
+   "downloads": 1933,
+   "description": "Cogent Bridge — cross-agent comms for Claude Code, OpenAI Codex and Slack. Codex users: install with `curl -fsSL https://cogent.tools/install.sh | sh`, then start with `cogent-codex` for real-time pee",
+   "npx_latest": false
+  },
+  {
+   "scope": "none",
+   "name": "pm-claude-skills",
+   "downloads": 1933,
+   "description": "1310 professional Agent Skills (SKILL.md) + subagents + slash commands for Claude, ChatGPT, Gemini, Cursor, Codex & Hermes. It's a CLI, not a library: run `npx pm-claude-skills add --agent <tool>` to ",
+   "npx_latest": true
+  },
+  {
+   "scope": "global",
+   "what": [
+    "files",
+    "settings"
+   ],
+   "global_only": false,
+   "optout": true,
+   "name": "peaks-loop",
+   "downloads": 1876,
+   "description": "Loop Engineering CLI — workflow primitive / loop guards / evaluators / slice orchestration",
+   "npx_latest": true
+  },
+  {
+   "scope": "global",
+   "what": [
+    "hooks"
+   ],
+   "global_only": false,
+   "optout": false,
+   "name": "@ciandt-flow/flow-ai-obs",
+   "downloads": 1850,
+   "description": "Claude Code hooks for Langfuse OTLP tracing — cross-platform",
+   "npx_latest": false
+  },
+  {
+   "scope": "none",
+   "note": "removes its own old skills",
+   "name": "@leviyuan/lodestar",
+   "downloads": 1841,
+   "description": "Lodestar (夜航星) — IM-native frontend for Codex, Claude Agent SDK and DeepSeek Harness via Feishu Card Kit",
+   "npx_latest": false
+  },
+  {
+   "scope": "none",
+   "name": "agent-security-scanner-mcp",
+   "downloads": 1765,
+   "description": "AI agent security scanner and npm audit for MCP servers, Claude Code, Cursor, and Windsurf. Find prompt injection, hallucinated packages, secrets, unsafe tools, and vulnerable code.",
+   "npx_latest": false
+  },
+  {
+   "scope": "global",
+   "what": [
+    "files",
+    "hooks"
+   ],
+   "global_only": false,
+   "optout": true,
+   "name": "thetacog-mcp",
+   "downloads": 1755,
+   "description": "Write the job down as a spec, and every change your AI agent makes is placed against it on a record the agent did not write: in lane, flagged, or a breach. Anyone can rerun it and get the same answer.",
+   "npx_latest": false
+  },
+  {
+   "scope": "global",
+   "what": [
+    "settings",
+    "files"
+   ],
+   "global_only": false,
+   "optout": false,
+   "note": "postinstall passes --yes",
+   "name": "novahiz",
+   "downloads": 1738,
+   "description": "Enforce AI agent skills before every file edit: prompt classifier, skill catalog, and pre-edit gate.",
+   "npx_latest": false
+  },
+  {
+   "scope": "unclear",
+   "name": "@volter/supercode",
+   "downloads": 1642,
+   "description": "Uniform access to coding harnesses: discover, read, translate, continue, observe and drive through Node",
+   "npx_latest": false
+  },
+  {
+   "scope": "unclear",
+   "name": "@antoneeo/course-creator",
+   "downloads": 1220,
+   "description": "Design sourced, progressive courses for a defined learner with Agentic SDLC governance and diagnostic learner simulations.",
+   "npx_latest": false
+  },
+  {
+   "scope": "global",
+   "what": [
+    "settings"
+   ],
+   "global_only": false,
+   "optout": false,
+   "note": "removes stale hook entries",
+   "name": "nori-skillsets",
+   "downloads": 1151,
+   "description": "Nori Skillsets plugin for Claude Code",
+   "npx_latest": false
+  },
+  {
+   "scope": "global",
+   "what": [
+    "files"
+   ],
+   "global_only": true,
+   "optout": false,
+   "product": "crypto analytics and DEX trading CLI",
+   "name": "nansen-cli",
+   "downloads": 1143,
+   "description": "AI-agent CLI for Nansen API analytics, DEX swaps, and cross-chain trading",
+   "npx_latest": false
+  },
+  {
+   "scope": "none",
+   "name": "@jelou/cli",
+   "downloads": 1044,
+   "description": "Build AI agents on the Jelou platform — from your terminal or your AI editor.",
+   "npx_latest": false
+  },
+  {
+   "scope": "global",
+   "what": [
+    "instructions"
+   ],
+   "global_only": false,
+   "optout": false,
+   "product": "wallet operations CLI",
+   "name": "@agentgates/cli",
+   "downloads": 1016,
+   "description": "Wallet operations for AI agents and humans",
+   "npx_latest": false
+  },
+  {
+   "scope": "project",
+   "what": [
+    "hooks",
+    "files"
+   ],
+   "global_only": false,
+   "optout": false,
+   "name": "moflo",
+   "downloads": 956,
+   "description": "MoFlo — AI agent orchestration for Claude Code. A standalone, opinionated toolkit with semantic memory, learned routing, gates, spells, and the /flo issue-execution skill.",
+   "npx_latest": false
+  },
+  {
+   "scope": "none",
+   "name": "grok-faf-mcp",
+   "downloads": 853,
+   "description": "Persistent Project Context for xAI Grok. IANA-registered .faf format, MCP server on a URL.",
+   "npx_latest": true
+  },
+  {
+   "scope": "global",
+   "what": [
+    "files",
+    "settings"
+   ],
+   "global_only": true,
+   "optout": false,
+   "name": "tmux-ide",
+   "downloads": 830,
+   "description": "The open-source workspace for coding agents: run Claude Code, Codex and other agents in tmux with live status",
+   "npx_latest": false
+  },
+  {
+   "scope": "none",
+   "name": "overmind-mcp",
+   "downloads": 828,
+   "description": "Orchestrateur universel agents IA multi-modeles via MCP. Inclut le protocole 'Custom-Nickname' pour identifier vos agents avec des surnoms originaux (The Chaos Prophet, Shadow Sniper, etc.), l'isolati",
+   "npx_latest": false
+  },
+  {
+   "scope": "none",
+   "name": "claude-faf-mcp",
+   "downloads": 821,
+   "description": "Persistent project context for Claude. IANA-registered .faf format. Core 14 MCP tools (30 with FAF_TOOLS=all).",
+   "npx_latest": false
+  },
+  {
+   "scope": "global",
+   "what": [
+    "files"
+   ],
+   "global_only": false,
+   "optout": false,
+   "name": "claude-glm-agent",
+   "downloads": 779,
+   "description": "GLM AI subagent plugin for Claude Code - Opus orchestration with multiple GLM workers",
+   "npx_latest": false
+  },
+  {
+   "scope": "global",
+   "what": [
+    "files"
+   ],
+   "global_only": false,
+   "optout": false,
+   "name": "@optima-chat/dev-skills",
+   "downloads": 777,
+   "description": "Claude Code Skills for Optima development team - cross-environment collaboration tools",
+   "npx_latest": false
+  },
+  {
+   "scope": "unclear",
+   "name": "@usebitl/cli",
+   "downloads": 750,
+   "description": "BITL — see which of your AI coding agents (Claude Code, Codex, Antigravity) are waiting for you. Local board or usebitl.com",
+   "npx_latest": false
+  },
+  {
+   "scope": "project",
+   "what": [
+    "files"
+   ],
+   "global_only": false,
+   "optout": false,
+   "name": "@jenga-ai/agent",
+   "downloads": 737,
+   "description": "Jenga AI is an agentic framework for AI-driven development on large codebases — new projects and existing applications, across multiple repositories. Persistent Epic/Story/Task board, an isolated git ",
+   "npx_latest": false
+  },
+  {
+   "scope": "none",
+   "name": "@nordsym/apiclaw",
+   "downloads": 729,
+   "description": "Your agent calls real APIs. You sign in once. Authenticated execution and discovery layer for AI agents, reachable via SKILL.md, local MCP, CLI, HTTP gateway, or Remote MCP. Discover 26,619 API defini",
+   "npx_latest": false
+  },
+  {
+   "scope": "global",
+   "what": [
+    "files"
+   ],
+   "global_only": false,
+   "optout": false,
+   "name": "greprag",
+   "downloads": 645,
+   "description": "Private GrepRAG client for existing Claude Code, Codex, OpenCode, and Grok Build tenants.",
+   "npx_latest": false
+  },
+  {
+   "scope": "global",
+   "what": [
+    "files"
+   ],
+   "global_only": true,
+   "optout": true,
+   "name": "omnishpilot",
+   "downloads": 619,
+   "description": "OmnishPilot CLI — free autonomy harness: unattended agent jobs with optional sandboxing (Linux, macOS, Windows)",
+   "npx_latest": false
+  }
+ ]
+}

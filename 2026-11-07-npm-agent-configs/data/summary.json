@@ -1,0 +1,84 @@
+{
+ "A": {
+  "n": 6401,
+  "install": 567,
+  "flagged": 124,
+  "flagged_downloads": 505969
+ },
+ "B": {
+  "n": 17313,
+  "reachable": 17100,
+  "install": 172,
+  "flagged": 1,
+  "writers": 0
+ },
+ "read": {
+  "n": 55,
+  "downloads": 499835,
+  "share_of_flagged_downloads": 99
+ },
+ "unread": {
+  "n": 69,
+  "max_downloads": 468
+ },
+ "global": {
+  "n": 29,
+  "downloads": 389142,
+  "as_dependency": 19,
+  "as_dependency_downloads": 304160,
+  "no_optout": 20,
+  "optout": 9,
+  "grant": 3,
+  "what": {
+   "files": 17,
+   "settings": 9,
+   "mcp": 7,
+   "hooks": 5,
+   "instructions": 3
+  },
+  "what_downloads": {
+   "files": 303096,
+   "settings": 47994,
+   "mcp": 42257,
+   "hooks": 19282,
+   "instructions": 53219
+  },
+  "products": [
+   "postman-cli",
+   "nansen-cli",
+   "@agentgates/cli"
+  ],
+  "top": "whatshell",
+  "top_downloads": 232462
+ },
+ "project": 3,
+ "none": 19,
+ "unclear": 4,
+ "pkg": {
+  "postman_cli": 46134,
+  "toga_ai": 24640,
+  "claude_all_config": 4173,
+  "karajan_code": 5641,
+  "whatshell": 232462,
+  "triflux": 7524,
+  "polymorphism_tech_morph_spec": 2163
+ },
+ "postman": {
+  "first": "1.65.0",
+  "first_date": "2026-09-25",
+  "versions": 19,
+  "latest": "1.86.0",
+  "latest_date": "2026-11-04",
+  "first_date_text": "25 September 2026",
+  "latest_date_text": "4 November 2026"
+ },
+ "node": {
+  "v22": "10.9.9",
+  "v24": "11.19.1",
+  "v26": "11.20.0",
+  "v27_alpha": "12.1.0",
+  "npm12_date": "2026-07-08",
+  "npm12_date_text": "8 July 2026",
+  "npm12_latest": "12.2.2"
+ }
+}
