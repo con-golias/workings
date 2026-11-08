@@ -1,0 +1,108 @@
+<!doctype html>
+<!-- Static figures for X Article #16 (SPVs named after AI labs, from Form D filings). House plate as before.
+     ?fig=1..3|cover. Numbers from ../data/summary.json and ../data/vehicles.json (code/analyze.py, vehicles.py). -->
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="fonts/fonts.css">
+<style>
+  :root { --bg:#FAF8F3; --ink:#1F1C1A; --text:#615B53; --grid:#E8E3DA; --charcoal:#3A3531; --stone:#CBC1B1; --terra:#C9876A; }
+  html, body { margin:0; background:var(--bg); } body { width:1200px; height:720px; overflow:hidden; } svg { display:block; }
+  text { font-family:'Inter Tight', sans-serif; font-variant-numeric:tabular-nums lining-nums; }
+</style>
+</head>
+<body>
+<svg id="c" width="1200" height="720" viewBox="0 0 1200 720"></svg>
+<script>
+const C = document.getElementById('c'); const fig = new URLSearchParams(location.search).get('fig') || '1';
+const v = (n) => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+const MON = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+const t = (d) => new Date(d + 'T00:00:00Z').getTime();
+let S, V;
+function card(title, note, caption) {
+  return `<rect x="40" y="24" width="1120" height="4" fill="${v('--ink')}"/><line x1="40" x2="1160" y1="640" y2="640" stroke="${v('--ink')}" stroke-width="1"/>
+    <text x="40" y="74" font-size="26" font-weight="600" fill="${v('--ink')}">${title}</text>
+    <text x="1160" y="74" font-size="20" text-anchor="end" fill="${v('--text')}">${note}</text>
+    <text x="40" y="680" font-size="20" fill="${v('--text')}">${caption}</text>`;
+}
+const ring = (x, y, r, col, w = 2.5) => `<circle cx="${x}" cy="${y}" r="${r}" fill="${v('--bg')}" stroke="${col}" stroke-width="${w}"/>`;
+const disc = (x, y, r, col) => `<circle cx="${x}" cy="${y}" r="${r}" fill="${col}" stroke="${v('--ink')}" stroke-width="1"/>`;
+
+// 1 · each Anthropic-named vehicle at the date of its first sale, sized by what it reports raised
+function fig1() {
+  const A = V.filter((x) => x.targets.includes('Anthropic') && x.first_sale);
+  const d0 = '2023-03-01', d1 = '2026-11-15', x0 = 80, x1 = 1120, X = (d) => x0 + (x1 - x0) * (t(d) - t(d0)) / (t(d1) - t(d0));
+  const yb = 560, Y = (m) => yb - 380 * Math.log10(1 + m) / Math.log10(1 + 20);
+  let s = card('Vehicles named after Anthropic, by the date of their first sale', 'size = $ raised (self-reported)',
+    'EDGAR Form D / D/A, latest filing per vehicle. Filled: first sale after Anthropic’s notice of 11 Feb 2026 that SPVs may not hold its stock.');
+  [0, 1, 5, 20].forEach((g) => { s += `<line x1="${x0}" x2="${x1}" y1="${Y(g)}" y2="${Y(g)}" stroke="${v('--grid')}"/><text x="${x0 - 10}" y="${Y(g) + 6}" font-size="19" text-anchor="end" fill="${v('--text')}">${g === 0 ? '$0' : '$' + g + 'M'}</text>`; });
+  ['2024-01-01', '2025-01-01', '2026-01-01'].forEach((d) => { s += `<text x="${X(d)}" y="${yb + 34}" font-size="20" text-anchor="middle" fill="${v('--text')}">${d.slice(0, 4)}</text>`; });
+  [['2026-02-11', 'Anthropic: no SPVs', 300], ['2026-10-26', 'S-1 filed', 180]].forEach(([d, l, y]) => {
+    s += `<line x1="${X(d)}" x2="${X(d)}" y1="${y + 10}" y2="${yb}" stroke="${v('--charcoal')}" stroke-width="1.2" stroke-dasharray="4 4"/>
+      <text x="${X(d) - 8}" y="${y}" font-size="20" font-weight="700" text-anchor="end" fill="${v('--ink')}">${l}</text>`; });
+  A.sort((a, b) => (b.amount_sold || 0) - (a.amount_sold || 0)).forEach((x) => {
+    const m = (x.amount_sold || 0) / 1e6, r = 4 + 3.2 * Math.sqrt(m), after = x.first_sale > S.labs.Anthropic.notice;
+    s += after ? disc(X(x.first_sale), Y(m), r, v('--terra')) : ring(X(x.first_sale), Y(m), r, v('--charcoal'), 2);
+  });
+  const a = S.labs.Anthropic.after_first_sale;
+  s += `<text x="${x1}" y="${120}" font-size="22" font-weight="700" text-anchor="end" fill="${v('--ink')}">${a.vehicles} began selling interests after the notice</text>
+    <text x="${x1}" y="${148}" font-size="20" text-anchor="end" fill="${v('--text')}">$${a.raised_m}M from ${a.entries} investor entries</text>`;
+  return s;
+}
+
+// 2 · three labs
+function fig2() {
+  const L = S.labs, rows = [['Anthropic', L.Anthropic.vehicles, L.Anthropic.raised_m, L.Anthropic.entries, true],
+    ['xAI', L.xAI.vehicles, L.xAI.raised_m, L.xAI.entries, false], ['OpenAI', L.OpenAI.vehicles, L.OpenAI.raised_m, L.OpenAI.entries, false]];
+  let s = card('Vehicles named after each AI lab that filed a Form D', '2023 – 5 Nov 2026',
+    `xAI’s total includes two NB Ventures funds: $${L.xAI.nb.raised_m}M from ${L.xAI.nb.entries} investors. Without them: $${L.xAI.rest.raised_m}M.`);
+  const cols = [['vehicles', 1, 80, (n) => n], ['$ raised (M)', 2, 450, (n) => '$' + n + 'M'], ['investor entries', 3, 2100, (n) => n.toLocaleString('en-US')]];
+  cols.forEach(([lab, k, max, f], j) => {
+    const x0 = 260 + j * 300, W = 220;
+    s += `<text x="${x0}" y="130" font-size="20" fill="${v('--text')}">${lab}</text>`;
+    rows.forEach((r, i) => {
+      const y = 200 + i * 130, w = W * r[k] / max;
+      s += `<line x1="${x0}" x2="${x0 + w}" y1="${y}" y2="${y}" stroke="${r[4] ? v('--terra') : v('--charcoal')}" stroke-width="6" stroke-linecap="round"/>
+        <text x="${x0}" y="${y + 40}" font-size="24" font-weight="700" fill="${v('--ink')}">${f(r[k])}</text>`;
+      if (k === 2 && r[0] === 'xAI') s += `<line x1="${x0}" x2="${x0 + W * L.xAI.rest.raised_m / max}" y1="${y}" y2="${y}" stroke="${v('--stone')}" stroke-width="6" stroke-linecap="round"/>`;
+    });
+  });
+  rows.forEach((r, i) => { s += `<text x="40" y="${208 + i * 130}" font-size="26" font-weight="700" fill="${v('--ink')}">${r[0]}</text>`; });
+  return s;
+}
+
+// 3 · who administers the Anthropic vehicles
+function fig3() {
+  const H = S.labs.Anthropic.hosts, tot = S.labs.Anthropic.vehicles, other = tot - H.reduce((a, h) => a + h[1], 0);
+  const rows = H.map(([h, n]) => [h === 'CGF2021 LLC' ? 'CGF2021 LLC (administered by Sydecar)' : h === '(own LLC)' ? 'Stand-alone LLCs and LPs' : h, n]).concat([['Other series LLCs', other]]);
+  const x0 = 520, X = (n) => x0 + 560 * n / 32;
+  let s = card(`Where the ${tot} Anthropic-named vehicles sit`, 'vehicles', 'Master LLC from the vehicle’s EDGAR name; related persons in the filings. Each series has its own manager.');
+  rows.forEach(([h, n], i) => {
+    const y = 150 + i * 62, hot = i === 0;
+    s += `<text x="${x0 - 24}" y="${y + 7}" font-size="21" text-anchor="end" fill="${v('--ink')}">${h}</text>
+      <line x1="${x0}" x2="${X(n)}" y1="${y}" y2="${y}" stroke="${hot ? v('--terra') : v('--charcoal')}" stroke-width="5" stroke-linecap="round"/>
+      ${hot ? disc(X(n), y, 9, v('--terra')) : disc(X(n), y, 6, v('--charcoal'))}<text x="${X(n) + 18}" y="${y + 7}" font-size="21" font-weight="700" fill="${v('--ink')}">${n}</text>`;
+  });
+  return s;
+}
+
+function cover() {
+  const L = S.labs.Anthropic;
+  return `<rect x="60" y="56" width="1380" height="5" fill="${v('--ink')}"/>
+    <text x="60" y="226" font-size="30" font-weight="600" letter-spacing="3" fill="${v('--text')}">THE MEASUREMENT · SEC FORM D · NOV 2026</text>
+    <text x="60" y="314" font-size="54" font-weight="600" letter-spacing="-1" fill="${v('--ink')}">“We do not permit SPVs</text>
+    <text x="60" y="380" font-size="54" font-weight="600" letter-spacing="-1" fill="${v('--ink')}">to acquire Anthropic stock.”</text>
+    <text x="1440" y="190" font-size="30" font-weight="600" text-anchor="end" fill="${v('--text')}">vehicles named after it</text>
+    <text x="1440" y="300" font-size="110" font-weight="700" text-anchor="end" fill="${v('--ink')}">${L.vehicles}</text>
+    <text x="1440" y="356" font-size="30" text-anchor="end" fill="${v('--terra')}">$${L.raised_m}M raised, by their filings</text>
+    <line x1="440" x2="1440" y1="482" y2="482" stroke="${v('--ink')}" stroke-width="1.5"/>
+    <text x="440" y="540" font-size="30" fill="${v('--text')}">${L.after_first_sale.vehicles} began selling interests after that sentence went up</text>
+    <text x="1440" y="540" font-size="30" font-weight="600" text-anchor="end" fill="${v('--ink')}">@con_golias</text>`;
+}
+const F = { 1: fig1, 2: fig2, 3: fig3, cover };
+if (fig === 'cover') { document.body.style.width = '1500px'; document.body.style.height = '600px'; C.setAttribute('width', 1500); C.setAttribute('height', 600); C.setAttribute('viewBox', '0 0 1500 600'); }
+window.ready = Promise.all([fetch('../data/summary.json').then((r) => r.json()), fetch('../data/vehicles.json').then((r) => r.json()),
+  document.fonts.load('400 20px "Inter Tight"'), document.fonts.load('700 20px "Inter Tight"')]).then(([a, b]) => { S = a; V = b; C.innerHTML = F[fig](); });
+</script>
+</body>
+</html>

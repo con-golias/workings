@@ -1,0 +1,5265 @@
+[
+ {
+  "cik": "0002009927",
+  "name": "OpenAI Jan 2024 a Series of CGF2021 LLC",
+  "targets": [
+   "OpenAI"
+  ],
+  "host": "CGF2021 LLC",
+  "filings": 1,
+  "first_filed": "2024-01-31",
+  "last_filed": "2024-01-31",
+  "first_sale": "2024-01-18",
+  "amount_sold": 472000.0,
+  "offering_amount": "472000",
+  "investors": 20.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "LLC Sydecar",
+   "Taylor Hughes"
+  ],
+  "adsh": "0002009927-24-000001"
+ },
+ {
+  "cik": "0002009054",
+  "name": "LV-DP-OpenAI Jan 2024 a Series of CGF2021 LLC",
+  "targets": [
+   "OpenAI"
+  ],
+  "host": "CGF2021 LLC",
+  "filings": 1,
+  "first_filed": "2024-01-23",
+  "last_filed": "2024-01-23",
+  "first_sale": "2024-01-12",
+  "amount_sold": 1998500.0,
+  "offering_amount": "1998500",
+  "investors": 29.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "LLC Sydecar",
+   "Taylor Hughes"
+  ],
+  "adsh": "0002009054-24-000001"
+ },
+ {
+  "cik": "0002045114",
+  "name": "DiversiFi Ventures OpenAI SPVI a Series of CGF2021 LLC",
+  "targets": [
+   "OpenAI"
+  ],
+  "host": "CGF2021 LLC",
+  "filings": 1,
+  "first_filed": "2024-11-18",
+  "last_filed": "2024-11-18",
+  "first_sale": "2024-11-12",
+  "amount_sold": 3525000.0,
+  "offering_amount": "3525000",
+  "investors": 23.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "LLC Sydecar",
+   "Brett Sagan"
+  ],
+  "adsh": "0002045114-24-000001"
+ },
+ {
+  "cik": "0002122813",
+  "name": "Kaleida Capital OpenAI SPV I a Series of CGF2021 LLC",
+  "targets": [
+   "OpenAI"
+  ],
+  "host": "CGF2021 LLC",
+  "filings": 1,
+  "first_filed": "2026-03-25",
+  "last_filed": "2026-03-25",
+  "first_sale": "2026-03-24",
+  "amount_sold": 500000.0,
+  "offering_amount": "500000",
+  "investors": 5.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "LLC Sydecar",
+   "Brett Sagan"
+  ],
+  "adsh": "0002122813-26-000001"
+ },
+ {
+  "cik": "0002041780",
+  "name": "OPENAI - FUTURUM A SERIES OF MASTER FUND I LLC",
+  "targets": [
+   "OpenAI"
+  ],
+  "host": "MASTER FUND I LLC",
+  "filings": 2,
+  "first_filed": "2025-02-18",
+  "last_filed": "2025-11-18",
+  "first_sale": "2024-10-30",
+  "amount_sold": 500000.0,
+  "offering_amount": "500000",
+  "investors": 2.0,
+  "min_investment": 250000.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": null,
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "Finally Fund Admin LLC",
+   "Melissa Garlough",
+   "Jenna Fernandes"
+  ],
+  "adsh": "0002041780-25-000005"
+ },
+ {
+  "cik": "0002004092",
+  "name": "OpenAI InvestX Capital USA a Series of CGF2021 LLC",
+  "targets": [
+   "OpenAI"
+  ],
+  "host": "CGF2021 LLC",
+  "filings": 1,
+  "first_filed": "2023-12-13",
+  "last_filed": "2023-12-13",
+  "first_sale": "2023-12-06",
+  "amount_sold": 1549990.0,
+  "offering_amount": "1549990",
+  "investors": 10.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "LLC Sydecar",
+   "Taylor Hughes"
+  ],
+  "adsh": "0002004092-23-000001"
+ },
+ {
+  "cik": "0002013225",
+  "name": "Eagle VP Fund 2 LLC-Series OpenAI",
+  "targets": [
+   "OpenAI"
+  ],
+  "host": null,
+  "filings": 1,
+  "first_filed": "2024-03-18",
+  "last_filed": "2024-03-18",
+  "first_sale": "2024-02-16",
+  "amount_sold": 0.0,
+  "offering_amount": "Indefinite",
+  "investors": 1.0,
+  "min_investment": 12000.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06c"
+  ],
+  "fund_type": null,
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [
+   "Eagle Venture Partners LLC"
+  ],
+  "related": [
+   "Ardit Dodaj",
+   "Julian Antoni",
+   "Julian Ruiz"
+  ],
+  "adsh": "0001376474-24-000135"
+ },
+ {
+  "cik": "0002119969",
+  "name": "OpenAI Feb 2026 a Series of CGF2021 LLC",
+  "targets": [
+   "OpenAI"
+  ],
+  "host": "CGF2021 LLC",
+  "filings": 1,
+  "first_filed": "2026-03-13",
+  "last_filed": "2026-03-13",
+  "first_sale": "2026-03-09",
+  "amount_sold": 104500.0,
+  "offering_amount": "104500",
+  "investors": 19.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.7"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "LLC Sydecar",
+   "Brett Sagan"
+  ],
+  "adsh": "0002119969-26-000001"
+ },
+ {
+  "cik": "0002102195",
+  "name": "VM OpenAI 1 a Series of PCXS LLC",
+  "targets": [
+   "OpenAI"
+  ],
+  "host": "PCXS LLC",
+  "filings": 1,
+  "first_filed": "2026-04-10",
+  "last_filed": "2026-04-10",
+  "first_sale": "2026-04-08",
+  "amount_sold": 2869565.0,
+  "offering_amount": "2869565",
+  "investors": 0.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.7"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "LLC Sydecar",
+   "Brett Sagan"
+  ],
+  "adsh": "0002102195-26-000001"
+ },
+ {
+  "cik": "0002127135",
+  "name": "ELSA Capital OpenAI SPV I a Series of CGF2021 LLC",
+  "targets": [
+   "OpenAI"
+  ],
+  "host": "CGF2021 LLC",
+  "filings": 1,
+  "first_filed": "2026-04-14",
+  "last_filed": "2026-04-14",
+  "first_sale": "2026-04-09",
+  "amount_sold": 2046238.0,
+  "offering_amount": "2046238",
+  "investors": 20.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.7"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "LLC Sydecar",
+   "Brett Sagan"
+  ],
+  "adsh": "0002127135-26-000001"
+ },
+ {
+  "cik": "0002125920",
+  "name": "D. Boral Master SPV LLC, Series VIII OpenAI II",
+  "targets": [
+   "OpenAI"
+  ],
+  "host": "D. Boral Master SPV LLC",
+  "filings": 1,
+  "first_filed": "2026-04-27",
+  "last_filed": "2026-04-27",
+  "first_sale": "2026-04-10",
+  "amount_sold": 2415000.0,
+  "offering_amount": "2500000",
+  "investors": 1.0,
+  "min_investment": 25000.0,
+  "sales_commissions": 120750.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Other Investment Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [
+   "D. Boral Capital LLC"
+  ],
+  "related": [
+   "- D. Boral Manager LLC",
+   "- D. Boral IM LLC",
+   "David Boral"
+  ],
+  "adsh": "0002125920-26-000001"
+ },
+ {
+  "cik": "0002081288",
+  "name": "D. Boral Master SPV LLC, Series III OpenAI",
+  "targets": [
+   "OpenAI"
+  ],
+  "host": "D. Boral Master SPV LLC",
+  "filings": 1,
+  "first_filed": "2025-08-15",
+  "last_filed": "2025-08-15",
+  "first_sale": "2025-07-31",
+  "amount_sold": 1384000.0,
+  "offering_amount": "2500000",
+  "investors": 22.0,
+  "min_investment": 20000.0,
+  "sales_commissions": 110720.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Other Investment Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [
+   "D. Boral Capital LLC"
+  ],
+  "related": [
+   "- D. Boral Manager LLC",
+   "- D. Boral IM LLC",
+   "David Boral"
+  ],
+  "adsh": "0002081288-25-000001"
+ },
+ {
+  "cik": "0002089899",
+  "name": "KCA OpenAI Tender a Series of CGF2021 LLC",
+  "targets": [
+   "OpenAI"
+  ],
+  "host": "CGF2021 LLC",
+  "filings": 1,
+  "first_filed": "2025-10-06",
+  "last_filed": "2025-10-06",
+  "first_sale": "2025-09-25",
+  "amount_sold": 240000.0,
+  "offering_amount": "240000",
+  "investors": 5.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.7"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "LLC Sydecar",
+   "Brett Sagan"
+  ],
+  "adsh": "0002089899-25-000001"
+ },
+ {
+  "cik": "0002090214",
+  "name": "OpenAI Fund a Series of CGF2021 LLC",
+  "targets": [
+   "OpenAI"
+  ],
+  "host": "CGF2021 LLC",
+  "filings": 1,
+  "first_filed": "2025-10-08",
+  "last_filed": "2025-10-08",
+  "first_sale": "2025-09-26",
+  "amount_sold": 470000.0,
+  "offering_amount": "470000",
+  "investors": 15.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "LLC Sydecar",
+   "Brett Sagan"
+  ],
+  "adsh": "0002090214-25-000001"
+ },
+ {
+  "cik": "0002008994",
+  "name": "OpenAI InvestX Capital Dec 2023 a Series of CGF2021 LLC",
+  "targets": [
+   "OpenAI"
+  ],
+  "host": "CGF2021 LLC",
+  "filings": 1,
+  "first_filed": "2024-01-23",
+  "last_filed": "2024-01-23",
+  "first_sale": "2024-01-17",
+  "amount_sold": 731272.0,
+  "offering_amount": "731272",
+  "investors": 8.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "LLC Sydecar",
+   "Taylor Hughes"
+  ],
+  "adsh": "0002008994-24-000001"
+ },
+ {
+  "cik": "0002117288",
+  "name": "OpenAI - Team Ignite Feb 2026 a Series of CGF2021 LLC",
+  "targets": [
+   "OpenAI"
+  ],
+  "host": "CGF2021 LLC",
+  "filings": 1,
+  "first_filed": "2026-03-12",
+  "last_filed": "2026-03-12",
+  "first_sale": "2026-03-10",
+  "amount_sold": 1199955.0,
+  "offering_amount": "1199955",
+  "investors": 32.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "LLC Sydecar",
+   "Brett Sagan"
+  ],
+  "adsh": "0002117288-26-000001"
+ },
+ {
+  "cik": "0002065512",
+  "name": "Hiive Anthropic Series VII a Series of Hiive Anthropic LLC",
+  "targets": [
+   "Anthropic"
+  ],
+  "host": "Hiive Anthropic LLC",
+  "filings": 1,
+  "first_filed": "2025-04-25",
+  "last_filed": "2025-04-25",
+  "first_sale": "2025-04-09",
+  "amount_sold": 4098646.0,
+  "offering_amount": "4098646",
+  "investors": 34.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "LLC Sydecar",
+   "Brett Sagan"
+  ],
+  "adsh": "0002065512-25-000001"
+ },
+ {
+  "cik": "0002019525",
+  "name": "Hiive Anthropic Series II a Series of Hiive Anthropic LLC",
+  "targets": [
+   "Anthropic"
+  ],
+  "host": "Hiive Anthropic LLC",
+  "filings": 1,
+  "first_filed": "2024-04-15",
+  "last_filed": "2024-04-15",
+  "first_sale": "2024-04-04",
+  "amount_sold": 9160944.0,
+  "offering_amount": "9160944",
+  "investors": 22.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "LLC Sydecar",
+   "Taylor Hughes"
+  ],
+  "adsh": "0002019525-24-000001"
+ },
+ {
+  "cik": "0002026315",
+  "name": "Hiive Anthropic Series V a Series of Hiive Anthropic LLC",
+  "targets": [
+   "Anthropic"
+  ],
+  "host": "Hiive Anthropic LLC",
+  "filings": 1,
+  "first_filed": "2024-06-10",
+  "last_filed": "2024-06-10",
+  "first_sale": "2024-06-04",
+  "amount_sold": 5711825.0,
+  "offering_amount": "5711825",
+  "investors": 56.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "LLC Sydecar",
+   "Taylor Hughes"
+  ],
+  "adsh": "0002026315-24-000001"
+ },
+ {
+  "cik": "0002134776",
+  "name": "HII Anthropic Series-02, a Series of HII Anthropic, LLC",
+  "targets": [
+   "Anthropic"
+  ],
+  "host": "HII Anthropic, LLC",
+  "filings": 1,
+  "first_filed": "2026-05-15",
+  "last_filed": "2026-05-15",
+  "first_sale": "2026-01-30",
+  "amount_sold": 11879561.0,
+  "offering_amount": "11879561",
+  "investors": 78.0,
+  "min_investment": 50000.0,
+  "sales_commissions": 593977.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.7"
+  ],
+  "fund_type": "Other Investment Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [
+   "Hiive Markets Limited"
+  ],
+  "related": [
+   "Christopher DeLap"
+  ],
+  "adsh": "0002134776-26-000001"
+ },
+ {
+  "cik": "0002118444",
+  "name": "HII Anthropic-01, a Series of HII Anthropic, LLC",
+  "targets": [
+   "Anthropic"
+  ],
+  "host": "HII Anthropic, LLC",
+  "filings": 1,
+  "first_filed": "2026-03-13",
+  "last_filed": "2026-03-13",
+  "first_sale": "2026-01-07",
+  "amount_sold": 16726593.0,
+  "offering_amount": "16726593",
+  "investors": 35.0,
+  "min_investment": 250000.0,
+  "sales_commissions": 817078.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Other Investment Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [
+   "Hiive Markets Limited"
+  ],
+  "related": [
+   "Christopher DeLap"
+  ],
+  "adsh": "0002118444-26-000001"
+ },
+ {
+  "cik": "0002058941",
+  "name": "Hiive Anthropic Series VI a Series of Hiive Anthropic LLC",
+  "targets": [
+   "Anthropic"
+  ],
+  "host": "Hiive Anthropic LLC",
+  "filings": 1,
+  "first_filed": "2025-03-05",
+  "last_filed": "2025-03-05",
+  "first_sale": "2025-02-24",
+  "amount_sold": 3319470.0,
+  "offering_amount": "3319470",
+  "investors": 40.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "LLC Sydecar",
+   "Brett Sagan"
+  ],
+  "adsh": "0002058941-25-000001"
+ },
+ {
+  "cik": "0002008943",
+  "name": "Anthropic MAV Secondary Fund II, a series of MAV Alternate Investments, LP",
+  "targets": [
+   "Anthropic"
+  ],
+  "host": "MAV Alternate Investments, LP",
+  "filings": 1,
+  "first_filed": "2024-03-12",
+  "last_filed": "2024-03-12",
+  "first_sale": "2024-03-01",
+  "amount_sold": 1041161.0,
+  "offering_amount": "1041161",
+  "investors": 113.0,
+  "min_investment": 1000.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1",
+   "3C.7"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "N/A MyAsiaVC, LLC",
+   "Sajidur Rahman"
+  ],
+  "adsh": "0002008943-24-000002"
+ },
+ {
+  "cik": "0002021090",
+  "name": "Anthropic Alternate Fund II, a series of MAV Alternate Investments, LP",
+  "targets": [
+   "Anthropic"
+  ],
+  "host": "MAV Alternate Investments, LP",
+  "filings": 1,
+  "first_filed": "2024-09-13",
+  "last_filed": "2024-09-13",
+  "first_sale": "2024-08-29",
+  "amount_sold": 1156034.0,
+  "offering_amount": "1156034",
+  "investors": 104.0,
+  "min_investment": 1000.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1",
+   "3C.7"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "N/A MyAsiaVC, LLC",
+   "Sajid Rahman"
+  ],
+  "adsh": "0002021090-24-000002"
+ },
+ {
+  "cik": "0002019526",
+  "name": "Hiive Anthropic Series I a Series of Hiive Anthropic LLC",
+  "targets": [
+   "Anthropic"
+  ],
+  "host": "Hiive Anthropic LLC",
+  "filings": 1,
+  "first_filed": "2024-04-15",
+  "last_filed": "2024-04-15",
+  "first_sale": "2024-04-04",
+  "amount_sold": 5338011.0,
+  "offering_amount": "5338011",
+  "investors": 39.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "LLC Sydecar",
+   "Taylor Hughes"
+  ],
+  "adsh": "0002019526-24-000001"
+ },
+ {
+  "cik": "0001991469",
+  "name": "ANTHROPIC - MYASIAVC ALTERNATE FUND I",
+  "targets": [
+   "Anthropic"
+  ],
+  "host": null,
+  "filings": 1,
+  "first_filed": "2023-08-25",
+  "last_filed": "2023-08-25",
+  "first_sale": "2023-08-11",
+  "amount_sold": 579796.0,
+  "offering_amount": "579796",
+  "investors": 120.0,
+  "min_investment": 1000.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1",
+   "3C.7"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "N/A MyAsiaVC, LLC",
+   "Sajid Rahman"
+  ],
+  "adsh": "0001991469-23-000001"
+ },
+ {
+  "cik": "0001980650",
+  "name": "Anthropic - Incepto AGI Funds LLC",
+  "targets": [
+   "Anthropic"
+  ],
+  "host": null,
+  "filings": 1,
+  "first_filed": "2023-06-09",
+  "last_filed": "2023-06-09",
+  "first_sale": "2023-06-01",
+  "amount_sold": 1000000.0,
+  "offering_amount": "1000000",
+  "investors": 1.0,
+  "min_investment": 10000.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Other Investment Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "LLC Anthropic - Incepto AGI Funds",
+   "LLC Allocations Fund Administration,",
+   "Hoang Phan"
+  ],
+  "adsh": "0001980650-23-000001"
+ },
+ {
+  "cik": "0001975481",
+  "name": "Anthropic - Iron Pine GoldenArc Co-Invest, LLC",
+  "targets": [
+   "Anthropic"
+  ],
+  "host": null,
+  "filings": 1,
+  "first_filed": "2023-04-28",
+  "last_filed": "2023-04-28",
+  "first_sale": "2023-04-20",
+  "amount_sold": 5307992.0,
+  "offering_amount": "5307992",
+  "investors": 1.0,
+  "min_investment": 100000.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Other Investment Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "LLC Anthropic - Iron Pine GoldenArc Co-Invest,",
+   "LLC Allocations Fund Administration,",
+   "Hoang Phan"
+  ],
+  "adsh": "0001975481-23-000001"
+ },
+ {
+  "cik": "0002062711",
+  "name": "Anthropic PBC 1, a Series of Venelite Venture Funds, LP",
+  "targets": [
+   "Anthropic"
+  ],
+  "host": "Venelite Venture Funds, LP",
+  "filings": 1,
+  "first_filed": "2025-03-21",
+  "last_filed": "2025-03-21",
+  "first_sale": "2025-01-25",
+  "amount_sold": 527500.0,
+  "offering_amount": "527500",
+  "investors": 12.0,
+  "min_investment": 5000.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b"
+  ],
+  "fund_type": "Other Investment Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "Kahramon Juraboev"
+  ],
+  "adsh": "0002062711-25-000003"
+ },
+ {
+  "cik": "0002017722",
+  "name": "AUGUREY VENTURES I, LLC - ANTHROPIC A",
+  "targets": [
+   "Anthropic"
+  ],
+  "host": "AUGUREY VENTURES I, LLC",
+  "filings": 3,
+  "first_filed": "2024-04-01",
+  "last_filed": "2026-09-29",
+  "first_sale": "2024-03-21",
+  "amount_sold": 3359188.0,
+  "offering_amount": "8800000",
+  "investors": 37.0,
+  "min_investment": 50000.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06c",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Private Equity Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "FRANK CARDIA"
+  ],
+  "adsh": "0002017722-26-000002"
+ },
+ {
+  "cik": "0002007844",
+  "name": "RVC Anthropic LP",
+  "targets": [
+   "Anthropic"
+  ],
+  "host": null,
+  "filings": 1,
+  "first_filed": "2024-03-19",
+  "last_filed": "2024-03-19",
+  "first_sale": "2024-02-29",
+  "amount_sold": 623000.0,
+  "offering_amount": "623000",
+  "investors": 38.0,
+  "min_investment": 2000.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.7"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "N/A Rhone VC LLC",
+   "Austin Walker"
+  ],
+  "adsh": "0002007844-24-000002"
+ },
+ {
+  "cik": "0002023340",
+  "name": "7GC & Co. Opportunity Partners, Anthropic LLC",
+  "targets": [
+   "Anthropic"
+  ],
+  "host": "7GC & Co. Opportunity Partners",
+  "filings": 1,
+  "first_filed": "2024-06-13",
+  "last_filed": "2024-06-13",
+  "first_sale": null,
+  "amount_sold": 0.0,
+  "offering_amount": "Indefinite",
+  "investors": 0.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "NA SP Global Advisors LLC"
+  ],
+  "adsh": "0002023340-24-000001"
+ },
+ {
+  "cik": "0002023938",
+  "name": "Okami Anthropic I a Series of CGF2021 LLC",
+  "targets": [
+   "Anthropic"
+  ],
+  "host": "CGF2021 LLC",
+  "filings": 1,
+  "first_filed": "2024-05-21",
+  "last_filed": "2024-05-21",
+  "first_sale": "2024-05-10",
+  "amount_sold": 667000.0,
+  "offering_amount": "667000",
+  "investors": 25.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "LLC Sydecar",
+   "Taylor Hughes"
+  ],
+  "adsh": "0002023938-24-000001"
+ },
+ {
+  "cik": "0002018280",
+  "name": "MW LSVC Anthropic, LLC",
+  "targets": [
+   "Anthropic"
+  ],
+  "host": null,
+  "filings": 1,
+  "first_filed": "2024-04-11",
+  "last_filed": "2024-04-11",
+  "first_sale": "2024-03-08",
+  "amount_sold": 18400000.0,
+  "offering_amount": "75000000",
+  "investors": 56.0,
+  "min_investment": 100000.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "Lorenzo Esparza"
+  ],
+  "adsh": "0001898605-24-000002"
+ },
+ {
+  "cik": "0002026362",
+  "name": "Okami Anthropic II a Series of CGF2021 LLC",
+  "targets": [
+   "Anthropic"
+  ],
+  "host": "CGF2021 LLC",
+  "filings": 1,
+  "first_filed": "2024-06-10",
+  "last_filed": "2024-06-10",
+  "first_sale": "2024-06-05",
+  "amount_sold": 534500.0,
+  "offering_amount": "534500",
+  "investors": 19.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "LLC Sydecar",
+   "Taylor Hughes"
+  ],
+  "adsh": "0002026362-24-000001"
+ },
+ {
+  "cik": "0002113289",
+  "name": "INVEXT ANTHROPIC, A SERIES OF INVEXT LLC",
+  "targets": [
+   "Anthropic"
+  ],
+  "host": "INVEXT LLC",
+  "filings": 1,
+  "first_filed": "2026-02-25",
+  "last_filed": "2026-02-25",
+  "first_sale": "2025-11-19",
+  "amount_sold": 600000.0,
+  "offering_amount": "600000",
+  "investors": 4.0,
+  "min_investment": 100000.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": null,
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "Finally Fund Admin LLC",
+   "Melissa Garlough",
+   "Supachai Parchariyanon"
+  ],
+  "adsh": "0002113289-26-000001"
+ },
+ {
+  "cik": "0001979832",
+  "name": "IBD VENTURES, LLC - ANTHROPIC SERIES O",
+  "targets": [
+   "Anthropic"
+  ],
+  "host": "IBD VENTURES, LLC",
+  "filings": 1,
+  "first_filed": "2023-06-14",
+  "last_filed": "2023-06-14",
+  "first_sale": null,
+  "amount_sold": 0.0,
+  "offering_amount": "Indefinite",
+  "investors": 0.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Private Equity Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "- IBD Management, LLC",
+   "Robert Spitler"
+  ],
+  "adsh": "0001979832-23-000001"
+ },
+ {
+  "cik": "0002127331",
+  "name": "AUGUREY VENTURES QP FUND, LLC - SERIES ANTHROPIC SP-4",
+  "targets": [
+   "Anthropic"
+  ],
+  "host": "AUGUREY VENTURES QP FUND, LLC",
+  "filings": 2,
+  "first_filed": "2026-04-09",
+  "last_filed": "2026-09-28",
+  "first_sale": "2026-03-19",
+  "amount_sold": 640000.0,
+  "offering_amount": "640000",
+  "investors": 1.0,
+  "min_investment": 50000.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06c",
+   "3C",
+   "3C.7"
+  ],
+  "fund_type": "Private Equity Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "FRANK CARDIA"
+  ],
+  "adsh": "0002127331-26-000003"
+ },
+ {
+  "cik": "0002112422",
+  "name": "Anthropic Magnitude Jan 2026 a Series of CGF2021 LLC",
+  "targets": [
+   "Anthropic"
+  ],
+  "host": "CGF2021 LLC",
+  "filings": 2,
+  "first_filed": "2026-02-20",
+  "last_filed": "2026-02-23",
+  "first_sale": "2026-01-28",
+  "amount_sold": 14224617.0,
+  "offering_amount": "14224617",
+  "investors": 82.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.7"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "LLC Sydecar",
+   "Brett Sagan"
+  ],
+  "adsh": "0002112422-26-000002"
+ },
+ {
+  "cik": "0002017699",
+  "name": "AUGUREY VENTURES II, LLC - ANTHROPIC A",
+  "targets": [
+   "Anthropic"
+  ],
+  "host": "AUGUREY VENTURES II, LLC",
+  "filings": 3,
+  "first_filed": "2024-04-01",
+  "last_filed": "2026-09-29",
+  "first_sale": "2024-03-21",
+  "amount_sold": 5019525.0,
+  "offering_amount": "8800000",
+  "investors": 56.0,
+  "min_investment": 50000.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06c",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Private Equity Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "FRANK CARDIA"
+  ],
+  "adsh": "0002017699-26-000002"
+ },
+ {
+  "cik": "0002112836",
+  "name": "Anthropic Magnitude-2 Feb 2026 a Series of CGF2021 LLC",
+  "targets": [
+   "Anthropic"
+  ],
+  "host": "CGF2021 LLC",
+  "filings": 1,
+  "first_filed": "2026-04-29",
+  "last_filed": "2026-04-29",
+  "first_sale": "2026-04-27",
+  "amount_sold": 5745000.0,
+  "offering_amount": "5745000",
+  "investors": 23.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "LLC Sydecar",
+   "Brett Sagan"
+  ],
+  "adsh": "0002112836-26-000001"
+ },
+ {
+  "cik": "0002136346",
+  "name": "Granada Anthropic SPV, a Series of Decile SPV, LLC",
+  "targets": [
+   "Anthropic"
+  ],
+  "host": "Decile SPV, LLC",
+  "filings": 1,
+  "first_filed": "2026-05-26",
+  "last_filed": "2026-05-26",
+  "first_sale": "2026-05-07",
+  "amount_sold": 1099001.0,
+  "offering_amount": "1099001",
+  "investors": 14.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "- Granada Funds, LLC",
+   "Mohammed Kamal"
+  ],
+  "adsh": "0002136346-26-000001"
+ },
+ {
+  "cik": "0002157455",
+  "name": "AUGUREY VENTURES QP FUND, LLC - SERIES ANTHROPIC SP-5",
+  "targets": [
+   "Anthropic"
+  ],
+  "host": "AUGUREY VENTURES QP FUND, LLC",
+  "filings": 1,
+  "first_filed": "2026-09-28",
+  "last_filed": "2026-09-28",
+  "first_sale": "2026-04-28",
+  "amount_sold": 4360000.0,
+  "offering_amount": "4360000",
+  "investors": 1.0,
+  "min_investment": 50000.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06c",
+   "3C",
+   "3C.7"
+  ],
+  "fund_type": "Private Equity Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "FRANK CARDIA"
+  ],
+  "adsh": "0002157455-26-000001"
+ },
+ {
+  "cik": "0002088197",
+  "name": "Anthropic T1V Syndicate AUG 2025 a Series of CGF2021 LLC",
+  "targets": [
+   "Anthropic"
+  ],
+  "host": "CGF2021 LLC",
+  "filings": 1,
+  "first_filed": "2025-09-25",
+  "last_filed": "2025-09-25",
+  "first_sale": "2025-09-10",
+  "amount_sold": 117767.0,
+  "offering_amount": "117767",
+  "investors": 8.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "LLC Sydecar",
+   "Brett Sagan"
+  ],
+  "adsh": "0002088197-25-000001"
+ },
+ {
+  "cik": "0002117469",
+  "name": "Anthropic II Feb 2026 a Series of CGF2021 LLC",
+  "targets": [
+   "Anthropic"
+  ],
+  "host": "CGF2021 LLC",
+  "filings": 2,
+  "first_filed": "2026-04-13",
+  "last_filed": "2026-04-22",
+  "first_sale": "2026-04-08",
+  "amount_sold": 3307216.0,
+  "offering_amount": "3307216",
+  "investors": 63.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.7"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "LLC Sydecar",
+   "Brett Sagan"
+  ],
+  "adsh": "0002117469-26-000002"
+ },
+ {
+  "cik": "0002026696",
+  "name": "Scenic Co-Invest Anthropic LLC",
+  "targets": [
+   "Anthropic"
+  ],
+  "host": null,
+  "filings": 1,
+  "first_filed": "2024-06-12",
+  "last_filed": "2024-06-12",
+  "first_sale": "2024-06-10",
+  "amount_sold": 2275000.0,
+  "offering_amount": "2275000",
+  "investors": 17.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "NA Scenic Management LLC"
+  ],
+  "adsh": "0002026696-24-000001"
+ },
+ {
+  "cik": "0002026856",
+  "name": "Kaleida Capital Anthropic SPV I a Series of CGF2021 LLC",
+  "targets": [
+   "Anthropic"
+  ],
+  "host": "CGF2021 LLC",
+  "filings": 1,
+  "first_filed": "2024-06-13",
+  "last_filed": "2024-06-13",
+  "first_sale": "2024-06-08",
+  "amount_sold": 645000.0,
+  "offering_amount": "645000",
+  "investors": 13.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "LLC Sydecar",
+   "Taylor Hughes"
+  ],
+  "adsh": "0002026856-24-000001"
+ },
+ {
+  "cik": "0002127332",
+  "name": "AUGUREY VENTURES QP FUND, LLC - SERIES ANTHROPIC SP-3",
+  "targets": [
+   "Anthropic"
+  ],
+  "host": "AUGUREY VENTURES QP FUND, LLC",
+  "filings": 2,
+  "first_filed": "2026-04-09",
+  "last_filed": "2026-09-28",
+  "first_sale": "2026-02-11",
+  "amount_sold": 670000.0,
+  "offering_amount": "770000",
+  "investors": 3.0,
+  "min_investment": 50000.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06c",
+   "3C",
+   "3C.7"
+  ],
+  "fund_type": "Private Equity Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "FRANK CARDIA"
+  ],
+  "adsh": "0002127332-26-000003"
+ },
+ {
+  "cik": "0002036136",
+  "name": "AUGUREY VENTURES II, LLC - SERIES ANTHROPIC B",
+  "targets": [
+   "Anthropic"
+  ],
+  "host": "AUGUREY VENTURES II, LLC",
+  "filings": 3,
+  "first_filed": "2024-09-09",
+  "last_filed": "2026-09-29",
+  "first_sale": "2024-05-06",
+  "amount_sold": 172025.0,
+  "offering_amount": "2500000",
+  "investors": 10.0,
+  "min_investment": 50000.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06c",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Private Equity Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "FRANK CARDIA"
+  ],
+  "adsh": "0002036136-26-000002"
+ },
+ {
+  "cik": "0002098694",
+  "name": "Anthropic NOV25 T1V syndicate a Series of CGF2021 LLC",
+  "targets": [
+   "Anthropic"
+  ],
+  "host": "CGF2021 LLC",
+  "filings": 1,
+  "first_filed": "2025-12-03",
+  "last_filed": "2025-12-03",
+  "first_sale": "2025-11-14",
+  "amount_sold": 35000.0,
+  "offering_amount": "35000",
+  "investors": 4.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "LLC Sydecar",
+   "Brett Sagan"
+  ],
+  "adsh": "0002098694-25-000001"
+ },
+ {
+  "cik": "0002101189",
+  "name": "Anthropic SPV2 Emerging Global a Series of CGF2021 LLC",
+  "targets": [
+   "Anthropic"
+  ],
+  "host": "CGF2021 LLC",
+  "filings": 1,
+  "first_filed": "2026-02-06",
+  "last_filed": "2026-02-06",
+  "first_sale": "2026-02-05",
+  "amount_sold": 525000.0,
+  "offering_amount": "525000",
+  "investors": 12.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "LLC Sydecar",
+   "Brett Sagan"
+  ],
+  "adsh": "0002101189-26-000001"
+ },
+ {
+  "cik": "0002125470",
+  "name": "DV Anthropic SPV I Mar 2026 a Series of CGF2021 LLC",
+  "targets": [
+   "Anthropic"
+  ],
+  "host": "CGF2021 LLC",
+  "filings": 1,
+  "first_filed": "2026-03-30",
+  "last_filed": "2026-03-30",
+  "first_sale": "2026-03-12",
+  "amount_sold": 2000000.0,
+  "offering_amount": "2000000",
+  "investors": 17.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "LLC Sydecar",
+   "Brett Sagan"
+  ],
+  "adsh": "0002125470-26-000001"
+ },
+ {
+  "cik": "0002024387",
+  "name": "ANTHROPIC - A SERIES OF AURUM VP FUND LLC",
+  "targets": [
+   "Anthropic"
+  ],
+  "host": "AURUM VP FUND LLC",
+  "filings": 1,
+  "first_filed": "2024-08-13",
+  "last_filed": "2024-08-13",
+  "first_sale": "2024-05-15",
+  "amount_sold": 1107500.0,
+  "offering_amount": "1107500",
+  "investors": 46.0,
+  "min_investment": 10000.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": null,
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "Finally Fund Admin LLC",
+   "Nhi Nguyen",
+   "Narsi Ayyagari"
+  ],
+  "adsh": "0002010886-24-000003"
+ },
+ {
+  "cik": "0002025500",
+  "name": "LFG Anthropic a Series of CGF2021 LLC",
+  "targets": [
+   "Anthropic"
+  ],
+  "host": "CGF2021 LLC",
+  "filings": 1,
+  "first_filed": "2024-06-05",
+  "last_filed": "2024-06-05",
+  "first_sale": "2024-05-24",
+  "amount_sold": 528000.0,
+  "offering_amount": "528000",
+  "investors": 10.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "LLC Sydecar",
+   "Taylor Hughes"
+  ],
+  "adsh": "0002025500-24-000001"
+ },
+ {
+  "cik": "0002025320",
+  "name": "AUGUREY VENTURES III, LLC - SERIES ANTHROPIC A",
+  "targets": [
+   "Anthropic"
+  ],
+  "host": "AUGUREY VENTURES III, LLC",
+  "filings": 3,
+  "first_filed": "2024-06-03",
+  "last_filed": "2026-09-29",
+  "first_sale": "2024-05-21",
+  "amount_sold": 875977.0,
+  "offering_amount": "8800000",
+  "investors": 11.0,
+  "min_investment": 50000.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06c",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Private Equity Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "FRANK CARDIA"
+  ],
+  "adsh": "0002025320-26-000002"
+ },
+ {
+  "cik": "0002014880",
+  "name": "Edge Partners, LLC, Series B Anthropic",
+  "targets": [
+   "Anthropic"
+  ],
+  "host": "Edge Partners, LLC",
+  "filings": 2,
+  "first_filed": "2024-03-27",
+  "last_filed": "2024-04-23",
+  "first_sale": "2024-03-18",
+  "amount_sold": 7050000.0,
+  "offering_amount": "Indefinite",
+  "investors": 46.0,
+  "min_investment": 0.0,
+  "sales_commissions": 599250.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Private Equity Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [
+   "HARLEY CAPITAL LLC"
+  ],
+  "related": [
+   "- Edge Partners Management LLC"
+  ],
+  "adsh": "0002014880-24-000002"
+ },
+ {
+  "cik": "0002132200",
+  "name": "Anthropic Apr 2026 a Series of CGF2021 LLC",
+  "targets": [
+   "Anthropic"
+  ],
+  "host": "CGF2021 LLC",
+  "filings": 1,
+  "first_filed": "2026-04-29",
+  "last_filed": "2026-04-29",
+  "first_sale": "2026-04-28",
+  "amount_sold": 155000.0,
+  "offering_amount": "155000",
+  "investors": 4.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "LLC Sydecar",
+   "Brett Sagan"
+  ],
+  "adsh": "0002132200-26-000001"
+ },
+ {
+  "cik": "0002036135",
+  "name": "AUGUREY VENTURES I, LLC - SERIES ANTHROPIC B",
+  "targets": [
+   "Anthropic"
+  ],
+  "host": "AUGUREY VENTURES I, LLC",
+  "filings": 3,
+  "first_filed": "2024-09-09",
+  "last_filed": "2026-09-29",
+  "first_sale": "2024-05-06",
+  "amount_sold": 150825.0,
+  "offering_amount": "2500000",
+  "investors": 6.0,
+  "min_investment": 50000.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06c",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Private Equity Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "FRANK CARDIA"
+  ],
+  "adsh": "0002036135-26-000002"
+ },
+ {
+  "cik": "0002022366",
+  "name": "Anthropic Series D NMJFF Apr 2024 a Series of CGF2021 LLC",
+  "targets": [
+   "Anthropic"
+  ],
+  "host": "CGF2021 LLC",
+  "filings": 1,
+  "first_filed": "2024-05-10",
+  "last_filed": "2024-05-10",
+  "first_sale": "2024-05-01",
+  "amount_sold": 1180000.0,
+  "offering_amount": "1180000",
+  "investors": 37.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "LLC Sydecar",
+   "Taylor Hughes"
+  ],
+  "adsh": "0002022366-24-000001"
+ },
+ {
+  "cik": "0002112591",
+  "name": "Anthropic Syndicate Q1 2026 a Series of CGF2021 LLC",
+  "targets": [
+   "Anthropic"
+  ],
+  "host": "CGF2021 LLC",
+  "filings": 1,
+  "first_filed": "2026-02-23",
+  "last_filed": "2026-02-23",
+  "first_sale": "2026-02-02",
+  "amount_sold": 375000.0,
+  "offering_amount": "375000",
+  "investors": 2.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.7"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "LLC Sydecar",
+   "Brett Sagan"
+  ],
+  "adsh": "0002112591-26-000001"
+ },
+ {
+  "cik": "0002115085",
+  "name": "Pachamama Capital Anthropic a Series of CGF2021 LLC",
+  "targets": [
+   "Anthropic"
+  ],
+  "host": "CGF2021 LLC",
+  "filings": 1,
+  "first_filed": "2026-03-26",
+  "last_filed": "2026-03-26",
+  "first_sale": "2026-03-25",
+  "amount_sold": 1277835.0,
+  "offering_amount": "1277835",
+  "investors": 19.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "LLC Sydecar",
+   "Brett Sagan"
+  ],
+  "adsh": "0002115085-26-000001"
+ },
+ {
+  "cik": "0002049356",
+  "name": "Series Anthropic IVS, a Series of Ineffable Ventures Series, LLC",
+  "targets": [
+   "Anthropic"
+  ],
+  "host": "Ineffable Ventures Series, LLC",
+  "filings": 1,
+  "first_filed": "2024-12-19",
+  "last_filed": "2024-12-19",
+  "first_sale": null,
+  "amount_sold": 0.0,
+  "offering_amount": "Indefinite",
+  "investors": 0.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "Jared Kasner"
+  ],
+  "adsh": "0002049356-24-000001"
+ },
+ {
+  "cik": "0002008403",
+  "name": "Anthropic May 2023 a Series of Stonks SPVs LLC",
+  "targets": [
+   "Anthropic"
+  ],
+  "host": "Stonks SPVs LLC",
+  "filings": 1,
+  "first_filed": "2024-01-17",
+  "last_filed": "2024-01-17",
+  "first_sale": "2024-01-05",
+  "amount_sold": 1239000.0,
+  "offering_amount": "1239000",
+  "investors": 49.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "LLC Sydecar",
+   "Taylor Hughes"
+  ],
+  "adsh": "0002008403-24-000001"
+ },
+ {
+  "cik": "0002126193",
+  "name": "Arden Anthropic Opportunities I LLC",
+  "targets": [
+   "Anthropic"
+  ],
+  "host": null,
+  "filings": 1,
+  "first_filed": "2026-04-02",
+  "last_filed": "2026-04-02",
+  "first_sale": "2026-03-19",
+  "amount_sold": 5242500.0,
+  "offering_amount": "5242500",
+  "investors": 4.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Other Investment Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "- Dao Liu LLC"
+  ],
+  "adsh": "0002126193-26-000001"
+ },
+ {
+  "cik": "0002127333",
+  "name": "AUGUREY VENTURES QP FUND, LLC - SERIES ANTHROPIC SP-1",
+  "targets": [
+   "Anthropic"
+  ],
+  "host": "AUGUREY VENTURES QP FUND, LLC",
+  "filings": 2,
+  "first_filed": "2026-04-09",
+  "last_filed": "2026-09-28",
+  "first_sale": "2026-02-26",
+  "amount_sold": 4060000.0,
+  "offering_amount": "4100000",
+  "investors": 1.0,
+  "min_investment": 50000.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06c",
+   "3C",
+   "3C.7"
+  ],
+  "fund_type": "Private Equity Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "FRANK CARDIA"
+  ],
+  "adsh": "0002127333-26-000003"
+ },
+ {
+  "cik": "0002036137",
+  "name": "AUGUREY VENTURES III, LLC - SERIES ANTHROPIC B",
+  "targets": [
+   "Anthropic"
+  ],
+  "host": "AUGUREY VENTURES III, LLC",
+  "filings": 3,
+  "first_filed": "2024-09-09",
+  "last_filed": "2026-09-29",
+  "first_sale": "2024-05-21",
+  "amount_sold": 228691.0,
+  "offering_amount": "2500000",
+  "investors": 10.0,
+  "min_investment": 50000.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06c",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Private Equity Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "FRANK CARDIA"
+  ],
+  "adsh": "0002036137-26-000002"
+ },
+ {
+  "cik": "0002112341",
+  "name": "Anthropic Fund III Feb 2026 a Series of CGF2021 LLC",
+  "targets": [
+   "Anthropic"
+  ],
+  "host": "CGF2021 LLC",
+  "filings": 1,
+  "first_filed": "2026-02-23",
+  "last_filed": "2026-02-23",
+  "first_sale": "2026-02-11",
+  "amount_sold": 400000.0,
+  "offering_amount": "400000",
+  "investors": 1.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "LLC Sydecar",
+   "Brett Sagan"
+  ],
+  "adsh": "0002112341-26-000001"
+ },
+ {
+  "cik": "0002111952",
+  "name": "Anthropic Fund II Jan 2026 a Series of CGF2021 LLC",
+  "targets": [
+   "Anthropic"
+  ],
+  "host": "CGF2021 LLC",
+  "filings": 1,
+  "first_filed": "2026-04-13",
+  "last_filed": "2026-04-13",
+  "first_sale": "2026-04-09",
+  "amount_sold": 602000.0,
+  "offering_amount": "602000",
+  "investors": 8.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.7"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "LLC Sydecar",
+   "Brett Sagan"
+  ],
+  "adsh": "0002111952-26-000001"
+ },
+ {
+  "cik": "0002073723",
+  "name": "Anthropic Apr 2025 a Series of Ventioneers Partners LLC",
+  "targets": [
+   "Anthropic"
+  ],
+  "host": "Ventioneers Partners LLC",
+  "filings": 1,
+  "first_filed": "2025-06-23",
+  "last_filed": "2025-06-23",
+  "first_sale": "2025-06-05",
+  "amount_sold": 374761.0,
+  "offering_amount": "374761",
+  "investors": 36.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "LLC Sydecar",
+   "Brett Sagan"
+  ],
+  "adsh": "0002073723-25-000001"
+ },
+ {
+  "cik": "0002115048",
+  "name": "Anthropic IIIX T1V Feb26 Feb 2026 a Series of CGF2021 LLC",
+  "targets": [
+   "Anthropic"
+  ],
+  "host": "CGF2021 LLC",
+  "filings": 1,
+  "first_filed": "2026-03-03",
+  "last_filed": "2026-03-03",
+  "first_sale": "2026-02-12",
+  "amount_sold": 179175.0,
+  "offering_amount": "179175",
+  "investors": 9.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.7"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "LLC Sydecar",
+   "Brett Sagan"
+  ],
+  "adsh": "0002115048-26-000001"
+ },
+ {
+  "cik": "0002076452",
+  "name": "Anthropic-4 Jun 2025 a Series of Ventioneers Partners LLC",
+  "targets": [
+   "Anthropic"
+  ],
+  "host": "Ventioneers Partners LLC",
+  "filings": 1,
+  "first_filed": "2025-07-14",
+  "last_filed": "2025-07-14",
+  "first_sale": "2025-06-24",
+  "amount_sold": 287669.0,
+  "offering_amount": "287669",
+  "investors": 16.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "LLC Sydecar",
+   "Brett Sagan"
+  ],
+  "adsh": "0002076452-25-000001"
+ },
+ {
+  "cik": "0002088616",
+  "name": "Anthropic SPV1 Emerging Global a Series of CGF2021 LLC",
+  "targets": [
+   "Anthropic"
+  ],
+  "host": "CGF2021 LLC",
+  "filings": 1,
+  "first_filed": "2025-09-29",
+  "last_filed": "2025-09-29",
+  "first_sale": "2025-09-17",
+  "amount_sold": 713658.0,
+  "offering_amount": "713658",
+  "investors": 26.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "LLC Sydecar",
+   "Brett Sagan"
+  ],
+  "adsh": "0002088616-25-000001"
+ },
+ {
+  "cik": "0002098674",
+  "name": "Anthropic Secondary October 2025 a Series of CGF2021 LLC",
+  "targets": [
+   "Anthropic"
+  ],
+  "host": "CGF2021 LLC",
+  "filings": 1,
+  "first_filed": "2025-12-03",
+  "last_filed": "2025-12-03",
+  "first_sale": "2025-11-14",
+  "amount_sold": 1198225.0,
+  "offering_amount": "1198225",
+  "investors": 51.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "LLC Sydecar",
+   "Brett Sagan"
+  ],
+  "adsh": "0002098674-25-000001"
+ },
+ {
+  "cik": "0002109953",
+  "name": "Anthropic Jan 2026 a Series of CGF2021 LLC",
+  "targets": [
+   "Anthropic"
+  ],
+  "host": "CGF2021 LLC",
+  "filings": 2,
+  "first_filed": "2026-02-09",
+  "last_filed": "2026-02-19",
+  "first_sale": "2026-02-02",
+  "amount_sold": 3906003.0,
+  "offering_amount": "3906003",
+  "investors": 41.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.7"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "LLC Sydecar",
+   "Brett Sagan"
+  ],
+  "adsh": "0002109953-26-000002"
+ },
+ {
+  "cik": "0002112584",
+  "name": "Anthropic PBC Jan 2026 a Series of CGF2021 LLC",
+  "targets": [
+   "Anthropic"
+  ],
+  "host": "CGF2021 LLC",
+  "filings": 1,
+  "first_filed": "2026-02-24",
+  "last_filed": "2026-02-24",
+  "first_sale": "2026-02-03",
+  "amount_sold": 4015000.0,
+  "offering_amount": "4015000",
+  "investors": 9.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.7"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "LLC Sydecar",
+   "Brett Sagan"
+  ],
+  "adsh": "0002112584-26-000001"
+ },
+ {
+  "cik": "0002128726",
+  "name": "Inflection Ventures Anthropic Fund I LLC",
+  "targets": [
+   "Anthropic"
+  ],
+  "host": null,
+  "filings": 1,
+  "first_filed": "2026-05-15",
+  "last_filed": "2026-05-15",
+  "first_sale": "2026-05-07",
+  "amount_sold": 306000.0,
+  "offering_amount": "306000",
+  "investors": 6.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Other Investment Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "- Inflection Venture Capital LLC"
+  ],
+  "adsh": "0002128726-26-000001"
+ },
+ {
+  "cik": "0002086602",
+  "name": "Starbridge Anthropic I a Series of CGF2021 LLC",
+  "targets": [
+   "Anthropic"
+  ],
+  "host": "CGF2021 LLC",
+  "filings": 1,
+  "first_filed": "2025-09-19",
+  "last_filed": "2025-09-19",
+  "first_sale": "2025-09-02",
+  "amount_sold": 2441501.0,
+  "offering_amount": "2441501",
+  "investors": 96.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "LLC Sydecar",
+   "Brett Sagan"
+  ],
+  "adsh": "0002086602-25-000001"
+ },
+ {
+  "cik": "0002109576",
+  "name": "WU Anthropic LP",
+  "targets": [
+   "Anthropic"
+  ],
+  "host": null,
+  "filings": 1,
+  "first_filed": "2026-06-01",
+  "last_filed": "2026-06-01",
+  "first_sale": null,
+  "amount_sold": 0.0,
+  "offering_amount": "Indefinite",
+  "investors": 0.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "N/A WU GP LLC",
+   "Baojun Jiang",
+   "Chunhua Wu"
+  ],
+  "adsh": "0002109576-26-000001"
+ },
+ {
+  "cik": "0002015153",
+  "name": "Anthropic February 2024 a Series of CGF2021 LLC",
+  "targets": [
+   "Anthropic"
+  ],
+  "host": "CGF2021 LLC",
+  "filings": 1,
+  "first_filed": "2024-03-14",
+  "last_filed": "2024-03-14",
+  "first_sale": "2024-03-01",
+  "amount_sold": 300000.0,
+  "offering_amount": "300000",
+  "investors": 10.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "LLC Sydecar",
+   "Taylor Hughes"
+  ],
+  "adsh": "0002015153-24-000001"
+ },
+ {
+  "cik": "0002056792",
+  "name": "Anthropic Oct 2024 a Series of CGF2021 LLC",
+  "targets": [
+   "Anthropic"
+  ],
+  "host": "CGF2021 LLC",
+  "filings": 1,
+  "first_filed": "2025-02-19",
+  "last_filed": "2025-02-19",
+  "first_sale": "2025-02-08",
+  "amount_sold": 983812.0,
+  "offering_amount": "983812",
+  "investors": 30.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "LLC Sydecar",
+   "Brett Sagan"
+  ],
+  "adsh": "0002056792-25-000001"
+ },
+ {
+  "cik": "0002098675",
+  "name": "Anthropic Oct 2025 a Series of CGF2021 LLC",
+  "targets": [
+   "Anthropic"
+  ],
+  "host": "CGF2021 LLC",
+  "filings": 1,
+  "first_filed": "2025-12-03",
+  "last_filed": "2025-12-03",
+  "first_sale": "2025-11-14",
+  "amount_sold": 2456576.0,
+  "offering_amount": "2456576",
+  "investors": 75.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "LLC Sydecar",
+   "Brett Sagan"
+  ],
+  "adsh": "0002098675-25-000001"
+ },
+ {
+  "cik": "0002018647",
+  "name": "ID Funds 3 - Anthropic, a series of ID Funds 3 LLC",
+  "targets": [
+   "Anthropic"
+  ],
+  "host": "ID Funds 3 LLC",
+  "filings": 1,
+  "first_filed": "2024-04-12",
+  "last_filed": "2024-04-12",
+  "first_sale": "2024-03-25",
+  "amount_sold": 5595000.0,
+  "offering_amount": "Indefinite",
+  "investors": 65.0,
+  "min_investment": 0.0,
+  "sales_commissions": 279750.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Other Investment Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [
+   "PARKER STREET SECURITIES LLC"
+  ],
+  "related": [
+   "Dermot Bolger",
+   "Joseph McGowan"
+  ],
+  "adsh": "0002018647-24-000001"
+ },
+ {
+  "cik": "0002132165",
+  "name": "Anthropic Fund IV Apr 2026 a Series of CGF2021 LLC",
+  "targets": [
+   "Anthropic"
+  ],
+  "host": "CGF2021 LLC",
+  "filings": 1,
+  "first_filed": "2026-04-30",
+  "last_filed": "2026-04-30",
+  "first_sale": "2026-04-29",
+  "amount_sold": 1562371.0,
+  "offering_amount": "1562371",
+  "investors": 1.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "LLC Sydecar",
+   "Brett Sagan"
+  ],
+  "adsh": "0002132165-26-000001"
+ },
+ {
+  "cik": "0002016442",
+  "name": "MAYAVALLEY ANTHROPIC A SERIES OF SSD SPV I LLC",
+  "targets": [
+   "Anthropic"
+  ],
+  "host": "SSD SPV I LLC",
+  "filings": 1,
+  "first_filed": "2024-04-23",
+  "last_filed": "2024-04-23",
+  "first_sale": "2024-02-05",
+  "amount_sold": 320000.0,
+  "offering_amount": "320000",
+  "investors": 14.0,
+  "min_investment": 10000.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b"
+  ],
+  "fund_type": "Private Equity Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "ANSHUMAN SINHA"
+  ],
+  "adsh": "0002016450-24-000006"
+ },
+ {
+  "cik": "0002087617",
+  "name": "Starbridge Anthropic II Aug 2025 a Series of CGF2021 LLC",
+  "targets": [
+   "Anthropic"
+  ],
+  "host": "CGF2021 LLC",
+  "filings": 1,
+  "first_filed": "2025-09-24",
+  "last_filed": "2025-09-24",
+  "first_sale": "2025-09-11",
+  "amount_sold": 1371633.0,
+  "offering_amount": "1371633",
+  "investors": 40.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "LLC Sydecar",
+   "Brett Sagan"
+  ],
+  "adsh": "0002087617-25-000001"
+ },
+ {
+  "cik": "0002146809",
+  "name": "Coastline Venture Partners Anthropic LLC",
+  "targets": [
+   "Anthropic"
+  ],
+  "host": null,
+  "filings": 1,
+  "first_filed": "2026-07-23",
+  "last_filed": "2026-07-23",
+  "first_sale": "2026-06-18",
+  "amount_sold": 4055618.0,
+  "offering_amount": "4055618",
+  "investors": 15.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Other Investment Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "- Coastline Venture Partners LLC"
+  ],
+  "adsh": "0002146809-26-000001"
+ },
+ {
+  "cik": "0002036803",
+  "name": "Anthropic Jun 2024 a Series of E1 Ventures Master LLC",
+  "targets": [
+   "Anthropic"
+  ],
+  "host": "E1 Ventures Master LLC",
+  "filings": 1,
+  "first_filed": "2024-09-10",
+  "last_filed": "2024-09-10",
+  "first_sale": "2024-09-03",
+  "amount_sold": 1117238.0,
+  "offering_amount": "1117238",
+  "investors": 12.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "LLC Sydecar",
+   "Taylor Hughes"
+  ],
+  "adsh": "0002036803-24-000001"
+ },
+ {
+  "cik": "0002109803",
+  "name": "Anthropic Fund Jan 2026 a Series of CGF2021 LLC",
+  "targets": [
+   "Anthropic"
+  ],
+  "host": "CGF2021 LLC",
+  "filings": 1,
+  "first_filed": "2026-02-06",
+  "last_filed": "2026-02-06",
+  "first_sale": "2026-01-26",
+  "amount_sold": 216180.0,
+  "offering_amount": "216180",
+  "investors": 5.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "LLC Sydecar",
+   "Brett Sagan"
+  ],
+  "adsh": "0002109803-26-000001"
+ },
+ {
+  "cik": "0002110176",
+  "name": "Nuvion Series Anthropic Jan 2026 a Series of CGF2021 LLC",
+  "targets": [
+   "Anthropic"
+  ],
+  "host": "CGF2021 LLC",
+  "filings": 1,
+  "first_filed": "2026-02-09",
+  "last_filed": "2026-02-09",
+  "first_sale": "2026-02-05",
+  "amount_sold": 962500.0,
+  "offering_amount": "962500",
+  "investors": 34.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "LLC Sydecar",
+   "Brett Sagan"
+  ],
+  "adsh": "0002110176-26-000001"
+ },
+ {
+  "cik": "0001973793",
+  "name": "ZZG Capital Anthropic, LP",
+  "targets": [
+   "Anthropic"
+  ],
+  "host": null,
+  "filings": 1,
+  "first_filed": "2023-04-25",
+  "last_filed": "2023-04-25",
+  "first_sale": "2023-04-07",
+  "amount_sold": 1816666.0,
+  "offering_amount": "1816666",
+  "investors": 57.0,
+  "min_investment": 1000.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C.1"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "N/A ZZG Capital LLC",
+   "Zachary Ginsburg"
+  ],
+  "adsh": "0001973793-23-000002"
+ },
+ {
+  "cik": "0002107292",
+  "name": "MI XAI Investment, LLC",
+  "targets": [
+   "xAI"
+  ],
+  "host": null,
+  "filings": 1,
+  "first_filed": "2026-01-27",
+  "last_filed": "2026-01-27",
+  "first_sale": "2025-12-11",
+  "amount_sold": 1840000.0,
+  "offering_amount": "1840000",
+  "investors": 42.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b"
+  ],
+  "fund_type": null,
+  "jurisdiction": "MICHIGAN",
+  "sales_compensation": [],
+  "related": [
+   "Charles Dabrowski",
+   "Jeff Cheek"
+  ],
+  "adsh": "0002107292-26-000001"
+ },
+ {
+  "cik": "0002117438",
+  "name": "HII xAI-02, a Series of HII xAI LLC",
+  "targets": [
+   "xAI"
+  ],
+  "host": "HII xAI LLC",
+  "filings": 1,
+  "first_filed": "2026-03-09",
+  "last_filed": "2026-03-09",
+  "first_sale": "2025-12-24",
+  "amount_sold": 2889117.0,
+  "offering_amount": "2889117",
+  "investors": 50.0,
+  "min_investment": 25000.0,
+  "sales_commissions": 102959.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Other Investment Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [
+   "Hiive Markets Limited"
+  ],
+  "related": [
+   "Manasi Vydyanath"
+  ],
+  "adsh": "0002117438-26-000001"
+ },
+ {
+  "cik": "0002118439",
+  "name": "HII xAI-01, a Series of HII xAI LLC",
+  "targets": [
+   "xAI"
+  ],
+  "host": "HII xAI LLC",
+  "filings": 2,
+  "first_filed": "2026-03-12",
+  "last_filed": "2026-03-23",
+  "first_sale": "2025-12-19",
+  "amount_sold": 8656115.0,
+  "offering_amount": "8656115",
+  "investors": 96.0,
+  "min_investment": 25000.0,
+  "sales_commissions": 321219.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.7"
+  ],
+  "fund_type": "Other Investment Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [
+   "Hiive Markets Limited"
+  ],
+  "related": [
+   "Christopher DeLap"
+  ],
+  "adsh": "0002118439-26-000002"
+ },
+ {
+  "cik": "0002071159",
+  "name": "Hiive xAI Series I a Series of Hiive xAI LLC",
+  "targets": [
+   "xAI"
+  ],
+  "host": "Hiive xAI LLC",
+  "filings": 1,
+  "first_filed": "2025-06-04",
+  "last_filed": "2025-06-04",
+  "first_sale": "2025-05-21",
+  "amount_sold": 5029565.0,
+  "offering_amount": "5029565",
+  "investors": 89.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "LLC Sydecar",
+   "Brett Sagan"
+  ],
+  "adsh": "0002071159-25-000001"
+ },
+ {
+  "cik": "0002117455",
+  "name": "HII xAI-03, a Series of HII xAI LLC",
+  "targets": [
+   "xAI"
+  ],
+  "host": "HII xAI LLC",
+  "filings": 1,
+  "first_filed": "2026-03-10",
+  "last_filed": "2026-03-10",
+  "first_sale": "2026-02-03",
+  "amount_sold": 899452.0,
+  "offering_amount": "899452",
+  "investors": 142.0,
+  "min_investment": 25000.0,
+  "sales_commissions": 341420.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.7"
+  ],
+  "fund_type": "Other Investment Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [
+   "Hiive Markets Limited"
+  ],
+  "related": [
+   "Manasi Vydyanath"
+  ],
+  "adsh": "0002117455-26-000001"
+ },
+ {
+  "cik": "0002117080",
+  "name": "NB Ventures XAI II, LP",
+  "targets": [
+   "xAI"
+  ],
+  "host": null,
+  "filings": 1,
+  "first_filed": "2026-06-25",
+  "last_filed": "2026-06-25",
+  "first_sale": "2026-06-07",
+  "amount_sold": 154851802.0,
+  "offering_amount": "154851802",
+  "investors": 4.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Other Investment Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "N/A NB Ventures XAI II GP, LLC",
+   "Charles Reim",
+   "Jason Wong",
+   "N/A Amity Ventures LLC"
+  ],
+  "adsh": "0002117080-26-000001"
+ },
+ {
+  "cik": "0002086440",
+  "name": "NB Ventures XAI, LP",
+  "targets": [
+   "xAI"
+  ],
+  "host": null,
+  "filings": 1,
+  "first_filed": "2025-12-29",
+  "last_filed": "2025-12-29",
+  "first_sale": "2025-06-20",
+  "amount_sold": 135098794.0,
+  "offering_amount": "135098794",
+  "investors": 16.0,
+  "min_investment": 0.0,
+  "sales_commissions": 1066756.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b"
+  ],
+  "fund_type": "Other Investment Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [
+   "Artist Capital LLC"
+  ],
+  "related": [
+   "N/A NB Ventures XAI GP, LLC",
+   "Charles Reim",
+   "Jason Wong",
+   "N/A Amity Ventures LLC"
+  ],
+  "adsh": "0002086440-25-000001"
+ },
+ {
+  "cik": "0002078542",
+  "name": "Blackbox x Astro xAI May 2025 a Series of SLRTE I LLC",
+  "targets": [
+   "xAI"
+  ],
+  "host": "SLRTE I LLC",
+  "filings": 1,
+  "first_filed": "2025-08-05",
+  "last_filed": "2025-08-05",
+  "first_sale": "2025-08-05",
+  "amount_sold": 508750.0,
+  "offering_amount": "508750",
+  "investors": 14.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1",
+   "3C.7"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "Seed Labs LLC",
+   "Shriank Kanaparti"
+  ],
+  "adsh": "0002078542-25-000001"
+ },
+ {
+  "cik": "0002092239",
+  "name": "DPV XAI VI, a Series of DataPower Ventures LLC",
+  "targets": [
+   "xAI"
+  ],
+  "host": "DataPower Ventures LLC",
+  "filings": 1,
+  "first_filed": "2025-10-17",
+  "last_filed": "2025-10-17",
+  "first_sale": null,
+  "amount_sold": 0.0,
+  "offering_amount": "Indefinite",
+  "investors": 0.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Private Equity Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "Corporation Alternative Financial",
+   "Bryan Casey"
+  ],
+  "adsh": "0002092239-25-000001"
+ },
+ {
+  "cik": "0002053557",
+  "name": "Inversiones Manto Xai Jan 2025 a Series of Moreno VC LLC",
+  "targets": [
+   "xAI"
+  ],
+  "host": "Moreno VC LLC",
+  "filings": 1,
+  "first_filed": "2025-01-28",
+  "last_filed": "2025-01-28",
+  "first_sale": "2025-01-10",
+  "amount_sold": 1055000.0,
+  "offering_amount": "1055000",
+  "investors": 1.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "LLC Sydecar",
+   "Brett Sagan"
+  ],
+  "adsh": "0002053557-25-000001"
+ },
+ {
+  "cik": "0002103084",
+  "name": "X Series xAI a Series of EHZ LLC",
+  "targets": [
+   "xAI"
+  ],
+  "host": "EHZ LLC",
+  "filings": 1,
+  "first_filed": "2026-01-08",
+  "last_filed": "2026-01-08",
+  "first_sale": "2025-12-16",
+  "amount_sold": 18480754.0,
+  "offering_amount": "18480754",
+  "investors": 53.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "LLC Sydecar",
+   "Brett Sagan"
+  ],
+  "adsh": "0002103084-26-000001"
+ },
+ {
+  "cik": "0002085861",
+  "name": "OPX2025 xAI, a Series of Opulentia Ventures X LLC",
+  "targets": [
+   "xAI"
+  ],
+  "host": "Opulentia Ventures X LLC",
+  "filings": 2,
+  "first_filed": "2025-09-16",
+  "last_filed": "2026-06-26",
+  "first_sale": "2025-08-26",
+  "amount_sold": 1600000.0,
+  "offering_amount": "1600000",
+  "investors": 10.0,
+  "min_investment": 25000.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b"
+  ],
+  "fund_type": null,
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "Manish Malhotra"
+  ],
+  "adsh": "0002085861-26-000001"
+ },
+ {
+  "cik": "0002023410",
+  "name": "Buttercore xAI a Series of CGF2021 LLC",
+  "targets": [
+   "xAI"
+  ],
+  "host": "CGF2021 LLC",
+  "filings": 1,
+  "first_filed": "2024-05-15",
+  "last_filed": "2024-05-15",
+  "first_sale": "2024-05-07",
+  "amount_sold": 122500.0,
+  "offering_amount": "122500",
+  "investors": 6.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "LLC Sydecar",
+   "Taylor Hughes"
+  ],
+  "adsh": "0002023410-24-000001"
+ },
+ {
+  "cik": "0002110152",
+  "name": "xAI Jan 2026 a Series of Moreno VC LLC",
+  "targets": [
+   "xAI"
+  ],
+  "host": "Moreno VC LLC",
+  "filings": 1,
+  "first_filed": "2026-02-18",
+  "last_filed": "2026-02-18",
+  "first_sale": "2026-02-13",
+  "amount_sold": 1036000.0,
+  "offering_amount": "1036000",
+  "investors": 12.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.7"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "LLC Sydecar",
+   "Brett Sagan"
+  ],
+  "adsh": "0002110152-26-000001"
+ },
+ {
+  "cik": "0002103726",
+  "name": "XAI Dec 2025 a Series of CGF2021 LLC",
+  "targets": [
+   "xAI"
+  ],
+  "host": "CGF2021 LLC",
+  "filings": 1,
+  "first_filed": "2026-01-06",
+  "last_filed": "2026-01-06",
+  "first_sale": "2025-12-17",
+  "amount_sold": 224050.0,
+  "offering_amount": "224050",
+  "investors": 16.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "LLC Sydecar",
+   "Brett Sagan"
+  ],
+  "adsh": "0002103726-26-000001"
+ },
+ {
+  "cik": "0002074950",
+  "name": "AION XAI Fund I a Series of CGF2021 LLC",
+  "targets": [
+   "xAI"
+  ],
+  "host": "CGF2021 LLC",
+  "filings": 1,
+  "first_filed": "2025-06-27",
+  "last_filed": "2025-06-27",
+  "first_sale": "2025-06-12",
+  "amount_sold": 2065000.0,
+  "offering_amount": "2065000",
+  "investors": 8.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "LLC Sydecar",
+   "Brett Sagan"
+  ],
+  "adsh": "0002074950-25-000001"
+ },
+ {
+  "cik": "0002078814",
+  "name": "XAI OHV Fund July 2025 a Series of CGF2021 LLC",
+  "targets": [
+   "xAI"
+  ],
+  "host": "CGF2021 LLC",
+  "filings": 1,
+  "first_filed": "2025-07-29",
+  "last_filed": "2025-07-29",
+  "first_sale": "2025-07-15",
+  "amount_sold": 283163.0,
+  "offering_amount": "283163",
+  "investors": 5.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "LLC Sydecar",
+   "Brett Sagan"
+  ],
+  "adsh": "0002078814-25-000001"
+ },
+ {
+  "cik": "0002114815",
+  "name": "DPV XAI VIII a Series of DataPower Capital Partners LLC",
+  "targets": [
+   "xAI"
+  ],
+  "host": "DataPower Capital Partners LLC",
+  "filings": 1,
+  "first_filed": "2026-03-03",
+  "last_filed": "2026-03-03",
+  "first_sale": "2026-02-19",
+  "amount_sold": 625000.0,
+  "offering_amount": "625000",
+  "investors": 3.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "LLC Sydecar",
+   "Brett Sagan"
+  ],
+  "adsh": "0002114815-26-000001"
+ },
+ {
+  "cik": "0002107696",
+  "name": "Inflection Ventures XAI Fund II LLC",
+  "targets": [
+   "xAI"
+  ],
+  "host": null,
+  "filings": 1,
+  "first_filed": "2026-02-06",
+  "last_filed": "2026-02-06",
+  "first_sale": "2025-12-11",
+  "amount_sold": 2750000.0,
+  "offering_amount": "2750000",
+  "investors": 3.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Other Investment Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "- Inflection Venture Capital LLC"
+  ],
+  "adsh": "0002107696-26-000001"
+ },
+ {
+  "cik": "0002024616",
+  "name": "Dominari Master SPV, LLC Series VI xAI",
+  "targets": [
+   "xAI"
+  ],
+  "host": null,
+  "filings": 2,
+  "first_filed": "2024-05-24",
+  "last_filed": "2024-12-12",
+  "first_sale": "2024-05-09",
+  "amount_sold": 4658308.0,
+  "offering_amount": "6000000",
+  "investors": 74.0,
+  "min_investment": 25000.0,
+  "sales_commissions": 642110.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Other Investment Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [
+   "DOMINARI SECURITIES LLC"
+  ],
+  "related": [
+   "- Dominari Manager LLC"
+  ],
+  "adsh": "0002024616-24-000003"
+ },
+ {
+  "cik": "0002025520",
+  "name": "xAI May 2024 a Series of CGF2021 LLC",
+  "targets": [
+   "xAI"
+  ],
+  "host": "CGF2021 LLC",
+  "filings": 1,
+  "first_filed": "2024-06-05",
+  "last_filed": "2024-06-05",
+  "first_sale": "2024-05-28",
+  "amount_sold": 112000.0,
+  "offering_amount": "112000",
+  "investors": 1.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "LLC Sydecar",
+   "Taylor Hughes"
+  ],
+  "adsh": "0002025520-24-000001"
+ },
+ {
+  "cik": "0002084322",
+  "name": "xAI SPV a Series of CGF2021 LLC",
+  "targets": [
+   "xAI"
+  ],
+  "host": "CGF2021 LLC",
+  "filings": 1,
+  "first_filed": "2025-09-08",
+  "last_filed": "2025-09-08",
+  "first_sale": "2025-08-13",
+  "amount_sold": 372413.0,
+  "offering_amount": "372413",
+  "investors": 19.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "LLC Sydecar",
+   "Brett Sagan"
+  ],
+  "adsh": "0002084322-25-000001"
+ },
+ {
+  "cik": "0002101206",
+  "name": "DPV XAI VII a Series of DataPower Capital Partners LLC",
+  "targets": [
+   "xAI"
+  ],
+  "host": "DataPower Capital Partners LLC",
+  "filings": 1,
+  "first_filed": "2026-01-08",
+  "last_filed": "2026-01-08",
+  "first_sale": "2026-01-06",
+  "amount_sold": 308587.0,
+  "offering_amount": "308587",
+  "investors": 8.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "LLC Sydecar",
+   "Brett Sagan"
+  ],
+  "adsh": "0002101206-26-000001"
+ },
+ {
+  "cik": "0002079444",
+  "name": "AUROCHS CAPITAL FUND - SERIES xAI",
+  "targets": [
+   "xAI"
+  ],
+  "host": "AUROCHS CAPITAL FUND",
+  "filings": 1,
+  "first_filed": "2025-08-06",
+  "last_filed": "2025-08-06",
+  "first_sale": "2025-07-10",
+  "amount_sold": 559645.0,
+  "offering_amount": "5000000",
+  "investors": 9.0,
+  "min_investment": 35000.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06c",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Private Equity Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "Craig Coletta"
+  ],
+  "adsh": "0002079444-25-000001"
+ },
+ {
+  "cik": "0002086578",
+  "name": "MTEPE SPV II xAI & Perplexity, LLC",
+  "targets": [
+   "xAI"
+  ],
+  "host": null,
+  "filings": 1,
+  "first_filed": "2025-10-06",
+  "last_filed": "2025-10-06",
+  "first_sale": "2025-08-22",
+  "amount_sold": 2250000.0,
+  "offering_amount": "Indefinite",
+  "investors": 64.0,
+  "min_investment": 50000.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06c",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Private Equity Fund",
+  "jurisdiction": "TEXAS",
+  "sales_compensation": [],
+  "related": [
+   "n/a MTE Private Equity, LLC",
+   "Sudhir Pai"
+  ],
+  "adsh": "0002086578-25-000001"
+ },
+ {
+  "cik": "0002078132",
+  "name": "Inflection Ventures XAI Fund I LLC",
+  "targets": [
+   "xAI"
+  ],
+  "host": null,
+  "filings": 1,
+  "first_filed": "2026-01-06",
+  "last_filed": "2026-01-06",
+  "first_sale": "2025-06-05",
+  "amount_sold": 3100000.0,
+  "offering_amount": "3100000",
+  "investors": 46.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "- Inflection Venture Capital LLC"
+  ],
+  "adsh": "0002078132-26-000001"
+ },
+ {
+  "cik": "0002071252",
+  "name": "xAI III May 2025 a Series of CGF2021 LLC",
+  "targets": [
+   "xAI"
+  ],
+  "host": "CGF2021 LLC",
+  "filings": 1,
+  "first_filed": "2025-06-05",
+  "last_filed": "2025-06-05",
+  "first_sale": "2025-05-22",
+  "amount_sold": 403000.0,
+  "offering_amount": "403000",
+  "investors": 16.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "LLC Sydecar",
+   "Brett Sagan"
+  ],
+  "adsh": "0002071252-25-000001"
+ },
+ {
+  "cik": "0002127981",
+  "name": "MY PE Access Fund LLC - xAI Series E",
+  "targets": [
+   "xAI"
+  ],
+  "host": "MY PE Access Fund LLC",
+  "filings": 1,
+  "first_filed": "2026-04-22",
+  "last_filed": "2026-04-22",
+  "first_sale": "2026-03-01",
+  "amount_sold": 2000000.0,
+  "offering_amount": "2000000",
+  "investors": 14.0,
+  "min_investment": 100000.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.7"
+  ],
+  "fund_type": "Private Equity Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [
+   "None"
+  ],
+  "related": [
+   "Yue Yu"
+  ],
+  "adsh": "0001213900-26-046314"
+ },
+ {
+  "cik": "0002026824",
+  "name": "xAI 2 May 2024 a Series of CGF2021 LLC",
+  "targets": [
+   "xAI"
+  ],
+  "host": "CGF2021 LLC",
+  "filings": 1,
+  "first_filed": "2024-06-13",
+  "last_filed": "2024-06-13",
+  "first_sale": "2024-06-07",
+  "amount_sold": 502650.0,
+  "offering_amount": "502650",
+  "investors": 3.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "LLC Sydecar"
+  ],
+  "adsh": "0002026824-24-000001"
+ },
+ {
+  "cik": "0002006549",
+  "name": "XAI Alternate Fund, a series of MAV Alternate Investments, LP",
+  "targets": [
+   "xAI"
+  ],
+  "host": "MAV Alternate Investments, LP",
+  "filings": 1,
+  "first_filed": "2024-03-19",
+  "last_filed": "2024-03-19",
+  "first_sale": "2024-03-08",
+  "amount_sold": 1907755.0,
+  "offering_amount": "1907755",
+  "investors": 73.0,
+  "min_investment": 1000.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "N/A MyAsiaVC, LLC",
+   "Sajidur Rahman"
+  ],
+  "adsh": "0002006549-24-000001"
+ },
+ {
+  "cik": "0002023127",
+  "name": "xAI Series B a Series of Pari Passu Master II LLC",
+  "targets": [
+   "xAI"
+  ],
+  "host": "Pari Passu Master II LLC",
+  "filings": 1,
+  "first_filed": "2024-05-15",
+  "last_filed": "2024-05-15",
+  "first_sale": "2024-05-07",
+  "amount_sold": 3904000.0,
+  "offering_amount": "3904000",
+  "investors": 55.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "LLC Sydecar",
+   "Taylor Hughes"
+  ],
+  "adsh": "0002023127-24-000001"
+ },
+ {
+  "cik": "0002080444",
+  "name": "xAI 2025(1) a Series of CGF2021 LLC",
+  "targets": [
+   "xAI"
+  ],
+  "host": "CGF2021 LLC",
+  "filings": 1,
+  "first_filed": "2025-08-08",
+  "last_filed": "2025-08-08",
+  "first_sale": "2025-07-17",
+  "amount_sold": 280000.0,
+  "offering_amount": "280000",
+  "investors": 4.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "LLC Sydecar",
+   "Brett Sagan"
+  ],
+  "adsh": "0002080444-25-000001"
+ },
+ {
+  "cik": "0002050955",
+  "name": "xAI SPV, LLC",
+  "targets": [
+   "xAI"
+  ],
+  "host": null,
+  "filings": 1,
+  "first_filed": "2025-01-31",
+  "last_filed": "2025-01-31",
+  "first_sale": null,
+  "amount_sold": 0.0,
+  "offering_amount": "Indefinite",
+  "investors": 0.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "- Sabertooth GP, LLC"
+  ],
+  "adsh": "0002050955-25-000001"
+ },
+ {
+  "cik": "0002075111",
+  "name": "XAi Apr 2025 a Series of CGF2021 LLC",
+  "targets": [
+   "xAI"
+  ],
+  "host": "CGF2021 LLC",
+  "filings": 1,
+  "first_filed": "2025-06-30",
+  "last_filed": "2025-06-30",
+  "first_sale": "2025-06-01",
+  "amount_sold": 1760884.0,
+  "offering_amount": "1760884",
+  "investors": 45.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "LLC Sydecar",
+   "Brett Sagan"
+  ],
+  "adsh": "0002075111-25-000001"
+ },
+ {
+  "cik": "0002112878",
+  "name": "Manto xAI Jan 2026 a Series of Moreno VC LLC",
+  "targets": [
+   "xAI"
+  ],
+  "host": "Moreno VC LLC",
+  "filings": 1,
+  "first_filed": "2026-02-24",
+  "last_filed": "2026-02-24",
+  "first_sale": "2026-02-17",
+  "amount_sold": 2515000.0,
+  "offering_amount": "2515000",
+  "investors": 1.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.7"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "LLC Sydecar",
+   "Brett Sagan"
+  ],
+  "adsh": "0002112878-26-000001"
+ },
+ {
+  "cik": "0002072053",
+  "name": "Greenbird Intelligence Fund, LLC Series R - XAI",
+  "targets": [
+   "xAI"
+  ],
+  "host": "Greenbird Intelligence Fund, LLC Series R",
+  "filings": 1,
+  "first_filed": "2025-06-12",
+  "last_filed": "2025-06-12",
+  "first_sale": "2025-05-28",
+  "amount_sold": 1030000.0,
+  "offering_amount": "Indefinite",
+  "investors": 15.0,
+  "min_investment": 10000.0,
+  "sales_commissions": 80280.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Private Equity Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [
+   "GREENBIRD CAPITAL LLC"
+  ],
+  "related": [
+   "- Greenbird Intelligence Management LLC"
+  ],
+  "adsh": "0002072053-25-000001"
+ },
+ {
+  "cik": "0002023654",
+  "name": "Parkway Co-Investment 10 (xAI) QP LP",
+  "targets": [
+   "xAI"
+  ],
+  "host": null,
+  "filings": 1,
+  "first_filed": "2025-09-15",
+  "last_filed": "2025-09-15",
+  "first_sale": null,
+  "amount_sold": 0.0,
+  "offering_amount": "Indefinite",
+  "investors": 0.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "Jesse Coors-Blankenship"
+  ],
+  "adsh": "0002023654-25-000002"
+ },
+ {
+  "cik": "0002109943",
+  "name": "xAI - Grain Ventures Jan 2026 a Series of CGF2021 LLC",
+  "targets": [
+   "xAI"
+  ],
+  "host": "CGF2021 LLC",
+  "filings": 1,
+  "first_filed": "2026-02-06",
+  "last_filed": "2026-02-06",
+  "first_sale": "2026-02-05",
+  "amount_sold": 237500.0,
+  "offering_amount": "237500",
+  "investors": 11.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.7"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "LLC Sydecar",
+   "Brett Sagan"
+  ],
+  "adsh": "0002109943-26-000001"
+ },
+ {
+  "cik": "0002054050",
+  "name": "xAi a Series of OORI LLC",
+  "targets": [
+   "xAI"
+  ],
+  "host": "OORI LLC",
+  "filings": 1,
+  "first_filed": "2025-01-31",
+  "last_filed": "2025-01-31",
+  "first_sale": "2025-01-22",
+  "amount_sold": 417100.0,
+  "offering_amount": "417100",
+  "investors": 6.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "LLC Sydecar",
+   "Brett Sagan"
+  ],
+  "adsh": "0002054050-25-000001"
+ },
+ {
+  "cik": "0002108165",
+  "name": "XAI-3, a series of ALEXTAR VC, LLC",
+  "targets": [
+   "xAI"
+  ],
+  "host": "ALEXTAR VC, LLC",
+  "filings": 2,
+  "first_filed": "2026-01-29",
+  "last_filed": "2026-04-06",
+  "first_sale": "2026-01-22",
+  "amount_sold": 2893543.0,
+  "offering_amount": "2893543",
+  "investors": 46.0,
+  "min_investment": 25000.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Other Investment Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "Taras Chumachenko"
+  ],
+  "adsh": "0002108165-26-000002"
+ },
+ {
+  "cik": "0002099893",
+  "name": "Pachamama Capital xAI Sep 2025 a Series of CGF2021 LLC",
+  "targets": [
+   "xAI"
+  ],
+  "host": "CGF2021 LLC",
+  "filings": 1,
+  "first_filed": "2025-12-23",
+  "last_filed": "2025-12-23",
+  "first_sale": "2025-12-19",
+  "amount_sold": 515000.0,
+  "offering_amount": "515000",
+  "investors": 15.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "LLC Sydecar",
+   "Brett Sagan"
+  ],
+  "adsh": "0002099893-25-000001"
+ },
+ {
+  "cik": "0002053558",
+  "name": "Xai Nov 2024 a Series of Moreno VC LLC",
+  "targets": [
+   "xAI"
+  ],
+  "host": "Moreno VC LLC",
+  "filings": 1,
+  "first_filed": "2025-01-28",
+  "last_filed": "2025-01-28",
+  "first_sale": "2025-01-10",
+  "amount_sold": 1163000.0,
+  "offering_amount": "1163000",
+  "investors": 17.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "LLC Sydecar",
+   "Brett Sagan"
+  ],
+  "adsh": "0002053558-25-000001"
+ },
+ {
+  "cik": "0002076048",
+  "name": "Blackbox x Astro xAI May 2025 a Series of CGF2021 LLC",
+  "targets": [
+   "xAI"
+  ],
+  "host": "CGF2021 LLC",
+  "filings": 1,
+  "first_filed": "2025-07-10",
+  "last_filed": "2025-07-10",
+  "first_sale": "2025-06-17",
+  "amount_sold": 777979.0,
+  "offering_amount": "777979",
+  "investors": 12.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "LLC Sydecar",
+   "Brett Sagan"
+  ],
+  "adsh": "0002076048-25-000001"
+ },
+ {
+  "cik": "0002079367",
+  "name": "xAI Holding BBVC a Series of CGF2021 LLC",
+  "targets": [
+   "xAI"
+  ],
+  "host": "CGF2021 LLC",
+  "filings": 1,
+  "first_filed": "2025-08-04",
+  "last_filed": "2025-08-04",
+  "first_sale": "2025-07-17",
+  "amount_sold": 2333750.0,
+  "offering_amount": "2333750",
+  "investors": 9.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "LLC Sydecar",
+   "Brett Sagan"
+  ],
+  "adsh": "0002079367-25-000001"
+ },
+ {
+  "cik": "0002079614",
+  "name": "DPV XAI VI a Series of DataPower Capital Partners LLC",
+  "targets": [
+   "xAI"
+  ],
+  "host": "DataPower Capital Partners LLC",
+  "filings": 1,
+  "first_filed": "2025-08-04",
+  "last_filed": "2025-08-04",
+  "first_sale": "2025-07-21",
+  "amount_sold": 2857575.0,
+  "offering_amount": "2857575",
+  "investors": 21.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "LLC Sydecar",
+   "Brett Sagan"
+  ],
+  "adsh": "0002079614-25-000001"
+ },
+ {
+  "cik": "0002047970",
+  "name": "INVESTX SERIES (XAI-U2), A SERIES OF INVESTX MASTER LLC",
+  "targets": [
+   "xAI"
+  ],
+  "host": "INVESTX MASTER LLC",
+  "filings": 3,
+  "first_filed": "2024-12-16",
+  "last_filed": "2025-01-02",
+  "first_sale": "2024-11-29",
+  "amount_sold": 2180000.0,
+  "offering_amount": "Indefinite",
+  "investors": 12.0,
+  "min_investment": 10000.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": "Selling agents and referring firms may receive a carried interest of 5.0%.",
+  "non_accredited": "false",
+  "exemptions": [
+   "06c"
+  ],
+  "fund_type": "Other Investment Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [
+   "Daniel Bernard Savoie",
+   "Marcus A. New",
+   "Alejandro Levy Schwed",
+   "Ashley Mofrad",
+   "Justin Dale Tompkins"
+  ],
+  "related": [
+   "null InvestX Master GP1 Inc.",
+   "null InvestX Markets LLC",
+   "null Great Lakes Fund Solutions, Inc.",
+   "Robert McLamore"
+  ],
+  "adsh": "0002047970-25-000001"
+ },
+ {
+  "cik": "0002081786",
+  "name": "D. Boral Master SPV LLC, Series IV xAI",
+  "targets": [
+   "xAI"
+  ],
+  "host": "D. Boral Master SPV LLC",
+  "filings": 1,
+  "first_filed": "2025-09-19",
+  "last_filed": "2025-09-19",
+  "first_sale": "2025-09-05",
+  "amount_sold": 2137075.0,
+  "offering_amount": "6000000",
+  "investors": 37.0,
+  "min_investment": 25000.0,
+  "sales_commissions": 128225.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Other Investment Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [
+   "D. Boral Capital LLC"
+  ],
+  "related": [
+   "- D. Boral Manager LLC",
+   "- D. Boral IM LLC",
+   "David Boral"
+  ],
+  "adsh": "0002081786-25-000001"
+ },
+ {
+  "cik": "0002102114",
+  "name": "xAI 2025(2) a Series of CGF2021 LLC",
+  "targets": [
+   "xAI"
+  ],
+  "host": "CGF2021 LLC",
+  "filings": 1,
+  "first_filed": "2025-12-19",
+  "last_filed": "2025-12-19",
+  "first_sale": "2025-12-05",
+  "amount_sold": 272500.0,
+  "offering_amount": "272500",
+  "investors": 3.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "LLC Sydecar",
+   "Brett Sagan"
+  ],
+  "adsh": "0002102114-25-000001"
+ },
+ {
+  "cik": "0002057564",
+  "name": "Infinitas Capital SPV VII - xAI Primary Series D a series of Infinitas Capital Master LLC",
+  "targets": [
+   "xAI"
+  ],
+  "host": "Infinitas Capital Master LLC",
+  "filings": 3,
+  "first_filed": "2025-02-21",
+  "last_filed": "2025-04-23",
+  "first_sale": "2025-02-11",
+  "amount_sold": 846499.0,
+  "offering_amount": "846499",
+  "investors": 2.0,
+  "min_investment": 1.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Other Investment Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "Ltd Infinitas Investments",
+   "LLC Allocations Fund Administration,",
+   "Richard Thoms"
+  ],
+  "adsh": "0002057564-25-000003"
+ },
+ {
+  "cik": "0002104411",
+  "name": "Xstrat-xai a Series of CGF2021 LLC",
+  "targets": [
+   "xAI"
+  ],
+  "host": "CGF2021 LLC",
+  "filings": 1,
+  "first_filed": "2026-01-12",
+  "last_filed": "2026-01-12",
+  "first_sale": "2025-12-18",
+  "amount_sold": 2800025.0,
+  "offering_amount": "2800025",
+  "investors": 7.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.7"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "LLC Sydecar",
+   "Brett Sagan"
+  ],
+  "adsh": "0002104411-26-000001"
+ },
+ {
+  "cik": "0002022270",
+  "name": "ID Funds - xAI, a series of ID Funds 3 LLC",
+  "targets": [
+   "xAI"
+  ],
+  "host": "ID Funds 3 LLC",
+  "filings": 1,
+  "first_filed": "2024-05-06",
+  "last_filed": "2024-05-06",
+  "first_sale": null,
+  "amount_sold": 0.0,
+  "offering_amount": "5850000",
+  "investors": 0.0,
+  "min_investment": 0.0,
+  "sales_commissions": 292500.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Other Investment Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [
+   "PARKER STREET SECURITIES LLC"
+  ],
+  "related": [
+   "Dermot Bolger",
+   "Joseph McGowan"
+  ],
+  "adsh": "0002022270-24-000001"
+ },
+ {
+  "cik": "0002059517",
+  "name": "Eagle VP Fund 2 Series xAI LLC",
+  "targets": [
+   "xAI"
+  ],
+  "host": null,
+  "filings": 1,
+  "first_filed": "2025-03-07",
+  "last_filed": "2025-03-07",
+  "first_sale": "2025-02-28",
+  "amount_sold": 0.0,
+  "offering_amount": "Indefinite",
+  "investors": 0.0,
+  "min_investment": 50000.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06c"
+  ],
+  "fund_type": null,
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [
+   "Eagle Venture Partners LLC"
+  ],
+  "related": [
+   "Ardit Dodaj",
+   "Julian Antoni"
+  ],
+  "adsh": "0001376474-25-000254"
+ },
+ {
+  "cik": "0002110767",
+  "name": "xAI Stratosphere, a Series of A Master Series, LLC",
+  "targets": [
+   "xAI"
+  ],
+  "host": "A Master Series, LLC",
+  "filings": 1,
+  "first_filed": "2026-02-23",
+  "last_filed": "2026-02-23",
+  "first_sale": null,
+  "amount_sold": 0.0,
+  "offering_amount": "Indefinite",
+  "investors": 0.0,
+  "min_investment": 1.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "Corporation Alternative Financial",
+   "Bryan Casey"
+  ],
+  "adsh": "0002110767-26-000001"
+ },
+ {
+  "cik": "0002057006",
+  "name": "Greenbird Intelligence Fund, LLC Series Q - xAI",
+  "targets": [
+   "xAI"
+  ],
+  "host": "Greenbird Intelligence Fund, LLC Series Q",
+  "filings": 1,
+  "first_filed": "2025-02-25",
+  "last_filed": "2025-02-25",
+  "first_sale": "2025-02-10",
+  "amount_sold": 1910000.0,
+  "offering_amount": "Indefinite",
+  "investors": 18.0,
+  "min_investment": 15000.0,
+  "sales_commissions": 152800.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Private Equity Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [
+   "GREENBIRD CAPITAL LLC"
+  ],
+  "related": [
+   "- Greenbird Intelligence Management LLC"
+  ],
+  "adsh": "0002057006-25-000001"
+ },
+ {
+  "cik": "0002048881",
+  "name": "Dominari Master SPV LLC Series XVI xAI",
+  "targets": [
+   "xAI"
+  ],
+  "host": null,
+  "filings": 1,
+  "first_filed": "2025-02-21",
+  "last_filed": "2025-02-21",
+  "first_sale": "2024-12-12",
+  "amount_sold": 1773148.0,
+  "offering_amount": "1773148",
+  "investors": 23.0,
+  "min_investment": 10000.0,
+  "sales_commissions": 267498.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Other Investment Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [
+   "DOMINARI SECURITIES LLC"
+  ],
+  "related": [
+   "- Dominari Manager LLC"
+  ],
+  "adsh": "0002034372-25-000002"
+ },
+ {
+  "cik": "0002023128",
+  "name": "xAI Fund a Series of CGF2021 LLC",
+  "targets": [
+   "xAI"
+  ],
+  "host": "CGF2021 LLC",
+  "filings": 2,
+  "first_filed": "2024-05-15",
+  "last_filed": "2026-05-07",
+  "first_sale": "2024-05-03",
+  "amount_sold": 1052500.0,
+  "offering_amount": "1052500",
+  "investors": 6.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Private Equity Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "LLC Sydecar",
+   "Taylor Hughes"
+  ],
+  "adsh": "0002023128-26-000003"
+ },
+ {
+  "cik": "0002046347",
+  "name": "xAI Jun 2024 a Series of CGF2021 LLC",
+  "targets": [
+   "xAI"
+  ],
+  "host": "CGF2021 LLC",
+  "filings": 1,
+  "first_filed": "2024-11-27",
+  "last_filed": "2024-11-27",
+  "first_sale": "2024-11-20",
+  "amount_sold": 4266295.0,
+  "offering_amount": "4266295",
+  "investors": 23.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "LLC Sydecar",
+   "Brett Sagan"
+  ],
+  "adsh": "0002046347-24-000001"
+ },
+ {
+  "cik": "0002078812",
+  "name": "LFG xAI 2 a Series of CGF2021 LLC",
+  "targets": [
+   "xAI"
+  ],
+  "host": "CGF2021 LLC",
+  "filings": 1,
+  "first_filed": "2025-07-29",
+  "last_filed": "2025-07-29",
+  "first_sale": "2025-07-15",
+  "amount_sold": 908735.0,
+  "offering_amount": "908735",
+  "investors": 22.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "LLC Sydecar",
+   "Brett Sagan"
+  ],
+  "adsh": "0002078812-25-000001"
+ },
+ {
+  "cik": "0002045807",
+  "name": "Nucleus SPV Elon Musks xAI a Series of CGF2021 LLC",
+  "targets": [
+   "xAI"
+  ],
+  "host": "CGF2021 LLC",
+  "filings": 1,
+  "first_filed": "2024-11-22",
+  "last_filed": "2024-11-22",
+  "first_sale": "2024-11-15",
+  "amount_sold": 359500.0,
+  "offering_amount": "359500",
+  "investors": 12.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "LLC Sydecar",
+   "Brett Sagan"
+  ],
+  "adsh": "0002045807-24-000001"
+ },
+ {
+  "cik": "0002027448",
+  "name": "Fearless xAI SPV 1 LLC",
+  "targets": [
+   "xAI"
+  ],
+  "host": null,
+  "filings": 1,
+  "first_filed": "2024-06-21",
+  "last_filed": "2024-06-21",
+  "first_sale": null,
+  "amount_sold": 0.0,
+  "offering_amount": "Indefinite",
+  "investors": 0.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Other Investment Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "N/A Fearless SPV Management, LLC",
+   "Seth Miller",
+   "Dave Kashen"
+  ],
+  "adsh": "0002027448-24-000001"
+ },
+ {
+  "cik": "0002072102",
+  "name": "OurCrowd (Investment in XAI) L.P.",
+  "targets": [
+   "xAI"
+  ],
+  "host": null,
+  "filings": 1,
+  "first_filed": "2025-06-10",
+  "last_filed": "2025-06-10",
+  "first_sale": "2025-05-12",
+  "amount_sold": 2038550.0,
+  "offering_amount": "Indefinite",
+  "investors": 44.0,
+  "min_investment": 10000.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "VIRGIN ISLANDS, BRITISH",
+  "sales_compensation": [],
+  "related": [
+   "Jonathan Medved",
+   "Caleb Chill"
+  ],
+  "adsh": "0002072102-25-000001"
+ },
+ {
+  "cik": "0002035740",
+  "name": "xAI I, a series of WeFunds LLC",
+  "targets": [
+   "xAI"
+  ],
+  "host": "WeFunds LLC",
+  "filings": 1,
+  "first_filed": "2024-09-18",
+  "last_filed": "2024-09-18",
+  "first_sale": "2024-05-17",
+  "amount_sold": 7237442.0,
+  "offering_amount": "7237442",
+  "investors": 166.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b"
+  ],
+  "fund_type": null,
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "Nicholas Tommarello"
+  ],
+  "adsh": "0002035740-24-000001"
+ },
+ {
+  "cik": "0002022761",
+  "name": "INVESTX SERIES (XAI-U1), A SERIES OF INVESTX MASTER LLC",
+  "targets": [
+   "xAI"
+  ],
+  "host": "INVESTX MASTER LLC",
+  "filings": 2,
+  "first_filed": "2024-05-09",
+  "last_filed": "2024-05-17",
+  "first_sale": "2024-04-19",
+  "amount_sold": 3375000.0,
+  "offering_amount": "Indefinite",
+  "investors": 17.0,
+  "min_investment": 25000.0,
+  "sales_commissions": 151875.0,
+  "finders_fees": 0.0,
+  "fees_clarification": "The Issuer may require investors brought by a registered broker-dealer to pay up to 4.5% of the investor's commitment to such dealer-broker. In addition, selling agents and referring firms may receive a carried interest of 5.0%.",
+  "non_accredited": "false",
+  "exemptions": [
+   "06c"
+  ],
+  "fund_type": "Other Investment Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [
+   "Daniel Bernard Savoie",
+   "Marcus A. New",
+   "Justin Dale Tompkins",
+   "Alejandro Levy Schwed",
+   "Ashley Mofrad"
+  ],
+  "related": [
+   "null InvestX Asset Management LLC",
+   "null InvestX Markets LLC",
+   "null Great Lakes Fund Solutions, Inc.",
+   "Robert McLamore"
+  ],
+  "adsh": "0002022761-24-000002"
+ },
+ {
+  "cik": "0002078324",
+  "name": "INVESTX SERIES (XAI-U3), A SERIES OF INVESTX MASTER LLC",
+  "targets": [
+   "xAI"
+  ],
+  "host": "INVESTX MASTER LLC",
+  "filings": 1,
+  "first_filed": "2025-07-25",
+  "last_filed": "2025-07-25",
+  "first_sale": "2025-07-11",
+  "amount_sold": 4742275.0,
+  "offering_amount": "Indefinite",
+  "investors": 24.0,
+  "min_investment": 25000.0,
+  "sales_commissions": 36777.0,
+  "finders_fees": 0.0,
+  "fees_clarification": "The issuer may require investors brought by a registered broker-dealer to pay up to 4.5% of the investor's commitment to such broker-dealer. In addition, selling agents may receive a carried interest of 5%.",
+  "non_accredited": "false",
+  "exemptions": [
+   "06c",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Other Investment Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [
+   "Marcus New",
+   "Spencer MacFosham"
+  ],
+  "related": [
+   "null InvestX Master GP1 Inc.",
+   "null InvestX Markets LLC",
+   "null Great Lakes Fund Solutions, Inc.",
+   "McLamore Robert"
+  ],
+  "adsh": "0002078324-25-000001"
+ },
+ {
+  "cik": "0002023084",
+  "name": "xAI Apr 2024 a Series of E1 Ventures Master LLC",
+  "targets": [
+   "xAI"
+  ],
+  "host": "E1 Ventures Master LLC",
+  "filings": 1,
+  "first_filed": "2024-05-15",
+  "last_filed": "2024-05-15",
+  "first_sale": "2024-05-08",
+  "amount_sold": 420648.0,
+  "offering_amount": "420648",
+  "investors": 5.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "LLC Sydecar",
+   "Taylor Hughes"
+  ],
+  "adsh": "0002023084-24-000001"
+ },
+ {
+  "cik": "0002050765",
+  "name": "xAI SPV Nucleus a Series of CGF2021 LLC",
+  "targets": [
+   "xAI"
+  ],
+  "host": "CGF2021 LLC",
+  "filings": 1,
+  "first_filed": "2025-01-06",
+  "last_filed": "2025-01-06",
+  "first_sale": "2024-12-27",
+  "amount_sold": 6999999.0,
+  "offering_amount": "6999999",
+  "investors": 3.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "LLC Sydecar",
+   "Brett Sagan"
+  ],
+  "adsh": "0002050765-25-000001"
+ },
+ {
+  "cik": "0002092472",
+  "name": "xAI May 2025 a Series of Moreno VC LLC",
+  "targets": [
+   "xAI"
+  ],
+  "host": "Moreno VC LLC",
+  "filings": 1,
+  "first_filed": "2025-11-21",
+  "last_filed": "2025-11-21",
+  "first_sale": "2025-11-20",
+  "amount_sold": 1200000.0,
+  "offering_amount": "1200000",
+  "investors": 2.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.7"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "LLC Sydecar",
+   "Brett Sagan"
+  ],
+  "adsh": "0002092472-25-000001"
+ },
+ {
+  "cik": "0002079370",
+  "name": "xAI IV Jul 2025 a Series of CGF2021 LLC",
+  "targets": [
+   "xAI"
+  ],
+  "host": "CGF2021 LLC",
+  "filings": 1,
+  "first_filed": "2025-08-04",
+  "last_filed": "2025-08-04",
+  "first_sale": "2025-07-17",
+  "amount_sold": 4793147.0,
+  "offering_amount": "4793147",
+  "investors": 36.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "LLC Sydecar",
+   "Brett Sagan"
+  ],
+  "adsh": "0002079370-25-000001"
+ },
+ {
+  "cik": "0002101010",
+  "name": "xAI SPV1 Emerging Global a Series of CGF2021 LLC",
+  "targets": [
+   "xAI"
+  ],
+  "host": "CGF2021 LLC",
+  "filings": 1,
+  "first_filed": "2025-12-29",
+  "last_filed": "2025-12-29",
+  "first_sale": "2025-12-23",
+  "amount_sold": 242777.0,
+  "offering_amount": "242777",
+  "investors": 12.0,
+  "min_investment": 0.0,
+  "sales_commissions": 0.0,
+  "finders_fees": 0.0,
+  "fees_clarification": null,
+  "non_accredited": "false",
+  "exemptions": [
+   "06b",
+   "3C",
+   "3C.1"
+  ],
+  "fund_type": "Venture Capital Fund",
+  "jurisdiction": "DELAWARE",
+  "sales_compensation": [],
+  "related": [
+   "LLC Sydecar",
+   "Brett Sagan"
+  ],
+  "adsh": "0002101010-25-000001"
+ }
+]
