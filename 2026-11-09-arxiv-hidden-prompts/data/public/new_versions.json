@@ -1,0 +1,104 @@
+{
+ "new-6": {
+  "category": "cs.CE",
+  "versions": [
+   [
+    "v1",
+    "2024-10-21",
+    false
+   ],
+   [
+    "v2",
+    "2025-10-29",
+    true
+   ]
+  ],
+  "prompted_version_date": "2025-10-29",
+  "kind": "added"
+ },
+ "new-4": {
+  "category": "cs.CL",
+  "versions": [
+   [
+    "v1",
+    "2025-06-10",
+    true
+   ],
+   [
+    "v2",
+    "2025-06-11",
+    null
+   ],
+   [
+    "v3",
+    "2025-09-28",
+    true
+   ]
+  ],
+  "prompted_version_date": "2025-09-28",
+  "kind": "kept_in_revision"
+ },
+ "new-1": {
+  "category": "cs.CL",
+  "versions": [
+   [
+    "v1",
+    "2025-06-27",
+    true
+   ]
+  ],
+  "prompted_version_date": "2025-06-27",
+  "kind": "untouched_before"
+ },
+ "new-3": {
+  "category": "cs.CV",
+  "versions": [
+   [
+    "v1",
+    "2025-08-03",
+    true
+   ]
+  ],
+  "prompted_version_date": "2025-08-03",
+  "kind": "new_after"
+ },
+ "new-2": {
+  "category": "cs.CL",
+  "versions": [
+   [
+    "v1",
+    "2024-09-19",
+    false
+   ],
+   [
+    "v2",
+    "2025-07-07",
+    true
+   ]
+  ],
+  "prompted_version_date": "2025-07-07",
+  "kind": "added"
+ },
+ "new-5": {
+  "category": "cs.AI",
+  "versions": [
+   [
+    "v1",
+    "2024-07-09",
+    false
+   ],
+   [
+    "v2",
+    "2024-07-10",
+    false
+   ],
+   [
+    "v3",
+    "2025-10-16",
+    true
+   ]
+  ],
+  "prompted_version_date": "2025-10-16",
+  "kind": "added"
+ }
+}

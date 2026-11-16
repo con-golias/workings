@@ -1,0 +1,838 @@
+{
+ "n18": 18,
+ "still_downloadable": 16,
+ "prompted_versions_withdrawn": 2,
+ "current_has": [
+  "2506.13901"
+ ],
+ "removed": 15,
+ "removed_before_nikkei": 6,
+ "removed_after_nikkei": 9,
+ "removed_within_15_days": 9,
+ "paper_withdrawn_but_prompt_downloadable": [
+  "2505.15075"
+ ],
+ "unverifiable": [
+  "2501.08667",
+  "2505.22998"
+ ],
+ "the18": [
+  {
+   "id": "2408.13940",
+   "cited": "2408.13940v3",
+   "versions": [
+    {
+     "v": 1,
+     "date": "2024-08-25",
+     "hit": false,
+     "withdrawn": false
+    },
+    {
+     "v": 2,
+     "date": "2024-09-17",
+     "hit": false,
+     "withdrawn": false
+    },
+    {
+     "v": 3,
+     "date": "2025-03-02",
+     "hit": true,
+     "withdrawn": false
+    },
+    {
+     "v": 4,
+     "date": "2025-07-09",
+     "hit": false,
+     "withdrawn": false
+    }
+   ],
+   "status": "removed",
+   "first_prompted": "2025-03-02",
+   "removed_on": "2025-07-09",
+   "removal_is_withdrawal": false,
+   "prompted_still_downloadable": true,
+   "paper_withdrawn": false
+  },
+  {
+   "id": "2403.08142",
+   "cited": "2403.08142v2",
+   "versions": [
+    {
+     "v": 1,
+     "date": "2024-03-13",
+     "hit": false,
+     "withdrawn": false
+    },
+    {
+     "v": 2,
+     "date": "2025-05-08",
+     "hit": true,
+     "withdrawn": false
+    },
+    {
+     "v": 3,
+     "date": "2025-07-12",
+     "hit": false,
+     "withdrawn": false
+    }
+   ],
+   "status": "removed",
+   "first_prompted": "2025-05-08",
+   "removed_on": "2025-07-12",
+   "removal_is_withdrawal": false,
+   "prompted_still_downloadable": true,
+   "paper_withdrawn": false
+  },
+  {
+   "id": "2501.13461",
+   "cited": "2501.13461v1",
+   "versions": [
+    {
+     "v": 1,
+     "date": "2025-01-23",
+     "hit": true,
+     "withdrawn": false
+    },
+    {
+     "v": 2,
+     "date": "2025-05-17",
+     "hit": false,
+     "withdrawn": false
+    }
+   ],
+   "status": "removed",
+   "first_prompted": "2025-01-23",
+   "removed_on": "2025-05-17",
+   "removal_is_withdrawal": false,
+   "prompted_still_downloadable": true,
+   "paper_withdrawn": false
+  },
+  {
+   "id": "2212.08983",
+   "cited": "2212.08983v2",
+   "versions": [
+    {
+     "v": 1,
+     "date": "2022-12-18",
+     "hit": false,
+     "withdrawn": false
+    },
+    {
+     "v": 2,
+     "date": "2025-01-07",
+     "hit": true,
+     "withdrawn": false
+    },
+    {
+     "v": 3,
+     "date": "2025-07-12",
+     "hit": false,
+     "withdrawn": false
+    }
+   ],
+   "status": "removed",
+   "first_prompted": "2025-01-07",
+   "removed_on": "2025-07-12",
+   "removal_is_withdrawal": false,
+   "prompted_still_downloadable": true,
+   "paper_withdrawn": false
+  },
+  {
+   "id": "2501.08667",
+   "cited": "2501.08667v1",
+   "versions": [
+    {
+     "v": 1,
+     "date": "2025-01-15",
+     "hit": null,
+     "withdrawn": true
+    },
+    {
+     "v": 2,
+     "date": "2025-07-07",
+     "hit": false,
+     "withdrawn": false
+    },
+    {
+     "v": 3,
+     "date": "2025-08-26",
+     "hit": false,
+     "withdrawn": false
+    },
+    {
+     "v": 4,
+     "date": "2026-03-30",
+     "hit": false,
+     "withdrawn": false
+    }
+   ],
+   "status": "unverifiable",
+   "first_prompted": null,
+   "removed_on": null,
+   "removal_is_withdrawal": false,
+   "prompted_still_downloadable": false,
+   "paper_withdrawn": false
+  },
+  {
+   "id": "2506.00418",
+   "cited": "2506.00418v1",
+   "versions": [
+    {
+     "v": 1,
+     "date": "2025-05-31",
+     "hit": true,
+     "withdrawn": false
+    },
+    {
+     "v": 2,
+     "date": "2025-06-21",
+     "hit": false,
+     "withdrawn": false
+    }
+   ],
+   "status": "removed",
+   "first_prompted": "2025-05-31",
+   "removed_on": "2025-06-21",
+   "removal_is_withdrawal": false,
+   "prompted_still_downloadable": true,
+   "paper_withdrawn": false
+  },
+  {
+   "id": "2505.15075",
+   "cited": "2505.15075v1",
+   "versions": [
+    {
+     "v": 1,
+     "date": "2025-05-21",
+     "hit": true,
+     "withdrawn": false
+    },
+    {
+     "v": 2,
+     "date": "2025-07-03",
+     "hit": false,
+     "withdrawn": false
+    },
+    {
+     "v": 3,
+     "date": "2025-07-15",
+     "hit": false,
+     "withdrawn": false
+    },
+    {
+     "v": 4,
+     "date": "2025-07-26",
+     "hit": false,
+     "withdrawn": false
+    },
+    {
+     "v": 5,
+     "date": "2025-08-24",
+     "hit": null,
+     "withdrawn": true
+    }
+   ],
+   "status": "removed",
+   "first_prompted": "2025-05-21",
+   "removed_on": "2025-07-03",
+   "removal_is_withdrawal": false,
+   "prompted_still_downloadable": true,
+   "paper_withdrawn": true
+  },
+  {
+   "id": "2406.17241",
+   "cited": "2406.17241v3",
+   "versions": [
+    {
+     "v": 1,
+     "date": "2024-06-25",
+     "hit": false,
+     "withdrawn": false
+    },
+    {
+     "v": 2,
+     "date": "2024-09-19",
+     "hit": false,
+     "withdrawn": false
+    },
+    {
+     "v": 3,
+     "date": "2024-12-16",
+     "hit": true,
+     "withdrawn": false
+    },
+    {
+     "v": 4,
+     "date": "2025-07-15",
+     "hit": false,
+     "withdrawn": false
+    }
+   ],
+   "status": "removed",
+   "first_prompted": "2024-12-16",
+   "removed_on": "2025-07-15",
+   "removal_is_withdrawal": false,
+   "prompted_still_downloadable": true,
+   "paper_withdrawn": false
+  },
+  {
+   "id": "2502.19918",
+   "cited": "2502.19918v2",
+   "versions": [
+    {
+     "v": 1,
+     "date": "2025-02-27",
+     "hit": false,
+     "withdrawn": false
+    },
+    {
+     "v": 2,
+     "date": "2025-05-22",
+     "hit": true,
+     "withdrawn": false
+    },
+    {
+     "v": 3,
+     "date": "2025-06-24",
+     "hit": false,
+     "withdrawn": false
+    },
+    {
+     "v": 4,
+     "date": "2025-08-08",
+     "hit": false,
+     "withdrawn": false
+    },
+    {
+     "v": 5,
+     "date": "2025-12-01",
+     "hit": false,
+     "withdrawn": false
+    },
+    {
+     "v": 6,
+     "date": "2026-05-07",
+     "hit": false,
+     "withdrawn": false
+    }
+   ],
+   "status": "removed",
+   "first_prompted": "2025-05-22",
+   "removed_on": "2025-06-24",
+   "removal_is_withdrawal": false,
+   "prompted_still_downloadable": true,
+   "paper_withdrawn": false
+  },
+  {
+   "id": "2506.03074",
+   "cited": "2506.03074v1",
+   "versions": [
+    {
+     "v": 1,
+     "date": "2025-06-03",
+     "hit": true,
+     "withdrawn": false
+    },
+    {
+     "v": 2,
+     "date": "2025-06-04",
+     "hit": true,
+     "withdrawn": false
+    },
+    {
+     "v": 3,
+     "date": "2025-06-18",
+     "hit": false,
+     "withdrawn": false
+    },
+    {
+     "v": 4,
+     "date": "2025-06-30",
+     "hit": false,
+     "withdrawn": false
+    },
+    {
+     "v": 5,
+     "date": "2026-04-10",
+     "hit": false,
+     "withdrawn": false
+    }
+   ],
+   "status": "removed",
+   "first_prompted": "2025-06-03",
+   "removed_on": "2025-06-18",
+   "removal_is_withdrawal": false,
+   "prompted_still_downloadable": true,
+   "paper_withdrawn": false
+  },
+  {
+   "id": "2505.11718",
+   "cited": "2505.11718v1",
+   "versions": [
+    {
+     "v": 1,
+     "date": "2025-05-16",
+     "hit": true,
+     "withdrawn": false
+    },
+    {
+     "v": 2,
+     "date": "2025-06-27",
+     "hit": false,
+     "withdrawn": false
+    }
+   ],
+   "status": "removed",
+   "first_prompted": "2025-05-16",
+   "removed_on": "2025-06-27",
+   "removal_is_withdrawal": false,
+   "prompted_still_downloadable": true,
+   "paper_withdrawn": false
+  },
+  {
+   "id": "2407.16803",
+   "cited": "2407.16803v3",
+   "versions": [
+    {
+     "v": 1,
+     "date": "2024-07-23",
+     "hit": false,
+     "withdrawn": false
+    },
+    {
+     "v": 2,
+     "date": "2024-11-07",
+     "hit": false,
+     "withdrawn": false
+    },
+    {
+     "v": 3,
+     "date": "2025-06-09",
+     "hit": true,
+     "withdrawn": false
+    },
+    {
+     "v": 4,
+     "date": "2025-07-10",
+     "hit": false,
+     "withdrawn": false
+    }
+   ],
+   "status": "removed",
+   "first_prompted": "2025-06-09",
+   "removed_on": "2025-07-10",
+   "removal_is_withdrawal": false,
+   "prompted_still_downloadable": true,
+   "paper_withdrawn": false
+  },
+  {
+   "id": "2506.13901",
+   "cited": "2506.13901v1",
+   "versions": [
+    {
+     "v": 1,
+     "date": "2025-06-16",
+     "hit": true,
+     "withdrawn": false
+    }
+   ],
+   "status": "current",
+   "first_prompted": "2025-06-16",
+   "removed_on": null,
+   "removal_is_withdrawal": false,
+   "prompted_still_downloadable": true,
+   "paper_withdrawn": false
+  },
+  {
+   "id": "2506.01324",
+   "cited": "2506.01324v1",
+   "versions": [
+    {
+     "v": 1,
+     "date": "2025-06-02",
+     "hit": true,
+     "withdrawn": false
+    },
+    {
+     "v": 2,
+     "date": "2025-06-18",
+     "hit": false,
+     "withdrawn": false
+    },
+    {
+     "v": 3,
+     "date": "2026-03-17",
+     "hit": false,
+     "withdrawn": false
+    }
+   ],
+   "status": "removed",
+   "first_prompted": "2025-06-02",
+   "removed_on": "2025-06-18",
+   "removal_is_withdrawal": false,
+   "prompted_still_downloadable": true,
+   "paper_withdrawn": false
+  },
+  {
+   "id": "2505.22998",
+   "cited": "2505.22998v1",
+   "versions": [
+    {
+     "v": 1,
+     "date": "2025-05-29",
+     "hit": null,
+     "withdrawn": true
+    },
+    {
+     "v": 2,
+     "date": "2025-06-18",
+     "hit": null,
+     "withdrawn": true
+    }
+   ],
+   "status": "unverifiable",
+   "first_prompted": null,
+   "removed_on": null,
+   "removal_is_withdrawal": false,
+   "prompted_still_downloadable": false,
+   "paper_withdrawn": true
+  },
+  {
+   "id": "2406.17253",
+   "cited": "2406.17253v2",
+   "versions": [
+    {
+     "v": 1,
+     "date": "2024-06-25",
+     "hit": false,
+     "withdrawn": false
+    },
+    {
+     "v": 2,
+     "date": "2024-12-16",
+     "hit": true,
+     "withdrawn": false
+    },
+    {
+     "v": 3,
+     "date": "2025-07-15",
+     "hit": false,
+     "withdrawn": false
+    }
+   ],
+   "status": "removed",
+   "first_prompted": "2024-12-16",
+   "removed_on": "2025-07-15",
+   "removal_is_withdrawal": false,
+   "prompted_still_downloadable": true,
+   "paper_withdrawn": false
+  },
+  {
+   "id": "2506.11111",
+   "cited": "2506.11111v1",
+   "versions": [
+    {
+     "v": 1,
+     "date": "2025-06-08",
+     "hit": true,
+     "withdrawn": false
+    },
+    {
+     "v": 2,
+     "date": "2025-07-09",
+     "hit": false,
+     "withdrawn": false
+    }
+   ],
+   "status": "removed",
+   "first_prompted": "2025-06-08",
+   "removed_on": "2025-07-09",
+   "removal_is_withdrawal": false,
+   "prompted_still_downloadable": true,
+   "paper_withdrawn": false
+  },
+  {
+   "id": "2505.16211",
+   "cited": "2505.16211v1",
+   "versions": [
+    {
+     "v": 1,
+     "date": "2025-05-22",
+     "hit": true,
+     "withdrawn": false
+    },
+    {
+     "v": 2,
+     "date": "2025-07-01",
+     "hit": false,
+     "withdrawn": false
+    },
+    {
+     "v": 3,
+     "date": "2025-09-30",
+     "hit": false,
+     "withdrawn": false
+    },
+    {
+     "v": 4,
+     "date": "2026-03-12",
+     "hit": false,
+     "withdrawn": false
+    }
+   ],
+   "status": "removed",
+   "first_prompted": "2025-05-22",
+   "removed_on": "2025-07-01",
+   "removal_is_withdrawal": false,
+   "prompted_still_downloadable": true,
+   "paper_withdrawn": false
+  }
+ ],
+ "verified_papers": 16,
+ "all_white": 16,
+ "under_2pt": 13,
+ "normal_size_white": 3,
+ "candidates": 215,
+ "candidates_2026": 185,
+ "candidates_visible_only": 60,
+ "candidates_no_phrase": 148,
+ "current_hidden": [
+  "new-5",
+  "new-2",
+  "new-6",
+  "new-4",
+  "2506.13901",
+  "new-1",
+  "new-3"
+ ],
+ "current_hidden_2026": [],
+ "new_not_in_lin": [
+  "new-5",
+  "new-2",
+  "new-6",
+  "new-4",
+  "new-1",
+  "new-3"
+ ],
+ "new_versions": {
+  "new-6": {
+   "category": "cs.CE",
+   "versions": [
+    [
+     "v1",
+     "2024-10-21",
+     false
+    ],
+    [
+     "v2",
+     "2025-10-29",
+     true
+    ]
+   ],
+   "prompted_version_date": "2025-10-29",
+   "kind": "added"
+  },
+  "new-4": {
+   "category": "cs.CL",
+   "versions": [
+    [
+     "v1",
+     "2025-06-10",
+     true
+    ],
+    [
+     "v2",
+     "2025-06-11",
+     null
+    ],
+    [
+     "v3",
+     "2025-09-28",
+     true
+    ]
+   ],
+   "prompted_version_date": "2025-09-28",
+   "kind": "kept_in_revision"
+  },
+  "new-1": {
+   "category": "cs.CL",
+   "versions": [
+    [
+     "v1",
+     "2025-06-27",
+     true
+    ]
+   ],
+   "prompted_version_date": "2025-06-27",
+   "kind": "untouched_before"
+  },
+  "new-3": {
+   "category": "cs.CV",
+   "versions": [
+    [
+     "v1",
+     "2025-08-03",
+     true
+    ]
+   ],
+   "prompted_version_date": "2025-08-03",
+   "kind": "new_after"
+  },
+  "new-2": {
+   "category": "cs.CL",
+   "versions": [
+    [
+     "v1",
+     "2024-09-19",
+     false
+    ],
+    [
+     "v2",
+     "2025-07-07",
+     true
+    ]
+   ],
+   "prompted_version_date": "2025-07-07",
+   "kind": "added"
+  },
+  "new-5": {
+   "category": "cs.AI",
+   "versions": [
+    [
+     "v1",
+     "2024-07-09",
+     false
+    ],
+    [
+     "v2",
+     "2024-07-10",
+     false
+    ],
+    [
+     "v3",
+     "2025-10-16",
+     true
+    ]
+   ],
+   "prompted_version_date": "2025-10-16",
+   "kind": "added"
+  }
+ },
+ "after_nikkei_cases": [
+  "new-5",
+  "new-2",
+  "new-6",
+  "new-4",
+  "new-3"
+ ],
+ "days_live_median": 42,
+ "days_live_max": 211,
+ "days_live_min": 15,
+ "last_removal": "2025-07-15",
+ "first_prompted_earliest": "2024-12-16",
+ "prompted_versions": 17,
+ "current_hidden_total": 7,
+ "template_origin": {
+  "paper": "2412.01708",
+  "posted": "2024-12-02",
+  "identical_copy": "2506.11111v1",
+  "variant": "2406.17253v2 (2024-12-16)"
+ },
+ "accept_sentence_papers": 6,
+ "current_hidden_2026_n": 0,
+ "new_not_in_lin_n": 6,
+ "after_nikkei_n": 5,
+ "current_has_n": 1,
+ "added_after_nikkei_n": 3,
+ "sizes": [
+  {
+   "set": "lin",
+   "size": 0.1
+  },
+  {
+   "set": "lin",
+   "size": 0.1
+  },
+  {
+   "set": "lin",
+   "size": 0.1
+  },
+  {
+   "set": "lin",
+   "size": 0.1
+  },
+  {
+   "set": "lin",
+   "size": 0.1
+  },
+  {
+   "set": "lin",
+   "size": 0.1
+  },
+  {
+   "set": "lin",
+   "size": 0.1
+  },
+  {
+   "set": "lin",
+   "size": 0.1
+  },
+  {
+   "set": "lin",
+   "size": 0.1
+  },
+  {
+   "set": "lin",
+   "size": 10.06
+  },
+  {
+   "set": "lin",
+   "size": 8.88
+  },
+  {
+   "set": "lin",
+   "size": 11.02
+  },
+  {
+   "set": "lin",
+   "size": 0.1
+  },
+  {
+   "set": "lin",
+   "size": 0.01
+  },
+  {
+   "set": "lin",
+   "size": 0.1
+  },
+  {
+   "set": "lin",
+   "size": 1.0
+  },
+  {
+   "set": "new",
+   "size": 11.02
+  },
+  {
+   "set": "new",
+   "size": 11.02
+  },
+  {
+   "set": "new",
+   "size": 0.1
+  },
+  {
+   "set": "new",
+   "size": 1.79
+  },
+  {
+   "set": "new",
+   "size": 1.0
+  },
+  {
+   "set": "new",
+   "size": 9.96
+  }
+ ],
+ "first_pages": 5
+}
