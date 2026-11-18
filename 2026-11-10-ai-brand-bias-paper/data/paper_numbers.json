@@ -1,0 +1,44 @@
+{
+ "_source": "Monaco, Lenti, Pierri, arXiv 2611.07614v1 (5 Nov 2026), read 8 Nov 2026. Each value: [number, where in the paper].",
+ "study1": {
+  "answers": [19200, "3.1"], "prompts": [80, "3.1"], "sectors": [4, "3.1"], "engines": [3, "Table 1"], "repeats": [10, "3.1"],
+  "brands": [1176, "3.1"], "brands_with_domain": [683, "3.1 Metrics"],
+  "searched_pct": {"GPT": [98, "Table 1"], "Gemini": [44, "Table 1"], "Perplexity": [100, "Table 1"]},
+  "mention_share_bottom_quintile_max_pct": [1, "4.1, Figure 2: below 1%"],
+  "mention_share_top_quintile_pct": [[1.2, 5.3], "4.1, Figure 2"],
+  "top_quintile_vs_average": [[1.4, 2.8], "Abstract, 4.1, Figure 3"],
+  "h1a_configs": [[23, 24], "4.1"], "h1b_pairs": [[8, 12], "4.1"],
+  "slope_search_off": [0.87, "4.1, Figure C.4"], "slope_search_on": [0.89, "4.1"],
+  "persona_slopes": {"none": [0.98, "4.1 H3"], "A_baseline": [0.80, "4.1 H3"], "B_price": [0.85, "4.1 H3"], "C_profile": [0.89, "4.1 H3, n.s."]},
+  "price_word_in_queries_with_persona_pct": [[86, 96], "4.1 H3"], "price_word_without_persona_pct": [[25, 46], "4.1 H3"],
+  "first_search_travel_pct": [[7, 45], "4.1, Figure 5"], "first_search_insurance_pct": [[1, 8], "4.1, Figure 5"],
+  "name_in_returned_source_pct": {"GPT": [95.5, "4.1"], "Gemini": [60.9, "4.1"], "Perplexity": [97.3, "4.1"]},
+  "gemini_unverifiable_pct": [24.9, "4.1"],
+  "third_party_only_pct": {"all": [36.2, "Appendix C.2, of checked mentions, search-on"], "GPT": [29.1, "C.2"], "Gemini": [42.9, "C.2"], "Perplexity": [42.6, "C.2"]},
+  "sources_per_answer": {"GPT": [4.6, "3.2"], "Gemini": [5.3, "3.2"], "Perplexity": [9.0, "3.2"]}
+ },
+ "study2": {
+  "rankings": [38400, "3.2"], "rankings_real_product": [9600, "3.2"], "questions": [24, "3.2"], "models": [4, "Table 1"],
+  "rank_true_brand": [3.21, "4.2"], "rank_invented_brand": [3.65, "4.2"],
+  "h4a_true_vs_invented": [0.44, [0.23, 0.69], "Table 2"], "h4b_real_vs_invented_product": [0.14, [0.05, 0.27], "Table 2"],
+  "brand_name_alone": [0.30, [0.13, 0.51], "4.2, Table E.2"], "h4c_better_vs_less_known": [0.05, "n.s.", "Table 2"],
+  "drop_better_known": [0.06, "4.2"], "drop_less_known": [0.11, "4.2"], "h4d_mismatch": [0.08, [-0.02, 0.20], "n.s., 4.2"],
+  "h4e_less_known_vs_invented": [0.19, [0.11, 0.30], "Table 2"],
+  "h5a_rewrite": [0.022, [-0.001, 0.049], "4.2 H5"], "rewrite_rules_out_above": [0.05, "4.2 H5"],
+  "h5b_brand_minus_rewrite": [0.42, [0.22, 0.66], "Table 2"], "rewrite_gpt_on_gpt_extra": [0.005, "4.2 H5"],
+  "brand_recognition_leak_pct": [38, "4.2 H4, upper bound"],
+  "real_product_better_known_vs_invented": [0.27, "4.2, Table E.2"], "real_product_less_known_vs_invented": [0.29, "4.2"],
+  "h4a_by_model": {"DeepSeek": 0.24, "Gemini": 0.42, "GPT": 0.57, "Perplexity": 0.56, "_ref": "Table E.1"},
+  "h4a_by_sector": {"Insurance": 0.56, "Fashion and beauty": 0.68, "Sport": 0.26, "Travel": 0.27, "_ref": "Table E.1"},
+  "h5a_by_model": {"DeepSeek": 0.05, "Gemini": 0.03, "GPT": 0.03, "Perplexity": 0.01, "_ref": "Table E.1"},
+  "h5a_by_sector": {"Insurance": 0.06, "Fashion and beauty": 0.03, "Sport": 0.01, "Travel": 0.01, "_ref": "Table E.1"},
+  "leave_one_out_range": [[0.39, 0.49], "Appendix E"], "questions_gain_over_1_3": [3, "Appendix E: Montblanc, Allianz Direct, Veratour"]
+ },
+ "related": {
+  "geo_2023_visibility_up_to_pct": [40, "Aggarwal et al., arXiv 2311.09735, abstract; unit: visibility in answers"],
+  "safegeo_pp": [83.2, "arXiv 2606.28356 abstract: flawed products entering the recommendation set"], "safegeo_defense_pp": [39.2, "same"],
+  "safegeo_variants": [22, "same"], "safegeo_cases": [600, "same"],
+  "chu_hou_same_spec_pct": [100, "arXiv 2606.17443 abstract"], "chu_hou_rating_star": [0.1, "same: less than +0.1 star removes the dominance"],
+  "chu_hou_payoff": [[0.802, 0.007], "same: individual payoff when all brands adopt the same GEO strategy"]
+ }
+}

@@ -1,0 +1,225 @@
+<!doctype html>
+<!-- Static figures for the Tue 10 Nov X Article (brand bias in AI product rankings, arXiv 2611.07614). House plate.
+     ?fig=1..8|cover. Numbers from ../data/paper_numbers.json (typed from the paper, each with its table reference). -->
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="fonts/fonts.css">
+<style>
+  :root { --bg:#FAF8F3; --ink:#1F1C1A; --text:#615B53; --grid:#E8E3DA; --charcoal:#3A3531; --stone:#CBC1B1; --terra:#C9876A; --slate:#6F8496; }
+  html, body { margin:0; background:var(--bg); } body { width:1200px; height:720px; overflow:hidden; } svg { display:block; }
+  text { font-family:'Inter Tight', sans-serif; font-variant-numeric:tabular-nums lining-nums; }
+</style>
+</head>
+<body>
+<svg id="c" width="1200" height="720" viewBox="0 0 1200 720"></svg>
+<script>
+const C = document.getElementById('c'); const fig = new URLSearchParams(location.search).get('fig') || '1';
+const v = (n) => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+let P;
+function card(title, note, caption) {
+  return `<rect x="40" y="24" width="1120" height="4" fill="${v('--ink')}"/><line x1="40" x2="1160" y1="640" y2="640" stroke="${v('--ink')}" stroke-width="1"/>
+    <text x="40" y="74" font-size="26" font-weight="600" fill="${v('--ink')}">${title}</text>
+    <text x="1160" y="74" font-size="20" text-anchor="end" fill="${v('--text')}">${note}</text>
+    <text x="40" y="680" font-size="20" fill="${v('--text')}">${caption}</text>`;
+}
+const f2 = (x) => (x >= 0 ? '+' : '') + x.toFixed(2);
+
+// 1 · Table 2: positions gained by the same page, by what changes on it
+function fig1() {
+  const s = P.study2;
+  const rows = [
+    ['Real brand + real product vs invented', s.h4a_true_vs_invented[0], s.h4a_true_vs_invented[1], true],
+    ['Less-known real brand vs invented', s.h4e_less_known_vs_invented[0], s.h4e_less_known_vs_invented[1], false],
+    ['Real vs invented product name', s.h4b_real_vs_invented_product[0], s.h4b_real_vs_invented_product[1], false],
+    ['Better-known vs less-known brand (n.s.)', s.h4c_better_vs_less_known[0], null, false],
+    ['Fact-preserving rewrite vs original text', s.h5a_rewrite[0], s.h5a_rewrite[1], 'rw'],
+  ];
+  const x0 = 560, W = 500, max = 0.7, X = (d) => x0 + W * d / max;
+  let out = card('Places gained by the same product page, on a 1–5 ranking', 'positions',
+    'Monaco, Lenti, Pierri, arXiv 2611.07614, Table 2. Four models, 24 questions, web search off. Lines: 95% intervals.');
+  [0, 0.2, 0.4, 0.6].forEach((g) => { out += `<line x1="${X(g)}" x2="${X(g)}" y1="120" y2="600" stroke="${v('--grid')}"/><text x="${X(g)}" y="616" font-size="18" text-anchor="middle" fill="${v('--text')}">${g === 0 ? '0' : '+' + g.toFixed(1)}</text>`; });
+  rows.forEach(([l, d, ci, hot], i) => {
+    const y = 160 + i * 92, col = hot === true ? v('--slate') : hot === 'rw' ? v('--ink') : v('--charcoal');
+    out += `<text x="${x0 - 24}" y="${y + 7}" font-size="21" text-anchor="end" fill="${v('--ink')}">${l}</text>
+      <rect x="${X(0)}" y="${y - 14}" width="${Math.max(3, X(d) - X(0))}" height="28" fill="${col}"/>`;
+    if (ci) out += `<line x1="${X(ci[0])}" x2="${X(ci[1])}" y1="${y}" y2="${y}" stroke="${v('--ink')}" stroke-width="2"/>
+      <line x1="${X(ci[0])}" x2="${X(ci[0])}" y1="${y - 8}" y2="${y + 8}" stroke="${v('--ink')}" stroke-width="2"/><line x1="${X(ci[1])}" x2="${X(ci[1])}" y1="${y - 8}" y2="${y + 8}" stroke="${v('--ink')}" stroke-width="2"/>`;
+    out += `<text x="${Math.max(X(d), ci ? X(ci[1]) : X(d)) + 14}" y="${y + 8}" font-size="22" font-weight="700" fill="${v('--ink')}">${f2(d)}</text>`;
+  });
+  return out;
+}
+
+// 2 · Table E.1: brand gain vs rewrite gain, by model and by sector (descriptive)
+function fig2() {
+  const s = P.study2, M = ['GPT', 'Perplexity', 'Gemini', 'DeepSeek'], S = ['Fashion and beauty', 'Insurance', 'Travel', 'Sport'];
+  const rows = M.map((k) => [k, s.h4a_by_model[k], s.h5a_by_model[k]]).concat([null]).concat(S.map((k) => [k, s.h4a_by_sector[k], s.h5a_by_sector[k]]));
+  const x0 = 360, W = 640, max = 0.7, X = (d) => x0 + W * d / max;
+  let out = card('Real brand vs rewrite, by model and by sector', 'positions gained',
+    'Table E.1 (descriptive). Blue: real brand + product vs invented. Dark: fact-preserving rewrite vs original.');
+  let y = 130;
+  rows.forEach((r) => {
+    if (!r) { y += 26; return; }
+    const [k, b, w] = r;
+    out += `<text x="${x0 - 24}" y="${y + 14}" font-size="21" text-anchor="end" fill="${v('--ink')}">${k}</text>
+      <rect x="${x0}" y="${y}" width="${X(b) - x0}" height="16" fill="${v('--slate')}"/><text x="${X(b) + 12}" y="${y + 14}" font-size="19" font-weight="700" fill="${v('--ink')}">${f2(b)}</text>
+      <rect x="${x0}" y="${y + 20}" width="${Math.max(3, X(w) - x0)}" height="16" fill="${v('--ink')}"/><text x="${Math.max(X(w), x0 + 3) + 12}" y="${y + 34}" font-size="19" fill="${v('--text')}">${f2(w)}</text>`;
+    y += 56;
+  });
+  return out;
+}
+
+// 3 · Study 1: popularity slope with and without a buyer description
+function fig3() {
+  const p = P.study1.persona_slopes;
+  const rows = [['No buyer description', p.none[0], true], ['Baseline description', p.A_baseline[0]], ['Price attitude changed', p.B_price[0]], ['Life stage changed (n.s.)', p.C_profile[0]]];
+  const x0 = 420, W = 640, max = 1.1, X = (d) => x0 + W * d / max;
+  let out = card('How much more often popular brands are named, by buyer description', 'slope',
+    'Study 1, all engines and sectors: extra answers out of 100 naming a brand per tenfold Google searches. arXiv 2611.07614, 4.1.');
+  rows.forEach(([l, d, hot], i) => {
+    const y = 180 + i * 104;
+    out += `<text x="${x0 - 24}" y="${y + 8}" font-size="22" text-anchor="end" fill="${v('--ink')}">${l}</text>
+      <rect x="${x0}" y="${y - 16}" width="${X(d) - x0}" height="32" fill="${hot ? v('--slate') : v('--charcoal')}"/>
+      <text x="${X(d) + 14}" y="${y + 8}" font-size="24" font-weight="700" fill="${v('--ink')}">${d.toFixed(2)}</text>`;
+  });
+  return out;
+}
+
+
+const ring = (x, y, r, fill) => `<circle cx="${x}" cy="${y}" r="${r}" fill="${fill}" stroke="${v('--ink')}" stroke-width="1.5"/>`;
+
+// 4 · the model writes the brand into its own first search (GPT, search on)
+function fig4() {
+  const s = P.study1, rows = [['Travel', s.first_search_travel_pct[0]], ['Insurance', s.first_search_insurance_pct[0]]];
+  const x0 = 300, W = 780, X = (p) => x0 + W * p / 50;
+  let out = card('Brands GPT named that were already in its first search query', '% of mentioned brands',
+    'Study 1, GPT with web search; its API shows each search in order. arXiv 2611.07614, Figure 5.');
+  [0, 10, 20, 30, 40, 50].forEach((g) => { out += `<line x1="${X(g)}" x2="${X(g)}" y1="170" y2="560" stroke="${v('--grid')}"/><text x="${X(g)}" y="592" font-size="19" text-anchor="middle" fill="${v('--text')}">${g}%</text>`; });
+  rows.forEach(([lab, [lo, hi]], i) => {
+    const y = 270 + i * 190;
+    out += `<text x="${x0 - 30}" y="${y + 8}" font-size="26" font-weight="600" text-anchor="end" fill="${v('--ink')}">${lab}</text>
+      <line x1="${X(lo)}" x2="${X(hi)}" y1="${y}" y2="${y}" stroke="${v('--stone')}" stroke-width="7" stroke-linecap="round"/>
+      ${ring(X(lo), y, 14, v('--stone'))}${ring(X(hi), y, 14, v('--slate'))}
+      <text x="${X(lo)}" y="${y + 50}" font-size="20" text-anchor="start" fill="${v('--text')}">${lo}% · least popular fifth</text>
+      <text x="${X(hi)}" y="${y - 30}" font-size="24" font-weight="700" text-anchor="middle" fill="${v('--ink')}">${hi}% · most popular fifth</text>`;
+  });
+  return out;
+}
+
+// 5 · where the brand's name was found: only on third-party pages
+function fig5() {
+  const t = P.study1.third_party_only_pct, sp = P.study1.sources_per_answer;
+  const rows = [['GPT', t.GPT[0], sp.GPT[0]], ['Gemini', t.Gemini[0], sp.Gemini[0]], ['Perplexity', t.Perplexity[0], sp.Perplexity[0]], ['All three', t.all[0], null]];
+  const x0 = 330, W = 700, X = (p) => x0 + W * p / 50;
+  let out = card("Mentions where the brand's name appeared only on someone else's page", '% of checked mentions',
+    "Study 1, search on: of mentions checked against the returned sources, the share found only on third-party pages. App. C.2.");
+  [0, 10, 20, 30, 40, 50].forEach((g) => { out += `<line x1="${X(g)}" x2="${X(g)}" y1="140" y2="580" stroke="${v('--grid')}"/><text x="${X(g)}" y="612" font-size="18" text-anchor="middle" fill="${v('--text')}">${g}%</text>`; });
+  rows.forEach(([lab, p, n], i) => {
+    const y = 180 + i * 108, all = lab === 'All three';
+    out += `<text x="${x0 - 26}" y="${y + 8}" font-size="24" font-weight="${all ? 700 : 500}" text-anchor="end" fill="${v('--ink')}">${lab}</text>
+      <line x1="${x0}" x2="${X(p)}" y1="${y}" y2="${y}" stroke="${all ? v('--slate') : v('--charcoal')}" stroke-width="5" stroke-linecap="round"/>${ring(X(p), y, 12, all ? v('--slate') : v('--charcoal'))}
+      <text x="${X(p) + 24}" y="${y + 8}" font-size="23" font-weight="700" fill="${v('--ink')}">${p}%</text>
+      ${n ? `<text x="${x0}" y="${y + 40}" font-size="18" fill="${v('--text')}">${n} sources per answer on average</text>` : ''}`;
+  });
+  return out;
+}
+
+// 6 · how often each engine searched, and found the brand in what it returned
+function fig6() {
+  const s = P.study1, E = ['GPT', 'Gemini', 'Perplexity'];
+  const x0 = 300, W = 780, X = (p) => x0 + W * p / 100;
+  let out = card('How often each engine searched the web, and found the brand there', '% of answers · % of mentions',
+    'Study 1, search on. Stone: answers with a web search. Blue: mentions whose brand was in a returned source.');
+  [0, 25, 50, 75, 100].forEach((g) => { out += `<line x1="${X(g)}" x2="${X(g)}" y1="140" y2="560" stroke="${v('--grid')}"/><text x="${X(g)}" y="592" font-size="19" text-anchor="middle" fill="${v('--text')}">${g}%</text>`; });
+  E.forEach((e, i) => {
+    const y = 200 + i * 130, a = s.searched_pct[e][0], b = s.name_in_returned_source_pct[e][0];
+    out += `<text x="${x0 - 30}" y="${y + 24}" font-size="26" font-weight="600" text-anchor="end" fill="${v('--ink')}">${e}</text>
+      ${ring(X(a), y, 13, v('--stone'))}<text x="${X(a) - 22}" y="${y + 7}" font-size="20" text-anchor="end" fill="${v('--text')}">searched ${a}%</text>
+      ${ring(X(b), y + 40, 13, v('--slate'))}<text x="${X(b) - 22}" y="${y + 47}" font-size="20" font-weight="700" text-anchor="end" fill="${v('--ink')}">name found ${b}%</text>`;
+  });
+  return out;
+}
+
+// 7 · a buyer description puts price into the engine's searches
+function fig7() {
+  const s = P.study1, w = s.price_word_in_queries_with_persona_pct[0], o = s.price_word_without_persona_pct[0];
+  const x0 = 380, W = 700, X = (p) => x0 + W * p / 100;
+  let out = card('Searches that contained a price word, with and without a buyer description', '% of searches, by sector',
+    'Study 1, three sectors, lowest and highest shown. Description: the buyer wants to spend as little as possible.');
+  [0, 25, 50, 75, 100].forEach((g) => { out += `<line x1="${X(g)}" x2="${X(g)}" y1="170" y2="540" stroke="${v('--grid')}"/><text x="${X(g)}" y="574" font-size="19" text-anchor="middle" fill="${v('--text')}">${g}%</text>`; });
+  [['No buyer description', o, v('--stone')], ['"Spend as little as possible"', w, v('--slate')]].forEach(([lab, [lo, hi], col], i) => {
+    const y = 270 + i * 170;
+    out += `<text x="${x0 - 26}" y="${y + 8}" font-size="24" font-weight="600" text-anchor="end" fill="${v('--ink')}">${lab}</text>
+      <line x1="${X(lo)}" x2="${X(hi)}" y1="${y}" y2="${y}" stroke="${col}" stroke-width="18" stroke-linecap="round"/>
+      <text x="${X(lo)}" y="${y + 48}" font-size="22" text-anchor="middle" fill="${v('--ink')}">${lo}%</text><text x="${X(hi)}" y="${y + 48}" font-size="22" font-weight="700" text-anchor="middle" fill="${v('--ink')}">${hi}%</text>`;
+  });
+  return out;
+}
+
+// 8 · what other studies found moves recommendations (typographic plate, units differ)
+function fig8() {
+  const r = P.related;
+  const Q = [
+    ['GEO, 2023 (Aggarwal et al.)', `Up to ${r.geo_2023_visibility_up_to_pct[0]}% more visibility in generated answers`, 'for content rewritten with citations, quotations and statistics'],
+    ['SafeGEO, 2026', `+${r.safegeo_pp[0]} points: flawed products entering the recommendations`, `from adversarial page content, ${r.safegeo_cases[0]} cases; a defence cut it by ${r.safegeo_defense_pp[0]} points`],
+    ['Chu and Hou, 2026', `Payoff ${r.chu_hou_payoff[0][0]} for one brand, ${r.chu_hou_payoff[0][1]} once all brands do it`, `and less than +${r.chu_hou_rating_star[0]} star of rating removes the advantage`]];
+  let out = card('What other studies found moves AI recommendations', 'different units: read each line',
+    'Abstracts of arXiv 2311.09735, 2606.28356, 2606.17443. Units differ: not comparable with each other or this paper.');
+  Q.forEach(([who, big, small], i) => {
+    const y = 150 + i * 152;
+    out += `<text x="40" y="${y}" font-size="19" font-weight="700" letter-spacing="1" fill="${v('--text')}">${who.toUpperCase()}</text>
+      <text x="40" y="${y + 42}" font-size="30" font-weight="600" fill="${v('--ink')}">${big}</text>
+      <text x="40" y="${y + 80}" font-size="22" fill="${v('--text')}">${small}</text>`;
+  });
+  return out;
+}
+
+function cover() {
+  const s = P.study2, T = s.rank_true_brand[0], F = s.rank_invented_brand[0], g = s.h4a_true_vs_invented[0], rw = s.h5a_rewrite[0];
+  const NIGHT = '#121416', BONE = '#F1ECE4', DIM = '#8E8880', LINE = '#3A3D40', SL = '#6FB4FF';  // marker blue, also the dot
+  // Cover: the chart dominates, only the title as text. Rank axis 1 (left, best) to 5 (right), true positions.
+  const ax0 = 90, ax1 = 1410, X = (r) => ax0 + (ax1 - ax0) * (r - 1) / 4, AY = 400;
+  let o = `<defs>
+      <linearGradient id="axg" gradientUnits="userSpaceOnUse" x1="${ax0}" x2="${ax1}" y1="0" y2="0"><stop offset="0" stop-color="${SL}" stop-opacity="0.9"/><stop offset="1" stop-color="${LINE}" stop-opacity="0.6"/></linearGradient>
+      <linearGradient id="trail" x1="1" x2="0"><stop offset="0" stop-color="${SL}" stop-opacity="0.05"/><stop offset="1" stop-color="${SL}" stop-opacity="0.95"/></linearGradient>
+      <radialGradient id="glow"><stop offset="0" stop-color="${SL}" stop-opacity="0.55"/><stop offset="1" stop-color="${SL}" stop-opacity="0"/></radialGradient>
+    </defs>
+    <rect width="1500" height="600" fill="${NIGHT}"/>
+    <g id="marker"></g>
+    <text id="ttl" x="750" y="124" font-size="64" font-weight="700" letter-spacing="-1.5" text-anchor="middle" fill="${BONE}">AI ranks<tspan id="hl" dx="34" fill="${NIGHT}">your name</tspan><tspan dx="34">not just your page.</tspan></text>`;
+  // axis: faint grid, ticks without labels
+  [1,2,3,4,5].forEach((r) => { o += `<line x1="${X(r)}" x2="${X(r)}" y1="${AY - 150}" y2="${AY + 150}" stroke="${LINE}" stroke-width="1.5" opacity="0.45"/>`; });
+  o += `<line x1="${ax0}" x2="${ax1}" y1="${AY}" y2="${AY}" stroke="url(#axg)" stroke-width="4" stroke-linecap="round"/>`;
+  // the move: unknown names -> real brand
+  o += `<rect x="${X(T)}" y="${AY - 14}" width="${X(F) - X(T)}" height="28" rx="14" fill="url(#trail)"/>
+    <circle cx="${X(T)}" cy="${AY}" r="120" fill="url(#glow)"/>
+    <circle cx="${X(F)}" cy="${AY}" r="26" fill="${NIGHT}" stroke="${BONE}" stroke-width="4" stroke-dasharray="7 6"/>
+    <circle cx="${X(T)}" cy="${AY}" r="30" fill="${SL}"/>
+    <path d="M ${X(T) + 18} ${AY - 84} L ${X(T)} ${AY - 66} L ${X(T) + 18} ${AY - 48}" fill="none" stroke="${SL}" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="${X(T) + 2}" x2="${X(F)}" y1="${AY - 66}" y2="${AY - 66}" stroke="${SL}" stroke-width="6" stroke-linecap="round"/>`;
+  return o;
+}
+const FIGS = { 1: fig1, 2: fig2, 3: fig3, 4: fig4, 5: fig5, 6: fig6, 7: fig7, 8: fig8, cover };
+if (fig === 'cover') { document.body.style.width = '1500px'; document.body.style.height = '600px'; C.setAttribute('width', 1500); C.setAttribute('height', 600); C.setAttribute('viewBox', '0 0 1500 600'); }
+window.ready = Promise.all([fetch('../data/paper_numbers.json').then((r) => r.json()),
+  document.fonts.load('400 20px "Inter Tight"'), document.fonts.load('700 20px "Inter Tight"')]).then(([a]) => { P = a; C.innerHTML = FIGS[fig](); if (fig === 'cover') coverMarker(); });
+
+// Hand-drawn highlighter swipe behind "your name": measured from the rendered glyphs, slightly tilted, ragged ends.
+function coverMarker() {
+  const t = document.getElementById('ttl'), full = t.textContent, i0 = full.indexOf('your name'), i1 = i0 + 'your name'.length - 1;
+  const a = t.getExtentOfChar(i0), b = t.getExtentOfChar(i1);
+  const x0 = a.x - 16, x1 = b.x + b.width + 16, yT = a.y + a.height * 0.18, yB = a.y + a.height * 0.97, tilt = 6;
+  // smooth body, a slight upward tilt, rounded chisel ends (Q curves), like one pass of a broad marker
+  const d = `M ${x0 + 8},${yT + tilt + 2}
+    Q ${(x0 + x1) / 2},${yT + tilt / 2 - 5} ${x1 - 4},${yT - 1}
+    Q ${x1 + 12},${(yT + yB) / 2 - tilt / 2} ${x1 - 2},${yB - tilt + 2}
+    Q ${(x0 + x1) / 2},${yB - tilt / 2 + 6} ${x0 + 2},${yB + 3}
+    Q ${x0 - 12},${(yT + yB) / 2 + tilt / 2} ${x0 + 8},${yT + tilt + 2} Z`;
+  document.getElementById('marker').innerHTML =
+    `<path d="${d}" fill="#6FB4FF" opacity="0.96"/>
+     <path d="M ${x0 + 14},${yT + tilt + 6} Q ${(x0 + x1) / 2},${yT + 1} ${x1 - 16},${yT + 4}" fill="none" stroke="#A8D2FF" stroke-width="5" stroke-linecap="round" opacity="0.5"/>
+     <path d="M ${x0 + 20},${yB - 4} Q ${(x0 + x1) / 2},${yB - 2} ${x1 - 26},${yB - tilt - 6}" fill="none" stroke="#4E97E8" stroke-width="7" stroke-linecap="round" opacity="0.45"/>`;
+}
+</script>
+</body>
+</html>

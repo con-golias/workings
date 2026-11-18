@@ -1,0 +1,44 @@
+<!doctype html>
+<!-- Animated GIF (frames via gif.mjs, assembled with Pillow): the same page under names the models never saw vs its real
+     brand (3.65 -> 3.21 on the 1-5 ranking, Study 2), then places gained: name +0.44 vs fact-preserving rewrite +0.02.
+     Numbers from ../data/paper_numbers.json. -->
+<html><head><meta charset="utf-8"><link rel="stylesheet" href="fonts/fonts.css">
+<style>html,body{margin:0;background:#121416}body{width:1200px;height:675px;overflow:hidden}svg{display:block}
+text{font-family:'Inter Tight',sans-serif;font-variant-numeric:tabular-nums lining-nums}</style></head><body>
+<svg id="c" width="1200" height="675" viewBox="0 0 1200 675"></svg>
+<script>
+const NIGHT='#121416', BONE='#F1ECE4', DIM='#8E8880', SL='#8FA6BA', LINE='#3A3D40', STONE='#CBC1B1';
+let P;
+const ease = (x) => x < 0 ? 0 : x > 1 ? 1 : 1 - Math.pow(1 - x, 3);
+const seg = (t, a, b) => ease((t - a) / (b - a));
+window.draw = (t) => {          // t in seconds, 0..8
+  const s = P.study2, T = s.rank_true_brand[0], F = s.rank_invented_brand[0], g = s.h4a_true_vs_invented[0], rw = s.h5a_rewrite[0];
+  const ax0 = 120, ax1 = 1080, X = (r) => ax0 + (ax1 - ax0) * (r - 1) / 4;
+  const k = seg(t, 1.2, 2.6), cur = F + (T - F) * k;
+  let o = `<rect width="1200" height="675" fill="${NIGHT}"/>
+    <text x="120" y="92" font-size="22" font-weight="600" letter-spacing="2" fill="${DIM}">THE SAME PRODUCT PAGE, WORD FOR WORD</text>
+    <text x="120" y="146" font-size="40" font-weight="700" letter-spacing="-0.5" fill="${BONE}">${t < 1.2 ? 'Signed with names the AI never saw' : 'Now with its real brand and product'}</text>`;
+  // rank axis
+  o += `<line x1="${ax0}" x2="${ax1}" y1="262" y2="262" stroke="${LINE}" stroke-width="2"/>`;
+  [1,2,3,4,5].forEach((r) => { o += `<line x1="${X(r)}" x2="${X(r)}" y1="254" y2="270" stroke="${LINE}" stroke-width="2"/><text x="${X(r)}" y="300" font-size="20" text-anchor="middle" fill="${DIM}">${r}</text>`; });
+  o += `<text x="${ax0}" y="328" font-size="17" fill="${DIM}">1 = ranked best</text><text x="${ax1}" y="328" font-size="17" text-anchor="end" fill="${DIM}">5 = worst</text>
+    <text x="${ax0}" y="214" font-size="18" fill="${DIM}">Average rank among 5 product pages, 4 AI models</text>`;
+  if (k > 0) o += `<line x1="${X(F)}" x2="${X(cur)}" y1="262" y2="262" stroke="${SL}" stroke-width="6" stroke-linecap="round" opacity="0.55"/>
+    <circle cx="${X(F)}" cy="262" r="12" fill="none" stroke="${STONE}" stroke-width="2.5" opacity="0.8"/>`;
+  o += `<circle cx="${X(cur)}" cy="262" r="14" fill="${k > 0 ? SL : BONE}"/>
+    <text x="${X(cur)}" y="236" font-size="22" font-weight="700" text-anchor="middle" fill="${k > 0 ? SL : BONE}">${cur.toFixed(2)}</text>`;
+  // places gained: name vs rewrite
+  const b0 = 420, BW = 1250;                       // px per place
+  const gn = g * seg(t, 3.4, 4.6), gr = rw * seg(t, 5.0, 5.8);
+  if (t > 3.0) o += `<text x="120" y="408" font-size="20" font-weight="600" letter-spacing="1.5" fill="${DIM}" opacity="${seg(t,3.0,3.4)}">PLACES GAINED</text>`;
+  if (t > 3.2) o += `<text x="120" y="468" font-size="26" font-weight="600" fill="${BONE}" opacity="${seg(t,3.2,3.5)}">Real brand + product</text>
+    <rect x="${b0}" y="446" width="${Math.max(2, gn * BW)}" height="30" rx="4" fill="${SL}"/>
+    <text x="${b0 + gn * BW + 16}" y="471" font-size="28" font-weight="700" fill="${BONE}">+${gn.toFixed(2)}</text>`;
+  if (t > 4.8) o += `<text x="120" y="548" font-size="26" font-weight="600" fill="${BONE}" opacity="${seg(t,4.8,5.1)}">Rewrite, every fact kept</text>
+    <rect x="${b0}" y="526" width="${Math.max(2, gr * BW)}" height="30" rx="4" fill="${STONE}"/>
+    <text x="${b0 + gr * BW + 16}" y="551" font-size="28" font-weight="700" fill="${BONE}">+${gr.toFixed(2)}</text>`;
+  if (t > 6.2) o += `<text x="120" y="626" font-size="20" fill="${DIM}" opacity="${seg(t,6.2,6.6)}">Monaco, Lenti, Pierri, arXiv 2611.07614. 24 shopping questions, web search off. @con_golias</text>`;
+  document.getElementById('c').innerHTML = o;
+};
+window.ready = fetch('../data/paper_numbers.json').then((r) => r.json()).then((a) => { P = a; window.draw(0); });
+</script></body></html>
