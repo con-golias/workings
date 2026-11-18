@@ -8,6 +8,7 @@ question, the method, and what I checked and didn't.
 
 | Date | Piece | Folder |
 |---|---|---|
+| 18 Nov 2026 | AI ranked a product page lower for one reason: it didn't know the brand. Rewriting barely helped ([X Article](https://x.com/con_golias/status/2123138881402888247)) | [`2026-11-10-ai-brand-bias-paper`](2026-11-10-ai-brand-bias-paper/) |
 | 8 Nov 2026 | Anthropic says no SPV may hold its stock. 74 SPVs named after it have filed with the SEC ([X Article](https://x.com/con_golias/status/2119478653239070783)) | [`2026-11-08-ai-spv-form-d`](2026-11-08-ai-spv-form-d/) |
 | 7 Nov 2026 | 29 npm packages write into your AI agent's setup the moment you install them. Postman's CLI is one ([X Article](https://x.com/con_golias/status/2119013087806095434)) | [`2026-11-07-npm-agent-configs`](2026-11-07-npm-agent-configs/) |
 | 6 Nov 2026 | 52 companies now warn their AI agents may go off-script. One in four copied the warning ([X Article](https://x.com/con_golias/status/2118652981306421262)) | [`2026-11-06-ai-agents-10k`](2026-11-06-ai-agents-10k/) |
