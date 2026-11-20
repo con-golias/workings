@@ -1,0 +1,1251 @@
+{
+ "records_read": 17979,
+ "kept": 12853,
+ "dropped": {
+  "AI only in title, name or note": 4099,
+  "not a registration": 1027
+ },
+ "dropped_title_only": 4099,
+ "not_registration": 1027,
+ "registrations_read": 16952,
+ "kept_excluded": 12784,
+ "kept_excluded_pct": 99.5,
+ "first_month": "2008-03",
+ "by_month": {
+  "2022-01": {
+   "ai": 0,
+   "total": 37618,
+   "per_10k": 0.0
+  },
+  "2022-02": {
+   "ai": 0,
+   "total": 35257,
+   "per_10k": 0.0
+  },
+  "2022-03": {
+   "ai": 0,
+   "total": 40231,
+   "per_10k": 0.0
+  },
+  "2022-04": {
+   "ai": 1,
+   "total": 35639,
+   "per_10k": 0.28
+  },
+  "2022-05": {
+   "ai": 0,
+   "total": 34633,
+   "per_10k": 0.0
+  },
+  "2022-06": {
+   "ai": 1,
+   "total": 38584,
+   "per_10k": 0.26
+  },
+  "2022-07": {
+   "ai": 1,
+   "total": 35514,
+   "per_10k": 0.28
+  },
+  "2022-08": {
+   "ai": 1,
+   "total": 37675,
+   "per_10k": 0.27
+  },
+  "2022-09": {
+   "ai": 1,
+   "total": 37305,
+   "per_10k": 0.27
+  },
+  "2022-10": {
+   "ai": 1,
+   "total": 35290,
+   "per_10k": 0.28
+  },
+  "2022-11": {
+   "ai": 1,
+   "total": 32701,
+   "per_10k": 0.31
+  },
+  "2022-12": {
+   "ai": 5,
+   "total": 35225,
+   "per_10k": 1.42
+  },
+  "2023-01": {
+   "ai": 6,
+   "total": 41351,
+   "per_10k": 1.45
+  },
+  "2023-02": {
+   "ai": 12,
+   "total": 35200,
+   "per_10k": 3.41
+  },
+  "2023-03": {
+   "ai": 30,
+   "total": 45973,
+   "per_10k": 6.53
+  },
+  "2023-04": {
+   "ai": 21,
+   "total": 35258,
+   "per_10k": 5.96
+  },
+  "2023-05": {
+   "ai": 22,
+   "total": 41626,
+   "per_10k": 5.29
+  },
+  "2023-06": {
+   "ai": 96,
+   "total": 35811,
+   "per_10k": 26.81
+  },
+  "2023-07": {
+   "ai": 36,
+   "total": 34038,
+   "per_10k": 10.58
+  },
+  "2023-08": {
+   "ai": 57,
+   "total": 37259,
+   "per_10k": 15.3
+  },
+  "2023-09": {
+   "ai": 23,
+   "total": 33625,
+   "per_10k": 6.84
+  },
+  "2023-10": {
+   "ai": 43,
+   "total": 34847,
+   "per_10k": 12.34
+  },
+  "2023-11": {
+   "ai": 39,
+   "total": 33952,
+   "per_10k": 11.49
+  },
+  "2023-12": {
+   "ai": 47,
+   "total": 32331,
+   "per_10k": 14.54
+  },
+  "2024-01": {
+   "ai": 71,
+   "total": 37188,
+   "per_10k": 19.09
+  },
+  "2024-02": {
+   "ai": 63,
+   "total": 35672,
+   "per_10k": 17.66
+  },
+  "2024-03": {
+   "ai": 98,
+   "total": 34363,
+   "per_10k": 28.52
+  },
+  "2024-04": {
+   "ai": 123,
+   "total": 36787,
+   "per_10k": 33.44
+  },
+  "2024-05": {
+   "ai": 112,
+   "total": 36980,
+   "per_10k": 30.29
+  },
+  "2024-06": {
+   "ai": 136,
+   "total": 33269,
+   "per_10k": 40.88
+  },
+  "2024-07": {
+   "ai": 131,
+   "total": 34036,
+   "per_10k": 38.49
+  },
+  "2024-08": {
+   "ai": 119,
+   "total": 33324,
+   "per_10k": 35.71
+  },
+  "2024-09": {
+   "ai": 187,
+   "total": 35316,
+   "per_10k": 52.95
+  },
+  "2024-10": {
+   "ai": 198,
+   "total": 41319,
+   "per_10k": 47.92
+  },
+  "2024-11": {
+   "ai": 191,
+   "total": 31138,
+   "per_10k": 61.34
+  },
+  "2024-12": {
+   "ai": 296,
+   "total": 33355,
+   "per_10k": 88.74
+  },
+  "2025-01": {
+   "ai": 308,
+   "total": 37193,
+   "per_10k": 82.81
+  },
+  "2025-02": {
+   "ai": 342,
+   "total": 33116,
+   "per_10k": 103.27
+  },
+  "2025-03": {
+   "ai": 344,
+   "total": 36274,
+   "per_10k": 94.83
+  },
+  "2025-04": {
+   "ai": 453,
+   "total": 37928,
+   "per_10k": 119.44
+  },
+  "2025-05": {
+   "ai": 592,
+   "total": 38330,
+   "per_10k": 154.45
+  },
+  "2025-06": {
+   "ai": 481,
+   "total": 40546,
+   "per_10k": 118.63
+  },
+  "2025-07": {
+   "ai": 584,
+   "total": 39240,
+   "per_10k": 148.83
+  },
+  "2025-08": {
+   "ai": 598,
+   "total": 40925,
+   "per_10k": 146.12
+  },
+  "2025-09": {
+   "ai": 598,
+   "total": 43451,
+   "per_10k": 137.63
+  },
+  "2025-10": {
+   "ai": 583,
+   "total": 38556,
+   "per_10k": 151.21
+  },
+  "2025-11": {
+   "ai": 617,
+   "total": 38010,
+   "per_10k": 162.33
+  },
+  "2025-12": {
+   "ai": 733,
+   "total": 41302,
+   "per_10k": 177.47
+  },
+  "2026-01": {
+   "ai": 799,
+   "total": 43419,
+   "per_10k": 184.02
+  },
+  "2026-02": {
+   "ai": 818,
+   "total": 39846,
+   "per_10k": 205.29
+  },
+  "2026-03": {
+   "ai": 871,
+   "total": 43282,
+   "per_10k": 201.24
+  },
+  "2026-04": {
+   "ai": 547,
+   "total": 36310,
+   "per_10k": 150.65
+  },
+  "2026-05": {
+   "ai": 508,
+   "total": 32110,
+   "per_10k": 158.21
+  },
+  "2026-06": {
+   "ai": 405,
+   "total": 29694,
+   "per_10k": 136.39
+  },
+  "2026-07": {
+   "ai": 218,
+   "total": 16796,
+   "per_10k": 129.79
+  },
+  "2026-08": {
+   "ai": 144,
+   "total": 12012,
+   "per_10k": 119.88
+  },
+  "2026-09": {
+   "ai": 89,
+   "total": 8882,
+   "per_10k": 100.2
+  },
+  "2026-10": {
+   "ai": 33,
+   "total": 3168,
+   "per_10k": 104.17
+  }
+ },
+ "by_year": {
+  "2022": {
+   "ai": 12,
+   "total": 435672,
+   "per_10k": 0.28,
+   "one_in": 36306
+  },
+  "2023": {
+   "ai": 432,
+   "total": 441271,
+   "per_10k": 9.79,
+   "one_in": 1021
+  },
+  "2024": {
+   "ai": 1725,
+   "total": 422747,
+   "per_10k": 40.8,
+   "one_in": 245
+  },
+  "2025": {
+   "ai": 6233,
+   "total": 464871,
+   "per_10k": 134.08,
+   "one_in": 75
+  },
+  "2026": {
+   "ai": 4440,
+   "total": 265519,
+   "per_10k": 167.22,
+   "one_in": 60
+  }
+ },
+ "by_quarter": [
+  {
+   "q": "2023 Q1",
+   "ai": 48,
+   "total": 122524,
+   "per_10k": 3.9,
+   "complete": true
+  },
+  {
+   "q": "2023 Q2",
+   "ai": 139,
+   "total": 112695,
+   "per_10k": 12.3,
+   "complete": true
+  },
+  {
+   "q": "2023 Q3",
+   "ai": 116,
+   "total": 104922,
+   "per_10k": 11.1,
+   "complete": true
+  },
+  {
+   "q": "2023 Q4",
+   "ai": 129,
+   "total": 101130,
+   "per_10k": 12.8,
+   "complete": true
+  },
+  {
+   "q": "2024 Q1",
+   "ai": 232,
+   "total": 107223,
+   "per_10k": 21.6,
+   "complete": true
+  },
+  {
+   "q": "2024 Q2",
+   "ai": 371,
+   "total": 107036,
+   "per_10k": 34.7,
+   "complete": true
+  },
+  {
+   "q": "2024 Q3",
+   "ai": 437,
+   "total": 102676,
+   "per_10k": 42.6,
+   "complete": true
+  },
+  {
+   "q": "2024 Q4",
+   "ai": 685,
+   "total": 105812,
+   "per_10k": 64.7,
+   "complete": true
+  },
+  {
+   "q": "2025 Q1",
+   "ai": 994,
+   "total": 106583,
+   "per_10k": 93.3,
+   "complete": true
+  },
+  {
+   "q": "2025 Q2",
+   "ai": 1526,
+   "total": 116804,
+   "per_10k": 130.6,
+   "complete": true
+  },
+  {
+   "q": "2025 Q3",
+   "ai": 1780,
+   "total": 123616,
+   "per_10k": 144.0,
+   "complete": true
+  },
+  {
+   "q": "2025 Q4",
+   "ai": 1933,
+   "total": 117868,
+   "per_10k": 164.0,
+   "complete": true
+  },
+  {
+   "q": "2026 Q1",
+   "ai": 2488,
+   "total": 126547,
+   "per_10k": 196.6,
+   "complete": true
+  },
+  {
+   "q": "2026 Q2",
+   "ai": 1460,
+   "total": 98114,
+   "per_10k": 148.8,
+   "complete": false
+  },
+  {
+   "q": "2026 Q3",
+   "ai": 451,
+   "total": 37690,
+   "per_10k": 119.7,
+   "complete": false
+  }
+ ],
+ "last_full_quarter_label": "2026 Q1",
+ "first_q": {
+  "q": "2023 Q1",
+  "ai": 48,
+  "total": 122524,
+  "per_10k": 3.9,
+  "complete": true
+ },
+ "last_q": {
+  "q": "2026 Q1",
+  "ai": 2488,
+  "total": 126547,
+  "per_10k": 196.6,
+  "complete": true
+ },
+ "first_q_one_in": 2564,
+ "last_q_one_in": 51,
+ "rise_x": 50.4,
+ "incomplete_from": "2026-06",
+ "before_2022": 10,
+ "recent_n": 10673,
+ "recent_total": 730390,
+ "recent_per_10k": 146.1,
+ "recent_one_in": 68,
+ "by_type": [
+  {
+   "type": "Computer Files",
+   "ai": 591,
+   "total": 9153,
+   "per_10k": 645.7
+  },
+  {
+   "type": "Text",
+   "ai": 6362,
+   "total": 255323,
+   "per_10k": 249.2
+  },
+  {
+   "type": "Music",
+   "ai": 1325,
+   "total": 78145,
+   "per_10k": 169.6
+  },
+  {
+   "type": "Sound Recording and Music",
+   "ai": 687,
+   "total": 54384,
+   "per_10k": 126.3
+  },
+  {
+   "type": "Motion Pictures",
+   "ai": 589,
+   "total": 67950,
+   "per_10k": 86.7
+  },
+  {
+   "type": "Visual Material",
+   "ai": 768,
+   "total": 146610,
+   "per_10k": 52.4
+  },
+  {
+   "type": "Dramatic Works; or Choreography",
+   "ai": 142,
+   "total": 37390,
+   "per_10k": 38.0
+  },
+  {
+   "type": "Sound Recording",
+   "ai": 135,
+   "total": 60731,
+   "per_10k": 22.2
+  }
+ ],
+ "by_type_map": {
+  "Computer Files": {
+   "type": "Computer Files",
+   "ai": 591,
+   "total": 9153,
+   "per_10k": 645.7
+  },
+  "Text": {
+   "type": "Text",
+   "ai": 6362,
+   "total": 255323,
+   "per_10k": 249.2
+  },
+  "Music": {
+   "type": "Music",
+   "ai": 1325,
+   "total": 78145,
+   "per_10k": 169.6
+  },
+  "Sound Recording and Music": {
+   "type": "Sound Recording and Music",
+   "ai": 687,
+   "total": 54384,
+   "per_10k": 126.3
+  },
+  "Motion Pictures": {
+   "type": "Motion Pictures",
+   "ai": 589,
+   "total": 67950,
+   "per_10k": 86.7
+  },
+  "Visual Material": {
+   "type": "Visual Material",
+   "ai": 768,
+   "total": 146610,
+   "per_10k": 52.4
+  },
+  "Dramatic Works; or Choreography": {
+   "type": "Dramatic Works; or Choreography",
+   "ai": 142,
+   "total": 37390,
+   "per_10k": 38.0
+  },
+  "Sound Recording": {
+   "type": "Sound Recording",
+   "ai": 135,
+   "total": 60731,
+   "per_10k": 22.2
+  }
+ },
+ "music_all": 2147,
+ "text_recent": 6362,
+ "parts_n": 12784,
+ "parts": {
+  "images": {
+   "n": 6938,
+   "pct": 54.3
+  },
+  "text": {
+   "n": 2768,
+   "pct": 21.7
+  },
+  "music": {
+   "n": 2217,
+   "pct": 17.3
+  },
+  "not said": {
+   "n": 1166,
+   "pct": 9.1
+  },
+  "video": {
+   "n": 271,
+   "pct": 2.1
+  },
+  "code": {
+   "n": 239,
+   "pct": 1.9
+  },
+  "lyrics": {
+   "n": 110,
+   "pct": 0.9
+  },
+  "narration / voice": {
+   "n": 64,
+   "pct": 0.5
+  }
+ },
+ "books": {
+  "n": 8083,
+  "images_only": 5378,
+  "images_only_pct": 66.5,
+  "text": 2333,
+  "text_pct": 28.9
+ },
+ "songs": {
+  "n": 2202,
+  "human_lyrics_pct": 86.7,
+  "music": 1956,
+  "lyrics": 88,
+  "lyrics_not_music": 40,
+  "music_not_lyrics": 1908,
+  "human_lyrics": 1910,
+  "music_pct": 88.8,
+  "music_not_lyrics_pct": 86.6,
+  "lyrics_pct": 4.0
+ },
+ "hedged": {
+  "n": 113,
+  "orgs": [
+   [
+    "Intellectual Reserve Inc",
+    42
+   ],
+   [
+    "Sony Pictures Television Inc",
+    40
+   ],
+   [
+    "Pinterest Inc",
+    6
+   ],
+   [
+    "Light & Wonder Inc",
+    3
+   ],
+   [
+    "Columbia Pictures Industries Inc",
+    3
+   ],
+   [
+    "Eleanor Invisible Film LLC",
+    1
+   ]
+  ],
+  "org_share": 89.4,
+  "orgs_display": [
+   [
+    "Intellectual Reserve",
+    42
+   ],
+   [
+    "Sony Pictures Television",
+    40
+   ],
+   [
+    "Pinterest",
+    6
+   ],
+   [
+    "Light & Wonder",
+    3
+   ],
+   [
+    "Columbia Pictures Industries",
+    3
+   ],
+   [
+    "Eleanor Invisible Film",
+    1
+   ]
+  ]
+ },
+ "agency": {
+  "n": 594,
+  "text": 590,
+  "share_of_book_text": 25.3
+ },
+ "books_without_agency": {
+  "n": 7489,
+  "text_pct": 23.3,
+  "images_only_pct": 71.8
+ },
+ "code": {
+  "n": 239,
+  "orgs": [
+   [
+    "International Business Machines Corporation",
+    31
+   ],
+   [
+    "Applied Systems, Inc",
+    24
+   ],
+   [
+    "New Relic, Inc",
+    8
+   ],
+   [
+    "Deloitte Development LLC",
+    5
+   ],
+   [
+    "Adobe Inc",
+    3
+   ],
+   [
+    "Overfull LLC",
+    2
+   ],
+   [
+    "Apple Inc",
+    2
+   ],
+   [
+    "Elastic Technologies (US) Inc",
+    2
+   ]
+  ],
+  "orgs_display": [
+   [
+    "IBM",
+    31
+   ],
+   [
+    "Applied Systems",
+    24
+   ],
+   [
+    "New Relic",
+    8
+   ],
+   [
+    "Deloitte Development",
+    5
+   ],
+   [
+    "Adobe",
+    3
+   ],
+   [
+    "Overfull",
+    2
+   ],
+   [
+    "Apple",
+    2
+   ],
+   [
+    "Elastic Technologies (US)",
+    2
+   ]
+  ]
+ },
+ "tools_any": 612,
+ "tools_any_pct": 4.8,
+ "tools": [
+  [
+   "Suno",
+   381
+  ],
+  [
+   "ChatGPT / OpenAI GPT",
+   131
+  ],
+  [
+   "Midjourney",
+   71
+  ],
+  [
+   "DALL-E",
+   17
+  ],
+  [
+   "Gemini",
+   15
+  ],
+  [
+   "Claude",
+   10
+  ],
+  [
+   "Copilot",
+   8
+  ],
+  [
+   "Leonardo",
+   7
+  ],
+  [
+   "Adobe Firefly",
+   4
+  ],
+  [
+   "ElevenLabs",
+   3
+  ],
+  [
+   "Sora",
+   1
+  ],
+  [
+   "Runway",
+   1
+  ],
+  [
+   "Stable Diffusion",
+   1
+  ]
+ ],
+ "claimants_unique": 9325,
+ "top_claimants": [
+  [
+   "Lukeman Literary Management Ltd",
+   595
+  ],
+  [
+   "Pluralsight LLC",
+   337
+  ],
+  [
+   "Glam Labs Inc",
+   107
+  ],
+  [
+   "Intellectual Reserve Inc",
+   53
+  ],
+  [
+   "Sony Pictures Television Inc",
+   40
+  ],
+  [
+   "The Proptech Scout",
+   39
+  ],
+  [
+   "International Business Machines Corporation",
+   35
+  ],
+  [
+   "Crimson Circle IP Inc",
+   31
+  ],
+  [
+   "Aggrandizers LLC",
+   28
+  ],
+  [
+   "Applied Systems Inc",
+   25
+  ],
+  [
+   "Dead People Talking LLC",
+   21
+  ],
+  [
+   "Thio Development LLC",
+   20
+  ],
+  [
+   "J&A Designs LLC",
+   20
+  ],
+  [
+   "Unknown Entity Holdings LLC",
+   18
+  ],
+  [
+   "Lillian Fredrick Publishing",
+   14
+  ],
+  [
+   "Kaplan North America LLC",
+   13
+  ],
+  [
+   "Kendall Hunt Publishing Company",
+   11
+  ],
+  [
+   "LumiDeer Inc",
+   11
+  ],
+  [
+   "Yellow Hat Productions Inc",
+   11
+  ],
+  [
+   "ONE MOVIE ONE FILM LLC",
+   10
+  ],
+  [
+   "Dashverse Corp",
+   10
+  ]
+ ],
+ "top10_share": 11.0,
+ "single_filers": 8239,
+ "single_filers_pct": 88.4,
+ "top_orgs": [
+  [
+   "Lukeman Literary Management Ltd",
+   595
+  ],
+  [
+   "Pluralsight LLC",
+   337
+  ],
+  [
+   "Glam Labs Inc",
+   107
+  ],
+  [
+   "Intellectual Reserve Inc",
+   53
+  ],
+  [
+   "Sony Pictures Television Inc",
+   40
+  ],
+  [
+   "The Proptech Scout",
+   39
+  ],
+  [
+   "International Business Machines Corporation",
+   35
+  ],
+  [
+   "Crimson Circle IP Inc",
+   31
+  ],
+  [
+   "Aggrandizers LLC",
+   28
+  ],
+  [
+   "Applied Systems Inc",
+   25
+  ],
+  [
+   "Dead People Talking LLC",
+   21
+  ],
+  [
+   "Thio Development LLC",
+   20
+  ]
+ ],
+ "top_individual_counts": [
+  61,
+  59,
+  57,
+  57,
+  46
+ ],
+ "top_org_share": 4.6,
+ "filers_5plus": 178,
+ "pluralsight": {
+  "name": "Pluralsight LLC",
+  "n": 337,
+  "types": [
+   [
+    "Computer Files",
+    328
+   ],
+   [
+    "Motion Pictures",
+    9
+   ]
+  ],
+  "parts": [
+   [
+    "text",
+    324
+   ],
+   [
+    "images",
+    235
+   ],
+   [
+    "video",
+    8
+   ]
+  ]
+ },
+ "top_org": {
+  "name": "Pluralsight LLC",
+  "n": 337,
+  "types": [
+   [
+    "Computer Files",
+    328
+   ],
+   [
+    "Motion Pictures",
+    9
+   ]
+  ],
+  "parts": [
+   [
+    "text",
+    324
+   ],
+   [
+    "images",
+    235
+   ],
+   [
+    "video",
+    8
+   ]
+  ]
+ },
+ "computer_files_without_top": {
+  "ai": 264,
+  "total": 8826,
+  "per_10k": 299.1,
+  "top_n": 327
+ },
+ "org_share": 18.8,
+ "countries": [
+  [
+   "United States",
+   11706
+  ],
+  [
+   "Canada",
+   200
+  ],
+  [
+   "United Kingdom",
+   135
+  ],
+  [
+   "China",
+   103
+  ],
+  [
+   "Australia",
+   91
+  ],
+  [
+   "France",
+   62
+  ],
+  [
+   "India",
+   60
+  ],
+  [
+   "Mexico",
+   59
+  ],
+  [
+   "Spain",
+   51
+  ],
+  [
+   "Germany",
+   49
+  ],
+  [
+   "Italy",
+   46
+  ],
+  [
+   "Brazil",
+   35
+  ],
+  [
+   "Ukraine",
+   27
+  ],
+  [
+   "Vietnam",
+   25
+  ],
+  [
+   "Philippines",
+   24
+  ]
+ ],
+ "with_country": 12787,
+ "non_us": 1503,
+ "non_us_pct": 11.8,
+ "kept_excluded_by_2026_04_21": 11222,
+ "kept_by_2026_04_21": 11284,
+ "vs_office": "higher",
+ "kept_by_2026_05_12": 11663,
+ "kept_excluded_by_2026_05_12": 11599,
+ "dropped_title_pct": 22.8,
+ "books_share_of_text_ai": 99.7,
+ "top_orgs_display": [
+  [
+   "Lukeman Literary Management",
+   595
+  ],
+  [
+   "Pluralsight",
+   337
+  ],
+  [
+   "Glam Labs",
+   107
+  ],
+  [
+   "Intellectual Reserve",
+   53
+  ],
+  [
+   "Sony Pictures Television",
+   40
+  ],
+  [
+   "The Proptech Scout",
+   39
+  ],
+  [
+   "IBM",
+   35
+  ],
+  [
+   "Crimson Circle IP",
+   31
+  ],
+  [
+   "Aggrandizers",
+   28
+  ],
+  [
+   "Applied Systems",
+   25
+  ],
+  [
+   "Dead People Talking",
+   21
+  ],
+  [
+   "Thio Development",
+   20
+  ]
+ ],
+ "bt": {
+  "computer_files": {
+   "type": "Computer Files",
+   "ai": 591,
+   "total": 9153,
+   "per_10k": 645.7
+  },
+  "text": {
+   "type": "Text",
+   "ai": 6362,
+   "total": 255323,
+   "per_10k": 249.2
+  },
+  "music": {
+   "type": "Music",
+   "ai": 1325,
+   "total": 78145,
+   "per_10k": 169.6
+  },
+  "sound_recording_and_music": {
+   "type": "Sound Recording and Music",
+   "ai": 687,
+   "total": 54384,
+   "per_10k": 126.3
+  },
+  "motion_pictures": {
+   "type": "Motion Pictures",
+   "ai": 589,
+   "total": 67950,
+   "per_10k": 86.7
+  },
+  "visual_material": {
+   "type": "Visual Material",
+   "ai": 768,
+   "total": 146610,
+   "per_10k": 52.4
+  },
+  "dramatic_works_or_choreography": {
+   "type": "Dramatic Works; or Choreography",
+   "ai": 142,
+   "total": 37390,
+   "per_10k": 38.0
+  },
+  "sound_recording": {
+   "type": "Sound Recording",
+   "ai": 135,
+   "total": 60731,
+   "per_10k": 22.2
+  }
+ },
+ "pp": {
+  "images": {
+   "n": 6938,
+   "pct": 54.3
+  },
+  "text": {
+   "n": 2768,
+   "pct": 21.7
+  },
+  "music": {
+   "n": 2217,
+   "pct": 17.3
+  },
+  "not_said": {
+   "n": 1166,
+   "pct": 9.1
+  },
+  "video": {
+   "n": 271,
+   "pct": 2.1
+  },
+  "code": {
+   "n": 239,
+   "pct": 1.9
+  },
+  "lyrics": {
+   "n": 110,
+   "pct": 0.9
+  },
+  "narration_voice": {
+   "n": 64,
+   "pct": 0.5
+  }
+ },
+ "tool": {
+  "suno": 381,
+  "chatgpt_openai_gpt": 131,
+  "midjourney": 71,
+  "dall_e": 17,
+  "gemini": 15,
+  "claude": 10,
+  "copilot": 8,
+  "leonardo": 7,
+  "adobe_firefly": 4,
+  "elevenlabs": 3,
+  "sora": 1,
+  "runway": 1,
+  "stable_diffusion": 1
+ }
+}
