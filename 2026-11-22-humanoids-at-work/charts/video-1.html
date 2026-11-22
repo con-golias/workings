@@ -1,0 +1,75 @@
+<!doctype html>
+<!-- Opening video, 1600x900, 21 s, five scenes. Text and bars only. Numbers from ../data/summary.json. -->
+<html><head><meta charset="utf-8"><link rel="stylesheet" href="fonts/fonts.css">
+<style>
+  :root { --bg:#FAF8F3; --ink:#1F1C1A; --text:#615B53; --charcoal:#3A3531; --stone:#CBC1B1; --acc:#6F8496; --paper:#F3EFE7; }
+  html, body { margin:0; background:var(--bg); } body { width:1600px; height:900px; overflow:hidden; } svg { display:block; }
+  text { font-family:'Inter Tight', sans-serif; font-variant-numeric:tabular-nums lining-nums; }
+</style></head><body>
+<svg id="c" width="1600" height="900" viewBox="0 0 1600 900"></svg>
+<script>
+const C = document.getElementById('c'); let S;
+const v = (n) => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+const cl = (x) => Math.max(0, Math.min(1, x)), p = (t, a, b) => cl((t - a) / (b - a));
+const ease = (x) => (x < 0.5 ? 4 * x * x * x : 1 - Math.pow(-2 * x + 2, 3) / 2), out = (x) => 1 - Math.pow(1 - x, 3);
+const vis = (t, a, b) => ease(p(t, a, a + 0.6)) * (1 - ease(p(t, b - 0.5, b)));
+const fmt = (n) => Math.round(n).toLocaleString('en-US');
+window.draw = (t) => {
+  const K = { ink: v('--ink'), text: v('--text'), ch: v('--charcoal'), st: v('--stone'), ac: v('--acc'), pa: v('--paper') };
+  let s = '';
+  // 1 · how many (0.3–4.3)
+  { const a = 0.3, b = 4.3, o = vis(t, a, b); if (o > 0) {
+      const k = out(p(t, a + 0.4, a + 2.0)), k2 = ease(p(t, a + 2.1, a + 2.7));
+      s += `<g opacity="${o}"><text x="140" y="200" font-size="46" font-weight="600" fill="${K.ink}">Humanoid robots shipped in the first half of 2026: about</text>
+        <text x="140" y="440" font-size="190" font-weight="700" fill="${K.ac}">${fmt(S.idc_h1_2026_units * k)}</text>
+        <g opacity="${k2}"><text x="140" y="540" font-size="40" fill="${K.ink}">more than ${S.idc_h1_2026_chinese_makers_pct}% made by Chinese companies · up ${S.idc_h1_2026_growth_pct}% in a year</text></g>
+        <text x="140" y="780" font-size="24" fill="${K.text}">IDC, 29 Sep 2026</text></g>`; } }
+  // 2 · where they went, by use (4.4–8.6)
+  { const a = 4.4, b = 8.6, o = vis(t, a, b); if (o > 0) {
+      const A = S.idc_uses_lab_show_gov_h1_2026_pct, W = 1320, x0 = 140, y = 300, h = 150, k1 = out(p(t, a + 0.5, a + 1.6)), k2 = ease(p(t, a + 1.7, a + 2.3));
+      s += `<g opacity="${o}"><text x="140" y="180" font-size="46" font-weight="600" fill="${K.ink}">Where they went, by use</text>
+        <text x="140" y="235" font-size="28" fill="${K.text}">IDC, share of units shipped, first half of 2026</text>
+        <rect x="${x0}" y="${y}" width="${W * A / 100 * k1}" height="${h}" fill="${K.ac}"/>
+        <rect x="${x0 + W * A / 100 + 4}" y="${y}" width="${Math.max(0, (W * (100 - A) / 100 - 4) * k1)}" height="${h}" fill="${K.st}"/>
+        <g opacity="${k1}"><text x="${x0 + 28}" y="${y + 100}" font-size="80" font-weight="700" fill="#fff">${A}%</text>
+          <text x="${x0 + W * A / 100 + 28}" y="${y + 92}" font-size="44" font-weight="700" fill="${K.ink}">${Math.round(100 - A)}%</text></g>
+        <g opacity="${k2}"><text x="140" y="${y + h + 60}" font-size="34" font-weight="700" fill="${K.ac}">labs and classrooms · shows · government data-collection centres</text>
+          <text x="140" y="${y + h + 110}" font-size="30" fill="${K.text}">the rest: factories, shops, logistics, tourism, homes</text>
+          <text x="140" y="${y + h + 160}" font-size="30" fill="${K.text}">In 2025, the first group took ${S.idc_uses_lab_show_gov_2025_pct}%.</text></g>
+        <text x="140" y="800" font-size="24" fill="${K.text}">IDC, 29 Sep 2026</text></g>`; } }
+  // 3 · who bought Unitree's (8.7–12.8)
+  { const a = 8.7, b = 12.8, o = vis(t, a, b); if (o > 0) {
+      const sp = S.unitree_split_jan_sep_2025_pct, W = 1320, x0 = 140, y = 330, h = 130;
+      const k1 = out(p(t, a + 0.6, a + 1.6)), k2 = out(p(t, a + 1.4, a + 2.2)), k3 = out(p(t, a + 2.0, a + 2.8));
+      const w1 = W * sp.research_education / 100, w2 = W * sp.commercial_consumer / 100, w3 = W * sp.industry / 100;
+      s += `<g opacity="${o}"><text x="140" y="180" font-size="44" font-weight="600" fill="${K.ink}">Who bought Unitree’s humanoids</text>
+        <text x="140" y="235" font-size="28" fill="${K.text}">Unitree, Jan–Sep 2025, share of humanoid revenue (its filing)</text>
+        <rect x="${x0}" y="${y}" width="${w1 * k1}" height="${h}" fill="${K.ch}"/>
+        <rect x="${x0 + w1 + 4}" y="${y}" width="${Math.max(0, w2 * k2 - 4)}" height="${h}" fill="${K.st}"/>
+        <rect x="${x0 + w1 + w2 + 4}" y="${y}" width="${Math.max(0, w3 * k3 - 4)}" height="${h}" fill="${K.ac}"/>
+        <g opacity="${k1}"><text x="${x0 + 24}" y="${y + 82}" font-size="54" font-weight="700" fill="#fff">${sp.research_education}%</text>
+          <text x="${x0}" y="${y + h + 52}" font-size="30" font-weight="600" fill="${K.ink}">research and education</text></g>
+        <g opacity="${k2}"><text x="${x0 + w1 + 22}" y="${y + 82}" font-size="40" font-weight="700" fill="${K.ink}">${sp.commercial_consumer}%</text>
+          <text x="${x0 + w1}" y="${y + h + 52}" font-size="26" fill="${K.text}">shops, shows, rental</text></g>
+        <g opacity="${k3}"><text x="${x0 + W}" y="${y - 18}" font-size="30" font-weight="700" text-anchor="end" fill="${K.ac}">industry ${sp.industry}%</text></g></g>`; } }
+  // 4 · inside industry (12.9–17.0)
+  { const a = 12.9, b = 17.0, o = vis(t, a, b); if (o > 0) {
+      const k1 = out(p(t, a + 0.5, a + 1.5)), k2 = ease(p(t, a + 1.7, a + 2.3)), W = 1320, x0 = 140, y = 300, h = 130;
+      const lo = S.unitree_industry_tours_share_low_pct, hi = S.unitree_industry_tours_share_high_pct;
+      s += `<g opacity="${o}"><text x="140" y="190" font-size="46" font-weight="600" fill="${K.ink}">Inside the ${S.unitree_split_jan_sep_2025_pct.industry}% labelled “industry”</text>
+        <rect x="${x0}" y="${y}" width="${W * hi / 100 * k1}" height="${h}" fill="${K.ch}"/>
+        <rect x="${x0 + W * hi / 100 + 4}" y="${y}" width="${Math.max(0, (W * (100 - hi) / 100 - 4) * k1)}" height="${h}" fill="${K.ac}"/>
+        <g opacity="${k1}"><text x="${x0 + 28}" y="${y + 82}" font-size="40" font-weight="700" fill="#fff">showroom tours: up to ${hi}%</text>
+          <text x="${x0 + W - 24}" y="${y + 82}" font-size="30" font-weight="700" text-anchor="end" fill="#fff">factory + inspection</text></g>
+        <g opacity="${k2}"><text x="140" y="620" font-size="52" font-weight="700" fill="${K.ac}">Factory and inspection: at most ${S.unitree_work_pct_low}–${S.unitree_work_pct_high}%</text>
+          <text x="140" y="680" font-size="32" fill="${K.text}">of Unitree’s humanoid revenue, January to September 2025 (its own figures)</text></g></g>`; } }
+  // 5 · close (17.1–21)
+  { const a = 17.1, o = ease(p(t, a, a + 0.5)) * (1 - ease(p(t, 20.6, 21))); if (o > 0) {
+      s += `<g opacity="${o}"><text x="140" y="330" font-size="54" font-weight="600" fill="${K.ink}">Factories announced: ${fmt(S.capacity_sum)} a year.</text>
+        <text x="140" y="420" font-size="54" font-weight="600" fill="${K.ac}">Shipped: about ${fmt(S.shipments_h1_2026_annualised)} a year.</text>
+        <text x="140" y="500" font-size="32" fill="${K.text}">Most went to labs, stages and robot-training centres.</text>
+        <text x="140" y="800" font-size="24" fill="${K.text}">IDC, company filings · 21 Nov 2026 · @con_golias</text></g>`; } }
+  C.innerHTML = s;
+};
+window.ready = Promise.all([fetch('../data/summary.json').then((r) => r.json()), document.fonts.load('700 20px "Inter Tight"')]).then(([a]) => { S = a; window.draw(0); });
+</script></body></html>

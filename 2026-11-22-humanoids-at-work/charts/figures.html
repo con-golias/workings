@@ -1,0 +1,250 @@
+<!doctype html>
+<!-- Static figures for the X Article on who uses humanoid robots in 2026. House plate, 1200x720 (2x). ?fig=1..12.
+     Numbers from ../data/summary.json (code/compute.py, sources in data/inputs.json). Colours: slate (--acc) = the one
+     thing each figure marks; charcoal = the rest; stone = context. No cover. -->
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="fonts/fonts.css">
+<style>
+  :root { --bg:#FAF8F3; --ink:#1F1C1A; --text:#615B53; --grid:#E8E3DA; --charcoal:#3A3531; --stone:#CBC1B1; --acc:#6F8496; --paper:#F3EFE7; }
+  html, body { margin:0; background:var(--bg); } body { width:1200px; height:720px; overflow:hidden; } svg { display:block; }
+  text { font-family:'Inter Tight', sans-serif; font-variant-numeric:tabular-nums lining-nums; }
+  .m { font-family:'JetBrains Mono', monospace; }
+</style>
+</head>
+<body>
+<svg id="c" width="1200" height="720" viewBox="0 0 1200 720"></svg>
+<script>
+const C = document.getElementById('c'); const fig = new URLSearchParams(location.search).get('fig') || '1';
+const v = (n) => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+const fmt = (n) => Number(n).toLocaleString('en-US');
+const esc = (t) => String(t).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+let S;
+function card(title, note, caption, caption2) {
+  return `<rect x="40" y="24" width="1120" height="4" fill="${v('--ink')}"/><line x1="40" x2="1160" y1="630" y2="630" stroke="${v('--ink')}" stroke-width="1"/>
+    <text x="40" y="74" font-size="26" font-weight="600" fill="${v('--ink')}">${title}</text>
+    <text x="1160" y="74" font-size="20" text-anchor="end" fill="${v('--text')}">${note}</text>
+    <text x="40" y="668" font-size="19" fill="${v('--text')}">${caption}</text>
+    ${caption2 ? `<text x="40" y="694" font-size="19" fill="${v('--text')}">${caption2}</text>` : ''}`;
+}
+const T = (x, y, t, o = {}) => `<text x="${x}" y="${y}" font-size="${o.fs || 20}" ${o.w ? `font-weight="${o.w}"` : ''} ${o.a ? `text-anchor="${o.a}"` : ''} fill="${o.c || v('--ink')}" ${o.m ? 'class="m"' : ''}>${esc(t)}</text>`;
+const R = (x, y, w, h, fill, o = {}) => `<rect x="${x}" y="${y}" width="${Math.max(0, w)}" height="${h}" ${o.rx ? `rx="${o.rx}"` : ''} fill="${fill}" ${o.s ? `stroke="${o.s}" stroke-width="${o.sw || 2}"` : ''} ${o.dash ? 'stroke-dasharray="6 5"' : ''}/>`;
+
+// 1 · shipments
+function fig1() {
+  let s = card('Humanoid robots shipped worldwide', 'units', `IDC (29 Sep 2026): H1 2026 close to 25,000, up 432.1%; buyers in China over 19,000 (77.9%); Chinese makers over ${S.idc_h1_2026_chinese_makers_pct}%.`,
+    '2025 full year: analysts differ, from about 13,000 (Omdia) to about 18,000 (IDC). H1 2025 implied by IDC’s growth rate.');
+  const base = 560, H = 430, max = 26000, Y = (n) => base - H * n / max, bw = 190;
+  [0, 5000, 10000, 15000, 20000, 25000].forEach((g) => { s += `<line x1="140" x2="1120" y1="${Y(g)}" y2="${Y(g)}" stroke="${v('--grid')}"/>` + T(126, Y(g) + 6, fmt(g), { fs: 16, a: 'end', c: v('--text') }); });
+  const x1 = 220, x2 = 540, x3 = 860;
+  s += R(x1, Y(S.idc_h1_2025_units), bw, base - Y(S.idc_h1_2025_units), v('--stone'));
+  s += T(x1 + bw / 2, Y(S.idc_h1_2025_units) - 14, '≈' + fmt(S.idc_h1_2025_units), { fs: 24, w: 700, a: 'middle' }) + T(x1 + bw / 2, base + 30, 'H1 2025', { fs: 20, a: 'middle' });
+  s += R(x2, Y(S.shipments_2025_high), bw, base - Y(S.shipments_2025_high), '#fff', { s: v('--charcoal'), dash: true });
+  s += R(x2, Y(S.shipments_2025_low), bw, base - Y(S.shipments_2025_low), v('--charcoal'));
+  s += T(x2 + bw / 2, Y(S.shipments_2025_high) - 14, `${fmt(S.shipments_2025_low)}–${fmt(S.shipments_2025_high)}`, { fs: 24, w: 700, a: 'middle' }) + T(x2 + bw / 2, base + 30, '2025 (full year)', { fs: 20, a: 'middle' });
+  const ch = S.idc_h1_2026_china_units, rw = S.rest_of_world_h1_2026;
+  s += R(x3, Y(ch), bw, base - Y(ch), v('--acc')) + R(x3, Y(ch + rw), bw, Y(ch) - Y(ch + rw), v('--stone'));
+  s += T(x3 + bw / 2, Y(ch + rw) - 14, '≈' + fmt(S.idc_h1_2026_units), { fs: 24, w: 700, a: 'middle' }) + T(x3 + bw / 2, base + 30, 'H1 2026', { fs: 20, w: 700, a: 'middle' });
+  s += T(x3 + bw / 2, Y(ch / 2) - 6, 'to China', { fs: 18, a: 'middle', c: '#fff' }) + T(x3 + bw / 2, Y(ch / 2) + 20, fmt(ch) + '+', { fs: 20, w: 700, a: 'middle', c: '#fff' }) + T(x3 + bw / 2, Y(ch + rw / 2) + 7, 'elsewhere ≈' + fmt(rw), { fs: 17, a: 'middle' });
+  return s;
+}
+
+// 2 · Unitree: who bought its humanoids
+function fig2() {
+  const p = S.unitree_split_jan_sep_2025_pct;
+  let s = card('Who bought Unitree’s humanoids, Jan–Sep 2025', 'share of humanoid revenue', 'Unitree’s reply to the Shanghai Stock Exchange inquiry (20 Mar 2026). “Industry” is Unitree’s own label; its note says',
+    `enterprise guided tours were about ${S.unitree_industry_tours_share_low_pct}–${S.unitree_industry_tours_share_high_pct}% of it; the rest is mainly smart manufacturing and inspection.`);
+  const x0 = 60, W = 1080, y = 140, h = 90; let x = x0;
+  [[p.research_education, 'Research and education', v('--charcoal')], [p.commercial_consumer, 'Commercial and consumer', v('--stone')], [p.industry, 'Industry', v('--acc')]].forEach(([n, lab, col], i) => {
+    const w = W * n / 100; s += R(x, y, w - 3, h, col);
+    s += T(x + (i === 2 ? w - 6 : 16), y + 56, n.toFixed(2) + '%', { fs: 30, w: 700, c: i === 1 ? v('--ink') : '#fff', a: i === 2 ? 'end' : 'start' });
+    s += i === 2 ? T(x + w, y - 14, lab, { fs: 19, w: 600, a: 'end', c: v('--acc') }) : T(x, y + h + 34, lab, { fs: 19, w: 600 }); x += w; });
+  s += T(x0, y + h + 62, 'universities, labs, tech firms, developers', { fs: 16, c: v('--text') }) + T(x0 + W * p.research_education / 100, y + h + 62, 'shops, shows, exhibitions, home, rental', { fs: 16, c: v('--text') });
+  // zoom into industry
+  const zx = 60, zy = 380, zW = 1080, zh = 80;
+  s += T(zx, zy - 30, 'Inside the 9.01% labelled “industry”', { fs: 21, w: 700 });
+  const lo = S.unitree_industry_tours_share_low_pct, hi = S.unitree_industry_tours_share_high_pct;
+  s += R(zx, zy, zW * lo / 100, zh, v('--charcoal')) + R(zx + zW * lo / 100, zy, zW * (hi - lo) / 100, zh, v('--charcoal'), { dash: true, s: '#fff' });
+  s += R(zx + zW * hi / 100, zy, zW * (1 - hi / 100), zh, v('--acc'), { s: '#fff' });
+  s += T(zx + 16, zy + 50, `guided tours in company showrooms: ${lo}–${hi}%`, { fs: 21, w: 700, c: '#fff' });
+  s += T(zx + zW - 14, zy + 50, `factory + inspection: ${100 - hi}–${100 - lo}%`, { fs: 21, w: 700, c: '#fff', a: 'end' });
+  s += T(zx, zy + zh + 50, `Factory and inspection work: at most ${S.unitree_work_pct_low}–${S.unitree_work_pct_high}% of Unitree’s humanoid revenue in those nine months.`, { fs: 24, w: 700, c: v('--acc') });
+  s += T(zx, zy + zh + 84, `Showroom tours alone: ${S.unitree_tours_pct_low}–${S.unitree_tours_pct_high}%.`, { fs: 20, c: v('--text') });
+  return s;
+}
+
+// 3 · the filings ledger
+function fig3() {
+  let s = card('What the companies’ own filings say about 2025', 'humanoid robots only', 'Unitree: SSE prospectus and inquiry reply. UBTech: HKEX annual results. Leju: ChiNext prospectus (as reported). Agility: SEC S-4/A.',
+    'Unitree, UBTech and Leju count units sold; Agility does not publish units (Unitree’s prospectus estimates about 150 shipped).');
+  const cols = [60, 250, 420, 600, 770], hy = 120;
+  ['Company', 'Units 2025', 'Humanoid revenue', 'Per unit', 'Where they went (in its own words)'].forEach((h, i) => { s += T(cols[i], hy, h, { fs: 18, w: 700, c: v('--text') }); });
+  const rows = [
+    ['Unitree (China)', fmt(S.unitree_units_sold['2025']), '¥' + Math.round(S.unitree_humanoid_rev_yuan_m['2025']) + 'M', '¥' + Math.round(S.unitree_asp_yuan_k['2025']) + 'K', ['74% research/education, 17% commercial,', '9% “industry” (Jan–Sep 2025)'], true],
+    ['UBTech (China)', fmt(S.ubtech_units_2025), '¥' + S.ubtech_rev_yuan_m_2025 + 'M', '¥' + S.ubtech_rev_per_unit_yuan_k + 'K', ['automotive, smart manufacturing, logistics,', '“embodied intelligent datacenters”; no split'], false],
+    ['Leju (China)', fmt(S.leju_kuavo_units_2025), '¥' + S.leju_kuavo_rev_yuan_m_2025 + 'M', '¥' + Math.round(S.leju_kuavo_rev_yuan_m_2025 * 1000 / S.leju_kuavo_units_2025) + 'K', [`data collection ${S.leju_data_collection_pct}% (its largest use);`, `industrial ${S.leju_industrial_pct}% of Kuavo revenue`], false],
+    ['Agility (US)', 'not published', '$' + (S.agility_sales_2025_usd_k / 1000).toFixed(2) + 'M (all sales)', '—', [`${S.agility_investor_pct_2025}% of 2025 sales from one investor,`, 'the buyer of five robots'], false]];
+  rows.forEach((r, i) => { const y = 180 + i * 108; s += `<line x1="60" x2="1140" y1="${y - 40}" y2="${y - 40}" stroke="${v('--grid')}" stroke-width="2"/>`;
+    s += T(cols[0], y, r[0], { fs: 21, w: 700 }) + T(cols[1], y, r[1], { fs: 21, w: 700, c: r[5] ? v('--acc') : v('--ink') }) + T(cols[2], y, r[2], { fs: 20 }) + T(cols[3], y, r[3], { fs: 20 });
+    s += T(cols[4], y, r[4][0], { fs: 18, c: v('--charcoal') }) + T(cols[4], y + 26, r[4][1], { fs: 18, c: v('--charcoal') }); });
+  return s;
+}
+
+// 4 · where humanoids work in 2026
+function fig4() {
+  let s = card('Where humanoids work in 2026, and how far each use has got', 'named, public cases', 'Company releases and filings: UBTech, Agility, Figure, BMW, Hyundai, Boston Dynamics, Tesla, Siemens; JAL (CNBC).',
+    'Training grounds: People’s Daily. Nucleus: Humanoids Daily. Status is the companies’ word; none publishes robots per shift.');
+  const rows = [
+    ['China', [['Car and electronics plants: handling, sorting, inspection (UBTech Walker S2)', 'on-the-job training'], ['70+ state-backed “training grounds” where people teach robots', 'running'], ['Labs, classrooms, shows and government data-collection centres', 'most units']]],
+    ['United States', [['Warehouses and plants: moving totes (Agility at GXO, Schaeffler, Toyota Canada)', 'small fleets'], ['BMW Spartanburg: Figure 02 pilot in 2025, retired; Figure 03 next, in logistics', 'pilot'], ['Tesla: Optimus production under way in Fremont by Oct 2026, uses not given', 'early ramp']]],
+    ['South Korea', [['Hyundai Metaplant, Georgia: Atlas in training, line use from 2028', 'planned'], ['GlobalFoundries chip fabs: Atlas tests from early 2027', 'planned']]],
+    ['Japan', [['Haneda airport: Unitree-made humanoids for bags and cleaning (JAL, 2-year trial)', 'pilot']]],
+    ['Europe', [['Siemens, Erlangen: a UK company’s wheeled humanoid moving totes, 60 an hour', 'test'], ['Factories: other makers’ humanoids run by start-up Nucleus, supervised', 'pilot']]]];
+  const col = { 'running': v('--acc'), 'most units': v('--acc'), 'small fleets': v('--charcoal'), 'on-the-job training': '#fff', 'pilot': '#fff', 'test': '#fff', 'early ramp': '#fff', 'planned': v('--paper') };
+  let y = 108;
+  rows.forEach(([c, items]) => { s += T(60, y + 27, c, { fs: 21, w: 700 });
+    items.forEach(([t, st]) => { const dark = ['running', 'most units', 'small fleets'].includes(st);
+      s += R(250, y + 6, 690, 30, '#fff', { s: v('--grid'), rx: 6 }) + T(264, y + 27, t, { fs: 17 });
+      s += R(950, y + 6, 190, 30, col[st], { rx: 15, s: dark ? col[st] : v('--charcoal') }) + T(1045, y + 27, st, { fs: 15, w: 700, a: 'middle', c: dark ? '#fff' : v('--ink') }); y += 36; });
+    y += 14; });
+  return s;
+}
+
+// 5 · capacity announced vs shipments (log scale)
+function fig5() {
+  let s = card('Factories announced for humanoids vs what the world actually ships', 'units per year, log scale', `Capacity: each company’s own statement (Tesla Q4 2025; Hyundai; Figure BotQ; Agility S-4/A; UBTech). Tesla is ${S.tesla_share_of_capacity_pct}% of the total.`,
+    'Tesla’s Fremont line had begun production by Oct 2026 (“early ramp”); Hyundai’s is for 2028. Shipped: IDC, H1 2026 doubled.');
+  const x0 = 380, W = 720, lo = 3, hi = 6.2, X = (n) => x0 + W * (Math.log10(n) - lo) / (hi - lo);
+  [1000, 10000, 100000, 1000000].forEach((g) => { s += `<line x1="${X(g)}" x2="${X(g)}" y1="110" y2="560" stroke="${v('--grid')}"/>` + T(X(g), 590, g >= 1e6 ? '1 million' : fmt(g), { fs: 16, a: 'middle', c: v('--text') }); });
+  const rows = S.capacity_rows.concat([['World shipments, H1 2026 × 2', S.shipments_h1_2026_annualised]]);
+  rows.forEach(([lab, n], i) => { const y = 130 + i * 72, last = i === rows.length - 1, col = last ? v('--acc') : (i === 0 ? v('--charcoal') : v('--stone'));
+    if (last) s += `<line x1="60" x2="1140" y1="${y - 26}" y2="${y - 26}" stroke="${v('--ink')}" stroke-width="1"/>`;
+    s += T(x0 - 18, y + 26, lab, { fs: 19, a: 'end', w: last ? 700 : 400 }) + R(x0, y + 6, X(n) - x0, 32, col, { rx: 4 });
+    s += T(X(n) + 12, y + 30, fmt(n), { fs: 20, w: 700, c: last ? v('--acc') : v('--ink') }); });
+  return s;
+}
+
+// 6 · Agility: the pipeline and the haircut
+function fig6() {
+  let s = card('Agility: its pipeline vs the fairness adviser’s schedule', 'SEC S-4/A (30 Sep) and 8-K/A (13 Nov 2026)', 'Ocean Tomo, the fairness adviser to the SPAC, valued the deal on a deployment schedule of about 7,000 robots by 2030,',
+    'goods movement only; the unadjusted pipeline was about 28,000. Sales and loss: nine months to 30 Sep 2026 (8-K/A).');
+  const base = 520, H = 360, max = 30000, Y = (n) => base - H * n / max, bw = 170;
+  s += R(120, Y(S.agility_pipeline_2030), bw, base - Y(S.agility_pipeline_2030), v('--stone')) + T(120 + bw / 2, Y(S.agility_pipeline_2030) - 14, fmt(S.agility_pipeline_2030), { fs: 30, w: 700, a: 'middle' });
+  s += R(360, Y(S.agility_adviser_2030), bw, base - Y(S.agility_adviser_2030), v('--acc')) + T(360 + bw / 2, Y(S.agility_adviser_2030) - 14, fmt(S.agility_adviser_2030), { fs: 30, w: 700, a: 'middle', c: v('--acc') });
+  s += T(120 + bw / 2, base + 32, 'pipeline', { fs: 19, a: 'middle' }) + T(360 + bw / 2, base + 32, 'adviser’s schedule', { fs: 19, a: 'middle', w: 700 });
+  s += T(120, base + 60, `robots deployed by 2030 · the adviser used ${S.agility_adviser_pct}%`, { fs: 17, c: v('--text') });
+  s += `<line x1="640" x2="640" y1="120" y2="590" stroke="${v('--grid')}" stroke-width="2"/>`;
+  s += T(690, 160, 'Nine months to 30 September 2026', { fs: 21, w: 700 });
+  s += T(690, 250, '$' + fmt(S.agility_sales_9m_2026_usd_k) + 'K', { fs: 64, w: 700, c: v('--acc') }) + T(690, 285, `net sales (a year before: $${fmt(S.agility_sales_9m_2025_usd_k)}K)`, { fs: 20, c: v('--text') });
+  s += T(690, 400, '$' + S.agility_net_loss_9m_2026_usd_m + 'M', { fs: 64, w: 700 }) + T(690, 435, 'net loss, almost five times the year before', { fs: 20, c: v('--text') });
+  s += T(690, 462, `${Math.round(S.agility_sbc_share_of_jump_9m_pct)}% of the increase was stock-based pay`, { fs: 20, c: v('--text') });
+  s += T(690, 520, `${S.agility_facilities} customer facilities · ${fmt(S.agility_hours)}+ hours in total`, { fs: 20, w: 600 });
+  return s;
+}
+
+// 7 · all the documented work, in human working years
+function fig7() {
+  let s = card('The best-documented humanoid jobs, in human working years', 'hours ÷ 2,000', 'Figure: 1,250+ hours at BMW Spartanburg (Figure, Nov 2025). Agility: 65,000+ hours in customer sites, all years (S-4/A).',
+    'One working year = 2,000 hours (40 hours × 50 weeks). A plant with 1,000 people works about 2 million hours a year.');
+  const x0 = 380, W = 740, lo = 2, hi = 6.5, X = (n) => x0 + W * (Math.log10(n) - lo) / (hi - lo);
+  [100, 1000, 10000, 100000, 1000000].forEach((g) => { s += `<line x1="${X(g)}" x2="${X(g)}" y1="110" y2="540" stroke="${v('--grid')}"/>` + T(X(g), 570, fmt(g) + ' h', { fs: 16, a: 'middle', c: v('--text') }); });
+  const rows = [['One person, one year', S.full_time_hours_year, v('--stone'), '1 worker-year'],
+    ['Figure 02 at BMW (2025)', S.figure_bmw_hours, v('--acc'), S.figure_bmw_worker_year_fraction + ' worker-year'],
+    ['Agility Digit, every customer, ever', S.agility_hours, v('--acc'), S.agility_worker_years + ' worker-years'],
+    ['One car plant with 1,000 people, one year', 2000000, v('--stone'), '1,000 worker-years']];
+  rows.forEach(([lab, n, col, tag], i) => { const y = 140 + i * 100;
+    s += T(x0 - 18, y + 26, lab, { fs: 19, a: 'end', w: col === v('--acc') ? 700 : 400 }) + R(x0, y + 4, X(n) - x0, 36, col, { rx: 4 });
+    s += i === 3 ? T(X(n) - 14, y + 30, tag, { fs: 20, w: 700, a: 'end' }) : T(X(n) + 12, y + 30, tag, { fs: 20, w: 700, c: col === v('--acc') ? v('--acc') : v('--ink') }); });
+  return s;
+}
+
+// 8 · the money in 2026
+function fig8() {
+  let s = card('The money in 2026', 'US dollars', 'Dealroom (6 Oct 2026) for humanoid startups; Crunchbase News for all robotics startups, Jan–Sep 2026; listings from filings,',
+    'releases and press (Caixin for AgiBot). Unitree raised ¥6.1 billion; dollar figures rounded at about 7.1 yuan per dollar.');
+  s += T(60, 130, 'Venture money, 2026 so far', { fs: 22, w: 700 });
+  const x0 = 60, W = 480, max = 14, rows = [['Humanoid startups, worldwide', S.dealroom_humanoid_2026_usd_bn, v('--acc')], ['All robotics startups, China', S.crunchbase_robotics_q1q3_2026_china_usd_bn, v('--charcoal')], ['All robotics startups, US', S.crunchbase_robotics_q1q3_2026_us_usd_bn, v('--stone')]];
+  rows.forEach(([lab, n, col], i) => { const y = 170 + i * 110; s += T(x0, y, lab, { fs: 19 }) + R(x0, y + 14, W * n / max, 40, col, { rx: 4 }) + T(x0 + W * n / max + 12, y + 44, '$' + n + 'B', { fs: 24, w: 700 }); });
+  s += `<line x1="640" x2="640" y1="110" y2="600" stroke="${v('--grid')}" stroke-width="2"/>`;
+  s += T(680, 130, 'Listings', { fs: 22, w: 700 });
+  const L = [['May', 'Leju', 'filed, Shenzhen ChiNext', 'prospectus public'], ['Jul', 'AgiBot', 'Hong Kong, process started', 'no application proof on HKEX'], ['Aug', 'Unitree', 'Shanghai STAR', `raised ≈$${S.unitree_ipo_raised_usd_bn}B; +460% on day one`], ['Nov', 'Agility', 'Nasdaq (SPAC)', `$${S.agility_spac_usd_m}M gross`]];
+  L.forEach(([m, n, w, d], i) => { const y = 180 + i * 100; s += T(680, y, m, { fs: 18, c: v('--text') }) + T(740, y, n, { fs: 22, w: 700 }) + T(740, y + 28, w, { fs: 17, c: v('--charcoal') }) + T(740, y + 54, d, { fs: 17, c: v('--text') }); });
+  return s;
+}
+
+// 9 · what governments plan
+function fig9() {
+  let s = card('What governments have put on paper', 'plans and rules, not deployments', 'China: 15th Five-Year Plan; People’s Daily (training grounds). Korea: MOTIE (Apr 2025). Japan: strategy of Jul 2026;',
+    'its 10 million are robots of all kinds. US: FCC (28 Jul), House China committee (3 and 8 Jun), White House (28 Oct).');
+  const B = [['China', ['Embodied AI in the 15th Five-Year Plan, 2026–2030', `${S.china_training_grounds_open_jun2026}+ state-backed training grounds open by June 2026,`, '40+ more being built or planned']],
+    ['South Korea', ['K-Humanoid Alliance: about ₩1 trillion (~$700M) by 2030', 'Hyundai: 30,000 robots a year by 2028 (company plan)']],
+    ['Japan', ['¥10.5 trillion (~$65B) public and private for “physical AI”', 'through fiscal 2040; ~10 million AI robots by 2040']],
+    ['United States', ['No national humanoid programme; private money', 'FCC: no new foreign-made models without a waiver (Jul)', 'GUARD Act (Jun); Section 232 import talks (Oct)', 'Pentagon’s 1260H list adds Unitree (Jun)']]];
+  B.forEach(([c, lines], i) => { const x = i % 2 ? 610 : 60, y = 110 + Math.floor(i / 2) * 250;
+    s += R(x, y, 530, 220, i === 0 ? v('--paper') : '#fff', { s: i === 0 ? v('--acc') : v('--charcoal'), rx: 12 });
+    s += T(x + 24, y + 44, c, { fs: 24, w: 700 }); lines.forEach((l, j) => { s += T(x + 24, y + 90 + j * 34, l, { fs: 18, c: v('--charcoal') }); }); });
+  return s;
+}
+
+// 10 · 2030 against the world's factory workers
+function fig10() {
+  const n = Math.round(S.factory_workers_per_2030_humanoid);
+  let s = card('If every humanoid IDC expects in 2030 went to a factory', `1 dot = ${fmt(S.idc_2030_units)} factory workers`, `IDC forecasts more than ${fmt(S.idc_2030_units)} humanoids shipped in 2030. The ILO counts almost 500 million manufacturing workers.`,
+    `One year of humanoids = ${S.idc_2030_pct_of_factory_workers}% of them: one robot for every ${n} factory workers, if all of them went to factories.`);
+  const cols = 29, r = 6.4, gap = 17, x0 = 560, y0 = 130;
+  for (let i = 0; i < n; i++) { const cx = x0 + (i % cols) * gap, cy = y0 + Math.floor(i / cols) * gap; s += `<circle cx="${cx}" cy="${cy}" r="${r}" fill="${i === 0 ? v('--acc') : v('--stone')}"/>`; }
+  s += T(60, 150, '1 dot = the humanoids', { fs: 20, w: 700, c: v('--acc') }) + T(60, 176, 'shipped in 2030', { fs: 20, w: 700, c: v('--acc') });
+  s += T(60, 230, 'all the other dots =', { fs: 19, c: v('--text') }) + T(60, 256, 'the world’s factory', { fs: 19, c: v('--text') }) + T(60, 282, 'workers', { fs: 19, c: v('--text') });
+  return s;
+}
+
+// 11 · prices
+function fig11() {
+  let s = card('What a humanoid costs, and how fast that is falling', 'per robot', 'Unitree: humanoid revenue ÷ units sold (prospectus). UBTech: full-size humanoid revenue ÷ units, includes services (results).',
+    'Agility: bill of materials, its own targets (S-4/A). Yuan to dollars at about 7.1 for illustration.');
+  s += T(60, 130, 'Unitree, average per humanoid sold', { fs: 21, w: 700 });
+  const a = S.unitree_asp_yuan_k, years = ['2023', '2024', '2025'], max = 620, x0 = 60, W = 420;
+  years.forEach((y, i) => { const yy = 160 + i * 70, n = a[y]; s += T(x0, yy + 28, y, { fs: 19 }) + R(x0 + 70, yy + 6, W * n / max, 34, i === 2 ? v('--acc') : v('--stone'), { rx: 4 }) + T(x0 + 80 + W * n / max, yy + 32, '¥' + Math.round(n) + 'K', { fs: 21, w: 700 }); });
+  s += T(60, 420, `UBTech, per full-size humanoid (2025): ¥${S.ubtech_rev_per_unit_yuan_k}K (≈$${S.ubtech_rev_per_unit_usd_k}K)`, { fs: 20, w: 700 });
+  s += T(60, 452, `Unitree 2025: ≈$${S.unitree_asp_2025_usd_k}K. Mostly smaller research robots.`, { fs: 19, c: v('--text') });
+  s += `<line x1="680" x2="680" y1="110" y2="600" stroke="${v('--grid')}" stroke-width="2"/>`;
+  s += T(720, 130, 'Agility Digit, cost to build (its plan)', { fs: 21, w: 700 });
+  const b = S.agility_bom_usd_k, rows = [['at launch', b.launch], ['1,000 a year', b.at_1000_per_year], ['10,000 a year', b.at_10000_per_year]];
+  rows.forEach(([l, n], i) => { const yy = 160 + i * 70; s += T(720, yy + 28, l, { fs: 18 }) + R(860, yy + 6, 190 * n / 150, 34, i === 0 ? v('--stone') : v('--charcoal'), { rx: 4 }) + T(870 + 190 * n / 150, yy + 32, '$' + n + 'K', { fs: 21, w: 700 }); });
+  s += T(720, 420, 'Amazon’s 2024 order: 5 robots,', { fs: 19, c: v('--text') }) + T(720, 446, '$1.05M in total ($210K each)', { fs: 19, c: v('--text') });
+  return s;
+}
+
+// 12 · 2026 timeline
+function fig12() {
+  let s = card('2026 in humanoid robots, from the record', 'month by month', 'Company releases, exchange filings, IDC, US government notices, and the Reuters and Korea Times reports named in the article.', 'Dates are when each was made public.');
+  const ev = [['Jan', 'Hyundai: Atlas on the line from 2028 · its union: “not a single robot” without a deal'], ['Mar', 'Unitree’s reply to regulators: 9% “industry”, up to 70% of it showroom tours'], ['Apr', 'Siemens tests a UK company’s wheeled humanoid on totes in Erlangen'], ['Jun', 'GUARD Act introduced · Pentagon lists Unitree as a Chinese military company'], ['Jul', 'FCC: no new foreign-made humanoid models without a waiver · AgiBot starts HK IPO'], ['Aug', 'Unitree lists in Shanghai: +460% on day one'], ['Sep', 'IDC: ~25,000 in H1, 69% to labs, shows, data-collection centres · Reuters: China slows IPOs'], ['Oct', 'Tesla says Optimus production has begun in Fremont · US Section 232 on robot imports'], ['Nov', 'Agility trades on Nasdaq · GlobalFoundries to test Atlas from 2027']];
+  s += `<line x1="150" x2="150" y1="110" y2="600" stroke="${v('--stone')}" stroke-width="3"/>`;
+  ev.forEach(([m, t], i) => { const y = 128 + i * 55, key = i === 1 || i === 6; s += `<circle cx="150" cy="${y}" r="9" fill="${key ? v('--acc') : v('--charcoal')}" stroke="${v('--ink')}" stroke-width="1.5"/>`;
+    s += T(110, y + 7, m, { fs: 19, w: 700, a: 'end' }) + T(180, y + 7, t, { fs: 20, w: key ? 700 : 400 }); });
+  return s;
+}
+
+// 13 · IDC: where humanoids went, by use (share of units)
+function fig13() {
+  let s = card('Where humanoids went, by use', 'share of units shipped (IDC)', 'IDC (29 Sep 2026). Slate = research and education, shows and exhibitions, government data-collection centres “and similar” uses.',
+    'Stone = the rest: factories, shops, transport and logistics, tourism, homes (no split). World or China only: not stated.');
+  const x0 = 60, W = 1080, h = 96;
+  [['2025, full year', S.idc_uses_lab_show_gov_2025_pct, 150], ['First half of 2026', S.idc_uses_lab_show_gov_h1_2026_pct, 340]].forEach(([lab, a, y], i) => {
+    const wa = W * a / 100;
+    s += T(x0, y, lab, { fs: 22, w: 700 });
+    s += R(x0, y + 18, wa - 3, h, v('--acc')) + R(x0 + wa, y + 18, W - wa, h, v('--stone'));
+    s += T(x0 + 20, y + 18 + 62, a + '%', { fs: 40, w: 700, c: '#fff' }) + T(x0 + wa + 18, y + 18 + 58, (Math.round((100 - a) * 10) / 10) + '%', { fs: 30, w: 700 });
+    if (i === 1) s += T(x0 + 150, y + 18 + 58, 'labs and classrooms · shows · government data-collection centres', { fs: 20, c: '#fff' });
+  });
+  s += T(x0, 560, 'Most went to labs, stages and robot-training centres. Factories are one part of the rest.', { fs: 24, w: 700, c: v('--acc') });
+  return s;
+}
+
+const FIGS = { 1: fig1, 2: fig2, 3: fig3, 4: fig4, 5: fig5, 6: fig6, 7: fig7, 8: fig8, 9: fig9, 10: fig10, 11: fig11, 12: fig12, 13: fig13 };
+window.ready = Promise.all([fetch('../data/summary.json').then((r) => r.json()), document.fonts.load('700 20px "Inter Tight"'), document.fonts.load('400 20px "JetBrains Mono"')])
+  .then(([a]) => { S = a; C.innerHTML = FIGS[fig](); });
+</script>
+</body>
+</html>
