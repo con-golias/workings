@@ -8,7 +8,7 @@ question, the method, and what I checked and didn't.
 
 | Date | Piece | Folder |
 |---|---|---|
-| 22 Nov 2026 | 25,000 humanoid robots shipped in six months | [`2026-11-22-humanoids-at-work`](2026-11-22-humanoids-at-work/) |
+| 22 Nov 2026 | 25,000 humanoid robots shipped in six months ([X Article](https://x.com/con_golias/status/2124570628728471603)) | [`2026-11-22-humanoids-at-work`](2026-11-22-humanoids-at-work/) |
 | 20 Nov 2026 | Made by AI, owned by no one: what 12,853 US copyright filings admit ([X Article](https://x.com/con_golias/status/2123796598404612323)) | [`2026-11-11-copyright-ai-disclaimers`](2026-11-11-copyright-ai-disclaimers/) |
 | 18 Nov 2026 | AI ranked a product page lower for one reason: it didn't know the brand. Rewriting barely helped ([X Article](https://x.com/con_golias/status/2123138881402888247)) | [`2026-11-10-ai-brand-bias-paper`](2026-11-10-ai-brand-bias-paper/) |
 | 8 Nov 2026 | Anthropic says no SPV may hold its stock. 74 SPVs named after it have filed with the SEC ([X Article](https://x.com/con_golias/status/2119478653239070783)) | [`2026-11-08-ai-spv-form-d`](2026-11-08-ai-spv-form-d/) |
