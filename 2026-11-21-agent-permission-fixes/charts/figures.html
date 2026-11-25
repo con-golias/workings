@@ -187,9 +187,10 @@ function fig8() {
 let DOTS;
 function cover() {
   const ink = v('--ink'), txt = v('--text'), ch = v('--charcoal'), AC = '#4F6B86';
-  const M = Object.entries(DOTS), PER = 20, PITCH = 4.1, CW = PER * PITCH, X0 = 480, GAP = (1440 - X0 - CW) / (M.length - 1), BASE = 492;
+  // X crops the sides of the cover in its previews: everything sits in x 215–1285.
+  const M = Object.entries(DOTS), PER = 19, PITCH = 4.5, CW = PER * PITCH, X0 = 225, XR = 1275, GAP = (XR - X0 - CW) / (M.length - 1), BASE = 492;
   let s = `<defs>
-      <radialGradient id="bgR" cx="0.62" cy="0.45" r="0.8"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#F1ECE3"/></radialGradient>
+      <radialGradient id="bgR" cx="0.5" cy="0.45" r="0.8"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#F1ECE3"/></radialGradient>
       <filter id="glow" x="-200%" y="-200%" width="500%" height="500%"><feGaussianBlur stdDeviation="3.2"/></filter>
       <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${ch}" stop-opacity="0"/><stop offset="1" stop-color="${ch}" stop-opacity="0.07"/></linearGradient>
     </defs>
@@ -207,19 +208,18 @@ function cover() {
     });
     const n = str.replace(/\./g, '').length, mo = MON[m.slice(5)];
     labels += `<text x="${x0 + CW / 2}" y="${top - 18}" font-size="19" font-weight="700" text-anchor="middle" fill="${ink}">${n}</text>
-      <text x="${x0 + CW / 2}" y="${BASE + 34}" font-size="17" font-weight="500" text-anchor="middle" fill="${txt}">${mo}${m === '2026-11' ? '*' : ''}</text>`;
+      <text x="${x0 + CW / 2}" y="${BASE + 34}" font-size="19" font-weight="500" text-anchor="middle" fill="${txt}">${mo}${m === '2026-11' ? '*' : ''}</text>`;
   });
   s += lines + halos + ents + deny + labels +
-    `<line x1="${X0 - 10}" x2="1450" y1="${BASE + 1.5}" y2="${BASE + 1.5}" stroke="#B9AE9D" stroke-width="1.2"/>`;
-  // the key, with the three numbers
-  const key = (y, dotSvg, num, col, l1, l2) => `${dotSvg(84, y - 17)}
-    <text x="112" y="${y}" font-size="54" font-weight="700" letter-spacing="-1.5" fill="${col}">${num}</text>
-    <text x="114" y="${y + 30}" font-size="18" fill="${txt}">${l1}</text><text x="114" y="${y + 53}" font-size="18" fill="${txt}">${l2}</text>`;
+    `<line x1="${X0 - 10}" x2="${XR + 10}" y1="${BASE + 1.5}" y2="${BASE + 1.5}" stroke="#B9AE9D" stroke-width="1.2"/>`;
+  // the key, top left over the short columns
   const all = Object.values(DOTS).join(''), nl = all.length, ne = all.replace(/\./g, '').length, nd = (all.match(/d/g) || []).length;
-  s += key(150, (x, y) => `<circle cx="${x}" cy="${y}" r="5" fill="#C4B9A8"/>`, fmt(nl), ink, 'Claude Code changelog lines', 'published in 2026')
-     + key(290, (x, y) => `<circle cx="${x}" cy="${y}" r="8" fill="${ch}"/>`, ne, ink, 'where a safety check', 'let something through')
-     + key(430, (x, y) => `<circle cx="${x}" cy="${y}" r="13" fill="${AC}" opacity="0.5" filter="url(#glow)"/><circle cx="${x}" cy="${y}" r="8.5" fill="${AC}" stroke="#FFFFFF" stroke-width="1.5"/>`, nd, AC, 'where a deny or ask rule,', 'or the read block, didn’t hold')
-     + `<text x="1450" y="568" font-size="14" text-anchor="end" fill="${txt}">One dot per line, in publish order. CHANGELOG.md read 20 Nov 2026; *Nov to 19 Nov. Fixes, not incidents.</text>`;
+  const key = (y, dotSvg, num, col, label) => `${dotSvg(X0 + 8, y - 7)}
+    <text x="${X0 + 30}" y="${y}" font-size="22" fill="${txt}"><tspan font-weight="700" fill="${col}">${num}</tspan>  ${label}</text>`;
+  s += key(92, (x, y) => `<circle cx="${x}" cy="${y}" r="4" fill="#C4B9A8"/>`, fmt(nl), ink, 'Claude Code changelog lines in 2026')
+     + key(132, (x, y) => `<circle cx="${x}" cy="${y}" r="6.5" fill="${ch}"/>`, ne, ink, 'where a safety check let something through')
+     + key(172, (x, y) => `<circle cx="${x}" cy="${y}" r="11" fill="${AC}" opacity="0.5" filter="url(#glow)"/><circle cx="${x}" cy="${y}" r="7" fill="${AC}" stroke="#FFFFFF" stroke-width="1.4"/>`, nd, AC, 'where a deny or ask rule, or the read block, didn’t hold')
+     + `<text x="750" y="572" font-size="14" text-anchor="middle" fill="${txt}">One dot per line, in publish order. CHANGELOG.md read 20 Nov 2026; *Nov to 19 Nov. Fixes, not incidents.</text>`;
   return s;
 }
 // v2 (25 Nov, replaced the same evening): the quarterly curve filling the frame
