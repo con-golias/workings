@@ -182,7 +182,7 @@ function fig8() {
   return s;
 }
 
-// Cover (owner, 25 Nov): the whole frame is the chart. No title, no rules, no handle; the article title sits under it on X.
+// Cover (25 Nov): the whole frame is the chart. No title, no rules, no handle; the article title sits under it on X.
 function cover() {
   const Q = Object.entries(S.quarters).map(([q, r]) => ({ q, r: r.per_100_bullets }));
   const L = 250, R = 1250, T = 150, B = 470, YMAX = 4, X = (i) => L + 60 + (R - L - 120) * i / (Q.length - 1), Y = (n) => B - (B - T) * n / YMAX;
