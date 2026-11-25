@@ -182,8 +182,48 @@ function fig8() {
   return s;
 }
 
-// Cover (25 Nov): the whole frame is the chart. No title, no rules, no handle; the article title sits under it on X.
+// Cover (25 Nov): every 2026 changelog line is a dot, month by month, in publish order (data/cover_dots.json, from
+// code/cover_data.py). The dots stack into bars; the 268 counted entries are dark, the 44 deny/ask-rule ones slate.
+let DOTS;
 function cover() {
+  const ink = v('--ink'), txt = v('--text'), ch = v('--charcoal'), AC = '#4F6B86';
+  const M = Object.entries(DOTS), PER = 20, PITCH = 4.1, CW = PER * PITCH, X0 = 480, GAP = (1440 - X0 - CW) / (M.length - 1), BASE = 492;
+  let s = `<defs>
+      <radialGradient id="bgR" cx="0.62" cy="0.45" r="0.8"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#F1ECE3"/></radialGradient>
+      <filter id="glow" x="-200%" y="-200%" width="500%" height="500%"><feGaussianBlur stdDeviation="3.2"/></filter>
+      <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${ch}" stop-opacity="0"/><stop offset="1" stop-color="${ch}" stop-opacity="0.07"/></linearGradient>
+    </defs>
+    <rect width="1500" height="600" fill="url(#bgR)"/>`;
+  let lines = '', ents = '', deny = '', halos = '', labels = '';
+  M.forEach(([m, str], c) => {
+    const x0 = X0 + c * GAP, rows = Math.ceil(str.length / PER), top = BASE - rows * PITCH;
+    lines += `<rect x="${x0 - 6}" y="${top - 6}" width="${CW + 12}" height="${BASE - top + 6}" rx="8" fill="url(#fade)"/>`;
+    [...str].forEach((k, i) => {
+      const x = x0 + (i % PER) * PITCH + PITCH / 2, y = BASE - Math.floor(i / PER) * PITCH - PITCH / 2;
+      if (k === '.') lines += `<circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="1.15" fill="#C4B9A8"/>`;
+      else if (k === 'x') ents += `<circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="2.8" fill="${ch}" stroke="#FFFFFF" stroke-width="0.9"/>`;
+      else { halos += `<circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="8" fill="${AC}" opacity="0.6" filter="url(#glow)"/>`;
+             deny += `<circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="3.7" fill="${AC}" stroke="#FFFFFF" stroke-width="1.2"/>`; }
+    });
+    const n = str.replace(/\./g, '').length, mo = MON[m.slice(5)];
+    labels += `<text x="${x0 + CW / 2}" y="${top - 18}" font-size="19" font-weight="700" text-anchor="middle" fill="${ink}">${n}</text>
+      <text x="${x0 + CW / 2}" y="${BASE + 34}" font-size="17" font-weight="500" text-anchor="middle" fill="${txt}">${mo}${m === '2026-11' ? '*' : ''}</text>`;
+  });
+  s += lines + halos + ents + deny + labels +
+    `<line x1="${X0 - 10}" x2="1450" y1="${BASE + 1.5}" y2="${BASE + 1.5}" stroke="#B9AE9D" stroke-width="1.2"/>`;
+  // the key, with the three numbers
+  const key = (y, dotSvg, num, col, l1, l2) => `${dotSvg(84, y - 17)}
+    <text x="112" y="${y}" font-size="54" font-weight="700" letter-spacing="-1.5" fill="${col}">${num}</text>
+    <text x="114" y="${y + 30}" font-size="18" fill="${txt}">${l1}</text><text x="114" y="${y + 53}" font-size="18" fill="${txt}">${l2}</text>`;
+  const all = Object.values(DOTS).join(''), nl = all.length, ne = all.replace(/\./g, '').length, nd = (all.match(/d/g) || []).length;
+  s += key(150, (x, y) => `<circle cx="${x}" cy="${y}" r="5" fill="#C4B9A8"/>`, fmt(nl), ink, 'Claude Code changelog lines', 'published in 2026')
+     + key(290, (x, y) => `<circle cx="${x}" cy="${y}" r="8" fill="${ch}"/>`, ne, ink, 'where a safety check', 'let something through')
+     + key(430, (x, y) => `<circle cx="${x}" cy="${y}" r="13" fill="${AC}" opacity="0.5" filter="url(#glow)"/><circle cx="${x}" cy="${y}" r="8.5" fill="${AC}" stroke="#FFFFFF" stroke-width="1.5"/>`, nd, AC, 'where a deny or ask rule,', 'or the read block, didn’t hold')
+     + `<text x="1450" y="568" font-size="14" text-anchor="end" fill="${txt}">One dot per line, in publish order. CHANGELOG.md read 20 Nov 2026; *Nov to 19 Nov. Fixes, not incidents.</text>`;
+  return s;
+}
+// v2 (25 Nov, replaced the same evening): the quarterly curve filling the frame
+function coverV2() {
   const Q = Object.entries(S.quarters).map(([q, r]) => ({ q, r: r.per_100_bullets }));
   const L = 250, R = 1250, T = 150, B = 470, YMAX = 4, X = (i) => L + 60 + (R - L - 120) * i / (Q.length - 1), Y = (n) => B - (B - T) * n / YMAX;
   const P = Q.map((d, i) => [X(i), Y(d.r)]);
@@ -239,9 +279,9 @@ function coverV1() {
     <text x="460" y="540" font-size="23" fill="${v('--text')}">Fixes, not incidents. * Q4 to 19 Nov; the changelog itself grew.</text>
     <text x="1440" y="540" font-size="28" font-weight="600" text-anchor="end" fill="${v('--ink')}">@con_golias</text>`;
 }
-const FIGS = { 1: fig1, 2: fig2, 3: fig3, 4: fig4, 5: fig5, 6: fig6, 7: fig7, 8: fig8, cover, coverV1 };
-if (fig === 'cover' || fig === 'coverV1') { document.body.style.width = '1500px'; document.body.style.height = '600px'; C.setAttribute('width', 1500); C.setAttribute('height', 600); C.setAttribute('viewBox', '0 0 1500 600'); }
-window.ready = Promise.all([fetch('../data/summary.json').then((r) => r.json()), document.fonts.load('400 20px "Inter Tight"'), document.fonts.load('700 20px "Inter Tight"'), document.fonts.load('400 16px "JetBrains Mono"')])
+const FIGS = { 1: fig1, 2: fig2, 3: fig3, 4: fig4, 5: fig5, 6: fig6, 7: fig7, 8: fig8, cover, coverV2, coverV1 };
+if (fig.startsWith('cover')) { document.body.style.width = '1500px'; document.body.style.height = '600px'; C.setAttribute('width', 1500); C.setAttribute('height', 600); C.setAttribute('viewBox', '0 0 1500 600'); }
+window.ready = Promise.all([fetch('../data/summary.json').then((r) => r.json()), fetch('../data/cover_dots.json').then((r) => r.json()).then((d) => { DOTS = d; }), document.fonts.load('400 20px "Inter Tight"'), document.fonts.load('700 20px "Inter Tight"'), document.fonts.load('400 16px "JetBrains Mono"')])
   .then(([a]) => { S = a; C.innerHTML = FIGS[fig](); });
 </script>
 </body>
