@@ -8,6 +8,7 @@ question, the method, and what I checked and didn't.
 
 | Date | Piece | Folder |
 |---|---|---|
+| 25 Nov 2026 | Your deny rules can miss. Claude Code's 2026 changelog lists 44 entries where a rule didn't hold ([X Article](https://x.com/con_golias/status/2125667510766780569)) | [`2026-11-21-agent-permission-fixes`](2026-11-21-agent-permission-fixes/) |
 | 22 Nov 2026 | 25,000 humanoid robots shipped in six months ([X Article](https://x.com/con_golias/status/2124570628728471603)) | [`2026-11-22-humanoids-at-work`](2026-11-22-humanoids-at-work/) |
 | 20 Nov 2026 | Made by AI, owned by no one: what 12,853 US copyright filings admit ([X Article](https://x.com/con_golias/status/2123796598404612323)) | [`2026-11-11-copyright-ai-disclaimers`](2026-11-11-copyright-ai-disclaimers/) |
 | 18 Nov 2026 | AI ranked a product page lower for one reason: it didn't know the brand. Rewriting barely helped ([X Article](https://x.com/con_golias/status/2123138881402888247)) | [`2026-11-10-ai-brand-bias-paper`](2026-11-10-ai-brand-bias-paper/) |
