@@ -1,0 +1,14 @@
+ghsa	patched	patched_release	match	changelog_version	note
+GHSA-ff64-7w26-62rf	2.1.2	2026-01-08	none		2.1.2 lists a different command-injection fix
+GHSA-4q92-rfm6-2cqx	2.1.7	2026-01-13	none		2.1.7 lists a wildcard-rule fix, not symlinks
+GHSA-mmgp-wc2j-qcv7	2.1.53	2026-02-24	none		a related trust fix (hook commands, 2.1.51) shipped two versions before the patch; different route
+GHSA-vp62-r36r-9xqp	2.1.64	2026-03-03	possible	2.1.69	no 2.1.64 section; symlink write escaping the working directory listed five versions later
+GHSA-5cwg-9f6j-9jvx	2.1.75	2026-03-13	partial	2.1.75	listed as a breaking change (ProgramData fallback removed), not as security
+GHSA-q5hj-mxqh-vv77	2.1.84	2026-03-25	none		
+GHSA-4vp2-6q8c-pvq2	2.1.128	2026-05-04	none		
+GHSA-5j29-h97v-84ch	2.1.129	2026-05-05	none		repo-only advisory; 2.1.128-2.1.130 read
+GHSA-7835-87q9-rgvv	2.1.163	2026-06-04	none		a related worktree sandbox line (2.1.149) shipped 14 versions before the patch; not counted as its fix
+GHSA-fg94-h982-f3mm	2.1.163	2026-06-04	clear	2.1.162	WebFetch rules not applied to preapproved domains; one version before the patched version
+GHSA-pq7j-f95f-qfcv	2.1.179	2026-06-16	none		
+GHSA-5xjx-9qx6-jcrv	2.1.251	2026-08-28	clear	2.1.251	file tools following a symlink swapped after the permission check
+GHSA-gfvf-j8jh-jxxw	2.1.260	2026-09-03	clear	2.1.260	managed settings not loading with a leftover API key; this line is NOT in the 269 (recall-sample miss)

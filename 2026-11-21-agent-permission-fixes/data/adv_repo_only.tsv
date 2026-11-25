@@ -1,0 +1,6 @@
+GHSA-3rwf-2g6p-c2f9	2026-05-06	SSH Host Key Verification Bypass Allows Man-in-the-Middle Attack on Remote Sessions	Claude Desktop	1.4304.0
+GHSA-5p5x-5294-qhp3	2026-05-06	Local Privilege Escalation via Directory Junction in CoworkVMService	Claude Desktop	1.3834.0
+GHSA-v234-4jrq-mgg6	2026-09-25	Claude Desktop (macOS): opening a malicious file from a Cowork folder could run commands on the host	Claude Desktop	1.15962.0
+GHSA-4p2j-qj3c-6x84	2026-10-13	Uncontrolled Search Path Enables Arbitrary Code Execution via Malicious Git Executable	Claude Desktop	1.8089.0
+GHSA-gfvf-j8jh-jxxw	2026-09-29	Managed Settings Not Applied When a Stored API Key Was Preferred Over Enterprise Sign-In	Claude Code	2.1.260
+GHSA-5j29-h97v-84ch	2026-10-05	Arbitrary File Write via Write-Time Symlink Following (TOCTOU) in Claude Code	Claude Code	2.1.129

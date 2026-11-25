@@ -1,0 +1,632 @@
+{
+ "read_on": "2026-11-20",
+ "changelog": {
+  "versions": 445,
+  "bullets": 10180,
+  "newest": "2.1.329",
+  "oldest": "0.2.21",
+  "sections_2026": 265,
+  "bullets_2026": 9524,
+  "bullets_mar_2025": 25,
+  "bullets_sep_2026": 1825
+ },
+ "npm_versions_2026": 286,
+ "n_2026": 268,
+ "n_all": 270,
+ "versions_with_fix": 96,
+ "share_sections_with_fix": 36.2,
+ "pre": {
+  "none": 225,
+  "loosened": 30,
+  "auto_default": 8,
+  "sandbox_auto_allow": 5
+ },
+ "reverted": 1,
+ "pre_none_pct": 84.0,
+ "platform": 39,
+ "none_not_platform": 189,
+ "controls": {
+  "prompt": {
+   "n": 71,
+   "none": 46,
+   "loosened": 21
+  },
+  "deny_ask_rule": {
+   "n": 44,
+   "none": 38,
+   "loosened": 1
+  },
+  "policy": {
+   "n": 44,
+   "none": 41,
+   "loosened": 2
+  },
+  "sandbox": {
+   "n": 30,
+   "none": 30,
+   "loosened": 0
+  },
+  "containment": {
+   "n": 33,
+   "none": 30,
+   "loosened": 2
+  },
+  "hook": {
+   "n": 14,
+   "none": 11,
+   "loosened": 2
+  },
+  "trust_consent": {
+   "n": 14,
+   "none": 13,
+   "loosened": 1
+  },
+  "plan_mode": {
+   "n": 8,
+   "none": 6,
+   "loosened": 1
+  },
+  "injection": {
+   "n": 3,
+   "none": 3,
+   "loosened": 0
+  },
+  "policy_admin": {
+   "n": 7,
+   "none": 7,
+   "loosened": 0
+  }
+ },
+ "n_without_admin": 261,
+ "policy_all": 51,
+ "user_controls": 96,
+ "mentions_symlink": 25,
+ "mentions_rm": 9,
+ "quarters": {
+  "Q1": {
+   "fixes": 22,
+   "bullets": 1275,
+   "versions": 71,
+   "per_100_bullets": 1.73,
+   "per_version": 0.31
+  },
+  "Q2": {
+   "fixes": 45,
+   "bullets": 1718,
+   "versions": 80,
+   "per_100_bullets": 2.62,
+   "per_version": 0.56
+  },
+  "Q3": {
+   "fixes": 95,
+   "bullets": 3099,
+   "versions": 77,
+   "per_100_bullets": 3.07,
+   "per_version": 1.23
+  },
+  "Q4": {
+   "fixes": 106,
+   "bullets": 3432,
+   "versions": 37,
+   "per_100_bullets": 3.09,
+   "per_version": 2.86,
+   "note": "1 Oct to 19 Nov (2.1.329); partial quarter"
+  }
+ },
+ "top_releases": [
+  [
+   "2.1.323",
+   18
+  ],
+  [
+   "2.1.290",
+   15
+  ],
+  [
+   "2.1.325",
+   12
+  ],
+  [
+   "2.1.309",
+   11
+  ],
+  [
+   "2.1.299",
+   10
+  ]
+ ],
+ "autumn": {
+  "n": 154,
+  "sections": 64,
+  "releases_with_entry": 35,
+  "per_release": [
+   18,
+   15,
+   12,
+   11,
+   10,
+   9,
+   8,
+   8,
+   6,
+   5,
+   4,
+   4,
+   4,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   2,
+   2,
+   2,
+   2,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "versions": [
+   "2.1.323",
+   "2.1.290",
+   "2.1.325",
+   "2.1.309",
+   "2.1.299",
+   "2.1.319",
+   "2.1.257",
+   "2.1.292",
+   "2.1.285",
+   "2.1.271",
+   "2.1.314",
+   "2.1.282",
+   "2.1.288",
+   "2.1.259",
+   "2.1.260",
+   "2.1.268",
+   "2.1.273",
+   "2.1.281",
+   "2.1.289",
+   "2.1.296",
+   "2.1.277",
+   "2.1.295",
+   "2.1.316",
+   "2.1.321",
+   "2.1.265",
+   "2.1.267",
+   "2.1.269",
+   "2.1.274",
+   "2.1.280",
+   "2.1.283",
+   "2.1.284",
+   "2.1.286",
+   "2.1.287",
+   "2.1.310",
+   "2.1.312"
+  ]
+ },
+ "top3": {
+  "n": 45,
+  "names": "2.1.323, 2.1.290, 2.1.325"
+ },
+ "months": {
+  "2026-01": 3,
+  "2026-02": 4,
+  "2026-03": 15,
+  "2026-04": 19,
+  "2026-05": 11,
+  "2026-06": 15,
+  "2026-07": 18,
+  "2026-08": 29,
+  "2026-09": 48,
+  "2026-10": 65,
+  "2026-11": 41
+ },
+ "advisories": {
+  "n_database": 30,
+  "published_2026": 19,
+  "lag_median_days": 46,
+  "lag_min": 6,
+  "lag_max": 153,
+  "lag_n": 31,
+  "high": 24,
+  "n_claude_code": 32,
+  "with_cve": 29
+ },
+ "h1": {
+  "fixes": 67,
+  "advisories": 11
+ },
+ "advisories_patching_h2": 2,
+ "advisories_repo_only": {
+  "n": 6,
+  "claude_code": 2,
+  "desktop": 4
+ },
+ "advisories_total_repo_page": 36,
+ "advisories_claude_code": 32,
+ "join": {
+  "advisories_2026_releases": 13,
+  "clear": 3,
+  "partial": 1,
+  "possible": 1,
+  "none": 8,
+  "no_section": 0,
+  "h1_clear": 1,
+  "h1_partial": 1,
+  "h1_possible": 1,
+  "h1_none": 8
+ },
+ "recall_sample": {
+  "releases": 10,
+  "bullets": 461,
+  "counted": 27,
+  "missed": 8,
+  "recall_pct": 77,
+  "without_2_1_321": {
+   "counted": 25,
+   "missed": 5,
+   "recall_pct": 83
+  },
+  "found_lines_added": false
+ },
+ "revert_note": "2.1.259 Read() deny rules on Bash arguments, reverted in 2.1.260 (over-blocked npm run build)",
+ "advisory_list": [
+  {
+   "ghsa": "GHSA-5xjx-9qx6-jcrv",
+   "published": "2026-11-09",
+   "severity": "high",
+   "patched": "2.1.251",
+   "patched_release": "2026-08-28",
+   "lag_days": 73,
+   "summary": "Claude Code: TOCTOU Race in Edit Tool Allows File Writes Outside the Workspace"
+  },
+  {
+   "ghsa": "GHSA-pq7j-f95f-qfcv",
+   "published": "2026-10-15",
+   "severity": "high",
+   "patched": "2.1.179",
+   "patched_release": "2026-06-16",
+   "lag_days": 121,
+   "summary": "Claude Code: Plugin Hash Pin Bypass Allows Bypass of Hash Pinning"
+  },
+  {
+   "ghsa": "GHSA-7835-87q9-rgvv",
+   "published": "2026-07-24",
+   "severity": "high",
+   "patched": "2.1.163",
+   "patched_release": "2026-06-04",
+   "lag_days": 50,
+   "summary": "Claude Code: Sandbox Escape via Git Worktree Path Confusion Allows Unsandboxed Code Execution"
+  },
+  {
+   "ghsa": "GHSA-4vp2-6q8c-pvq2",
+   "published": "2026-06-25",
+   "severity": "medium",
+   "patched": "2.1.128",
+   "patched_release": "2026-05-04",
+   "lag_days": 52,
+   "summary": "@anthropic-ai/claude-code has an Insecure Temporary File in /copy Command that Enables Response Disclosure and Symlink-Based File Write"
+  },
+  {
+   "ghsa": "GHSA-fg94-h982-f3mm",
+   "published": "2026-06-17",
+   "severity": "medium",
+   "patched": "2.1.163",
+   "patched_release": "2026-06-04",
+   "lag_days": 13,
+   "summary": "Claude Code: Out-of-Band Data Exfiltration via Pre-Approved HuggingFace Domain in WebFetch"
+  },
+  {
+   "ghsa": "GHSA-q5hj-mxqh-vv77",
+   "published": "2026-04-24",
+   "severity": "high",
+   "patched": "2.1.84",
+   "patched_release": "2026-03-25",
+   "lag_days": 30,
+   "summary": "Claude Code: Trust Dialog Bypass via Git Worktree Spoofing Allows Arbitrary Code Execution"
+  },
+  {
+   "ghsa": "GHSA-vp62-r36r-9xqp",
+   "published": "2026-04-21",
+   "severity": "high",
+   "patched": "2.1.64",
+   "patched_release": "2026-03-03",
+   "lag_days": 49,
+   "summary": "Claude Code: Sandbox Escape via Symlink Following Allows Arbitrary File Write Outside Workspace"
+  },
+  {
+   "ghsa": "GHSA-5cwg-9f6j-9jvx",
+   "published": "2026-04-17",
+   "severity": "medium",
+   "patched": "2.1.75",
+   "patched_release": "2026-03-13",
+   "lag_days": 35,
+   "summary": "Claude Code: Insecure System-Wide Configuration Loading Enables Local Privilege Escalation on Windows"
+  },
+  {
+   "ghsa": "GHSA-mmgp-wc2j-qcv7",
+   "published": "2026-03-19",
+   "severity": "high",
+   "patched": "2.1.53",
+   "patched_release": "2026-02-24",
+   "lag_days": 23,
+   "summary": "Claude Code has a Workspace Trust Dialog Bypass via Repo-Controlled Settings File"
+  },
+  {
+   "ghsa": "GHSA-ff64-7w26-62rf",
+   "published": "2026-02-06",
+   "severity": "high",
+   "patched": "2.1.2",
+   "patched_release": "2026-01-08",
+   "lag_days": 29,
+   "summary": "Claude Code has Sandbox Escape via Persistent Configuration Injection in settings.json"
+  },
+  {
+   "ghsa": "GHSA-4q92-rfm6-2cqx",
+   "published": "2026-02-06",
+   "severity": "low",
+   "patched": "2.1.7",
+   "patched_release": "2026-01-13",
+   "lag_days": 24,
+   "summary": "Claude Code has Permission Deny Bypass Through Symbolic Links"
+  },
+  {
+   "ghsa": "GHSA-mhg7-666j-cqg4",
+   "published": "2026-02-06",
+   "severity": "high",
+   "patched": "2.0.55",
+   "patched_release": "2025-11-26",
+   "lag_days": 72,
+   "summary": "Claude Code Vulnerable to Command Injection via Piped sed Command Bypasses File Write Restrictions"
+  },
+  {
+   "ghsa": "GHSA-66q4-vfjg-2qhh",
+   "published": "2026-02-06",
+   "severity": "high",
+   "patched": "2.0.57",
+   "patched_release": "2025-12-03",
+   "lag_days": 65,
+   "summary": "Claude Code Vulnerable to Command Injection via Directory Change Bypasses Write Protection"
+  },
+  {
+   "ghsa": "GHSA-qgqw-h4xq-7w8w",
+   "published": "2026-02-03",
+   "severity": "high",
+   "patched": "2.0.72",
+   "patched_release": "2025-12-17",
+   "lag_days": 48,
+   "summary": "Claude Code has a Command Injection in find Command Bypasses User Approval Prompt"
+  },
+  {
+   "ghsa": "GHSA-q728-gf8j-w49r",
+   "published": "2026-02-03",
+   "severity": "high",
+   "patched": "2.0.74",
+   "patched_release": "2025-12-19",
+   "lag_days": 46,
+   "summary": "Claude Code has a Path Restriction Bypass via ZSH Clobber which Allows Arbitrary File Writes"
+  },
+  {
+   "ghsa": "GHSA-vhw5-3g5m-8ggf",
+   "published": "2026-02-03",
+   "severity": "high",
+   "patched": "1.0.111",
+   "patched_release": "2025-09-10",
+   "lag_days": 146,
+   "summary": "Claude Code has a Domain Validation Bypass which Allows Automatic Requests to Attacker-Controlled Domains"
+  },
+  {
+   "ghsa": "GHSA-jh7p-qr78-84p7",
+   "published": "2026-01-21",
+   "severity": "medium",
+   "patched": "2.0.65",
+   "patched_release": "2025-12-11",
+   "lag_days": 41,
+   "summary": "Claude Code Leaks Data via Malicious Environment Configuration Before Trust Confirmation"
+  },
+  {
+   "ghsa": "GHSA-xq4m-mc3c-vvg3",
+   "published": "2025-12-03",
+   "severity": "high",
+   "patched": "1.0.93",
+   "patched_release": "2025-08-26",
+   "lag_days": 99,
+   "summary": "Claude Code Command Validation Bypass Allows Arbitrary Code Execution"
+  },
+  {
+   "ghsa": "GHSA-7mv8-j34q-vp7q",
+   "published": "2025-11-20",
+   "severity": "high",
+   "patched": "2.0.31",
+   "patched_release": "2025-10-31",
+   "lag_days": 20,
+   "summary": "@anthropic-ai/claude-code has Sed Command Validation Bypass that Allows Arbitrary File Writes"
+  },
+  {
+   "ghsa": "GHSA-5hhx-v7f6-x7gv",
+   "published": "2025-11-19",
+   "severity": "high",
+   "patched": "1.0.39",
+   "patched_release": "2025-07-01",
+   "lag_days": 141,
+   "summary": "Claude Code vulnerable to command execution prior to startup trust dialog"
+  },
+  {
+   "ghsa": "GHSA-66m2-gx93-v996",
+   "published": "2025-10-03",
+   "severity": "low",
+   "patched": "1.0.120",
+   "patched_release": "2025-09-19",
+   "lag_days": 14,
+   "summary": "Claude Code permission deny bypass through symlink"
+  },
+  {
+   "ghsa": "GHSA-4fgq-fpq9-mr3g",
+   "published": "2025-10-03",
+   "severity": "high",
+   "patched": "1.0.111",
+   "patched_release": "2025-09-10",
+   "lag_days": 23,
+   "summary": "Claude Code can execute commands prior to the startup trust dialog "
+  },
+  {
+   "ghsa": "GHSA-2jjv-qf24-vfm4",
+   "published": "2025-09-24",
+   "severity": "high",
+   "patched": "1.0.39",
+   "patched_release": "2025-07-01",
+   "lag_days": 85,
+   "summary": "Claude Code Vulnerable to Arbitrary Code Execution via Plugin Autoloading with Specific Yarn Versions"
+  },
+  {
+   "ghsa": "GHSA-j4h9-wv2m-wrf7",
+   "published": "2025-09-10",
+   "severity": "high",
+   "patched": "1.0.105",
+   "patched_release": "2025-09-04",
+   "lag_days": 6,
+   "summary": "Claude Code vulnerable to arbitrary code execution caused by maliciously configured git email "
+  },
+  {
+   "ghsa": "GHSA-qxfv-fcpc-w36x",
+   "published": "2025-09-10",
+   "severity": "high",
+   "patched": "1.0.105",
+   "patched_release": "2025-09-04",
+   "lag_days": 6,
+   "summary": "Claude Code rg vulnerability does not protect against approval prompt bypass"
+  },
+  {
+   "ghsa": "GHSA-ph6w-f82w-28w6",
+   "published": "2025-09-03",
+   "severity": "high",
+   "patched": "1.0.87",
+   "patched_release": "2025-08-21",
+   "lag_days": 13,
+   "summary": "Claude Code Vulnerable to Arbitrary Code Execution Due to Insufficient Startup Warning"
+  },
+  {
+   "ghsa": "GHSA-x5gv-jw7f-j6xj",
+   "published": "2025-08-18",
+   "severity": "high",
+   "patched": "1.0.4",
+   "patched_release": "2025-05-28",
+   "lag_days": 82,
+   "summary": "Claude Code's Permissive Default Allowlist Enables Unauthorized File Read and Network Exfiltration in Claude Code"
+  },
+  {
+   "ghsa": "GHSA-x56v-x2h6-7j34",
+   "published": "2025-08-04",
+   "severity": "high",
+   "patched": "1.0.20",
+   "patched_release": "2025-06-11",
+   "lag_days": 54,
+   "summary": "Claude Code echo command allowed bypass of user approval prompt for command execution"
+  },
+  {
+   "ghsa": "GHSA-pmw4-pwvc-3hx2",
+   "published": "2025-08-04",
+   "severity": "high",
+   "patched": "0.2.111",
+   "patched_release": "",
+   "lag_days": null,
+   "summary": "Claude Code Research Preview has a Path Restriction Bypass which could allow unauthorized file access"
+  },
+  {
+   "ghsa": "GHSA-9f65-56v6-gxw7",
+   "published": "2025-06-23",
+   "severity": "high",
+   "patched": "1.0.24",
+   "patched_release": "2025-06-14",
+   "lag_days": 9,
+   "summary": "Claude Code Improper Authorization via websocket connections from arbitrary origins"
+  },
+  {
+   "ghsa": "GHSA-gfvf-j8jh-jxxw",
+   "published": "2026-09-29",
+   "severity": null,
+   "patched": "2.1.260",
+   "patched_release": "2026-09-03",
+   "lag_days": 26,
+   "summary": "Managed Settings Not Applied When a Stored API Key Was Preferred Over Enterprise Sign-In",
+   "repo_only": true
+  },
+  {
+   "ghsa": "GHSA-5j29-h97v-84ch",
+   "published": "2026-10-05",
+   "severity": null,
+   "patched": "2.1.129",
+   "patched_release": "2026-05-05",
+   "lag_days": 153,
+   "summary": "Arbitrary File Write via Write-Time Symlink Following (TOCTOU) in Claude Code",
+   "repo_only": true
+  }
+ ],
+ "months_bullets": {
+  "2026-01": 309,
+  "2026-02": 297,
+  "2026-03": 669,
+  "2026-04": 649,
+  "2026-05": 626,
+  "2026-06": 443,
+  "2026-07": 539,
+  "2026-08": 735,
+  "2026-09": 1825,
+  "2026-10": 1749,
+  "2026-11": 1683
+ },
+ "months_per_100": {
+  "2026-01": 0.97,
+  "2026-02": 1.35,
+  "2026-03": 2.24,
+  "2026-04": 2.93,
+  "2026-05": 1.76,
+  "2026-06": 3.39,
+  "2026-07": 3.34,
+  "2026-08": 3.95,
+  "2026-09": 2.63,
+  "2026-10": 3.72,
+  "2026-11": 2.44
+ },
+ "rm_pre": {
+  "loosened": 5,
+  "sandbox_auto_allow": 2,
+  "none": 1,
+  "auto_default": 1
+ },
+ "symlink_layers": {
+  "file tools": 7,
+  "settings, CLAUDE.md, config folder": 5,
+  "worktrees and sessions": 4,
+  "the OS sandbox": 3,
+  "permission rules on a path": 2,
+  "plugins": 2,
+  "shell commands": 1,
+  "undo (/rewind)": 1
+ },
+ "behind": {
+  "2_1_200": {
+   "n": 200,
+   "date": "2026-07-03"
+  },
+  "2_1_250": {
+   "n": 160,
+   "date": "2026-08-27"
+  },
+  "2_1_300": {
+   "n": 60,
+   "date": "2026-10-14"
+  }
+ },
+ "deny_named_in_row": 38
+}

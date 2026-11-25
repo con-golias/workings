@@ -1,0 +1,66 @@
+<!doctype html>
+<!-- Opening video for the X Article on Claude Code's 2026 changelog entries where a safety check let something through.
+     1600x900, 14 s. Text, lines and circles only. Numbers from ../data/summary.json (code/analysis.py).
+     Colours as the figures: charcoal = changelog entries; stone = context; terracotta = the clear advisory matches and the close. -->
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="fonts/fonts.css">
+<style>
+  :root { --bg:#FAF8F3; --ink:#1F1C1A; --text:#615B53; --charcoal:#3A3531; --stone:#CBC1B1; --terra:#6F8496; --paper:#F3EFE7; }
+  html, body { margin:0; background:var(--bg); } body { width:1600px; height:900px; overflow:hidden; } svg { display:block; }
+  text { font-family:'Inter Tight', sans-serif; font-variant-numeric:tabular-nums lining-nums; }
+</style>
+</head>
+<body>
+<svg id="c" width="1600" height="900" viewBox="0 0 1600 900"></svg>
+<script>
+const C = document.getElementById('c'); let S;
+const v = (n) => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+const cl = (x) => Math.max(0, Math.min(1, x)), p = (t, a, b) => cl((t - a) / (b - a));
+const ease = (x) => (x < 0.5 ? 4 * x * x * x : 1 - Math.pow(-2 * x + 2, 3) / 2), out = (x) => 1 - Math.pow(1 - x, 3);
+const vis = (t, a, b) => ease(p(t, a, a + 0.6)) * (1 - ease(p(t, b - 0.5, b)));
+window.draw = (t) => {
+  const K = { ink: v('--ink'), text: v('--text'), ch: v('--charcoal'), st: v('--stone'), te: v('--terra'), pa: v('--paper') };
+  let s = '';
+  // 1 · the count (0.3–4.0 s)
+  { const a = 0.3, b = 4.0, o = vis(t, a, b); if (o > 0) {
+      const k = out(p(t, a + 0.6, a + 2.0));
+      s += `<g opacity="${o}"><text x="140" y="230" font-size="54" font-weight="600" fill="${K.ink}">Claude Code's own changelog, 2026:</text>
+        <text x="140" y="520" font-size="200" font-weight="700" fill="${K.ink}">${Math.round(S.n_2026 * k)}</text>
+        <text x="140" y="600" font-size="34" fill="${K.text}">changelog entries: a safety check let something through</text>
+        <text x="140" y="650" font-size="28" fill="${K.text}">in ${S.versions_with_fix} of ${S.changelog.sections_2026} sections. Fixed, and not incidents.</text></g>`; } }
+  // 2 · which check (4.1–8.6 s)
+  { const a = 4.1, b = 8.6, o = vis(t, a, b); if (o > 0) {
+      const rows = [['The permission check', S.controls.prompt.n], ['Deny and ask rules', S.controls.deny_ask_rule.n], ['Organisation policy', S.controls.policy.n],
+        ['Path boundaries and links', S.controls.containment.n], ['The OS sandbox', S.controls.sandbox.n]];
+      s += `<g opacity="${o}"><text x="140" y="180" font-size="54" font-weight="600" fill="${K.ink}">Which check?</text>`;
+      rows.forEach(([lab, n], i) => {
+        const k = out(p(t, a + 0.4 + i * 0.25, a + 1.4 + i * 0.25)), y = 290 + i * 105, x0 = 700, X = x0 + 700 * n / 71 * k;
+        s += `<text x="${x0 - 30}" y="${y + 12}" font-size="36" text-anchor="end" fill="${K.ink}">${lab}</text>
+          <line x1="${x0}" x2="${X}" y1="${y}" y2="${y}" stroke="${K.ch}" stroke-width="6" stroke-linecap="round"/>
+          <circle cx="${X}" cy="${y}" r="15" fill="${K.ch}" stroke="${K.ink}" stroke-width="2"/>
+          <text x="${X + 34}" y="${y + 13}" font-size="38" font-weight="700" fill="${K.ink}" opacity="${k}">${Math.round(n * k)}</text>`;
+      });
+      s += `</g>`; } }
+  // 3 · advisories (8.7–11.8 s)
+  { const a = 8.7, b = 11.8, o = vis(t, a, b); if (o > 0) {
+      const J = S.join;
+      s += `<g opacity="${o}"><text x="140" y="200" font-size="50" font-weight="600" fill="${K.ink}">${J.advisories_2026_releases} security advisories patched in 2026 releases.</text>
+        <text x="140" y="270" font-size="38" fill="${K.text}">How many have a changelog line that clearly describes the fix?</text>`;
+      for (let i = 0; i < J.advisories_2026_releases; i++) { const sh = ease(p(t, a + 0.3 + i * 0.04, a + 0.55 + i * 0.04)), hit = i < J.clear;
+        s += `<circle cx="${178 + i * 100}" cy="408" r="38" fill="${hit && t > a + 1.0 ? K.te : K.pa}" stroke="${K.ink}" stroke-width="2" opacity="${sh}"/>`; }
+      const tx = ease(p(t, a + 1.0, a + 1.4));
+      s += `<text x="140" y="580" font-size="80" font-weight="700" fill="${K.te}" opacity="${tx}">${J.clear} of ${J.advisories_2026_releases}</text>
+        <text x="140" y="640" font-size="32" fill="${K.text}" opacity="${tx}">The changelog and the advisories mostly list different fixes.</text></g>`; } }
+  // 4 · close (11.9–14 s)
+  { const a = 11.9, o = ease(p(t, a, a + 0.4)) * (1 - ease(p(t, 13.6, 14))); if (o > 0) {
+      s += `<g opacity="${o}"><text x="140" y="380" font-size="60" font-weight="600" fill="${K.ink}">The checks around a coding agent are software too.</text>
+        <text x="140" y="460" font-size="60" font-weight="600" fill="${K.te}">Update often. Stack checks. Box what matters.</text>
+        <text x="140" y="800" font-size="24" fill="${K.text}">Claude Code CHANGELOG.md and security advisories, read by Konstantinos Gkolias · @con_golias</text></g>`; } }
+  C.innerHTML = s;
+};
+window.ready = Promise.all([fetch('../data/summary.json').then((r) => r.json()), document.fonts.load('700 20px "Inter Tight"')]).then(([a]) => { S = a; window.draw(0); });
+</script>
+</body>
+</html>

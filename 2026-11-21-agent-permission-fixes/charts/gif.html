@@ -1,0 +1,33 @@
+<!doctype html>
+<!-- Animated GIF for the changelog-growth section: month by month, the changelog's lines grow (stone bars) while the
+     counted entries per 100 lines (charcoal dots) stay in a band. Dark plate as the earlier kits' GIFs. Frames via
+     gif.mjs, assembled with Pillow. Numbers from ../data/summary.json. -->
+<html><head><meta charset="utf-8"><link rel="stylesheet" href="fonts/fonts.css">
+<style>html,body{margin:0;background:#121416}body{width:1200px;height:675px;overflow:hidden}svg{display:block}
+text{font-family:'Inter Tight',sans-serif;font-variant-numeric:tabular-nums lining-nums}</style></head><body>
+<svg id="c" width="1200" height="675" viewBox="0 0 1200 675"></svg>
+<script>
+const BONE='#F1ECE4', DIM='#8E8880', LINE='#33373B', STONE='#CBC1B1', TERRA='#8FA3B5';
+let S;
+const ease = (x) => x < 0 ? 0 : x > 1 ? 1 : 1 - Math.pow(1 - x, 3);
+const fmt = (n) => Number(n).toLocaleString('en-US');
+const MON = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov*'];
+window.draw = (t) => {
+  const M = Object.keys(S.months_bullets), x0 = 90, W = 1020, bw = W / M.length, y0 = 470, H = 300, Y = (n) => H * n / 2000;
+  const shown = Math.min(M.length, Math.floor(t / 0.55) + 1), cur = M[shown - 1];
+  let o = `<text x="90" y="70" font-size="30" font-weight="600" fill="${BONE}">Claude Code's changelog, 2026, month by month</text>
+    <text x="90" y="108" font-size="20" fill="${DIM}">Bars: all changelog lines. Number on top: counted entries per 100 lines.</text>
+    <line x1="${x0}" x2="${x0 + W}" y1="${y0}" y2="${y0}" stroke="${LINE}" stroke-width="2"/>`;
+  M.forEach((m, i) => {
+    if (i >= shown) return;
+    const k = ease((t - i * 0.55) / 0.45), cx = x0 + i * bw + bw / 2, h = Y(S.months_bullets[m]) * k;
+    o += `<rect x="${cx - bw * 0.32}" y="${y0 - h}" width="${bw * 0.64}" height="${h}" rx="3" fill="${STONE}" opacity="0.9"/>
+      <text x="${cx}" y="${y0 - h - 14}" font-size="19" font-weight="700" text-anchor="middle" fill="${BONE}" opacity="${k}">${S.months_per_100[m].toFixed(2)}</text>
+      <text x="${cx}" y="${y0 + 30}" font-size="18" text-anchor="middle" fill="${DIM}">${MON[i]}</text>`;
+  });
+  o += `<text x="90" y="575" font-size="26" fill="${BONE}"><tspan font-weight="700">${fmt(S.months_bullets[cur])}</tspan> lines in ${MON[shown - 1].replace('*', '')} · <tspan font-weight="700">${S.months[cur]}</tspan> counted entries</text>
+    <text x="90" y="620" font-size="20" fill="${DIM}">The changelog grew about sixfold. Per 100 lines, the counted entries stayed under 4.</text>`;
+  document.getElementById('c').innerHTML = o;
+};
+window.ready = fetch('../data/summary.json').then((r) => r.json()).then((a) => { S = a; window.draw(0); });
+</script></body></html>

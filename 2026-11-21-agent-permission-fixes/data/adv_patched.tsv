@@ -1,0 +1,30 @@
+GHSA-5xjx-9qx6-jcrv	2026-11-09	high	2.1.251	Claude Code: TOCTOU Race in Edit Tool Allows File Writes Outside the Workspace
+GHSA-pq7j-f95f-qfcv	2026-10-15	high	2.1.179	Claude Code: Plugin Hash Pin Bypass Allows Bypass of Hash Pinning
+GHSA-7835-87q9-rgvv	2026-07-24	high	2.1.163	Claude Code: Sandbox Escape via Git Worktree Path Confusion Allows Unsandboxed Code Execution
+GHSA-4vp2-6q8c-pvq2	2026-06-25	medium	2.1.128	@anthropic-ai/claude-code has an Insecure Temporary File in /copy Command that Enables Response Disclosure and Symlink-Based File Write
+GHSA-fg94-h982-f3mm	2026-06-17	medium	2.1.163	Claude Code: Out-of-Band Data Exfiltration via Pre-Approved HuggingFace Domain in WebFetch
+GHSA-q5hj-mxqh-vv77	2026-04-24	high	2.1.84	Claude Code: Trust Dialog Bypass via Git Worktree Spoofing Allows Arbitrary Code Execution
+GHSA-vp62-r36r-9xqp	2026-04-21	high	2.1.64	Claude Code: Sandbox Escape via Symlink Following Allows Arbitrary File Write Outside Workspace
+GHSA-5cwg-9f6j-9jvx	2026-04-17	medium	2.1.75	Claude Code: Insecure System-Wide Configuration Loading Enables Local Privilege Escalation on Windows
+GHSA-mmgp-wc2j-qcv7	2026-03-19	high	2.1.53	Claude Code has a Workspace Trust Dialog Bypass via Repo-Controlled Settings File
+GHSA-ff64-7w26-62rf	2026-02-06	high	2.1.2	Claude Code has Sandbox Escape via Persistent Configuration Injection in settings.json
+GHSA-4q92-rfm6-2cqx	2026-02-06	low	2.1.7	Claude Code has Permission Deny Bypass Through Symbolic Links
+GHSA-mhg7-666j-cqg4	2026-02-06	high	2.0.55	Claude Code Vulnerable to Command Injection via Piped sed Command Bypasses File Write Restrictions
+GHSA-66q4-vfjg-2qhh	2026-02-06	high	2.0.57	Claude Code Vulnerable to Command Injection via Directory Change Bypasses Write Protection
+GHSA-qgqw-h4xq-7w8w	2026-02-03	high	2.0.72	Claude Code has a Command Injection in find Command Bypasses User Approval Prompt
+GHSA-q728-gf8j-w49r	2026-02-03	high	2.0.74	Claude Code has a Path Restriction Bypass via ZSH Clobber which Allows Arbitrary File Writes
+GHSA-vhw5-3g5m-8ggf	2026-02-03	high	1.0.111	Claude Code has a Domain Validation Bypass which Allows Automatic Requests to Attacker-Controlled Domains
+GHSA-jh7p-qr78-84p7	2026-01-21	medium	2.0.65	Claude Code Leaks Data via Malicious Environment Configuration Before Trust Confirmation
+GHSA-xq4m-mc3c-vvg3	2025-12-03	high	1.0.93	Claude Code Command Validation Bypass Allows Arbitrary Code Execution
+GHSA-7mv8-j34q-vp7q	2025-11-20	high	2.0.31	@anthropic-ai/claude-code has Sed Command Validation Bypass that Allows Arbitrary File Writes
+GHSA-5hhx-v7f6-x7gv	2025-11-19	high	1.0.39	Claude Code vulnerable to command execution prior to startup trust dialog
+GHSA-66m2-gx93-v996	2025-10-03	low	1.0.120	Claude Code permission deny bypass through symlink
+GHSA-4fgq-fpq9-mr3g	2025-10-03	high	1.0.111	Claude Code can execute commands prior to the startup trust dialog 
+GHSA-2jjv-qf24-vfm4	2025-09-24	high	1.0.39	Claude Code Vulnerable to Arbitrary Code Execution via Plugin Autoloading with Specific Yarn Versions
+GHSA-j4h9-wv2m-wrf7	2025-09-10	high	1.0.105	Claude Code vulnerable to arbitrary code execution caused by maliciously configured git email 
+GHSA-qxfv-fcpc-w36x	2025-09-10	high	1.0.105	Claude Code rg vulnerability does not protect against approval prompt bypass
+GHSA-ph6w-f82w-28w6	2025-09-03	high	1.0.87	Claude Code Vulnerable to Arbitrary Code Execution Due to Insufficient Startup Warning
+GHSA-x5gv-jw7f-j6xj	2025-08-18	high	1.0.4	Claude Code's Permissive Default Allowlist Enables Unauthorized File Read and Network Exfiltration in Claude Code
+GHSA-x56v-x2h6-7j34	2025-08-04	high	1.0.20	Claude Code echo command allowed bypass of user approval prompt for command execution
+GHSA-pmw4-pwvc-3hx2	2025-08-04	high	0.2.111	Claude Code Research Preview has a Path Restriction Bypass which could allow unauthorized file access
+GHSA-9f65-56v6-gxw7	2025-06-23	high	1.0.24	Claude Code Improper Authorization via websocket connections from arbitrary origins

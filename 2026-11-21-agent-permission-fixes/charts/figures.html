@@ -1,0 +1,210 @@
+<!doctype html>
+<!-- Static figures for the X Article on Claude Code's 2026 changelog entries where a safety check let something through.
+     House plate, 1200x720 (2x). ?fig=1..8|cover. Every number from ../data/summary.json (code/analysis.py).
+     Colour meanings, fixed for every figure: charcoal = counted changelog entries; stone = context (all changelog lines,
+     sections with no entry, entries that name no loosened mode); terracotta = the one thing each figure marks (loosened mode, clear advisory match, median). -->
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="fonts/fonts.css">
+<style>
+  :root { --bg:#FAF8F3; --ink:#1F1C1A; --text:#615B53; --grid:#E8E3DA; --charcoal:#3A3531; --stone:#CBC1B1; --terra:#6F8496; --paper:#F3EFE7; }
+  html, body { margin:0; background:var(--bg); } body { width:1200px; height:720px; overflow:hidden; } svg { display:block; }
+  text { font-family:'Inter Tight', sans-serif; font-variant-numeric:tabular-nums lining-nums; }
+  .m { font-family:'JetBrains Mono', monospace; }
+</style>
+</head>
+<body>
+<svg id="c" width="1200" height="720" viewBox="0 0 1200 720"></svg>
+<script>
+const C = document.getElementById('c'); const fig = new URLSearchParams(location.search).get('fig') || '1';
+const v = (n) => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+const fmt = (n) => Number(n).toLocaleString('en-US');
+let S;
+function card(title, note, caption, caption2) {
+  return `<rect x="40" y="24" width="1120" height="4" fill="${v('--ink')}"/><line x1="40" x2="1160" y1="630" y2="630" stroke="${v('--ink')}" stroke-width="1"/>
+    <text x="40" y="74" font-size="26" font-weight="600" fill="${v('--ink')}">${title}</text>
+    <text x="1160" y="74" font-size="20" text-anchor="end" fill="${v('--text')}">${note}</text>
+    <text x="40" y="668" font-size="19" fill="${v('--text')}">${caption}</text>
+    ${caption2 ? `<text x="40" y="694" font-size="19" fill="${v('--text')}">${caption2}</text>` : ''}`;
+}
+const dot = (x, y, r, fill) => `<circle cx="${x}" cy="${y}" r="${r}" fill="${fill}" stroke="${v('--ink')}" stroke-width="1.5"/>`;
+const SRC = () => `Claude Code CHANGELOG.md (anthropics/claude-code), read 20 Nov 2026; sections dated by npm publish time.`;
+const NOT = 'Changelog entries are fixes, not incidents: nothing here shows any was exploited.';
+const MON = { '01': 'Jan', '02': 'Feb', '03': 'Mar', '04': 'Apr', '05': 'May', '06': 'Jun', '07': 'Jul', '08': 'Aug', '09': 'Sep', '10': 'Oct', '11': 'Nov' };
+
+// 1 · which check let something through
+function fig1() {
+  const L = { prompt: 'The permission check', deny_ask_rule: 'Deny and ask rules, read blocks', policy: 'Organisation policy',
+    containment: 'Path boundaries, links, isolation', sandbox: 'The OS sandbox', hook: 'Hooks', trust_consent: 'Workspace trust, consent',
+    plan_mode: 'Plan mode', injection: 'Command injection', policy_admin: 'Org settings outside agent actions' };
+  const rows = Object.entries(S.controls).sort((a, b) => b[1].n - a[1].n), x0 = 420, W = 600, max = rows[0][1].n, X = (n) => x0 + W * n / max, rh = 46, y1 = 136;
+  let s = card(`${S.n_2026} changelog entries in 2026, by the check that let something through`, 'changelog entries', SRC(), NOT);
+  rows.forEach(([k, r], i) => {
+    const y = y1 + i * rh;
+    s += `<text x="${x0 - 22}" y="${y + 7}" font-size="21" text-anchor="end" fill="${v('--ink')}">${L[k]}</text>
+      <line x1="${x0}" x2="${X(r.n)}" y1="${y}" y2="${y}" stroke="${v('--charcoal')}" stroke-width="4" stroke-linecap="round"/>${dot(X(r.n), y, 10, v('--charcoal'))}
+      <text x="${X(r.n) + 22}" y="${y + 7}" font-size="21" font-weight="700" fill="${v('--ink')}">${r.n}</text>`;
+  });
+  return s;
+}
+
+// 2 · did the line name a loosened mode?
+function fig2() {
+  const rows = [['Need a loosened mode', S.pre.loosened, v('--terra')], ['Need only auto mode, a default', S.pre.auto_default, v('--charcoal')], ['Name sandbox auto-allow', S.pre.sandbox_auto_allow, v('--charcoal')], ['Name neither', S.pre.none, v('--stone')]];
+  const x0 = 470, W = 560, X = (n) => x0 + W * n / S.pre.none;
+  let s = card('Which mode or setting, if any, does the changelog line name?', 'changelog entries', SRC(),
+    'Loosened: bypass, accept-edits, an allow rule, a saved approval, a --dangerously flag. Auto: a default from 2.1.228.');
+  rows.forEach(([lab, n, col], i) => {
+    const y = 175 + i * 92;
+    s += `<text x="${x0 - 26}" y="${y + 9}" font-size="25" text-anchor="end" fill="${v('--ink')}">${lab}</text>
+      <line x1="${x0}" x2="${X(n)}" y1="${y}" y2="${y}" stroke="${col}" stroke-width="5" stroke-linecap="round"/>${dot(X(n), y, 13, col)}
+      <text x="${X(n) + 28}" y="${y + 10}" font-size="28" font-weight="700" fill="${v('--ink')}">${n}</text>`;
+  });
+  s += `<text x="72" y="545" font-size="21" fill="${v('--text')}">“Name neither” is not “default use”: many need a rule, a sandbox or a policy of their own.</text>
+    <text x="72" y="580" font-size="21" fill="${v('--text')}">${NOT}</text>`;
+  return s;
+}
+
+// 3 · the symlink pattern, and where it showed up
+function fig3() {
+  const L = S.symlink_layers, rows = Object.entries(L), x0 = 840, W = 250, max = Math.max(...rows.map((r) => r[1])), X = (n) => x0 + W * n / max;
+  let s = card(`${S.mentions_symlink} entries involve a link: the check sees one path, the file is elsewhere`, 'entries', SRC(), `Layers assigned by hand after reading all ${S.mentions_symlink}. ${NOT}`);
+  // mechanism
+  const box = (x, y, w, t1, t2, fill, dark) => `<rect x="${x}" y="${y}" width="${w}" height="74" rx="8" fill="${fill}" stroke="${v('--ink')}" stroke-width="1.5"/>
+    <text x="${x + 18}" y="${y + 32}" font-size="20" font-weight="600" fill="${dark ? '#FAF8F3' : v('--ink')}">${t1}</text><text class="m" x="${x + 18}" y="${y + 58}" font-size="16" fill="${dark ? '#E8E3DA' : v('--text')}">${t2}</text>`;
+  const arrow = (x1, y1, x2, y2) => `<line x1="${x1}" y1="${y1}" x2="${x2}" y2="${y2}" stroke="${v('--ink')}" stroke-width="2"/><path d="M${x2},${y2} l-10,-6 l0,12 z" transform="rotate(${Math.atan2(y2 - y1, x2 - x1) * 180 / Math.PI} ${x2} ${y2})" fill="${v('--ink')}"/>`;
+  s += `<rect x="60" y="120" width="420" height="300" rx="10" fill="none" stroke="${v('--charcoal')}" stroke-width="2" stroke-dasharray="7 6"/>
+    <text x="80" y="150" font-size="17" font-weight="600" letter-spacing="1.5" fill="${v('--text')}">THE FOLDER YOU APPROVED</text>
+    ${box(90, 175, 360, '1. The check reads the path', 'project/notes.md  ✓', v('--paper'))}
+    ${box(90, 300, 360, '2. The path is a link', 'notes.md → ~/.zshrc', v('--paper'))}
+    ${arrow(270, 252, 270, 296)}
+    ${box(150, 470, 380, '3. The read or write lands outside', '~/.zshrc  (or ~/.ssh, settings)', v('--charcoal'), true)}
+    ${arrow(450, 345, 520, 465)}
+    <text x="150" y="580" font-size="18" fill="${v('--text')}">Or the link is swapped in after the check (a race).</text>
+    <text x="${x0 - 30}" y="130" font-size="18" font-weight="600" letter-spacing="1.5" text-anchor="end" fill="${v('--text')}">WHERE IT SHOWED UP</text>`;
+  rows.forEach(([k, n], i) => {
+    const y = 175 + i * 52;
+    s += `<text x="${x0 - 22}" y="${y + 7}" font-size="19" text-anchor="end" fill="${v('--ink')}">${k}</text>
+      <line x1="${x0}" x2="${X(n)}" y1="${y}" y2="${y}" stroke="${v('--charcoal')}" stroke-width="4" stroke-linecap="round"/>${dot(X(n), y, 9, v('--charcoal'))}
+      <text x="${X(n) + 20}" y="${y + 7}" font-size="20" font-weight="700" fill="${v('--ink')}">${n}</text>`;
+  });
+  return s;
+}
+
+// 4 · per quarter: two panels, no shared axis
+function fig4() {
+  const Q = Object.entries(S.quarters), lab = (q) => q === 'Q4' ? 'Q4*' : q;
+  let s = card('Entries per quarter, and per 100 changelog lines', 'two panels, two scales', SRC(),
+    `* Q4: 1 Oct to 19 Nov. The changelog grew from ${fmt(S.quarters.Q1.bullets)} lines in Q1 to ${fmt(S.quarters.Q4.bullets)} in Q4*.`);
+  const panel = (x0, title, key, max, f) => {
+    const W = 470, H = 350, y0 = 530, bw = W / Q.length, Y = (n) => H * n / max;
+    let o = `<text x="${x0}" y="130" font-size="21" font-weight="600" fill="${v('--ink')}">${title}</text><line x1="${x0}" x2="${x0 + W}" y1="${y0}" y2="${y0}" stroke="${v('--ink')}"/>`;
+    Q.forEach(([q, r], i) => {
+      const cx = x0 + i * bw + bw / 2, h = Y(r[key]);
+      o += `<rect x="${cx - bw * 0.3}" y="${y0 - h}" width="${bw * 0.6}" height="${h}" rx="4" fill="${q === 'Q4' ? v('--paper') : v('--charcoal')}" stroke="${v('--charcoal')}" stroke-width="2"/>
+        <text x="${cx}" y="${y0 - h - 14}" font-size="22" font-weight="700" text-anchor="middle" fill="${v('--ink')}">${f(r[key])}</text>
+        <text x="${cx}" y="${y0 + 30}" font-size="19" text-anchor="middle" fill="${v('--text')}">${lab(q)}</text>`;
+    });
+    return o;
+  };
+  s += panel(70, 'Changelog entries', 'fixes', 120, (n) => n) + panel(650, 'Entries per 100 changelog lines', 'per_100_bullets', 3.5, (n) => n.toFixed(2));
+  s += `<text x="70" y="610" font-size="18" fill="${v('--text')}">More fixes reported is not the same as more gaps. ${NOT}</text>`;
+  return s;
+}
+
+// 5 · the 13 advisories patched in 2026 releases, looked up in the changelog
+function fig5() {
+  const J = S.join, groups = [['clear', 'a line clearly describes the fix', J.clear], ['possible', 'a possible match, a few versions later', J.possible],
+    ['partial', 'listed as a "breaking change"', J.partial], ['none', 'no matching line found', J.none]];
+  let s = card(`The ${J.advisories_2026_releases} security advisories patched in 2026 releases, looked up in the changelog`, 'advisories', 'GitHub advisory database and the repository’s security page, read 20 Nov 2026; each looked up around its patched version.',
+    `First half of 2026, side by side (not a ratio): ${S.h1.fixes} changelog entries; ${S.h1.advisories} advisories patched in releases from that period.`);
+  let i = 0;
+  groups.forEach(([k, lab, n], g) => {
+    const y = 160 + g * 105;
+    for (let j = 0; j < n; j++) { s += `<circle cx="${134 + j * 62}" cy="${y}" r="24" fill="${k === 'clear' ? v('--terra') : k === 'none' ? v('--paper') : v('--charcoal')}" stroke="${v('--ink')}" stroke-width="1.5"/>`; i++; }
+    s += `<text x="${110 + Math.max(n, 1) * 62 + 20}" y="${y + 9}" font-size="24" fill="${v('--ink')}"><tspan font-weight="700">${n}</tspan> ${lab}</text>`;
+  });
+  return s;
+}
+
+// 6 · by month: lines (context) and entries per 100 lines
+function fig6() {
+  const M = Object.keys(S.months_bullets), x0 = 110, W = 1010, bw = W / M.length;
+  let s = card('Changelog lines per month, and entries per 100 of them', 'two panels, two scales', SRC(),
+    '* November: 1 to 19 Nov. Changelog entries are fixes, not incidents: nothing here shows any was exploited.');
+  const t0 = 345, H1 = 210, mx1 = 2000, Y1 = (n) => H1 * n / mx1;
+  s += `<text x="${x0}" y="118" font-size="19" font-weight="600" fill="${v('--ink')}">Changelog lines</text><line x1="${x0}" x2="${x0 + W}" y1="${t0}" y2="${t0}" stroke="${v('--ink')}"/>`;
+  const b0 = 590, H2 = 170, mx2 = 4.5, Y2 = (n) => H2 * n / mx2;
+  s += `<text x="${x0}" y="392" font-size="19" font-weight="600" fill="${v('--ink')}">Entries per 100 lines</text><line x1="${x0}" x2="${x0 + W}" y1="${b0}" y2="${b0}" stroke="${v('--ink')}"/>`;
+  let path = '';
+  M.forEach((m, i) => {
+    const cx = x0 + i * bw + bw / 2, n = S.months_bullets[m], r = S.months_per_100[m], mm = MON[m.slice(5)] + (m === '2026-11' ? '*' : '');
+    s += `<rect x="${cx - bw * 0.32}" y="${t0 - Y1(n)}" width="${bw * 0.64}" height="${Y1(n)}" rx="3" fill="${v('--stone')}"/>
+      <text x="${cx}" y="${t0 - Y1(n) - 9}" font-size="15" font-weight="600" text-anchor="middle" fill="${v('--text')}">${fmt(n)}</text>
+      <text x="${cx}" y="${b0 + 26}" font-size="16" text-anchor="middle" fill="${v('--text')}">${mm}</text>`;
+    path += `${i ? 'L' : 'M'}${cx},${b0 - Y2(r)}`;
+  });
+  s += `<path d="${path}" fill="none" stroke="${v('--charcoal')}" stroke-width="3"/>`;
+  M.forEach((m, i) => { const cx = x0 + i * bw + bw / 2, r = S.months_per_100[m];
+    s += dot(cx, b0 - Y2(r), 7, v('--charcoal')) + `<text x="${cx}" y="${b0 - Y2(r) - 14}" font-size="16" font-weight="700" text-anchor="middle" fill="${v('--ink')}">${r.toFixed(2)}</text>`; });
+  return s;
+}
+
+// 7 · September to November: entries per release
+function fig7() {
+  const P = S.autumn.per_release, n0 = S.autumn.sections - P.length, x0 = 90, W = 1040, bw = W / S.autumn.sections, y0 = 520, H = 330, Y = (n) => H * n / 20;
+  let s = card(`September to November: ${S.autumn.n} entries in ${P.length} of ${S.autumn.sections} changelog sections`, 'entries per section', SRC(),
+    `Sorted. Three releases (${S.top3.names}) hold ${S.top3.n} of the ${S.autumn.n}. Entries are fixes, not incidents.`);
+  for (let g = 0; g <= 20; g += 5) s += `<line x1="${x0}" x2="${x0 + W}" y1="${y0 - Y(g)}" y2="${y0 - Y(g)}" stroke="${v('--grid')}"/><text x="${x0 - 12}" y="${y0 - Y(g) + 6}" font-size="17" text-anchor="end" fill="${v('--text')}">${g}</text>`;
+  P.forEach((n, i) => {
+    const x = x0 + i * bw;
+    s += `<rect x="${x + 2}" y="${y0 - Y(n)}" width="${bw - 4}" height="${Y(n)}" rx="2" fill="${v('--charcoal')}"/>`;
+    if (i < 3) s += `<text x="${x + bw / 2}" y="${y0 - Y(n) - 10}" font-size="16" font-weight="700" text-anchor="middle" fill="${v('--ink')}">${n}</text>`;
+  });
+  for (let i = 0; i < n0; i++) s += `<rect x="${x0 + (P.length + i) * bw + 2}" y="${y0 - 3}" width="${bw - 4}" height="3" fill="${v('--stone')}"/>`;
+  s += `<text x="${x0 + (P.length + n0 / 2) * bw}" y="${y0 - 16}" font-size="17" text-anchor="middle" fill="${v('--text')}">${n0} sections with none</text>`;
+  return s;
+}
+
+// 8 · advisory lag
+function fig8() {
+  const A = S.advisory_list.filter((a) => a.lag_days !== null).map((a) => a.lag_days).sort((a, b) => a - b), x0 = 110, W = 1000, max = 160, X = (d) => x0 + W * d / max, y0 = 420;
+  let s = card('Days from the patched release to the security advisory', 'Claude Code advisories', 'GitHub advisory database and the repository’s security page, read 20 Nov 2026; patched release dated by npm.',
+    `${A.length} dated advisories since 2025. Publishing after the fix ships is normal coordinated disclosure.`);
+  for (let d = 0; d <= max; d += 20) s += `<line x1="${X(d)}" x2="${X(d)}" y1="190" y2="${y0 + 40}" stroke="${v('--grid')}"/><text x="${X(d)}" y="${y0 + 72}" font-size="18" text-anchor="middle" fill="${v('--text')}">${d}</text>`;
+  s += `<text x="${x0 + W}" y="${y0 + 104}" font-size="18" text-anchor="end" fill="${v('--text')}">days</text>`;
+  const seen = {};
+  A.forEach((d) => { const b = Math.round(d / 5); seen[b] = (seen[b] || 0) + 1; const k = seen[b] - 1; s += dot(X(d), y0 - k * 26, 11, v('--charcoal')); });
+  const md = S.advisories.lag_median_days;
+  s += `<line x1="${X(md)}" x2="${X(md)}" y1="170" y2="${y0 + 40}" stroke="${v('--terra')}" stroke-width="3" stroke-dasharray="6 6"/>
+    <text x="${X(md) + 12}" y="176" font-size="22" font-weight="700" fill="${v('--ink')}">median ${md} days</text>`;
+  return s;
+}
+
+function cover() {
+  const Q = Object.entries(S.quarters), x0 = 1130, W = 300, y0 = 420, H = 190, Y = (n) => H * n / 3.5, X = (i) => x0 + W * i / (Q.length - 1);
+  let path = ''; Q.forEach(([q, r], i) => { path += `${i ? 'L' : 'M'}${X(i)},${y0 - Y(r.per_100_bullets)}`; });
+  let plot = `<line x1="${x0}" x2="${x0 + W}" y1="${y0}" y2="${y0}" stroke="${v('--ink')}" stroke-width="1.5"/>
+    <text x="${x0}" y="${y0 - H - 34}" font-size="20" font-weight="600" fill="${v('--text')}">Entries per 100 changelog lines</text>
+    <path d="${path}" fill="none" stroke="${v('--charcoal')}" stroke-width="4"/>`;
+  Q.forEach(([q, r], i) => { plot += dot(X(i), y0 - Y(r.per_100_bullets), 10, i === Q.length - 1 ? v('--paper') : v('--charcoal')) +
+    `<text x="${X(i)}" y="${y0 - Y(r.per_100_bullets) - 20}" font-size="20" font-weight="700" text-anchor="middle" fill="${v('--ink')}">${r.per_100_bullets.toFixed(1)}</text>
+     <text x="${X(i)}" y="${y0 + 30}" font-size="18" text-anchor="middle" fill="${v('--text')}">${q === 'Q4' ? 'Q4*' : q}</text>`; });
+  return `<rect x="60" y="56" width="1380" height="5" fill="${v('--ink')}"/>
+    <text x="60" y="190" font-size="26" font-weight="600" letter-spacing="3" fill="${v('--text')}">THE MEASUREMENT · CLAUDE CODE CHANGELOG · 2026</text>
+    <text x="60" y="296" font-size="56" font-weight="600" letter-spacing="-1" fill="${v('--ink')}">Your deny rules can miss.</text>
+    <text x="60" y="362" font-size="40" font-weight="500" letter-spacing="-0.5" fill="${v('--ink')}">${S.controls.deny_ask_rule.n} entries in Claude Code’s 2026 changelog</text>
+    <text x="60" y="414" font-size="40" font-weight="500" letter-spacing="-0.5" fill="${v('--terra')}">say a rule didn’t hold.</text>
+    ${plot}
+    <line x1="460" x2="1440" y1="490" y2="490" stroke="${v('--ink')}" stroke-width="1.5"/>
+    <text x="460" y="540" font-size="23" fill="${v('--text')}">Fixes, not incidents. * Q4 to 19 Nov; the changelog itself grew.</text>
+    <text x="1440" y="540" font-size="28" font-weight="600" text-anchor="end" fill="${v('--ink')}">@con_golias</text>`;
+}
+const FIGS = { 1: fig1, 2: fig2, 3: fig3, 4: fig4, 5: fig5, 6: fig6, 7: fig7, 8: fig8, cover };
+if (fig === 'cover') { document.body.style.width = '1500px'; document.body.style.height = '600px'; C.setAttribute('width', 1500); C.setAttribute('height', 600); C.setAttribute('viewBox', '0 0 1500 600'); }
+window.ready = Promise.all([fetch('../data/summary.json').then((r) => r.json()), document.fonts.load('400 20px "Inter Tight"'), document.fonts.load('700 20px "Inter Tight"'), document.fonts.load('400 16px "JetBrains Mono"')])
+  .then(([a]) => { S = a; C.innerHTML = FIGS[fig](); });
+</script>
+</body>
+</html>
