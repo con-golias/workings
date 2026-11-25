@@ -182,7 +182,45 @@ function fig8() {
   return s;
 }
 
+// Cover (owner, 25 Nov): the whole frame is the chart. No title, no rules, no handle; the article title sits under it on X.
 function cover() {
+  const Q = Object.entries(S.quarters).map(([q, r]) => ({ q, r: r.per_100_bullets }));
+  const L = 250, R = 1250, T = 150, B = 470, YMAX = 4, X = (i) => L + 60 + (R - L - 120) * i / (Q.length - 1), Y = (n) => B - (B - T) * n / YMAX;
+  const P = Q.map((d, i) => [X(i), Y(d.r)]);
+  // monotone cubic (Fritsch-Carlson) so the curve never overshoots a filed value
+  const n = P.length, dx = [], m = [], t = [];
+  for (let i = 0; i < n - 1; i++) { dx[i] = P[i + 1][0] - P[i][0]; m[i] = (P[i + 1][1] - P[i][1]) / dx[i]; }
+  t[0] = m[0]; t[n - 1] = m[n - 2];
+  for (let i = 1; i < n - 1; i++) t[i] = m[i - 1] * m[i] <= 0 ? 0 : (m[i - 1] + m[i]) / 2;
+  for (let i = 0; i < n - 1; i++) { if (m[i] === 0) { t[i] = t[i + 1] = 0; continue; } const a = t[i] / m[i], b = t[i + 1] / m[i], h = a * a + b * b; if (h > 9) { const k = 3 / Math.sqrt(h); t[i] = k * a * m[i]; t[i + 1] = k * b * m[i]; } }
+  let d = `M${P[0][0]},${P[0][1]}`;
+  for (let i = 0; i < n - 1; i++) d += ` C${P[i][0] + dx[i] / 3},${P[i][1] + t[i] * dx[i] / 3} ${P[i + 1][0] - dx[i] / 3},${P[i + 1][1] - t[i + 1] * dx[i] / 3} ${P[i + 1][0]},${P[i + 1][1]}`;
+  const ink = v('--ink'), txt = v('--text'), ch = v('--charcoal'), sl = v('--terra');
+  let s = `<defs>
+      <linearGradient id="bgG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FCFBF8"/><stop offset="1" stop-color="#F4F0E8"/></linearGradient>
+      <linearGradient id="area" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${sl}" stop-opacity="0.30"/><stop offset="1" stop-color="${sl}" stop-opacity="0"/></linearGradient>
+      <filter id="lineSh" x="-10%" y="-40%" width="120%" height="180%"><feGaussianBlur in="SourceAlpha" stdDeviation="9"/><feOffset dy="14"/><feComponentTransfer><feFuncA type="linear" slope="0.22"/></feComponentTransfer><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+      <filter id="pillSh" x="-30%" y="-50%" width="160%" height="220%"><feGaussianBlur in="SourceAlpha" stdDeviation="6"/><feOffset dy="6"/><feComponentTransfer><feFuncA type="linear" slope="0.14"/></feComponentTransfer><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    </defs>
+    <rect width="1500" height="600" fill="url(#bgG)"/>`;
+  for (let g = 0; g <= YMAX; g++) s += `<line x1="${L}" x2="${R}" y1="${Y(g)}" y2="${Y(g)}" stroke="${g ? v('--grid') : '#BDB4A6'}" stroke-width="${g ? 1.2 : 1.6}" ${g ? 'stroke-dasharray="2 7" stroke-linecap="round"' : ''}/>
+    <text x="${L - 22}" y="${Y(g) + 7}" font-size="19" text-anchor="end" fill="${txt}">${g}</text>`;
+  s += `<text x="${L}" y="${T - 34}" font-size="19" font-weight="600" fill="${txt}">Entries per 100 changelog lines</text>`;
+  s += `<path d="${d} L${P[n - 1][0]},${B} L${P[0][0]},${B} Z" fill="url(#area)"/>
+    <path d="${d}" fill="none" stroke="${ch}" stroke-width="5" stroke-linecap="round" filter="url(#lineSh)"/>`;
+  Q.forEach((q, i) => {
+    const [x, y] = P[i], last = i === n - 1, lab = q.r.toFixed(1), w = 74;
+    s += `<line x1="${x}" x2="${x}" y1="${y + 16}" y2="${B}" stroke="${ch}" stroke-opacity="0.18" stroke-width="1.5"/>
+      <circle cx="${x}" cy="${y}" r="15" fill="#FFFFFF" filter="url(#pillSh)"/>
+      <circle cx="${x}" cy="${y}" r="9" fill="${last ? '#FFFFFF' : ch}" stroke="${ch}" stroke-width="${last ? 3.5 : 0}"/>
+      <g filter="url(#pillSh)"><rect x="${x - w / 2}" y="${y - 74}" width="${w}" height="40" rx="20" fill="#FFFFFF"/></g>
+      <text x="${x}" y="${y - 46}" font-size="23" font-weight="700" text-anchor="middle" fill="${ink}">${lab}</text>
+      <text x="${x}" y="${B + 40}" font-size="20" font-weight="600" text-anchor="middle" fill="${ink}">${q.q}</text>
+      ${last ? `<text x="${x}" y="${B + 66}" font-size="16" text-anchor="middle" fill="${txt}">to 19 Nov</text>` : ''}`;
+  });
+  return s;
+}
+function coverV1() {
   const Q = Object.entries(S.quarters), x0 = 1130, W = 300, y0 = 420, H = 190, Y = (n) => H * n / 3.5, X = (i) => x0 + W * i / (Q.length - 1);
   let path = ''; Q.forEach(([q, r], i) => { path += `${i ? 'L' : 'M'}${X(i)},${y0 - Y(r.per_100_bullets)}`; });
   let plot = `<line x1="${x0}" x2="${x0 + W}" y1="${y0}" y2="${y0}" stroke="${v('--ink')}" stroke-width="1.5"/>
@@ -201,8 +239,8 @@ function cover() {
     <text x="460" y="540" font-size="23" fill="${v('--text')}">Fixes, not incidents. * Q4 to 19 Nov; the changelog itself grew.</text>
     <text x="1440" y="540" font-size="28" font-weight="600" text-anchor="end" fill="${v('--ink')}">@con_golias</text>`;
 }
-const FIGS = { 1: fig1, 2: fig2, 3: fig3, 4: fig4, 5: fig5, 6: fig6, 7: fig7, 8: fig8, cover };
-if (fig === 'cover') { document.body.style.width = '1500px'; document.body.style.height = '600px'; C.setAttribute('width', 1500); C.setAttribute('height', 600); C.setAttribute('viewBox', '0 0 1500 600'); }
+const FIGS = { 1: fig1, 2: fig2, 3: fig3, 4: fig4, 5: fig5, 6: fig6, 7: fig7, 8: fig8, cover, coverV1 };
+if (fig === 'cover' || fig === 'coverV1') { document.body.style.width = '1500px'; document.body.style.height = '600px'; C.setAttribute('width', 1500); C.setAttribute('height', 600); C.setAttribute('viewBox', '0 0 1500 600'); }
 window.ready = Promise.all([fetch('../data/summary.json').then((r) => r.json()), document.fonts.load('400 20px "Inter Tight"'), document.fonts.load('700 20px "Inter Tight"'), document.fonts.load('400 16px "JetBrains Mono"')])
   .then(([a]) => { S = a; C.innerHTML = FIGS[fig](); });
 </script>
