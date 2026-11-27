@@ -1,0 +1,173 @@
+<!doctype html>
+<!-- Figures for the X Article on AI-written code in US copyright registrations. 1200x720 plates at 2x; ?fig=1..5|cover.
+     Every number from ../data/summary.json and ../data/baseline.json (code/analysis.py, code/baseline.py).
+     Colours: charcoal = organisations / the count; stone = context (individuals, all software); slate = the one thing each figure marks. Rings and lines only. -->
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="fonts/fonts.css">
+<style>
+  :root { --bg:#FAF8F3; --ink:#1F1C1A; --text:#615B53; --grid:#E8E3DA; --charcoal:#3A3531; --stone:#CBC1B1; --terra:#4F6B86; --paper:#F3EFE7; }
+  html, body { margin:0; background:var(--bg); } body { width:1200px; height:720px; overflow:hidden; } svg { display:block; }
+  text { font-family:'Inter Tight', sans-serif; font-variant-numeric:tabular-nums lining-nums; }
+</style>
+</head>
+<body>
+<svg id="c" width="1200" height="720" viewBox="0 0 1200 720"></svg>
+<script>
+const C = document.getElementById('c'); const fig = new URLSearchParams(location.search).get('fig') || '1';
+const v = (n) => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+const fmt = (n) => Number(n).toLocaleString('en-US');
+const MON = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+let S, BL;
+const SRC = 'US Copyright Office Public Records System, read 25 Nov 2026. Registration dates; recent months are still filling in.';
+function card(title, note, caption, caption2) {
+  return `<rect x="40" y="24" width="1120" height="4" fill="${v('--ink')}"/><line x1="40" x2="1160" y1="630" y2="630" stroke="${v('--ink')}" stroke-width="1"/>
+    <text x="40" y="74" font-size="26" font-weight="600" fill="${v('--ink')}">${title}</text>
+    <text x="1160" y="74" font-size="20" text-anchor="end" fill="${v('--text')}">${note}</text>
+    <text x="40" y="668" font-size="19" fill="${v('--text')}">${caption}</text>
+    ${caption2 ? `<text x="40" y="694" font-size="19" fill="${v('--text')}">${caption2}</text>` : ''}`;
+}
+const ring = (x, y, r, fill, sw = 1.5) => `<circle cx="${x}" cy="${y}" r="${r}" fill="${fill}" stroke="${v('--ink')}" stroke-width="${sw}"/>`;
+
+// month index from Dec 2023
+const M0 = [2023, 11];
+const mi = (d) => (Number(d.slice(0, 4)) - M0[0]) * 12 + Number(d.slice(5, 7)) - 1 - M0[1];
+// stacked rings per month: organisations first (charcoal), then individuals (stone); named firsts in the accent colour
+function stacks(x0, W, base, r, gap, named, colour) {
+  const by = {}; S.timeline.forEach((t) => { (by[mi(t.d)] = by[mi(t.d)] || []).push(t); });
+  const nM = mi('2026-11-01') + 1, X = (i) => x0 + W * (i + 0.5) / nM;
+  let s = '';
+  Object.entries(by).forEach(([i, list]) => {
+    const rank = (t) => (colour && colour(t) === v('--terra') ? 2 : t.org ? 1 : 0);
+    list.sort((a, b) => rank(b) - rank(a));
+    list.forEach((t, k) => {
+      const hit = named && named[t.org] && named[t.org].d === t.d.slice(0, 10);
+      const fill = colour ? colour(t) : hit ? v('--terra') : t.org ? v('--charcoal') : v('--paper');
+      s += ring(X(+i), base - r - k * (2 * r + gap), r, fill, 1.2);
+    });
+  });
+  return { s, X, nM, by };
+}
+
+// 1 · every AI-code registration, month by month
+function fig1() {
+  const named = {}; [['Cisco', '2023-12-27'], ['Cognition', '2024-05-06'], ['Adobe', '2024-08-29'], ['Apple', '2024-11-20'], ['Elastic', '2026-04-23']].forEach(([o, d]) => named[o] = { d });
+  const x0 = 70, W = 1060, base = 560, r = 6.2;
+  const st = stacks(x0, W, base, r, 1.6, named);
+  let s = card(`${S.n} US registrations that leave AI-written code out of the claim`, 'one ring per registration', SRC,
+    'Filled: an organisation. Open: a person (not named). 2026 is not complete yet.');
+  s += st.s + `<line x1="${x0}" x2="${x0 + W}" y1="${base + 1}" y2="${base + 1}" stroke="${v('--ink')}" stroke-width="1"/>`;
+  for (let i = 0; i < st.nM; i++) {
+    const y = 2023 + Math.floor((i + 11) / 12), m = (i + 11) % 12;
+    if (m === 0) s += `<text x="${st.X(i)}" y="${base + 30}" font-size="18" text-anchor="middle" fill="${v('--text')}">${y}</text>`;
+  }
+  const lab = [['Cisco', 'Cisco, a security appliance, Dec 2023', -1], ['Cognition', 'Cognition, Devin’s screens', -1], ['Adobe', 'Adobe names GitHub Copilot', -1], ['Apple', 'Apple, iOS 18: “(if any)”', -1], ['Elastic', 'Elastic, Kibana', -1]];
+  const placed = [];
+  lab.forEach(([o, text], j) => {
+    const i = mi(named[o].d), x = st.X(i), y = 150 + j * 44;
+    s += `<line x1="${x}" x2="${x}" y1="${y + 8}" y2="${base - 14 - ((st.by[i] || []).length - 1) * 14}" stroke="${v('--terra')}" stroke-width="1.5" stroke-dasharray="3 4"/>
+      <text x="${x + 8}" y="${y}" font-size="19" font-weight="600" fill="${v('--ink')}">${text}</text>`;
+  });
+  return s;
+}
+
+// 2 · per 1,000 software registrations, complete quarters
+function fig2() {
+  const Q = S.by_quarter.filter((q) => q.complete && q.q >= '2023 Q4');
+  const x0 = 120, W = 960, y0 = 540, H = 380, max = Math.ceil(Math.max(...Q.map((q) => q.per_1000)) / 5) * 5, X = (i) => x0 + W * i / (Q.length - 1), Y = (n) => y0 - H * n / max;
+  let s = card('Per 1,000 US software registrations, how many leave AI code out', 'per 1,000', SRC,
+    'Complete quarters only (records reach the catalogue months late). Computer Files registrations of all kinds.');
+  for (let g = 0; g <= max; g += 5) s += `<line x1="${x0}" x2="${x0 + W}" y1="${Y(g)}" y2="${Y(g)}" stroke="${g ? v('--grid') : v('--ink')}" stroke-width="${g ? 1 : 1.2}"/><text x="${x0 - 16}" y="${Y(g) + 6}" font-size="18" text-anchor="end" fill="${v('--text')}">${g}</text>`;
+  s += `<path d="${Q.map((q, i) => `${i ? 'L' : 'M'}${X(i)},${Y(q.per_1000)}`).join(' ')}" fill="none" stroke="${v('--charcoal')}" stroke-width="3.5"/>`;
+  const top = Q.reduce((a, b) => (b.per_1000 > a.per_1000 ? b : a));
+  Q.forEach((q, i) => {
+    s += ring(X(i), Y(q.per_1000), 8, q === top ? v('--terra') : v('--charcoal'));
+    s += `<text x="${X(i)}" y="${Y(q.per_1000) - 18}" font-size="18" font-weight="700" text-anchor="middle" fill="${v('--ink')}">${q.per_1000.toFixed(1)}</text>`;
+    s += `<text x="${X(i)}" y="${y0 + 30}" font-size="16" text-anchor="middle" fill="${v('--text')}">${q.q.replace(' ', ' ')}</text>`;
+  });
+  return s;
+}
+
+// 3 · who files
+function fig3() {
+  const O = S.orgs_display.filter(([, n]) => n >= 2), one = S.orgs_display.filter(([, n]) => n === 1).length;
+  const rows = [...O.map(([o, n]) => [o, n, v('--charcoal')]), [`${one} other organisations, one each`, one, v('--stone')], ['People (not named)', S.individuals_n, v('--paper')]];
+  const x0 = 420, W = 600, max = Math.max(...rows.map((r) => r[1])), X = (n) => x0 + W * n / max, rh = Math.min(46, 480 / rows.length), y1 = 140;
+  let s = card(`Who files: ${S.org_claimants} organisations and ${S.individuals_n} people`, 'registrations', SRC, 'Claimant as written in the record. People are counted, never named.');
+  rows.forEach(([lab, n, col], i) => {
+    const y = y1 + i * rh;
+    s += `<text x="${x0 - 22}" y="${y + 7}" font-size="21" text-anchor="end" fill="${v('--ink')}">${lab}</text>
+      <line x1="${x0}" x2="${X(n)}" y1="${y}" y2="${y}" stroke="${v('--charcoal')}" stroke-width="4" stroke-linecap="round"/>${ring(X(n), y, 10, col)}
+      <text x="${X(n) + 22}" y="${y + 7}" font-size="21" font-weight="700" fill="${v('--ink')}">${n}</text>`;
+  });
+  return s;
+}
+
+// 4 · what the statements say
+function fig4() {
+  const L = [['third_party', 'List it with third-party, open-source or earlier code'], ['prior_version', 'Also exclude earlier versions'],
+    ['office_wording', 'Use the Office’s own sample wording, nothing more'], ['process', 'Say how the AI was used'],
+    ['size_words', 'Say it was “some”, “portions” or “snippets”'], ['tool', 'Name the tool'], ['percent', 'Give a percentage']];
+  const x0 = 560, W = 470, max = Math.max(...L.map(([k]) => S.wording[k])), X = (n) => x0 + W * n / max, y1 = 150, rh = 62;
+  let s = card(`What the ${S.n} statements say about the AI-written code`, 'registrations (one can say several)', SRC, 'Pattern counts on the “Material excluded” field (code/analysis.py); every statement is in data/code_registrations.csv.');
+  L.forEach(([k, lab], i) => {
+    const n = S.wording[k], y = y1 + i * rh;
+    s += `<text x="${x0 - 24}" y="${y + 7}" font-size="21" text-anchor="end" fill="${v('--ink')}">${lab}</text>
+      <line x1="${x0}" x2="${X(n)}" y1="${y}" y2="${y}" stroke="${v('--charcoal')}" stroke-width="4" stroke-linecap="round"/>${ring(X(n), y, 10, k === 'percent' ? v('--terra') : v('--charcoal'))}
+      <text x="${X(n) + 22}" y="${y + 7}" font-size="21" font-weight="700" fill="${v('--ink')}">${n}</text>`;
+  });
+  return s;
+}
+
+// 5 · the Office wrote back: AI-code registrations vs a random sample of all software registrations, same months
+function fig5() {
+  const W5 = S.co_corr_window, B5 = S.baseline;
+  const rows = [['Filed by people', B5.people, W5.people], ['Filed by organisations', B5.orgs, W5.orgs]];
+  const x0 = 380, W = 700, X = (p) => x0 + W * p / 100;
+  let s = card('How often the record notes correspondence with the Office', 'share with “C.O. correspondence”', 'US Copyright Office Public Records System, read 25 Nov 2026. Computer Files registered Jan 2025 to Mar 2026.',
+    `Open: random sample of all software registrations (${B5.all.n}). Filled: the AI-code registrations (${W5.all.n}).`);
+  [0, 25, 50, 75, 100].forEach((p) => s += `<line x1="${X(p)}" x2="${X(p)}" y1="160" y2="520" stroke="${v('--grid')}"/><text x="${X(p)}" y="552" font-size="18" text-anchor="middle" fill="${v('--text')}">${p}%</text>`);
+  rows.forEach(([lab, b, a], i) => {
+    const y = 250 + i * 170;
+    s += `<text x="40" y="${y + 8}" font-size="23" fill="${v('--ink')}">${lab}</text>
+      <line x1="${X(b.pct)}" x2="${X(a.pct)}" y1="${y}" y2="${y}" stroke="${v('--charcoal')}" stroke-width="4"/>
+      ${ring(X(b.pct), y, 13, v('--paper'))}${ring(X(a.pct), y, 13, i === 0 ? v('--terra') : v('--charcoal'))}
+      <text x="${X(b.pct) - 24}" y="${y - 4}" font-size="20" text-anchor="end" fill="${v('--text')}">${Math.round(b.pct)}%</text>
+      <text x="${X(b.pct) - 24}" y="${y + 20}" font-size="16" text-anchor="end" fill="${v('--text')}">${b.co} of ${b.n}</text>
+      <text x="${X(a.pct) + 24}" y="${y - 2}" font-size="26" font-weight="700" fill="${v('--ink')}">${Math.round(a.pct)}%</text>
+      <text x="${X(a.pct) + 24}" y="${y + 22}" font-size="16" fill="${v('--text')}">${a.co} of ${a.n}</text>`;
+  });
+  return s;
+}
+
+// cover: the rings of fig 1, nothing else but the count and the firsts; everything inside x 215-1285 (X crops the sides)
+function cover() {
+  const x0 = 230, W = 1040, base = 470, r = 6.6;
+  const col = (t) => (t.org === 'Adobe' ? v('--terra') : t.org ? v('--charcoal') : v('--paper'));
+  const st = stacks(x0, W, base, r, 1.7, null, col);
+  let s = `<defs><radialGradient id="bgR" cx="0.5" cy="0.45" r="0.8"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#F1ECE3"/></radialGradient></defs>
+    <rect width="1500" height="600" fill="url(#bgR)"/>` + st.s +
+    `<line x1="${x0}" x2="${x0 + W}" y1="${base + 1}" y2="${base + 1}" stroke="#B9AE9D" stroke-width="1.2"/>`;
+  for (let i = 0; i < st.nM; i++) {
+    const y = 2023 + Math.floor((i + 11) / 12), m = (i + 11) % 12;
+    if (m === 0) s += `<text x="${st.X(i)}" y="${base + 32}" font-size="19" font-weight="500" text-anchor="middle" fill="${v('--text')}">${y}</text>`;
+  }
+  const lg = (y, fill, num, label) => `<circle cx="${x0 + 8}" cy="${y - 7}" r="7" fill="${fill}" stroke="${v('--ink')}" stroke-width="1.3"/>
+    <text x="${x0 + 26}" y="${y}" font-size="22" fill="${v('--text')}"><tspan font-weight="700" fill="${v('--ink')}">${num}</tspan>  ${label}</text>`;
+  s += ''
+    + lg(100, v('--terra'), S.adobe.n, `by Adobe, ${S.adobe.agents} of them: “code created by AI agents”`)
+    + lg(140, v('--charcoal'), S.orgs_n - S.adobe.n, `by ${S.org_claimants - 1} other organisations, IBM and Apple among them`)
+    + lg(180, v('--paper'), S.individuals_n, 'by people. Each one leaves AI-written code out of its claim.')
+    + `<text x="750" y="572" font-size="14" text-anchor="middle" fill="${v('--text')}">One ring per registration, by month. US Copyright Office Public Records System, read 25 Nov 2026; recent months still filling in.</text>`;
+  return s;
+}
+
+const FIGS = { 1: fig1, 2: fig2, 3: fig3, 4: fig4, 5: fig5, cover };
+if (fig === 'cover') { document.body.style.width = '1500px'; document.body.style.height = '600px'; C.setAttribute('width', 1500); C.setAttribute('height', 600); C.setAttribute('viewBox', '0 0 1500 600'); }
+window.ready = Promise.all([fetch('../data/summary.json').then((r) => r.json()), fetch('../data/baseline.json').then((r) => r.json()).catch(() => null),
+  document.fonts.load('400 20px "Inter Tight"'), document.fonts.load('700 20px "Inter Tight"')])
+  .then(([a, b]) => { S = a; BL = b; C.innerHTML = FIGS[fig](); });
+</script>
+</body>
+</html>

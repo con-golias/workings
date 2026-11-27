@@ -1,0 +1,955 @@
+{
+ "2022-01": {
+  "total": 37618,
+  "type_of_work": {
+   "text": 14856,
+   "visual_material": 6809,
+   "music": 3708,
+   "sound_recording": 3104,
+   "motion_picture": 2921,
+   "sound_recording_music": 2793,
+   "dramatic_work_choreography": 1886,
+   "serial": 994,
+   "computer_file": 469,
+   "sound_recording_text": 71,
+   "map": 7
+  }
+ },
+ "2022-02": {
+  "total": 35257,
+  "type_of_work": {
+   "text": 12194,
+   "visual_material": 6664,
+   "music": 3505,
+   "motion_picture": 3444,
+   "sound_recording": 3372,
+   "sound_recording_music": 2647,
+   "dramatic_work_choreography": 1795,
+   "serial": 1118,
+   "computer_file": 456,
+   "sound_recording_text": 40,
+   "map": 19,
+   "kit": 2,
+   "mask_work": 1
+  }
+ },
+ "2022-03": {
+  "total": 40231,
+  "type_of_work": {
+   "text": 15202,
+   "visual_material": 7435,
+   "music": 3657,
+   "motion_picture": 3618,
+   "sound_recording_music": 3219,
+   "sound_recording": 2786,
+   "dramatic_work_choreography": 2094,
+   "serial": 1569,
+   "computer_file": 601,
+   "sound_recording_text": 38,
+   "map": 10,
+   "kit": 2
+  }
+ },
+ "2022-04": {
+  "total": 35639,
+  "type_of_work": {
+   "text": 13331,
+   "visual_material": 6238,
+   "motion_picture": 3858,
+   "music": 3385,
+   "sound_recording_music": 2847,
+   "sound_recording": 2293,
+   "dramatic_work_choreography": 2007,
+   "serial": 1043,
+   "computer_file": 458,
+   "sound_recording_text": 154,
+   "map": 20,
+   "kit": 5
+  }
+ },
+ "2022-05": {
+  "total": 34633,
+  "type_of_work": {
+   "text": 13130,
+   "visual_material": 6575,
+   "motion_picture": 3130,
+   "music": 3090,
+   "sound_recording_music": 2911,
+   "sound_recording": 2336,
+   "dramatic_work_choreography": 1873,
+   "serial": 1166,
+   "computer_file": 322,
+   "sound_recording_text": 100
+  }
+ },
+ "2022-06": {
+  "total": 38584,
+  "type_of_work": {
+   "text": 14265,
+   "visual_material": 7577,
+   "motion_picture": 3575,
+   "music": 3532,
+   "sound_recording_music": 3310,
+   "sound_recording": 2962,
+   "dramatic_work_choreography": 1736,
+   "serial": 1104,
+   "computer_file": 457,
+   "sound_recording_text": 37,
+   "map": 24,
+   "kit": 5
+  }
+ },
+ "2022-07": {
+  "total": 35514,
+  "type_of_work": {
+   "text": 13208,
+   "visual_material": 7586,
+   "music": 3341,
+   "sound_recording": 2881,
+   "motion_picture": 2760,
+   "sound_recording_music": 2291,
+   "dramatic_work_choreography": 1828,
+   "serial": 1047,
+   "computer_file": 383,
+   "sound_recording_text": 151,
+   "map": 38
+  }
+ },
+ "2022-08": {
+  "total": 37675,
+  "type_of_work": {
+   "text": 14574,
+   "visual_material": 7501,
+   "music": 3560,
+   "motion_picture": 3405,
+   "sound_recording": 2918,
+   "sound_recording_music": 2335,
+   "dramatic_work_choreography": 1837,
+   "serial": 1095,
+   "computer_file": 386,
+   "sound_recording_text": 38,
+   "map": 24,
+   "kit": 2
+  }
+ },
+ "2022-09": {
+  "total": 37305,
+  "type_of_work": {
+   "text": 15097,
+   "visual_material": 6815,
+   "motion_picture": 3793,
+   "music": 3284,
+   "sound_recording": 2719,
+   "sound_recording_music": 2472,
+   "dramatic_work_choreography": 1719,
+   "serial": 988,
+   "computer_file": 325,
+   "sound_recording_text": 51,
+   "map": 39,
+   "kit": 3
+  }
+ },
+ "2022-10": {
+  "total": 35291,
+  "type_of_work": {
+   "text": 13419,
+   "visual_material": 6028,
+   "motion_picture": 4299,
+   "music": 3193,
+   "sound_recording": 2785,
+   "sound_recording_music": 2558,
+   "dramatic_work_choreography": 1553,
+   "serial": 957,
+   "computer_file": 401,
+   "sound_recording_text": 80,
+   "map": 18
+  }
+ },
+ "2022-11": {
+  "total": 32701,
+  "type_of_work": {
+   "text": 12250,
+   "visual_material": 5762,
+   "music": 3294,
+   "motion_picture": 3239,
+   "sound_recording": 2656,
+   "sound_recording_music": 2433,
+   "dramatic_work_choreography": 1406,
+   "serial": 1048,
+   "computer_file": 456,
+   "sound_recording_text": 151,
+   "map": 6
+  }
+ },
+ "2022-12": {
+  "total": 35225,
+  "type_of_work": {
+   "text": 13369,
+   "visual_material": 6276,
+   "motion_picture": 3453,
+   "music": 3037,
+   "sound_recording": 2864,
+   "sound_recording_music": 2193,
+   "serial": 2029,
+   "dramatic_work_choreography": 1406,
+   "computer_file": 394,
+   "sound_recording_text": 198,
+   "kit": 4,
+   "map": 2
+  }
+ },
+ "2023-01": {
+  "total": 41351,
+  "type_of_work": {
+   "text": 17110,
+   "visual_material": 6289,
+   "motion_picture": 3927,
+   "sound_recording": 3300,
+   "music": 3170,
+   "sound_recording_music": 2625,
+   "serial": 2597,
+   "dramatic_work_choreography": 1873,
+   "computer_file": 392,
+   "sound_recording_text": 60,
+   "map": 6,
+   "mask_work": 2
+  }
+ },
+ "2023-02": {
+  "total": 35200,
+  "type_of_work": {
+   "text": 14289,
+   "visual_material": 5707,
+   "motion_picture": 3594,
+   "music": 3001,
+   "sound_recording": 2889,
+   "sound_recording_music": 2367,
+   "dramatic_work_choreography": 1910,
+   "serial": 960,
+   "computer_file": 387,
+   "sound_recording_text": 83,
+   "kit": 10,
+   "map": 2,
+   "cancelled_registration": 1
+  }
+ },
+ "2023-03": {
+  "total": 45974,
+  "type_of_work": {
+   "text": 15735,
+   "visual_material": 6440,
+   "serial": 4939,
+   "motion_picture": 4643,
+   "sound_recording_music": 4374,
+   "music": 3648,
+   "sound_recording": 3251,
+   "dramatic_work_choreography": 2390,
+   "computer_file": 473,
+   "sound_recording_text": 66,
+   "map": 13,
+   "kit": 2
+  }
+ },
+ "2023-04": {
+  "total": 35259,
+  "type_of_work": {
+   "text": 13597,
+   "visual_material": 6445,
+   "motion_picture": 3754,
+   "sound_recording": 3008,
+   "music": 2844,
+   "sound_recording_music": 2369,
+   "dramatic_work_choreography": 1963,
+   "serial": 749,
+   "computer_file": 402,
+   "sound_recording_text": 98,
+   "map": 30
+  }
+ },
+ "2023-05": {
+  "total": 41626,
+  "type_of_work": {
+   "text": 15961,
+   "visual_material": 6634,
+   "motion_picture": 4506,
+   "sound_recording_music": 3666,
+   "sound_recording": 3460,
+   "music": 3428,
+   "dramatic_work_choreography": 1868,
+   "serial": 1462,
+   "computer_file": 554,
+   "sound_recording_text": 71,
+   "map": 16
+  }
+ },
+ "2023-06": {
+  "total": 35811,
+  "type_of_work": {
+   "text": 13267,
+   "visual_material": 6769,
+   "motion_picture": 3797,
+   "music": 3117,
+   "sound_recording_music": 3009,
+   "sound_recording": 2590,
+   "dramatic_work_choreography": 1724,
+   "serial": 1080,
+   "computer_file": 432,
+   "sound_recording_text": 16,
+   "map": 10
+  }
+ },
+ "2023-07": {
+  "total": 34038,
+  "type_of_work": {
+   "text": 12196,
+   "visual_material": 6800,
+   "music": 3140,
+   "motion_picture": 3095,
+   "sound_recording": 2877,
+   "sound_recording_music": 2784,
+   "dramatic_work_choreography": 1704,
+   "serial": 1058,
+   "computer_file": 357,
+   "sound_recording_text": 27
+  }
+ },
+ "2023-08": {
+  "total": 37259,
+  "type_of_work": {
+   "text": 13711,
+   "visual_material": 7220,
+   "motion_picture": 4041,
+   "music": 3294,
+   "sound_recording": 3193,
+   "sound_recording_music": 2528,
+   "dramatic_work_choreography": 1726,
+   "serial": 1150,
+   "computer_file": 342,
+   "sound_recording_text": 39,
+   "map": 14,
+   "kit": 1
+  }
+ },
+ "2023-09": {
+  "total": 33625,
+  "type_of_work": {
+   "text": 12127,
+   "visual_material": 6547,
+   "motion_picture": 3426,
+   "music": 3025,
+   "sound_recording": 2971,
+   "sound_recording_music": 2658,
+   "dramatic_work_choreography": 1607,
+   "serial": 845,
+   "computer_file": 335,
+   "sound_recording_text": 75,
+   "map": 8,
+   "mask_work": 1
+  }
+ },
+ "2023-10": {
+  "total": 34847,
+  "type_of_work": {
+   "text": 13089,
+   "visual_material": 6383,
+   "motion_picture": 3777,
+   "sound_recording": 3170,
+   "music": 2889,
+   "sound_recording_music": 2555,
+   "dramatic_work_choreography": 1595,
+   "serial": 900,
+   "computer_file": 458,
+   "sound_recording_text": 27,
+   "map": 4
+  }
+ },
+ "2023-11": {
+  "total": 33952,
+  "type_of_work": {
+   "text": 11162,
+   "visual_material": 7037,
+   "motion_picture": 3735,
+   "sound_recording_music": 3024,
+   "music": 2982,
+   "sound_recording": 2737,
+   "dramatic_work_choreography": 1521,
+   "serial": 1155,
+   "computer_file": 545,
+   "sound_recording_text": 45,
+   "map": 9
+  }
+ },
+ "2023-12": {
+  "total": 32331,
+  "type_of_work": {
+   "text": 12098,
+   "visual_material": 6445,
+   "motion_picture": 3192,
+   "music": 2625,
+   "sound_recording": 2622,
+   "sound_recording_music": 2303,
+   "dramatic_work_choreography": 1344,
+   "serial": 1196,
+   "computer_file": 357,
+   "sound_recording_text": 136,
+   "map": 13
+  }
+ },
+ "2024-01": {
+  "total": 37190,
+  "type_of_work": {
+   "text": 12736,
+   "visual_material": 8282,
+   "music": 3656,
+   "motion_picture": 3407,
+   "sound_recording": 2912,
+   "sound_recording_music": 2796,
+   "dramatic_work_choreography": 1761,
+   "serial": 1114,
+   "computer_file": 503,
+   "sound_recording_text": 17,
+   "map": 6
+  }
+ },
+ "2024-02": {
+  "total": 35672,
+  "type_of_work": {
+   "text": 12725,
+   "visual_material": 6583,
+   "music": 3702,
+   "motion_picture": 3367,
+   "sound_recording": 3194,
+   "sound_recording_music": 2720,
+   "dramatic_work_choreography": 2020,
+   "serial": 879,
+   "computer_file": 425,
+   "sound_recording_text": 42,
+   "map": 14,
+   "kit": 1
+  }
+ },
+ "2024-03": {
+  "total": 34364,
+  "type_of_work": {
+   "text": 12120,
+   "visual_material": 6016,
+   "sound_recording": 3599,
+   "music": 3584,
+   "motion_picture": 3302,
+   "sound_recording_music": 2608,
+   "dramatic_work_choreography": 1933,
+   "serial": 742,
+   "computer_file": 436,
+   "sound_recording_text": 20,
+   "map": 4
+  }
+ },
+ "2024-04": {
+  "total": 36788,
+  "type_of_work": {
+   "text": 11945,
+   "visual_material": 7810,
+   "motion_picture": 4102,
+   "music": 3802,
+   "sound_recording": 3158,
+   "sound_recording_music": 2582,
+   "dramatic_work_choreography": 1881,
+   "serial": 1009,
+   "computer_file": 443,
+   "sound_recording_text": 50,
+   "map": 6
+  }
+ },
+ "2024-05": {
+  "total": 36980,
+  "type_of_work": {
+   "text": 13153,
+   "visual_material": 7307,
+   "motion_picture": 3814,
+   "music": 3712,
+   "sound_recording": 3600,
+   "sound_recording_music": 2175,
+   "dramatic_work_choreography": 1812,
+   "serial": 954,
+   "computer_file": 400,
+   "sound_recording_text": 48,
+   "map": 4,
+   "mask_work": 1
+  }
+ },
+ "2024-06": {
+  "total": 33270,
+  "type_of_work": {
+   "text": 12179,
+   "visual_material": 5769,
+   "motion_picture": 3930,
+   "music": 3324,
+   "sound_recording": 2922,
+   "sound_recording_music": 2130,
+   "dramatic_work_choreography": 1704,
+   "serial": 884,
+   "computer_file": 372,
+   "sound_recording_text": 55,
+   "map": 1
+  }
+ },
+ "2024-07": {
+  "total": 34036,
+  "type_of_work": {
+   "text": 12377,
+   "visual_material": 6602,
+   "motion_picture": 3515,
+   "music": 3148,
+   "sound_recording": 2926,
+   "sound_recording_music": 2384,
+   "dramatic_work_choreography": 1655,
+   "serial": 947,
+   "computer_file": 442,
+   "sound_recording_text": 40
+  }
+ },
+ "2024-08": {
+  "total": 33324,
+  "type_of_work": {
+   "text": 11569,
+   "visual_material": 6362,
+   "motion_picture": 3963,
+   "music": 3191,
+   "sound_recording": 3156,
+   "sound_recording_music": 2352,
+   "dramatic_work_choreography": 1506,
+   "serial": 741,
+   "computer_file": 445,
+   "sound_recording_text": 38,
+   "map": 1
+  }
+ },
+ "2024-09": {
+  "total": 35316,
+  "type_of_work": {
+   "text": 12839,
+   "visual_material": 6718,
+   "motion_picture": 4652,
+   "sound_recording": 2949,
+   "music": 2796,
+   "sound_recording_music": 2628,
+   "dramatic_work_choreography": 1481,
+   "serial": 826,
+   "computer_file": 403,
+   "sound_recording_text": 24
+  }
+ },
+ "2024-10": {
+  "total": 41319,
+  "type_of_work": {
+   "text": 13316,
+   "visual_material": 6911,
+   "motion_picture": 6715,
+   "sound_recording": 4567,
+   "sound_recording_music": 3385,
+   "music": 3139,
+   "dramatic_work_choreography": 1618,
+   "serial": 1044,
+   "computer_file": 559,
+   "sound_recording_text": 56,
+   "map": 9
+  }
+ },
+ "2024-11": {
+  "total": 31141,
+  "type_of_work": {
+   "text": 10621,
+   "visual_material": 6666,
+   "motion_picture": 3120,
+   "sound_recording": 2918,
+   "music": 2820,
+   "sound_recording_music": 2437,
+   "dramatic_work_choreography": 1357,
+   "serial": 816,
+   "computer_file": 342,
+   "sound_recording_text": 42,
+   "map": 2
+  }
+ },
+ "2024-12": {
+  "total": 33356,
+  "type_of_work": {
+   "text": 12586,
+   "visual_material": 5929,
+   "motion_picture": 3620,
+   "music": 3051,
+   "sound_recording_music": 2822,
+   "sound_recording": 2617,
+   "dramatic_work_choreography": 1452,
+   "serial": 872,
+   "computer_file": 327,
+   "sound_recording_text": 79,
+   "map": 1
+  }
+ },
+ "2025-01": {
+  "total": 37195,
+  "type_of_work": {
+   "text": 13824,
+   "visual_material": 7445,
+   "motion_picture": 3894,
+   "music": 3402,
+   "sound_recording": 3040,
+   "sound_recording_music": 2585,
+   "dramatic_work_choreography": 1762,
+   "serial": 842,
+   "computer_file": 354,
+   "sound_recording_text": 41,
+   "map": 6
+  }
+ },
+ "2025-02": {
+  "total": 33116,
+  "type_of_work": {
+   "text": 12240,
+   "visual_material": 6240,
+   "motion_picture": 3225,
+   "music": 3093,
+   "sound_recording": 2452,
+   "sound_recording_music": 2359,
+   "dramatic_work_choreography": 1860,
+   "serial": 1137,
+   "computer_file": 392,
+   "sound_recording_text": 117,
+   "map": 1
+  }
+ },
+ "2025-03": {
+  "total": 36275,
+  "type_of_work": {
+   "text": 13404,
+   "visual_material": 7018,
+   "motion_picture": 3821,
+   "music": 3428,
+   "sound_recording": 2670,
+   "sound_recording_music": 2263,
+   "dramatic_work_choreography": 2039,
+   "serial": 1029,
+   "computer_file": 506,
+   "sound_recording_text": 93,
+   "map": 2,
+   "kit": 1,
+   "mask_work": 1
+  }
+ },
+ "2025-04": {
+  "total": 37928,
+  "type_of_work": {
+   "text": 13830,
+   "visual_material": 7481,
+   "motion_picture": 3938,
+   "music": 3741,
+   "sound_recording": 2778,
+   "sound_recording_music": 2275,
+   "dramatic_work_choreography": 2133,
+   "serial": 903,
+   "computer_file": 623,
+   "sound_recording_text": 221,
+   "map": 5
+  }
+ },
+ "2025-05": {
+  "total": 38332,
+  "type_of_work": {
+   "text": 14808,
+   "visual_material": 6469,
+   "music": 3722,
+   "motion_picture": 3580,
+   "sound_recording": 3051,
+   "sound_recording_music": 2588,
+   "dramatic_work_choreography": 2307,
+   "serial": 696,
+   "sound_recording_text": 638,
+   "computer_file": 462,
+   "kit": 8,
+   "map": 3
+  }
+ },
+ "2025-06": {
+  "total": 40546,
+  "type_of_work": {
+   "text": 14727,
+   "visual_material": 7957,
+   "music": 3964,
+   "sound_recording": 3788,
+   "motion_picture": 3726,
+   "sound_recording_music": 2921,
+   "dramatic_work_choreography": 1993,
+   "serial": 613,
+   "computer_file": 567,
+   "sound_recording_text": 286,
+   "map": 4
+  }
+ },
+ "2025-07": {
+  "total": 39245,
+  "type_of_work": {
+   "text": 15058,
+   "visual_material": 6804,
+   "sound_recording": 4002,
+   "music": 3746,
+   "motion_picture": 3647,
+   "sound_recording_music": 2457,
+   "dramatic_work_choreography": 2152,
+   "serial": 688,
+   "computer_file": 535,
+   "sound_recording_text": 149,
+   "map": 7
+  }
+ },
+ "2025-08": {
+  "total": 40927,
+  "type_of_work": {
+   "text": 15150,
+   "visual_material": 7429,
+   "music": 4700,
+   "motion_picture": 3588,
+   "sound_recording_music": 3405,
+   "sound_recording": 3313,
+   "dramatic_work_choreography": 2039,
+   "serial": 710,
+   "computer_file": 473,
+   "sound_recording_text": 116,
+   "map": 4
+  }
+ },
+ "2025-09": {
+  "total": 43462,
+  "type_of_work": {
+   "text": 18042,
+   "visual_material": 7047,
+   "music": 4678,
+   "sound_recording": 3807,
+   "sound_recording_music": 3418,
+   "motion_picture": 3403,
+   "dramatic_work_choreography": 1907,
+   "computer_file": 564,
+   "serial": 554,
+   "sound_recording_text": 38,
+   "map": 4
+  }
+ },
+ "2025-10": {
+  "total": 38559,
+  "type_of_work": {
+   "text": 14700,
+   "visual_material": 7040,
+   "music": 3743,
+   "sound_recording": 3493,
+   "motion_picture": 3377,
+   "sound_recording_music": 3080,
+   "dramatic_work_choreography": 1791,
+   "serial": 861,
+   "computer_file": 421,
+   "sound_recording_text": 51,
+   "map": 2
+  }
+ },
+ "2025-11": {
+  "total": 38022,
+  "type_of_work": {
+   "text": 15504,
+   "visual_material": 6342,
+   "music": 3934,
+   "sound_recording": 3559,
+   "sound_recording_music": 2976,
+   "motion_picture": 2625,
+   "dramatic_work_choreography": 1867,
+   "serial": 809,
+   "computer_file": 384,
+   "sound_recording_text": 18,
+   "map": 4
+  }
+ },
+ "2025-12": {
+  "total": 41316,
+  "type_of_work": {
+   "text": 16520,
+   "visual_material": 6998,
+   "music": 4699,
+   "sound_recording_music": 3297,
+   "sound_recording": 3271,
+   "motion_picture": 3114,
+   "dramatic_work_choreography": 1894,
+   "serial": 923,
+   "computer_file": 532,
+   "sound_recording_text": 67,
+   "map": 1
+  }
+ },
+ "2026-01": {
+  "total": 43680,
+  "type_of_work": {
+   "text": 16708,
+   "visual_material": 7142,
+   "music": 5096,
+   "sound_recording": 4009,
+   "sound_recording_music": 3460,
+   "motion_picture": 3262,
+   "dramatic_work_choreography": 2335,
+   "serial": 945,
+   "computer_file": 426,
+   "sound_recording_text": 260,
+   "map": 37
+  }
+ },
+ "2026-02": {
+  "total": 40006,
+  "type_of_work": {
+   "text": 15535,
+   "visual_material": 5795,
+   "music": 5084,
+   "sound_recording": 3777,
+   "motion_picture": 3454,
+   "sound_recording_music": 2782,
+   "dramatic_work_choreography": 2202,
+   "serial": 771,
+   "computer_file": 545,
+   "sound_recording_text": 43,
+   "map": 17,
+   "kit": 1
+  }
+ },
+ "2026-03": {
+  "total": 43531,
+  "type_of_work": {
+   "text": 15398,
+   "visual_material": 7957,
+   "music": 5687,
+   "sound_recording_music": 3438,
+   "sound_recording": 3367,
+   "motion_picture": 3287,
+   "dramatic_work_choreography": 2516,
+   "serial": 1137,
+   "computer_file": 637,
+   "sound_recording_text": 106,
+   "map": 1
+  }
+ },
+ "2026-04": {
+  "total": 37975,
+  "type_of_work": {
+   "text": 10453,
+   "visual_material": 7977,
+   "music": 5098,
+   "sound_recording_music": 3834,
+   "sound_recording": 3410,
+   "motion_picture": 3368,
+   "dramatic_work_choreography": 2099,
+   "serial": 1331,
+   "computer_file": 351,
+   "sound_recording_text": 51,
+   "map": 3
+  }
+ },
+ "2026-05": {
+  "total": 32452,
+  "type_of_work": {
+   "text": 7645,
+   "visual_material": 6441,
+   "music": 4805,
+   "sound_recording": 3466,
+   "sound_recording_music": 3385,
+   "motion_picture": 3356,
+   "dramatic_work_choreography": 2037,
+   "serial": 889,
+   "computer_file": 375,
+   "sound_recording_text": 52,
+   "map": 1
+  }
+ },
+ "2026-06": {
+  "total": 30925,
+  "type_of_work": {
+   "visual_material": 6800,
+   "text": 6551,
+   "music": 4509,
+   "motion_picture": 3619,
+   "sound_recording_music": 3173,
+   "sound_recording": 2968,
+   "dramatic_work_choreography": 2032,
+   "serial": 827,
+   "computer_file": 394,
+   "sound_recording_text": 50,
+   "map": 2
+  }
+ },
+ "2026-07": {
+  "total": 20991,
+  "type_of_work": {
+   "visual_material": 7108,
+   "motion_picture": 3828,
+   "text": 3780,
+   "music": 1970,
+   "sound_recording": 1267,
+   "sound_recording_music": 1154,
+   "serial": 842,
+   "dramatic_work_choreography": 784,
+   "computer_file": 243,
+   "sound_recording_text": 15
+  }
+ },
+ "2026-08": {
+  "total": 12425,
+  "type_of_work": {
+   "visual_material": 5779,
+   "text": 2339,
+   "motion_picture": 2042,
+   "serial": 947,
+   "sound_recording_music": 328,
+   "computer_file": 324,
+   "music": 279,
+   "sound_recording": 235,
+   "dramatic_work_choreography": 152
+  }
+ },
+ "2026-09": {
+  "total": 10503,
+  "type_of_work": {
+   "visual_material": 6042,
+   "text": 2204,
+   "motion_picture": 808,
+   "serial": 619,
+   "music": 225,
+   "sound_recording": 202,
+   "computer_file": 141,
+   "sound_recording_music": 139,
+   "dramatic_work_choreography": 121,
+   "map": 1,
+   "sound_recording_text": 1
+  }
+ },
+ "2026-10": {
+  "total": 4275,
+  "type_of_work": {
+   "visual_material": 3072,
+   "text": 413,
+   "serial": 260,
+   "motion_picture": 204,
+   "music": 83,
+   "dramatic_work_choreography": 81,
+   "computer_file": 79,
+   "sound_recording": 56,
+   "sound_recording_music": 27
+  }
+ },
+ "2026-11": {
+  "total": 1668,
+  "type_of_work": {
+   "visual_material": 1220,
+   "serial": 164,
+   "text": 130,
+   "music": 48,
+   "motion_picture": 38,
+   "computer_file": 30,
+   "sound_recording": 16,
+   "sound_recording_music": 13,
+   "dramatic_work_choreography": 9
+  }
+ }
+}
