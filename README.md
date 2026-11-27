@@ -8,6 +8,7 @@ question, the method, and what I checked and didn't.
 
 | Date | Piece | Folder |
 |---|---|---|
+| 27 Nov 2026 | IBM, New Relic and Deloitte Development now leave AI-written code out of their US copyright claims ([X Article](https://x.com/con_golias/status/2126446861737177148)) | [`2026-11-26-ai-code-copyright`](2026-11-26-ai-code-copyright/) |
 | 25 Nov 2026 | Your deny rules can miss. Claude Code's 2026 changelog lists 44 entries where a rule didn't hold ([X Article](https://x.com/con_golias/status/2125667510766780569)) | [`2026-11-21-agent-permission-fixes`](2026-11-21-agent-permission-fixes/) |
 | 22 Nov 2026 | 25,000 humanoid robots shipped in six months ([X Article](https://x.com/con_golias/status/2124570628728471603)) | [`2026-11-22-humanoids-at-work`](2026-11-22-humanoids-at-work/) |
 | 20 Nov 2026 | Made by AI, owned by no one: what 12,853 US copyright filings admit ([X Article](https://x.com/con_golias/status/2123796598404612323)) | [`2026-11-11-copyright-ai-disclaimers`](2026-11-11-copyright-ai-disclaimers/) |
